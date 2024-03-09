@@ -1,0 +1,1 @@
+<script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script><lottie-player src="https://lottie.host/b2292f5a-7f9a-4d3f-9658-fffbbed0c92a/ReNdBHCoMW.json" background="##fff" speed="1" style="width: 300px; height: 300px" loop controls autoplay direction="1" mode="normal"></lottie-player>
