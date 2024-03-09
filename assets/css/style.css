@@ -7086,6 +7086,9 @@ img {
         padding-top: 20px;
         padding-bottom: 20px;
     }
+    #home-sec6-2 {
+        flex-direction: column-reverse;
+    }
 
     /* Contact css  */
     .inner-banner {
@@ -7139,13 +7142,16 @@ img {
     .property-area-two p {
         padding-right: 10px;
     }
-    .footer-area .col-lg-3 .single-footer-widget, .footer-area .col-lg-4 .single-footer-widget {
+    .footer-area .col-lg-3 .single-footer-widget, .footer-area .col-lg-2 .single-footer-widget {
         padding-left: 0px;
         padding-top: 0px;
-        padding-right: 100px;
+        padding-right: 95px;
     }
     .footer-top {
         padding-bottom: 285px;
+    }
+    #home-sec6-2 {
+        flex-direction: column-reverse;
     }
 
     /* Contact Css  */
