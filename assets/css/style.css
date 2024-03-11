@@ -93,7 +93,8 @@ img {
     margin: 0 auto
 }
 
-.section-bg, .service-card-bg-two-1:hover {
+.section-bg,
+.service-card-bg-two-1:hover {
     background-color: #e8eff7 !important
 }
 
@@ -831,7 +832,7 @@ img {
 }
 
 .item-bg2 {
-    background-image: url(../img/home2/2.jpg)
+    background-image: url(../images/Home/01/MainBanner_02.png);
 }
 
 .item-bg3 {
@@ -1355,7 +1356,8 @@ img {
     position: relative
 }
 
-.service-card-bg-two::before, .service-card-bg-two-1::before {
+.service-card-bg-two::before,
+.service-card-bg-two-1::before {
     content: '';
     position: absolute;
     width: 0;
@@ -1371,7 +1373,8 @@ img {
     transition: .7s
 }
 
-.service-card-bg-two:hover::before, .service-card-bg-two-1:hover::before {
+.service-card-bg-two:hover::before,
+.service-card-bg-two-1:hover::before {
     opacity: 1;
     width: 100%
 }
@@ -1973,7 +1976,7 @@ img {
 }
 
 .project-area {
-    background-position: center center;
+    /* background-position: center center; */
     background-size: cover;
     background-repeat: no-repeat;
     margin-bottom: 100px;
@@ -1985,9 +1988,13 @@ img {
 }
 
 .project-bg2 {
-    background-image: url(../images/Home/03/Section03BG.png);
+    background-image: url(../images/Home/03/Section03BG.jpg);
     padding: 70px 0;
-    margin-bottom: 0
+    margin-bottom: 0;
+    position: relative;
+    background-color: #03162580;
+    background-blend-mode: multiply;
+    color: #fff;
 }
 
 .project-card {
@@ -2214,6 +2221,7 @@ img {
     padding-top: 60px;
     background: #e8eff7;
 }
+
 .room-details-area h2 {
     color: #004f76;
     font-weight: 500;
@@ -4119,25 +4127,29 @@ img {
     font-weight: 700
 }
 
-.team-card .content .social-link, .team-card .content .social-link-1 {
+.team-card .content .social-link,
+.team-card .content .social-link-1 {
     list-style: none;
     margin: 0;
     padding: 0
 }
 
-.team-card .content .social-link li, .team-card .content .social-link-1 li {
+.team-card .content .social-link li,
+.team-card .content .social-link-1 li {
     display: inline-block;
     margin-right: 5px;
     margin-top: 5px
 }
 
-.team-card .content .social-link li a, .team-card .content .social-link-1 li a {
+.team-card .content .social-link li a,
+.team-card .content .social-link-1 li a {
     text-align: center;
     color: #90a1b2;
     font-size: 18px
 }
 
-.team-card .content .social-link li a:hover, .team-card .content .social-link-1 li a:hover {
+.team-card .content .social-link li a:hover,
+.team-card .content .social-link-1 li a:hover {
     color: #ab842a
 }
 
@@ -5736,18 +5748,21 @@ img {
     /* max-width: 350px; */
 }
 
-.single-footer-widget .social-link, .single-footer-widget .social-link-1 {
+.single-footer-widget .social-link,
+.single-footer-widget .social-link-1 {
     margin: 0;
     padding: 0;
     list-style: 0
 }
 
-.single-footer-widget .social-link li, .single-footer-widget .social-link-1 li {
+.single-footer-widget .social-link li,
+.single-footer-widget .social-link-1 li {
     display: inline-block;
     margin-right: 5px
 }
 
-.single-footer-widget .social-link li a, .single-footer-widget .social-link-1 li a  {
+.single-footer-widget .social-link li a,
+.single-footer-widget .social-link-1 li a {
     border-radius: 50px;
     width: 35px;
     height: 35px;
@@ -5759,11 +5774,13 @@ img {
 .single-footer-widget .social-link li:nth-child(1) a {
     background-color: #3b5998
 }
+
 .single-footer-widget .social-link-1 li:nth-child(1) a {
     background-color: #000;
 }
 
-.single-footer-widget .social-link li:nth-child(1) a:hover, .single-footer-widget .social-link-1 li:nth-child(1) a:hover {
+.single-footer-widget .social-link li:nth-child(1) a:hover,
+.single-footer-widget .social-link-1 li:nth-child(1) a:hover {
     background-color: #db8c23;
     -webkit-animation: tada 1s linear;
     animation: tada 1s linear
@@ -5772,11 +5789,13 @@ img {
 .single-footer-widget .social-link li:nth-child(2) a {
     background-color: #55acee;
 }
+
 .single-footer-widget .social-link-1 li:nth-child(2) a {
     background-color: #f74300;
 }
 
-.single-footer-widget .social-link li:nth-child(2) a:hover, .single-footer-widget .social-link-1 li:nth-child(2) a:hover {
+.single-footer-widget .social-link li:nth-child(2) a:hover,
+.single-footer-widget .social-link-1 li:nth-child(2) a:hover {
     background-color: #db8c23;
     -webkit-animation: tada 1s linear;
     animation: tada 1s linear
@@ -5785,11 +5804,13 @@ img {
 .single-footer-widget .social-link li:nth-child(3) a {
     background-color: #3f729b
 }
+
 .single-footer-widget .social-link-1 li:nth-child(3) a {
     background-color: #0fa5d5;
 }
 
-.single-footer-widget .social-link li:nth-child(3) a:hover, .single-footer-widget .social-link-1 li:nth-child(3) a:hover {
+.single-footer-widget .social-link li:nth-child(3) a:hover,
+.single-footer-widget .social-link-1 li:nth-child(3) a:hover {
     background-color: #db8c23;
     -webkit-animation: tada 1s linear;
     animation: tada 1s linear
@@ -5798,11 +5819,13 @@ img {
 .single-footer-widget .social-link li:nth-child(4) a {
     background-color: red
 }
+
 .single-footer-widget .social-link-1 li:nth-child(4) a {
     background-color: #aa261d;
 }
 
-.single-footer-widget .social-link li:nth-child(4) a:hover, .single-footer-widget .social-link-1 li:nth-child(4) a:hover {
+.single-footer-widget .social-link li:nth-child(4) a:hover,
+.single-footer-widget .social-link-1 li:nth-child(4) a:hover {
     background-color: #db8c23;
     -webkit-animation: tada 1s linear;
     animation: tada 1s linear
@@ -5811,11 +5834,13 @@ img {
 .single-footer-widget .social-link li:nth-child(5) a {
     background-color: #c80000
 }
+
 .single-footer-widget .social-link-1 li:nth-child(5) a {
     background-color: #0270ad;
 }
 
-.single-footer-widget .social-link li:nth-child(5) a:hover, .single-footer-widget .social-link-1 li:nth-child(5) a:hover {
+.single-footer-widget .social-link li:nth-child(5) a:hover,
+.single-footer-widget .social-link-1 li:nth-child(5) a:hover {
     background-color: #db8c23;
     -webkit-animation: tada 1s linear;
     animation: tada 1s linear
@@ -5947,6 +5972,7 @@ img {
 .single-footer-widget.single-footer-color .footer-contact-list li a {
     color: #013d59;
 }
+
 .single-footer-widget .footer-list li a>.bx-plus {
     color: #0ca2c5;
 }
@@ -6760,10 +6786,12 @@ img {
 }
 
 /* My CSS  */
-.footer-area .col-lg-3 .single-footer-widget, .footer-area .col-lg-2 .single-footer-widget {
+.footer-area .col-lg-3 .single-footer-widget,
+.footer-area .col-lg-2 .single-footer-widget {
     padding-left: 20px;
     padding-top: 40px;
 }
+
 .footer-area .col-lg-4 .single-footer-widget {
     padding-right: 22px;
 }
@@ -6774,30 +6802,42 @@ img {
     line-height: 1;
     margin: 20px 0px;
 }
+
 .service-card-bg-two:hover h3 {
     color: #fff;
 }
+
 .service-card-bg-two-1 {
     background: linear-gradient(180deg, #3dd1c3, #0da3c4);
 }
+
 .service-card-bg-two-1::before {
     background: #e8eff7;
 }
-.service-card-bg-two-1 h3, .service-card-bg-two-1 p {
+
+.service-card-bg-two-1 h3,
+.service-card-bg-two-1 p {
     color: #fff;
 }
-.service-card-bg-two-1:hover h3, .service-card-bg-two-1:hover p, .service-card-bg-two p {
+
+.service-card-bg-two-1:hover h3,
+.service-card-bg-two-1:hover p,
+.service-card-bg-two p {
     color: #002945;
 }
+
 #home-sec2-card1 .service-card-bg-two:hover img {
     content: url(../images/Home/02/Icon/White/01.png);
 }
+
 #home-sec2-card3 .service-card-bg-two:hover img {
     content: url(../images/Home/02/Icon/White/03.png);
 }
+
 #home-sec2-card2 .service-card-bg-two-1:hover img {
     content: url(../images/Home/02/Icon/02.png);
 }
+
 #home-sec2-card4 .service-card-bg-two-1:hover img {
     content: url(../images/Home/02/Icon/04.png);
 }
@@ -6807,55 +6847,69 @@ img {
     background-size: contain;
     background-repeat: no-repeat;
 }
+
 .property-area-two h2 {
     font-weight: 400;
 }
-#property-area-two, .apartment-area h2>span, .apartment-offer-area h2>span {
+
+#property-area-two,
+.apartment-area h2>span,
+.apartment-offer-area h2>span {
     font-weight: 600;
     background-color: #1fb5c4;
     color: #fff;
     padding: 0px 5px;
     line-height: 1.2;
 }
+
 .project-bg2 h1 {
     color: #fff;
     font-size: 95px;
 }
+
 .project-bg2 h2 {
     color: #fff;
     font-size: 59px;
 }
+
 .project-bg2 h3 {
-    color: #20b6c5;
+    color: #fff;
     font-size: 54px;
     font-weight: 400;
     padding-left: 23%;
 }
+
 .apartment-area {
     background-image: url(../images/Home/04/Section04BG.png);
-    background-size: cover; 
+    background-size: cover;
     background-repeat: no-repeat;
     padding-top: 47px;
 }
+
 .apartment-area h2 {
     font-weight: 400;
     color: #fff;
 }
+
 .apartment-area .section-span-bg {
     color: #e9ecf0;
 }
+
 .apartment-area .section-span-bg::before {
     background-color: #d2dce8;
 }
+
 .apartment-area .col-lg-7 {
     position: relative;
     right: 20px;
     top: -82px;
 }
+
 .apartment-offer-area h2 {
     font-weight: 400;
     font-size: 42px;
 }
+
 .apartment-offer-area {
     background-image: url(../images/Home/05/Section05BG.png);
     background-size: cover;
@@ -6863,34 +6917,46 @@ img {
     padding-bottom: 70px;
     padding-top: 100px;
 }
-.offer-item hr, .offer-item-bg.active:hover hr {
+
+.offer-item hr,
+.offer-item-bg.active:hover hr {
     height: 2px;
     background: #1fb5c4;
     opacity: inherit;
 }
-.offer-item:hover hr, .offer-item-bg.active hr {
+
+.offer-item:hover hr,
+.offer-item-bg.active hr {
     background: #fff;
 }
+
 .apartment-offer-area .section-title-two img {
     padding-top: 20px;
     padding-left: 15px;
 }
+
 #home-sec6-1 {
     background: linear-gradient(45deg, #033c59, #005075);
     width: 100%;
     margin: auto;
 }
+
 #home-sec6-2 {
     background: linear-gradient(45deg, #0da3c6, #43d6c4);
     width: 100%;
     margin: auto;
 }
-.house-details-area p, .house-details-area h5, .house-details-area li::marker {
+
+.house-details-area p,
+.house-details-area h5,
+.house-details-area li::marker {
     color: #fff;
 }
+
 .house-details-area .house-content {
     padding-right: 65px;
 }
+
 .footer-top {
     background-image: url(../images/Home/Footer/FooterBG.png);
     background-size: cover;
@@ -6898,11 +6964,13 @@ img {
     padding-bottom: 320px;
     padding-top: 80px;
 }
+
 .single-footer-widget hr {
     height: 2px;
     background: #0ca2c5;
     opacity: inherit;
 }
+
 #home-sec6-1 .house-content {
     padding-top: 25px;
 }
@@ -6915,6 +6983,7 @@ img {
     width: 60px;
     margin: auto;
 }
+
 #connect {
     font-size: inherit;
     color: #1eb4c5;
@@ -6922,6 +6991,7 @@ img {
     text-transform: none;
     padding: 0px 5px;
 }
+
 #aeroplane {
     position: absolute;
     top: -20px;
@@ -6933,89 +7003,164 @@ img {
     background: linear-gradient(45deg, #0198c5, #4cdfc3);
     padding: 40px 0px 20px 0px;
 }
+
 .about-area p {
     color: aliceblue;
     padding-right: 8px;
 }
+
 #abt-sec4 {
     background-image: url(../images/About/04/Section04BG.png);
     background-size: cover;
     background-repeat: no-repeat;
     padding: 143px 0px 64px 0px;
 }
+
 #abt-sec4 p {
     color: aliceblue;
 }
+
 #abt-sec4 h2 {
     color: #fff;
     font-weight: 600;
     font-size: 53px;
 }
+
 #abt-sec4 h2>span {
     font-weight: 400;
 }
+
 #abt-sec4 p {
     color: aliceblue;
 }
+
 #abt-sec4 .row {
     justify-content: flex-end;
 }
+
 #abt-sec4 .col-lg-5 {
     padding-left: 90px;
 }
+
 .forward-area h2 {
     font-weight: 400;
     color: #012845;
 }
+
 .forward-area p {
     color: #012845;
 }
+
 .forward-area .section-span-bg::before {
     background-color: #1fb5c4;
 }
+
 .forward-area .forward-content {
     padding-left: 28px;
 }
+
 #abt-subtitle {
     position: absolute;
     right: 20px;
     top: 27px;
 }
+
 #abt-subtitle-1 {
     font-weight: 700;
     font-size: 62px;
 }
+
 #abt-subtitle h2 {
     font-weight: 400;
     color: #fff;
     text-transform: capitalize;
     line-height: 44px;
 }
+
 #abt-subtitle-2 {
     padding-left: 30px;
 }
+
 .abt-subtitle-2 {
     padding-left: 113px;
 }
-.house-details-area img, .room-details-item img {
+
+.house-details-area img,
+.room-details-item img {
     width: -webkit-fill-available;
 }
+#abt-sec4-1 {
+    display: none;
+}
 
+@keyframes fadeInLeft {
+    0% {
+      transform: translateX(-100%);
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(0%);
+      opacity: 1;
+    }
+  }
+  
+  @keyframes fadeInRight {
+    0% {
+      transform: translateX(100%);
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(0%);
+      opacity: 1;
+    }
+  }
+  
+  .fadeInLeft-animation, .fadeInRight-animation {
+    opacity: 0; /* Initially hide the elements */
+  }
+  
+  .fadeInLeft-animation.fade-in {
+    animation: fadeInLeft 1.5s forwards; /* Apply fadeInLeft animation */
+  }
+  
+  .fadeInRight-animation.fade-in {
+    animation: fadeInRight 2.5s forwards; /* Apply fadeInRight animation */
+  }
+  
+  .delay-1 {
+    animation-delay: 1.5s; /* Delay for h1 */
+  }
+  
+  .delay-2 {
+    animation-delay: 2s; /* Delay for h3 */
+  }
+  
+  .delay-3 {
+    animation-delay: 0.5s !important; /* Delay for h2 */
+  }
+  
+  
+  
+  
 
 @media only screen and (min-width: 1600px) {
+
     /* About  */
     #abt-subtitle {
         right: 5%;
         top: 18%;
     }
+
     .inner-banner .inner-title {
         padding-top: 152px;
         padding-bottom: 154px;
     }
+
     .footer-top {
         padding-bottom: 545px;
         padding-top: 100px;
     }
+
     #abt-sec4 {
         padding: 232px 0px 196px 0px;
     }
@@ -7024,16 +7169,21 @@ img {
     .home-slider-item .slider-content {
         padding-bottom: 538px;
     }
+
     .room-details-item {
         text-align: center;
     }
+
     .apartment-offer-area {
         padding-bottom: 331px;
         padding-top: 225px;
     }
-    .house-details-area img, .room-details-item img {
+
+    .house-details-area img,
+    .room-details-item img {
         width: -webkit-fill-available;
     }
+
     .offer-item {
         height: 360px;
     }
@@ -7043,6 +7193,7 @@ img {
     .home-slider-item {
         padding-bottom: 225px;
     }
+
     /* About  */
     #abt-sec4 {
         padding: 161px 0px 135px 0px;
@@ -7050,42 +7201,53 @@ img {
 }
 
 @media only screen and (min-width: 600px) and (max-width: 1000px) {
-    .item-bg1 {
+    .item-bg1, .item-bg2 {
         margin-top: 57px;
     }
+
     .service-card {
         height: 310px;
     }
+
     .project-bg2 h1 {
         font-size: 60px;
     }
+
     .project-bg2 h3 {
         font-size: 40px;
         padding-left: 13%;
     }
+
     .project-bg2 h2 {
         font-size: 45px;
     }
+
     .apartment-area .col-lg-7 {
         top: 0px;
     }
+
     .apartment-area {
         background-position: bottom;
     }
+
     .footer-top {
         padding-bottom: 180px;
     }
+
     .offer-item {
         padding: 30px 20px 20px;
         height: 292px;
     }
+
     .house-details-area img {
         width: -webkit-fill-available;
     }
+
     .house-details-area .house-content {
         padding-top: 20px;
         padding-bottom: 20px;
     }
+
     #home-sec6-2 {
         flex-direction: column-reverse;
     }
@@ -7095,6 +7257,7 @@ img {
         top: 55px;
         margin-bottom: 55px;
     }
+
     .contact-form {
         padding: 30px 57px;
     }
@@ -7103,55 +7266,78 @@ img {
     #abt-subtitle {
         display: none;
     }
+
     .forward-area .row {
         flex-direction: column-reverse;
     }
+
     #abt-sec4 {
         padding: 40px 0px 0px 0px;
         background-position: right;
     }
+
     #abt-sec4 .col-lg-5 {
         padding-left: 369px;
     }
 }
 
 @media only screen and (max-width: 600px) {
-    .project-bg2 h1{
+    .project-bg2 h1 {
         font-size: 40px;
     }
+
     .project-bg2 h3 {
         font-size: 22px;
         padding-left: 15%;
     }
+
     .project-bg2 h2 {
         font-size: 30px;
     }
+
     .apartment-area .col-lg-7 {
         right: 0px;
         top: 0px;
     }
+
     .house-details-area .house-content {
         padding: 20px;
     }
-    .item-bg1 {
+
+    .item-bg1, .item-bg2 {
         margin-top: 55px;
     }
+
     .service-card {
         height: 310px;
     }
+
     .property-area-two p {
         padding-right: 10px;
     }
-    .footer-area .col-lg-3 .single-footer-widget, .footer-area .col-lg-2 .single-footer-widget {
+
+    .footer-area .col-lg-3 .single-footer-widget,
+    .footer-area .col-lg-2 .single-footer-widget {
         padding-left: 0px;
         padding-top: 0px;
         padding-right: 95px;
     }
+
     .footer-top {
         padding-bottom: 285px;
     }
+
     #home-sec6-2 {
         flex-direction: column-reverse;
+    }
+
+    .apartment-offer-area {
+        background: #fff;
+        padding-bottom: 0px;
+        padding-top: 60px;    
+    }
+    .flaticon-left-chevron, .flaticon-right-chevron {
+        display: none;
     }
 
     /* Contact Css  */
@@ -7159,14 +7345,17 @@ img {
         top: 56px;
         margin-bottom: 56px;
     }
+
     #aeroplane {
         top: 14px;
         left: 52%;
     }
+
     #aeroplane lottie-player {
         width: 150px !important;
         height: 150px !important;
     }
+
     .contact-form {
         margin: 0 17px;
     }
@@ -7175,16 +7364,24 @@ img {
     #abt-subtitle {
         display: none;
     }
+
     .forward-area .row {
         flex-direction: column-reverse;
     }
+
     #abt-sec4 {
         padding: 50px 0px 64px 0px;
-        background-position: right;
+        background: #011931;
     }
+
+    #abt-sec4-1 {
+        display: block;
+    }
+
     #abt-sec4 .col-lg-5 {
         padding-left: 33px;
     }
+
     #abt-sec4 h2 {
         font-size: 36px;
     }
