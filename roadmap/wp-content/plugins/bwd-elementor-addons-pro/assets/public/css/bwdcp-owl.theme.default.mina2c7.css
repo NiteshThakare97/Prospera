@@ -1,0 +1,6 @@
+/**
+ * Owl Carousel v2.3.4
+ * Copyright 2013-2018 David Deutsch
+ * Licensed under: SEE LICENSE IN https://github.com/OwlCarousel2/OwlCarousel2/blob/master/LICENSE
+ */
+.bwdcp-owl-theme .bwdcp-owl-dots,.bwdcp-owl-theme .bwdcp-owl-nav{text-align:center;-webkit-tap-highlight-color:transparent}.bwdcp-owl-theme .bwdcp-owl-nav{margin-top:10px}.bwdcp-owl-theme .bwdcp-owl-nav [class*=owl-]{color:#FFF;font-size:14px;margin:5px;padding:4px 7px;background:#D6D6D6;display:inline-block;cursor:pointer;border-radius:3px}.bwdcp-owl-theme .bwdcp-owl-nav [class*=owl-]:hover{background:#869791;color:#FFF;text-decoration:none}.bwdcp-owl-theme .bwdcp-owl-nav .disabled{opacity:.5;cursor:default}.bwdcp-owl-theme .bwdcp-owl-nav.disabled+.bwdcp-owl-dots{margin-top:10px}.bwdcp-owl-theme .bwdcp-owl-dots .bwdcp-owl-dot{display:inline-block;zoom:1}.bwdcp-owl-theme .bwdcp-owl-dots .bwdcp-owl-dot span{width:10px;height:10px;margin:5px 7px;background:#D6D6D6;display:block;-webkit-backface-visibility:visible;transition:opacity .2s ease;border-radius:30px}.bwdcp-owl-theme .bwdcp-owl-dots .bwdcp-owl-dot.active span,.bwdcp-owl-theme .bwdcp-owl-dots .bwdcp-owl-dot:hover span{background:#869791}

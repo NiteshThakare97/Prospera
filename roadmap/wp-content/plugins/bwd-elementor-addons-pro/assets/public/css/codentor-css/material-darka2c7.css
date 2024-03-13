@@ -1,0 +1,238 @@
+pre.theme-material-dark code[class*="language-"],
+pre[class*="language-"].theme-material-dark {
+	text-align: left;
+	white-space: pre;
+	word-spacing: normal;
+	word-break: normal;
+	word-wrap: normal;
+	color: #eee;
+	background: #2f2f2f;
+	font-family: Roboto Mono, monospace;
+	font-size: 1em;
+	line-height: 1.5em;
+
+	-moz-tab-size: 4;
+	-o-tab-size: 4;
+	tab-size: 4;
+
+	-webkit-hyphens: none;
+	-moz-hyphens: none;
+	-ms-hyphens: none;
+	hyphens: none;
+}
+
+pre.theme-material-dark code[class*="language-"]::-moz-selection,
+pre[class*="language-"].theme-material-dark::-moz-selection,
+pre.theme-material-dark code[class*="language-"] ::-moz-selection,
+pre[class*="language-"].theme-material-dark ::-moz-selection {
+	background: #363636;
+}
+
+pre.theme-material-dark code[class*="language-"]::selection,
+pre[class*="language-"].theme-material-dark::selection,
+pre.theme-material-dark code[class*="language-"] ::selection,
+pre[class*="language-"].theme-material-dark ::selection {
+	background: #363636;
+}
+
+:not(pre) > code[class*="language-"] {
+	white-space: normal;
+	border-radius: 0.2em;
+	padding: 0.1em;
+}
+
+pre[class*="language-"].theme-material-dark {
+	overflow: auto;
+	position: relative;
+	margin: 0.5em 0;
+	padding: 1.25em 1em;
+	padding-left: 3.8em;
+}
+
+pre.theme-material-dark .language-css > code,
+pre.theme-material-dark .language-sass > code,
+pre.theme-material-dark .language-scss > code {
+	color: #fd9170;
+}
+
+[class*="language-"] .namespace {
+	opacity: 0.7;
+}
+
+pre.theme-material-dark .token.atrule {
+	color: #c792ea;
+}
+
+pre.theme-material-dark .token.attr-name {
+	color: #ffcb6b;
+}
+
+pre.theme-material-dark .token.attr-value {
+	color: #a5e844;
+}
+
+pre.theme-material-dark .token.attribute {
+	color: #a5e844;
+}
+
+pre.theme-material-dark .token.boolean {
+	color: #c792ea;
+}
+
+pre.theme-material-dark .token.builtin {
+	color: #ffcb6b;
+}
+
+pre.theme-material-dark .token.cdata {
+	color: #80cbc4;
+}
+
+pre.theme-material-dark .token.char {
+	color: #80cbc4;
+}
+
+pre.theme-material-dark .token.class {
+	color: #ffcb6b;
+}
+
+pre.theme-material-dark .token.class-name {
+	color: #f2ff00;
+}
+
+pre.theme-material-dark .token.comment {
+	color: #616161;
+}
+
+pre.theme-material-dark .token.constant {
+	color: #c792ea;
+}
+
+pre.theme-material-dark .token.deleted {
+	color: #ff6666;
+}
+
+pre.theme-material-dark .token.doctype {
+	color: #616161;
+}
+
+pre.theme-material-dark .token.entity {
+	color: #ff6666;
+}
+
+pre.theme-material-dark .token.function {
+	color: #c792ea;
+}
+
+pre.theme-material-dark .token.hexcode {
+	color: #f2ff00;
+}
+
+pre.theme-material-dark .token.id {
+	color: #c792ea;
+	font-weight: bold;
+}
+
+pre.theme-material-dark .token.important {
+	color: #c792ea;
+	font-weight: bold;
+}
+
+pre.theme-material-dark .token.inserted {
+	color: #80cbc4;
+}
+
+pre.theme-material-dark .token.keyword {
+	color: #c792ea;
+}
+
+pre.theme-material-dark .token.number {
+	color: #fd9170;
+}
+
+pre.theme-material-dark .token.operator {
+	color: #89ddff;
+}
+
+pre.theme-material-dark .token.prolog {
+	color: #616161;
+}
+
+pre.theme-material-dark .token.property {
+	color: #80cbc4;
+}
+
+pre.theme-material-dark .token.pseudo-class {
+	color: #a5e844;
+}
+
+pre.theme-material-dark .token.pseudo-element {
+	color: #a5e844;
+}
+
+pre.theme-material-dark .token.punctuation {
+	color: #89ddff;
+}
+
+pre.theme-material-dark .token.regex {
+	color: #f2ff00;
+}
+
+pre.theme-material-dark .token.selector {
+	color: #ff6666;
+}
+
+pre.theme-material-dark .token.string {
+	color: #a5e844;
+}
+
+pre.theme-material-dark .token.symbol {
+	color: #c792ea;
+}
+
+pre.theme-material-dark .token.tag {
+	color: #ff6666;
+}
+
+pre.theme-material-dark .token.unit {
+	color: #fd9170;
+}
+
+pre.theme-material-dark .token.url {
+	color: #ff6666;
+}
+
+pre.theme-material-dark .token.variable {
+	color: #ff6666;
+}
+pre.theme-material-dark.line-numbers .line-numbers-rows {
+	position: absolute;
+	pointer-events: none;
+	top: 50%;
+	transform: translateY(-50%);
+	font-size: 100%;
+	left: 0;
+	width: 3em;
+	letter-spacing: -1px;
+	border-right: 1px solid #999;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	-webkit-transform: translateY(-50%);
+	-moz-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	-o-transform: translateY(-50%);
+}
+
+pre.theme-material-dark .line-numbers-rows > span {
+	display: block;
+	counter-increment: linenumber;
+}
+
+pre.theme-material-dark .line-numbers-rows > span:before {
+	content: counter(linenumber);
+	color: #999;
+	display: block;
+	padding-right: 0.8em;
+	text-align: right;
+}

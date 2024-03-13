@@ -1,0 +1,177 @@
+/**
+ * Gruvbox dark theme
+ *
+ * Adapted from a theme based on:
+ * Vim Gruvbox dark Theme (https://github.com/morhetz/gruvbox)
+ *
+ * @author Azat S. <to@azat.io>
+ * @version 1.0
+ */
+
+pre.theme-gruvbox-dark code[class*="language-"],
+pre[class*="language-"].theme-gruvbox-dark {
+	color: #ebdbb2; /* fg1 / fg */
+	font-family: Consolas, Monaco, "Andale Mono", monospace;
+	direction: ltr;
+	text-align: left;
+	white-space: pre;
+	word-spacing: normal;
+	word-break: normal;
+	line-height: 1.5;
+
+	-moz-tab-size: 4;
+	-o-tab-size: 4;
+	tab-size: 4;
+
+	-webkit-hyphens: none;
+	-moz-hyphens: none;
+	-ms-hyphens: none;
+	hyphens: none;
+}
+
+pre[class*="language-"].theme-gruvbox-dark::-moz-selection,
+pre[class*="language-"].theme-gruvbox-dark ::-moz-selection,
+pre.theme-gruvbox-dark code[class*="language-"]::-moz-selection,
+pre.theme-gruvbox-dark code[class*="language-"] ::-moz-selection {
+	color: #fbf1c7; /* fg0 */
+	background: #7c6f64; /* bg4 */
+}
+
+pre[class*="language-"].theme-gruvbox-dark::selection,
+pre[class*="language-"].theme-gruvbox-dark ::selection,
+pre.theme-gruvbox-dark code[class*="language-"]::selection,
+pre.theme-gruvbox-dark code[class*="language-"] ::selection {
+	color: #fbf1c7; /* fg0 */
+	background: #7c6f64; /* bg4 */
+}
+
+/* Code blocks */
+pre[class*="language-"].theme-gruvbox-dark {
+	padding: 1em;
+	margin: 0.5em 0;
+	overflow: auto;
+	padding-left: 3.8em;
+}
+
+:not(pre) > pre.theme-gruvbox-dark code[class*="language-"],
+pre[class*="language-"].theme-gruvbox-dark {
+	background: #1d2021; /* bg0_h */
+}
+
+/* Inline code */
+:not(pre) > code[class*="language-"] {
+	padding: 0.1em;
+	border-radius: 0.3em;
+}
+
+pre.theme-gruvbox-dark .token.comment,
+pre.theme-gruvbox-dark .token.prolog,
+pre.theme-gruvbox-dark .token.cdata {
+	color: #a89984; /* fg4 / gray1 */
+}
+
+pre.theme-gruvbox-dark .token.delimiter,
+pre.theme-gruvbox-dark .token.boolean,
+pre.theme-gruvbox-dark .token.keyword,
+pre.theme-gruvbox-dark .token.selector,
+pre.theme-gruvbox-dark .token.important,
+pre.theme-gruvbox-dark .token.atrule {
+	color: #fb4934; /* red2 */
+}
+
+pre.theme-gruvbox-dark .token.operator,
+pre.theme-gruvbox-dark .token.punctuation,
+pre.theme-gruvbox-dark .token.attr-name {
+	color: #a89984; /* fg4 / gray1 */
+}
+
+pre.theme-gruvbox-dark .token.tag,
+pre.theme-gruvbox-dark .token.tag .punctuation,
+pre.theme-gruvbox-dark .token.doctype,
+pre.theme-gruvbox-dark .token.builtin {
+	color: #fabd2f; /* yellow2 */
+}
+
+pre.theme-gruvbox-dark .token.entity,
+pre.theme-gruvbox-dark .token.number,
+pre.theme-gruvbox-dark .token.symbol {
+	color: #d3869b; /* purple2 */
+}
+
+pre.theme-gruvbox-dark .token.property,
+pre.theme-gruvbox-dark .token.constant,
+pre.theme-gruvbox-dark .token.variable {
+	color: #fb4934; /* red2 */
+}
+
+pre.theme-gruvbox-dark .token.string,
+pre.theme-gruvbox-dark .token.char {
+	color: #b8bb26; /* green2 */
+}
+
+pre.theme-gruvbox-dark .token.attr-value,
+pre.theme-gruvbox-dark .token.attr-value .punctuation {
+	color: #a89984; /* fg4 / gray1 */
+}
+
+pre.theme-gruvbox-dark .token.url {
+	color: #b8bb26; /* green2 */
+	text-decoration: underline;
+}
+
+pre.theme-gruvbox-dark .token.function {
+	color: #fabd2f; /* yellow2 */
+}
+
+pre.theme-gruvbox-dark .token.regex {
+	background: #b8bb26; /* green2 */
+}
+
+pre.theme-gruvbox-dark .token.bold {
+	font-weight: bold;
+}
+
+pre.theme-gruvbox-dark .token.italic {
+	font-style: italic;
+}
+
+pre.theme-gruvbox-dark .token.inserted {
+	background: #a89984; /* fg4 / gray1 */
+}
+
+pre.theme-gruvbox-dark .token.deleted {
+	background: #fb4934; /* red2 */
+}
+
+pre.theme-gruvbox-dark.line-numbers .line-numbers-rows {
+	position: absolute;
+	pointer-events: none;
+	top: 50%;
+	font-size: 100%;
+	left: 0;
+	width: 3em;
+	/*worksforline-numbersbelow1000lines*/letter-spacing: -1px;
+	border-right: 1px solid #999;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	transform: translateY(-50%);
+	-webkit-transform: translateY(-50%);
+	-moz-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	-o-transform: translateY(-50%);
+}
+
+pre.theme-gruvbox-dark .line-numbers-rows > span {
+	display: block;
+	counter-increment: linenumber;
+}
+
+pre.theme-gruvbox-dark .line-numbers-rows > span:before {
+	content: counter(linenumber);
+	color: #999;
+	display: block;
+	padding-right: 0.8em;
+	text-align: right;
+}

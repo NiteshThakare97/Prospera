@@ -1,0 +1,195 @@
+/**
+ * a11y-dark theme for JavaScript, CSS, and HTML
+ * Based on the okaidia theme: https://github.com/PrismJS/prism/blob/gh-pages/themes/prism-okaidia.css
+ * @author ericwbailey
+ */
+
+pre.theme-a11y-dark-theme code[class*="language-"],
+pre[class*="language-"].theme-a11y-dark-theme {
+	color: #f8f8f2;
+	background: none;
+	font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+	text-align: left;
+	white-space: pre;
+	word-spacing: normal;
+	word-break: normal;
+	word-wrap: normal;
+	line-height: 1.5;
+
+	-moz-tab-size: 4;
+	-o-tab-size: 4;
+	tab-size: 4;
+
+	-webkit-hyphens: none;
+	-moz-hyphens: none;
+	-ms-hyphens: none;
+	hyphens: none;
+}
+
+/* Code blocks */
+pre[class*="language-"].theme-a11y-dark-theme {
+	padding: 1em;
+	margin: 0.5em 0;
+	overflow: auto;
+	border-radius: 0.3em;
+	padding-left: 3.8em;
+}
+
+:not(pre) > pre.theme-a11y-dark-theme code[class*="language-"],
+pre[class*="language-"].theme-a11y-dark-theme {
+	background: #2b2b2b;
+}
+
+/* Inline code */
+:not(pre) > code[class*="language-"] {
+	padding: 0.1em;
+	border-radius: 0.3em;
+	white-space: normal;
+}
+
+pre.theme-a11y-dark-theme .token.comment,
+pre.theme-a11y-dark-theme .token.prolog,
+pre.theme-a11y-dark-theme .token.doctype,
+pre.theme-a11y-dark-theme .token.cdata {
+	color: #d4d0ab;
+}
+
+pre.theme-a11y-dark-theme .token.punctuation {
+	color: #fefefe;
+}
+
+pre.theme-a11y-dark-theme .token.property,
+pre.theme-a11y-dark-theme .token.tag,
+pre.theme-a11y-dark-theme .token.constant,
+pre.theme-a11y-dark-theme .token.symbol,
+pre.theme-a11y-dark-theme .token.deleted {
+	color: #ffa07a;
+}
+
+pre.theme-a11y-dark-theme .token.boolean,
+pre.theme-a11y-dark-theme .token.number {
+	color: #00e0e0;
+}
+
+pre.theme-a11y-dark-theme .token.selector,
+pre.theme-a11y-dark-theme .token.attr-name,
+pre.theme-a11y-dark-theme .token.string,
+pre.theme-a11y-dark-theme .token.char,
+pre.theme-a11y-dark-theme .token.builtin,
+pre.theme-a11y-dark-theme .token.inserted {
+	color: #abe338;
+}
+
+pre.theme-a11y-dark-theme .token.operator,
+pre.theme-a11y-dark-theme .token.entity,
+pre.theme-a11y-dark-theme .token.url,
+pre.theme-a11y-dark-theme .language-css .token.string,
+pre.theme-a11y-dark-theme .style .token.string,
+pre.theme-a11y-dark-theme .token.variable {
+	color: #00e0e0;
+}
+
+pre.theme-a11y-dark-theme .token.atrule,
+pre.theme-a11y-dark-theme .token.attr-value,
+pre.theme-a11y-dark-theme .token.function {
+	color: #ffd700;
+}
+
+pre.theme-a11y-dark-theme .token.keyword {
+	color: #00e0e0;
+}
+
+pre.theme-a11y-dark-theme .token.regex,
+pre.theme-a11y-dark-theme .token.important {
+	color: #ffd700;
+}
+
+pre.theme-a11y-dark-theme .token.important,
+pre.theme-a11y-dark-theme .token.bold {
+	font-weight: bold;
+}
+
+pre.theme-a11y-dark-theme .token.italic {
+	font-style: italic;
+}
+
+pre.theme-a11y-dark-theme .token.entity {
+	cursor: help;
+}
+
+@media screen and (-ms-high-contrast: active) {
+	pre.theme-a11y-dark-theme code[class*="language-"],
+	pre[class*="language-"].theme-a11y-dark-theme {
+		color: windowText;
+		background: window;
+	}
+
+	:not(pre) > code[class*="language-"],
+	pre[class*="language-"] {
+		background: window;
+	}
+
+	pre.theme-a11y-dark-theme .token.important {
+		background: highlight;
+		color: window;
+		font-weight: normal;
+	}
+
+	pre.theme-a11y-dark-theme .token.atrule,
+	pre.theme-a11y-dark-theme .token.attr-value,
+	pre.theme-a11y-dark-theme .token.function,
+	pre.theme-a11y-dark-theme .token.keyword,
+	pre.theme-a11y-dark-theme .token.operator,
+	pre.theme-a11y-dark-theme .token.selector {
+		font-weight: bold;
+	}
+
+	pre.theme-a11y-dark-theme .token.attr-value,
+	pre.theme-a11y-dark-theme .token.comment,
+	pre.theme-a11y-dark-theme .token.doctype,
+	pre.theme-a11y-dark-theme .token.function,
+	pre.theme-a11y-dark-theme .token.keyword,
+	pre.theme-a11y-dark-theme .token.operator,
+	pre.theme-a11y-dark-theme .token.property,
+	pre.theme-a11y-dark-theme .token.string {
+		color: highlight;
+	}
+
+	pre.theme-a11y-dark-theme .token.attr-value,
+	pre.theme-a11y-dark-theme .token.url {
+		font-weight: normal;
+	}
+}
+
+pre.theme-a11y-dark-theme.line-numbers .line-numbers-rows {
+	position: absolute;
+	pointer-events: none;
+	top: 50%;
+	transform: translateY(-50%);
+	font-size: 100%;
+	left: 0;
+	width: 3em;
+	/*worksforline-numbersbelow1000lines*/letter-spacing: -1px;
+	border-right: 1px solid #999;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	-webkit-transform: translateY(-50%);
+	-moz-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	-o-transform: translateY(-50%);
+}
+
+pre.theme-a11y-dark-theme .line-numbers-rows > span {
+	display: block;
+	counter-increment: linenumber;
+}
+
+pre.theme-a11y-dark-theme .line-numbers-rows > span:before {
+	content: counter(linenumber);
+	color: #999;
+	display: block;
+	padding-right: 0.8em;
+	text-align: right;
+}

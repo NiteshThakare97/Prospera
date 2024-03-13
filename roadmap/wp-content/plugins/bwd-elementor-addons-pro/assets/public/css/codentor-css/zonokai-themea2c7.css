@@ -1,0 +1,196 @@
+/**
+* xonokai theme for JavaScript, CSS and HTML
+* based on: https://github.com/MoOx/sass-prism-theme-base by Maxime Thirouin ~ MoOx --> http://moox.fr/ , which is Loosely based on Monokai textmate theme by http://www.monokai.nl/
+* license: MIT; http://moox.mit-license.org/
+*/
+pre.theme-zonokai-theme code[class*="language-"],
+pre[class*="language-"].theme-zonokai-theme {
+	-moz-tab-size: 2;
+	-o-tab-size: 2;
+	tab-size: 2;
+	-webkit-hyphens: none;
+	-moz-hyphens: none;
+	-ms-hyphens: none;
+	hyphens: none;
+	white-space: pre;
+	white-space: pre-wrap;
+	word-wrap: normal;
+	font-family: Menlo, Monaco, "Courier New", monospace;
+	font-size: 14px;
+	color: #76d9e6;
+	text-shadow: none;
+}
+
+pre > pre.theme-zonokai-theme code[class*="language-"] {
+	font-size: 1em;
+}
+
+pre[class*="language-"].theme-zonokai-theme,
+:not(pre) > pre.theme-zonokai-theme code[class*="language-"] {
+	background: #2a2a2a;
+}
+
+pre[class*="language-"].theme-zonokai-theme {
+	padding: 15px;
+	border-radius: 4px;
+	border: 1px solid #e1e1e8;
+	overflow: auto;
+	position: relative;
+	padding-left: 3.8em;
+}
+
+pre[class*="language-"].theme-zonokai-theme pre.theme-zonokai-theme  code {
+	white-space: pre;
+	display: block;
+}
+
+:not(pre) > code[class*="language-"] {
+	padding: 0.15em 0.2em 0.05em;
+	border-radius: .3em;
+	border: 0.13em solid #7a6652;
+	box-shadow: 1px 1px 0.3em -0.1em #000 inset;
+}
+
+pre.theme-zonokai-theme .token.namespace {
+	opacity: .7;
+}
+
+pre.theme-zonokai-theme .token.comment,
+pre.theme-zonokai-theme .token.prolog,
+pre.theme-zonokai-theme .token.doctype,
+pre.theme-zonokai-theme .token.cdata {
+	color: #6f705e;
+}
+
+pre.theme-zonokai-theme .token.operator,
+pre.theme-zonokai-theme .token.boolean,
+pre.theme-zonokai-theme .token.number {
+	color: #a77afe;
+}
+
+pre.theme-zonokai-theme .token.attr-name,
+pre.theme-zonokai-theme .token.string {
+	color: #e6d06c;
+}
+
+pre.theme-zonokai-theme .token.entity,
+pre.theme-zonokai-theme .token.url,
+pre.theme-zonokai-theme .language-css .token.string,
+pre.theme-zonokai-theme .style .token.string {
+	color: #e6d06c;
+}
+
+pre.theme-zonokai-theme .token.selector,
+pre.theme-zonokai-theme .token.inserted {
+	color: #a6e22d;
+}
+
+pre.theme-zonokai-theme .token.atrule,
+pre.theme-zonokai-theme .token.attr-value,
+pre.theme-zonokai-theme .token.keyword,
+pre.theme-zonokai-theme .token.important,
+pre.theme-zonokai-theme .token.deleted {
+	color: #ef3b7d;
+}
+
+pre.theme-zonokai-theme .token.regex,
+pre.theme-zonokai-theme .token.statement {
+	color: #76d9e6;
+}
+
+pre.theme-zonokai-theme .token.placeholder,
+pre.theme-zonokai-theme .token.variable {
+	color: #fff;
+}
+
+pre.theme-zonokai-theme .token.important,
+pre.theme-zonokai-theme .token.statement,
+pre.theme-zonokai-theme .token.bold {
+	font-weight: bold;
+}
+
+pre.theme-zonokai-theme .token.punctuation {
+	color: #bebec5;
+}
+
+pre.theme-zonokai-theme .token.entity {
+	cursor: help;
+}
+
+pre.theme-zonokai-theme .token.italic {
+	font-style: italic;
+}
+
+pre.theme-zonokai-theme code.language-markup {
+	color: #f9f9f9;
+}
+
+pre.theme-zonokai-theme code.language-markup .token.tag {
+	color: #ef3b7d;
+}
+
+pre.theme-zonokai-theme code.language-markup .token.attr-name {
+	color: #a6e22d;
+}
+
+pre.theme-zonokai-theme code.language-markup .token.attr-value {
+	color: #e6d06c;
+}
+
+pre.theme-zonokai-theme code.language-markup .token.style,
+pre.theme-zonokai-theme code.language-markup .token.script {
+	color: #76d9e6;
+}
+
+pre.theme-zonokai-theme code.language-markup .token.script .token.keyword {
+	color: #76d9e6;
+}
+
+/* Line highlight plugin */
+pre.theme-zonokai-theme .line-highlight.line-highlight {
+	padding: 0;
+	background: rgba(255, 255, 255, 0.08);
+}
+
+pre.theme-zonokai-theme .line-highlight.line-highlight:before,
+pre.theme-zonokai-theme .line-highlight.line-highlight[data-end]:after {
+	padding: 0.2em 0.5em;
+	background-color: rgba(255, 255, 255, 0.4);
+	color: black;
+	height: 1em;
+	line-height: 1em;
+	box-shadow: 0 1px 1px rgba(255, 255, 255, 0.7);
+}
+
+pre.theme-zonokai-theme.line-numbers .line-numbers-rows {
+	position: absolute;
+	pointer-events: none;
+	top: 50%;
+	transform: translateY(-50%);
+	font-size: 100%;
+	left: 0;
+	width: 3em;
+	letter-spacing: -1px;
+	border-right: 1px solid #999;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	-webkit-transform: translateY(-50%);
+	-moz-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	-o-transform: translateY(-50%);
+}
+
+pre.theme-zonokai-theme .line-numbers-rows > span {
+	display: block;
+	counter-increment: linenumber;
+}
+
+pre.theme-zonokai-theme .line-numbers-rows > span:before {
+	content: counter(linenumber);
+	color: #999;
+	display: block;
+	padding-right: 0.8em;
+	text-align: right;
+}

@@ -1,0 +1,120 @@
+
+.sscdn_cntdn_wrap #sscdn-progress-bar {
+  font-size: 15px;
+}
+.sscdn_cntdn_wrap {
+  font-family: 'Roboto';
+  font-size: 24px;
+  color: #fff;
+  text-align: left;
+  background-color: #7512ee;
+  padding: 5px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgb(104 104 104 / 50%);
+  margin: 10px 0;
+  position: relative;
+}
+.sscdn_cntdn_wrap-shop {
+  font-family: 'Roboto';
+  font-size: 16px;
+  color: #fff;
+  text-align: left;
+  background-color: #7512ee;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgb(104 104 104 / 50%);
+  margin: 10px 0;
+  position: relative;
+  padding: 10px;
+}
+
+.sscdn_cntdn_cnt{
+  display: flex;
+  gap: 10px;
+}
+.sscdn-content {
+  display: grid;
+  align-items: center;
+}
+.sscdn-time-img, .sscdn-time-img img {
+  height: 145px;
+}
+.sscdn_notice {
+  display: flex;
+  align-items: center;
+  font-size: 25px;
+  font-weight: 600;
+  font-family: cursive;
+  color: #d5d5d5;
+}
+.sscdn-time-img-shop {
+  height: 60px;
+  width: 60px;
+}
+.sscdn_notice-shop {
+  display: flex;
+  align-items: center;
+  font-size: 25px;
+  font-weight: 600;
+  font-family: cursive;
+  color: #d5d5d5;
+}
+/* div#countdown_timer, div#countdown_timer0d {
+  color: #4c4c4c;
+  font-family: 'circular';
+  font-weight: 600;
+} */
+
+
+div#countdown_timer0d {
+  font-family: 'Arial', sans-serif;
+  font-size: 24px;
+  color: #fff;
+  text-align: center;
+  border-radius: 10px;
+  display: flex;
+  font-family: 'circular';
+}
+#countdown_timer{
+  font-family: 'Arial', sans-serif;
+  font-size: 20px;
+  color: #fff;
+  text-align: center;
+  border-radius: 10px;
+  display: flex;
+  font-family: 'circular';
+}
+
+.sscdn_js_time {
+  display: grid;
+}
+#countdown_timer .sscdn_js_ {
+    display: inline-block;
+    margin: 0 10px;
+    padding: 0px 7px;
+    background-color: #555;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+#countdown_timer .sscdn_js_1, #countdown_timer0d .sscdn_js_ {
+    display: inline-block;
+    margin: 0 10px;
+    padding: 10px 15px;
+    background-color: #555;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+.sscdn_js_time div{
+  font-size: 10px;
+  color: black;
+}
+.sscdn_js_time1 div, .sscdn_js_time div{
+  font-size: 15px;
+  color: black;
+}
+.sscdn_sold_stock {
+  color: #d5d5d5;
+  font-size: 15px;
+}
+
+
+

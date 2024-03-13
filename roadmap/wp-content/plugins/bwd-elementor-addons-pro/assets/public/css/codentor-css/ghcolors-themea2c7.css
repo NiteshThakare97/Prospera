@@ -1,0 +1,155 @@
+/**
+ * GHColors theme by Avi Aryan (http://aviaryan.in)
+ * Inspired by Github syntax coloring
+ */
+
+pre.theme-ghcolors-theme code[class*="language-"],
+pre[class*="language-"].theme-ghcolors-theme {
+	color: #393A34;
+	font-family: "Consolas", "Bitstream Vera Sans Mono", "Courier New", Courier, monospace;
+	direction: ltr;
+	text-align: left;
+	white-space: pre;
+	word-spacing: normal;
+	word-break: normal;
+	font-size: .9em;
+	line-height: 1.2em;
+
+	-moz-tab-size: 4;
+	-o-tab-size: 4;
+	tab-size: 4;
+
+	-webkit-hyphens: none;
+	-moz-hyphens: none;
+	-ms-hyphens: none;
+	hyphens: none;
+}
+
+pre > pre.theme-ghcolors-theme code[class*="language-"] {
+	font-size: 1em;
+}
+
+pre[class*="language-"].theme-ghcolors-theme::-moz-selection, pre[class*="language-"].theme-ghcolors-theme ::-moz-selection,
+pre.theme-ghcolors-theme code[class*="language-"]::-moz-selection, pre.theme-ghcolors-theme code[class*="language-"] ::-moz-selection {
+	background: #b3d4fc;
+}
+
+pre[class*="language-"].theme-ghcolors-theme::selection, pre[class*="language-"].theme-ghcolors-theme ::selection,
+pre.theme-ghcolors-theme code[class*="language-"]::selection, pre.theme-ghcolors-theme code[class*="language-"] ::selection {
+	background: #b3d4fc;
+}
+
+/* Code blocks */
+pre[class*="language-"].theme-ghcolors-theme {
+	padding: 1em;
+	margin: .5em 0;
+	overflow: auto;
+	border: 1px solid #dddddd;
+	background-color: white;
+	padding-left: 3.8em;
+}
+
+/* Inline code */
+:not(pre) > pre.theme-ghcolors-theme code[class*="language-"] {
+	padding: .2em;
+	padding-top: 1px;
+	padding-bottom: 1px;
+	background: #f8f8f8;
+	border: 1px solid #dddddd;
+}
+
+pre.theme-ghcolors-theme .token.comment,
+pre.theme-ghcolors-theme .token.prolog,
+pre.theme-ghcolors-theme .token.doctype,
+pre.theme-ghcolors-theme .token.cdata {
+	color: #999988;
+	font-style: italic;
+}
+
+pre.theme-ghcolors-theme .token.namespace {
+	opacity: .7;
+}
+
+pre.theme-ghcolors-theme .token.string,
+pre.theme-ghcolors-theme .token.attr-value {
+	color: #e3116c;
+}
+
+pre.theme-ghcolors-theme .token.punctuation,
+pre.theme-ghcolors-theme .token.operator {
+	color: #393A34; /* no highlight */
+}
+
+pre.theme-ghcolors-theme .token.entity,
+pre.theme-ghcolors-theme .token.url,
+pre.theme-ghcolors-theme .token.symbol,
+pre.theme-ghcolors-theme .token.number,
+pre.theme-ghcolors-theme .token.boolean,
+pre.theme-ghcolors-theme .token.variable,
+pre.theme-ghcolors-theme .token.constant,
+pre.theme-ghcolors-theme .token.property,
+pre.theme-ghcolors-theme .token.regex,
+pre.theme-ghcolors-theme .token.inserted {
+	color: #36acaa;
+}
+
+pre.theme-ghcolors-theme .token.atrule,
+pre.theme-ghcolors-theme .token.keyword,
+pre.theme-ghcolors-theme .token.attr-name,
+pre.theme-ghcolors-theme .language-autohotkey .token.selector {
+	color: #00a4db;
+}
+
+pre.theme-ghcolors-theme .token.function,
+pre.theme-ghcolors-theme .token.deleted,
+pre.theme-ghcolors-theme .language-autohotkey .token.tag {
+	color: #9a050f;
+}
+
+pre.theme-ghcolors-theme .token.tag,
+pre.theme-ghcolors-theme .token.selector,
+pre.theme-ghcolors-theme .language-autohotkey .token.keyword {
+	color: #00009f;
+}
+
+pre.theme-ghcolors-theme .token.important,
+pre.theme-ghcolors-theme .token.function,
+pre.theme-ghcolors-theme .token.bold {
+	font-weight: bold;
+}
+
+pre.theme-ghcolors-theme .token.italic {
+	font-style: italic;
+}
+pre.theme-ghcolors-theme.line-numbers .line-numbers-rows {
+	position: absolute;
+	pointer-events: none;
+	top: 50%;
+	font-size: 100%;
+	left: 0;
+	width: 3em;
+	/*worksforline-numbersbelow1000lines*/letter-spacing: -1px;
+	border-right: 1px solid #999;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	transform: translateY(-50%);
+	-webkit-transform: translateY(-50%);
+	-moz-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	-o-transform: translateY(-50%);
+}
+
+pre.theme-ghcolors-theme .line-numbers-rows > span {
+	display: block;
+	counter-increment: linenumber;
+}
+
+pre.theme-ghcolors-theme .line-numbers-rows > span:before {
+	content: counter(linenumber);
+	color: #999;
+	display: block;
+	padding-right: 0.8em;
+	text-align: right;
+}

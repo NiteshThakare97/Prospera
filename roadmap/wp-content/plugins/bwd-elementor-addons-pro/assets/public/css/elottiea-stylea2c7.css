@@ -1,0 +1,10 @@
+
+.elementor-element.elementor-widget-empty:has(.elottiea-lottie-animation){
+  background-color: transparent !important;
+}
+.elementor-element.elementor-widget-empty .bwdeb-elementor-bundle{
+display: none !important;
+}
+.elottiea-lottie-animation {
+  margin-bottom: -9px !important;
+}

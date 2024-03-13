@@ -1,0 +1,157 @@
+/**
+ * Nord Theme Originally by Arctic Ice Studio
+ * https://nordtheme.com
+ *
+ * Ported for PrismJS by Zane Hitchcoxc (@zwhitchcox) and Gabriel Ramos (@gabrieluizramos)
+ */
+
+pre.theme-nord-theme code[class*="language-"],
+pre[class*="language-"].theme-nord-theme {
+	color: #f8f8f2;
+	background: none;
+	font-family: "Fira Code", Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+	text-align: left;
+	white-space: pre;
+	word-spacing: normal;
+	word-break: normal;
+	word-wrap: normal;
+	line-height: 1.5;
+	-moz-tab-size: 4;
+	-o-tab-size: 4;
+	tab-size: 4;
+	-webkit-hyphens: none;
+	-moz-hyphens: none;
+	-ms-hyphens: none;
+	hyphens: none;
+}
+
+/* Code blocks */
+pre[class*="language-"].theme-nord-theme {
+	padding: 1em;
+	margin: .5em 0;
+	overflow: auto;
+	border-radius: 0.3em;
+	padding-left: 3.8em;
+}
+
+:not(pre) > pre.theme-nord-theme code[class*="language-"],
+pre[class*="language-"].theme-nord-theme {
+	background: #2E3440;
+}
+
+/* Inline code */
+:not(pre) > pre.theme-nord-theme code[class*="language-"] {
+	padding: .1em;
+	border-radius: .3em;
+}
+
+pre.theme-nord-theme .token.comment,
+pre.theme-nord-theme .token.prolog,
+pre.theme-nord-theme .token.doctype,
+pre.theme-nord-theme .token.cdata {
+	color: #636f88;
+}
+
+pre.theme-nord-theme .token.punctuation {
+	color: #14ce8b;
+}
+
+pre.theme-nord-theme .namespace {
+	opacity: .7;
+}
+
+pre.theme-nord-theme .token.property,
+pre.theme-nord-theme .token.tag,
+pre.theme-nord-theme .token.constant,
+pre.theme-nord-theme .token.symbol,
+pre.theme-nord-theme .token.deleted {
+	color: #81A1C1;
+}
+
+pre.theme-nord-theme .token.number {
+	color: #B48EAD;
+}
+
+pre.theme-nord-theme .token.boolean {
+	color: #81A1C1;
+}
+
+pre.theme-nord-theme .token.selector,
+pre.theme-nord-theme .token.attr-name,
+pre.theme-nord-theme .token.string,
+pre.theme-nord-theme .token.char,
+pre.theme-nord-theme .token.builtin,
+pre.theme-nord-theme .token.inserted {
+	color: #108cb1;
+}
+
+pre.theme-nord-theme .token.operator,
+pre.theme-nord-theme .token.entity,
+pre.theme-nord-theme .token.url,
+pre.theme-nord-theme .language-css .token.string,
+pre.theme-nord-theme .style .token.string,
+pre.theme-nord-theme .token.variable {
+	color: #81A1C1;
+}
+
+pre.theme-nord-theme .token.atrule,
+pre.theme-nord-theme .token.attr-value,
+pre.theme-nord-theme .token.function,
+pre.theme-nord-theme .token.class-name {
+	color: #88C0D0;
+}
+
+pre.theme-nord-theme .token.keyword {
+	color: #bbd417;
+}
+
+pre.theme-nord-theme .token.regex,
+pre.theme-nord-theme .token.important {
+	color: #EBCB8B;
+}
+
+pre.theme-nord-theme .token.important,
+pre.theme-nord-theme .token.bold {
+	font-weight: bold;
+}
+
+pre.theme-nord-theme .token.italic {
+	font-style: italic;
+}
+
+pre.theme-nord-theme .token.entity {
+	cursor: help;
+}
+pre.theme-nord-theme.line-numbers .line-numbers-rows {
+	position: absolute;
+	pointer-events: none;
+	top: 50%;
+	transform: translateY(-50%);
+	font-size: 100%;
+	left: 0;
+	width: 3em;
+	letter-spacing: -1px;
+	border-right: 1px solid #999;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	-webkit-transform: translateY(-50%);
+	-moz-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	-o-transform: translateY(-50%);
+
+}
+
+pre.theme-nord-theme .line-numbers-rows > span {
+	display: block;
+	counter-increment: linenumber;
+}
+
+pre.theme-nord-theme .line-numbers-rows > span:before {
+	content: counter(linenumber);
+	color: #999;
+	display: block;
+	padding-right: 0.8em;
+	text-align: right;
+}

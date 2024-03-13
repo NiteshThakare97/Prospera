@@ -1,0 +1,162 @@
+/*
+ * Laserwave Theme originally by Jared Jones for Visual Studio Code
+ * https://github.com/Jaredk3nt/laserwave
+ *
+ * Ported for PrismJS by Simon Jespersen [https://github.com/simjes]
+ */
+
+pre.theme-laserwave-theme code[class*="language-"],
+pre[class*="language-"].theme-laserwave-theme {
+	background: #27212e;
+	color: #ffffff;
+	font-family: Consolas, Monaco, "Andale Mono", "Ubuntu Mono", monospace; /* this is the default */
+	/* The following properties are standard, please leave them as they are */
+	font-size: 1em;
+	direction: ltr;
+	text-align: left;
+	white-space: pre;
+	word-spacing: normal;
+	word-break: normal;
+	line-height: 1.5;
+	-moz-tab-size: 2;
+	-o-tab-size: 2;
+	tab-size: 2;
+	/* The following properties are also standard */
+	-webkit-hyphens: none;
+	-moz-hyphens: none;
+	-ms-hyphens: none;
+	hyphens: none;
+}
+
+pre.theme-laserwave-theme code[class*="language-"]::-moz-selection,
+pre.theme-laserwave-theme code[class*="language-"] ::-moz-selection,
+pre[class*="language-"].theme-laserwave-theme::-moz-selection,
+pre[class*="language-"].theme-laserwave-theme ::-moz-selection {
+	background: #eb64b927;
+	color: inherit;
+}
+
+pre.theme-laserwave-theme code[class*="language-"]::selection,
+pre.theme-laserwave-theme code[class*="language-"] ::selection,
+pre[class*="language-"].theme-laserwave-theme::selection,
+pre[class*="language-"].theme-laserwave-theme ::selection {
+	background: #eb64b927;
+	color: inherit;
+}
+
+/* Properties specific to code blocks */
+pre[class*="language-"].theme-laserwave-theme {
+	padding: 1em; /* this is standard */
+	margin: 0.5em 0; /* this is the default */
+	overflow: auto; /* this is standard */
+	border-radius: 0.5em;
+	padding-left: 3.8em;
+}
+
+/* Properties specific to inline code */
+
+
+pre.theme-laserwave-theme .token.comment,
+pre.theme-laserwave-theme .token.prolog,
+pre.theme-laserwave-theme .token.cdata {
+	color: #91889b;
+}
+
+pre.theme-laserwave-theme .token.punctuation {
+	color: #7b6995;
+}
+
+pre.theme-laserwave-theme .token.builtin,
+pre.theme-laserwave-theme .token.constant,
+pre.theme-laserwave-theme .token.boolean {
+	color: #ffe261;
+}
+
+pre.theme-laserwave-theme .token.number {
+	color: #b381c5;
+}
+
+pre.theme-laserwave-theme .token.important,
+pre.theme-laserwave-theme .token.atrule,
+pre.theme-laserwave-theme .token.property,
+pre.theme-laserwave-theme .token.keyword {
+	color: #40b4c4;
+}
+
+pre.theme-laserwave-theme .token.operator,
+pre.theme-laserwave-theme .token.doctype,
+pre.theme-laserwave-theme .token.inserted,
+pre.theme-laserwave-theme .token.tag,
+pre.theme-laserwave-theme .token.class-name,
+pre.theme-laserwave-theme .token.symbol {
+	color: #74dfc4;
+}
+
+pre.theme-laserwave-theme .token.attr-name,
+pre.theme-laserwave-theme .token.function,
+pre.theme-laserwave-theme .token.deleted,
+pre.theme-laserwave-theme .token.selector {
+	color: #eb64b9;
+}
+
+pre.theme-laserwave-theme .token.attr-value,
+pre.theme-laserwave-theme .token.regex,
+pre.theme-laserwave-theme .token.char,
+pre.theme-laserwave-theme .token.string {
+	color: #b4dce7;
+}
+
+pre.theme-laserwave-theme .token.entity,
+pre.theme-laserwave-theme .token.url,
+pre.theme-laserwave-theme .token.variable {
+	color: #ffffff;
+}
+
+/* The following rules are pretty similar across themes, but feel free to adjust them */
+pre.theme-laserwave-theme .token.bold {
+	font-weight: bold;
+}
+
+pre.theme-laserwave-theme .token.italic {
+	font-style: italic;
+}
+
+pre.theme-laserwave-theme .token.entity {
+	cursor: help;
+}
+
+pre.theme-laserwave-theme .token.namespace {
+	opacity: 0.7;
+}
+pre.theme-laserwave-theme.line-numbers .line-numbers-rows {
+	position: absolute;
+	pointer-events: none;
+	top: 50%;
+	transform: translateY(-50%);
+	font-size: 100%;
+	left: 0;
+	width: 3em;
+	letter-spacing: -1px;
+	border-right: 1px solid #999;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	-webkit-transform: translateY(-50%);
+	-moz-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	-o-transform: translateY(-50%);
+}
+
+pre.theme-laserwave-theme .line-numbers-rows > span {
+	display: block;
+	counter-increment: linenumber;
+}
+
+pre.theme-laserwave-theme .line-numbers-rows > span:before {
+	content: counter(linenumber);
+	color: #999;
+	display: block;
+	padding-right: 0.8em;
+	text-align: right;
+}

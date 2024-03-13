@@ -1,0 +1,351 @@
+/**
+ * Coldark Theme for Prism.js
+ * Theme variation: Dark
+ * Tested with HTML, CSS, JS, JSON, PHP, YAML, Bash script
+ * @author Armand Philippot <contact@armandphilippot.com>
+ * @homepage https://github.com/ArmandPhilippot/coldark-prism
+ * @license MIT
+ */
+pre.theme-colddark-dark code[class*="language-"],
+pre[class*="language-"].theme-colddark-dark {
+	color: #e3eaf2;
+	background: none;
+	font-family: Consolas, Monaco, "Andale Mono", "Ubuntu Mono", monospace;
+	text-align: left;
+	white-space: pre;
+	word-spacing: normal;
+	word-break: normal;
+	word-wrap: normal;
+	line-height: 1.5;
+	-moz-tab-size: 4;
+	-o-tab-size: 4;
+	tab-size: 4;
+	-webkit-hyphens: none;
+	-moz-hyphens: none;
+	-ms-hyphens: none;
+	hyphens: none;
+}
+
+pre[class*="language-"].theme-colddark-dark::-moz-selection,
+pre[class*="language-"].theme-colddark-dark ::-moz-selection,
+pre.theme-colddark-dark code[class*="language-"]::-moz-selection,
+pre.theme-colddark-dark code[class*="language-"] ::-moz-selection {
+	background: #3c526d;
+}
+
+pre[class*="language-"].theme-colddark-dark::selection,
+pre[class*="language-"].theme-colddark-dark ::selection,
+pre.theme-colddark-dark code[class*="language-"]::selection,
+pre.theme-colddark-dark code[class*="language-"] ::selection {
+	background: #3c526d;
+}
+
+/* Code blocks */
+pre[class*="language-"].theme-colddark-dark {
+	padding: 1em;
+	margin: 0.5em 0;
+	overflow: auto;
+	padding-left: 3.8em;
+}
+
+:not(pre) > pre.theme-colddark-dark code[class*="language-"],
+pre[class*="language-"].theme-colddark-dark {
+	background: #111b27;
+}
+
+/* Inline code */
+:not(pre) > code[class*="language-"] {
+	padding: 0.1em 0.3em;
+	border-radius: 0.3em;
+	white-space: normal;
+}
+
+pre.theme-colddark-dark .token.comment,
+pre.theme-colddark-dark .token.prolog,
+pre.theme-colddark-dark .token.doctype,
+pre.theme-colddark-dark .token.cdata {
+	color: #8da1b9;
+}
+
+pre.theme-colddark-dark .token.punctuation {
+	color: #e3eaf2;
+}
+
+pre.theme-colddark-dark .token.delimiter.important,
+pre.theme-colddark-dark .token.selector .parent,
+pre.theme-colddark-dark .token.tag,
+pre.theme-colddark-dark .token.tag .token.punctuation {
+	color: #66cccc;
+}
+
+pre.theme-colddark-dark .token.attr-name,
+pre.theme-colddark-dark .token.boolean,
+pre.theme-colddark-dark .token.boolean.important,
+pre.theme-colddark-dark .token.number,
+pre.theme-colddark-dark .token.constant,
+pre.theme-colddark-dark .token.selector .token.attribute {
+	color: #e6d37a;
+}
+
+pre.theme-colddark-dark .token.class-name,
+pre.theme-colddark-dark .token.key,
+pre.theme-colddark-dark .token.parameter,
+pre.theme-colddark-dark .token.property,
+pre.theme-colddark-dark .token.property-access,
+pre.theme-colddark-dark .token.variable {
+	color: #6cb8e6;
+}
+
+pre.theme-colddark-dark .token.attr-value,
+pre.theme-colddark-dark .token.inserted,
+pre.theme-colddark-dark .token.color,
+pre.theme-colddark-dark .token.selector .token.value,
+pre.theme-colddark-dark .token.string,
+pre.theme-colddark-dark .token.string .token.url-link {
+	color: #91d076;
+}
+
+pre.theme-colddark-dark .token.builtin,
+pre.theme-colddark-dark .token.keyword-array,
+pre.theme-colddark-dark .token.package,
+pre.theme-colddark-dark .token.regex {
+	color: #f4adf4;
+}
+
+pre.theme-colddark-dark .token.function,
+pre.theme-colddark-dark .token.selector .token.class,
+pre.theme-colddark-dark .token.selector .token.id {
+	color: #c699e3;
+}
+
+pre.theme-colddark-dark .token.atrule .token.rule,
+pre.theme-colddark-dark .token.combinator,
+pre.theme-colddark-dark .token.keyword,
+pre.theme-colddark-dark .token.operator,
+pre.theme-colddark-dark .token.pseudo-class,
+pre.theme-colddark-dark .token.pseudo-element,
+pre.theme-colddark-dark .token.selector,
+pre.theme-colddark-dark .token.unit {
+	color: #e9ae7e;
+}
+
+pre.theme-colddark-dark .token.deleted,
+pre.theme-colddark-dark .token.important {
+	color: #cd6660;
+}
+
+pre.theme-colddark-dark .token.keyword-this,
+pre.theme-colddark-dark .token.this {
+	color: #6cb8e6;
+}
+
+pre.theme-colddark-dark .token.important,
+pre.theme-colddark-dark .token.keyword-this,
+pre.theme-colddark-dark .token.this,
+pre.theme-colddark-dark .token.bold {
+	font-weight: bold;
+}
+
+pre.theme-colddark-dark .token.delimiter.important {
+	font-weight: inherit;
+}
+
+pre.theme-colddark-dark .token.italic {
+	font-style: italic;
+}
+
+pre.theme-colddark-dark .token.entity {
+	cursor: help;
+}
+
+pre.theme-colddark-dark .language-markdown .token.title,
+pre.theme-colddark-dark .language-markdown .token.title .token.punctuation {
+	color: #6cb8e6;
+	font-weight: bold;
+}
+
+pre.theme-colddark-dark .language-markdown .token.blockquote.punctuation {
+	color: #f4adf4;
+}
+
+pre.theme-colddark-dark .language-markdown .token.code {
+	color: #66cccc;
+}
+
+pre.theme-colddark-dark .language-markdown .token.hr.punctuation {
+	color: #6cb8e6;
+}
+
+pre.theme-colddark-dark .language-markdown .token.url .token.content {
+	color: #91d076;
+}
+
+pre.theme-colddark-dark .language-markdown .token.url-link {
+	color: #e6d37a;
+}
+
+pre.theme-colddark-dark .language-markdown .token.list.punctuation {
+	color: #f4adf4;
+}
+
+pre.theme-colddark-dark .language-markdown .token.table-header {
+	color: #e3eaf2;
+}
+
+pre.theme-colddark-dark .language-json .token.operator {
+	color: #e3eaf2;
+}
+
+pre.theme-colddark-dark .language-scss .token.variable {
+	color: #66cccc;
+}
+
+/* overrides color-values for the Show Invisibles plugin
+ * https://prismjs.com/plugins/show-invisibles/
+ */
+pre.theme-colddark-dark .token.token.tab:not(:empty):before,
+pre.theme-colddark-dark .token.token.cr:before,
+pre.theme-colddark-dark .token.token.lf:before,
+pre.theme-colddark-dark .token.token.space:before {
+	color: #8da1b9;
+}
+
+/* overrides color-values for the Toolbar plugin
+ * https://prismjs.com/plugins/toolbar/
+ */
+pre.theme-colddark-dark div.code-toolbar > .toolbar.toolbar > .toolbar-item > a,
+pre.theme-colddark-dark div.code-toolbar > .toolbar.toolbar > .toolbar-item > button {
+	color: #111b27;
+	background: #6cb8e6;
+}
+
+pre.theme-colddark-dark div.code-toolbar > .toolbar.toolbar > .toolbar-item > a:hover,
+pre.theme-colddark-dark div.code-toolbar > .toolbar.toolbar > .toolbar-item > a:focus,
+pre.theme-colddark-dark div.code-toolbar > .toolbar.toolbar > .toolbar-item > button:hover,
+pre.theme-colddark-dark div.code-toolbar > .toolbar.toolbar > .toolbar-item > button:focus {
+	color: #111b27;
+	background: #6cb8e6da;
+	text-decoration: none;
+}
+
+pre.theme-colddark-dark div.code-toolbar > .toolbar.toolbar > .toolbar-item > span,
+pre.theme-colddark-dark div.code-toolbar > .toolbar.toolbar > .toolbar-item > span:hover,
+pre.theme-colddark-dark div.code-toolbar > .toolbar.toolbar > .toolbar-item > span:focus {
+	color: #111b27;
+	background: #8da1b9;
+}
+
+/* overrides color-values for the Line Highlight plugin
+ * http://prismjs.com/plugins/line-highlight/
+ */
+pre.theme-colddark-dark .line-highlight.line-highlight {
+	background: #3c526d5f;
+	background: linear-gradient(to right, #3c526d5f 70%, #3c526d55);
+}
+
+pre.theme-colddark-dark .line-highlight.line-highlight:before,
+pre.theme-colddark-dark .line-highlight.line-highlight[data-end]:after {
+	background-color: #8da1b9;
+	color: #111b27;
+	box-shadow: 0 1px #3c526d;
+}
+
+pre[id].linkable-line-numbers.linkable-line-numbers span.line-numbers-rows > span:hover:before {
+	background-color: #8da1b918;
+}
+
+/* overrides color-values for the Line Numbers plugin
+ * http://prismjs.com/plugins/line-numbers/
+ */
+pre.theme-colddark-dark .line-numbers.line-numbers .line-numbers-rows {
+	border-right: 1px solid #0b121b;
+	background: #0b121b7a;
+}
+
+pre.theme-colddark-dark .line-numbers .line-numbers-rows > span:before {
+	color: #8da1b9da;
+}
+
+/* overrides color-values for the Match Braces plugin
+ * https://prismjs.com/plugins/match-braces/
+ */
+pre.theme-colddark-dark .rainbow-braces .token.token.punctuation.brace-level-1,
+pre.theme-colddark-dark .rainbow-braces .token.token.punctuation.brace-level-5,
+pre.theme-colddark-dark .rainbow-braces .token.token.punctuation.brace-level-9 {
+	color: #e6d37a;
+}
+
+pre.theme-colddark-dark .rainbow-braces .token.token.punctuation.brace-level-2,
+pre.theme-colddark-dark .rainbow-braces .token.token.punctuation.brace-level-6,
+pre.theme-colddark-dark .rainbow-braces .token.token.punctuation.brace-level-10 {
+	color: #f4adf4;
+}
+
+pre.theme-colddark-dark .rainbow-braces .token.token.punctuation.brace-level-3,
+pre.theme-colddark-dark .rainbow-braces .token.token.punctuation.brace-level-7,
+pre.theme-colddark-dark .rainbow-braces .token.token.punctuation.brace-level-11 {
+	color: #6cb8e6;
+}
+
+pre.theme-colddark-dark .rainbow-braces .token.token.punctuation.brace-level-4,
+pre.theme-colddark-dark .rainbow-braces .token.token.punctuation.brace-level-8,
+pre.theme-colddark-dark .rainbow-braces .token.token.punctuation.brace-level-12 {
+	color: #c699e3;
+}
+
+/* overrides color-values for the Diff Highlight plugin
+ * https://prismjs.com/plugins/diff-highlight/
+ */
+pre.diff-highlight > pre.theme-colddark-dark code .token.token.deleted:not(.prefix),
+pre > pre.theme-colddark-dark code.diff-highlight .token.token.deleted:not(.prefix) {
+	background-color: #cd66601f;
+}
+
+pre.diff-highlight > pre.theme-colddark-dark code .token.token.inserted:not(.prefix),
+pre > pre.theme-colddark-dark code.diff-highlight .token.token.inserted:not(.prefix) {
+	background-color: #91d0761f;
+}
+
+/* overrides color-values for the Command Line plugin
+ * https://prismjs.com/plugins/command-line/
+ */
+pre.theme-colddark-dark .command-line .command-line-prompt {
+	border-right: 1px solid #0b121b;
+}
+
+pre.theme-colddark-dark .command-line .command-line-prompt > span:before {
+	color: #8da1b9da;
+}
+
+pre.theme-colddark-dark.line-numbers .line-numbers-rows {
+	position: absolute;
+	pointer-events: none;
+	top: 50%;
+	transform: translateY(-50%);
+	font-size: 100%;
+	left: 0;
+	width: 3em;
+	letter-spacing: -1px;
+	border-right: 1px solid #999;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	-webkit-transform: translateY(-50%);
+	-moz-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	-o-transform: translateY(-50%);
+}
+
+pre.theme-colddark-dark .line-numbers-rows > span {
+	display: block;
+	counter-increment: linenumber;
+}
+
+pre.theme-colddark-dark .line-numbers-rows > span:before {
+	content: counter(linenumber);
+	color: #999;
+	display: block;
+	padding-right: 0.8em;
+	text-align: right;
+}

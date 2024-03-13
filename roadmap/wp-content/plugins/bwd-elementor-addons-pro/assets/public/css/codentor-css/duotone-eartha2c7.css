@@ -1,0 +1,205 @@
+/*
+Name:   Duotone Earth
+Author: Simurai, adapted from DuoTone themes for Atom (http://simurai.com/projects/2016/01/01/duotone-themes)
+
+Conversion: Bram de Haan (http://atelierbram.github.io/Base2Tone-prism/output/prism/prism-base2tone-earth-dark.css)
+Generated with Base16 Builder (https://github.com/base16-builder/base16-builder)
+*/
+
+pre.theme-duotone-earth code[class*="language-"],
+pre[class*="language-"].theme-duotone-earth {
+	font-family: Consolas, Menlo, Monaco, "Andale Mono WT", "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Liberation Mono", "Nimbus Mono L", "Courier New", Courier, monospace;
+	font-size: 14px;
+	line-height: 1.375;
+	direction: ltr;
+	text-align: left;
+	white-space: pre;
+	word-spacing: normal;
+	word-break: normal;
+
+	-moz-tab-size: 4;
+	-o-tab-size: 4;
+	tab-size: 4;
+
+	-webkit-hyphens: none;
+	-moz-hyphens: none;
+	-ms-hyphens: none;
+	hyphens: none;
+	background: #322d29;
+	color: #88786d;
+}
+
+pre > pre.theme-duotone-earth code[class*="language-"] {
+	font-size: 1em;
+}
+
+pre[class*="language-"].theme-duotone-earth::-moz-selection, pre[class*="language-"].theme-duotone-earth ::-moz-selection,
+pre.theme-duotone-earth code[class*="language-"]::-moz-selection, pre.theme-duotone-earth code[class*="language-"] ::-moz-selection {
+	text-shadow: none;
+	background: #6f5849;
+}
+
+pre[class*="language-"].theme-duotone-earth::selection, pre[class*="language-"].theme-duotone-earth ::selection,
+pre.theme-duotone-earth code[class*="language-"]::selection, pre.theme-duotone-earth code[class*="language-"] ::selection {
+	text-shadow: none;
+	background: #6f5849;
+}
+
+/* Code blocks */
+pre[class*="language-"].theme-duotone-earth {
+	padding: 1em;
+	margin: .5em 0;
+	overflow: auto;
+	padding-left: 3.8em;
+}
+
+/* Inline code */
+:not(pre) > code[class*="language-"] {
+	padding: .1em;
+	border-radius: .3em;
+}
+
+pre.theme-duotone-earth .token.comment,
+pre.theme-duotone-earth .token.prolog,
+pre.theme-duotone-earth .token.doctype,
+pre.theme-duotone-earth .token.cdata {
+	color: #6a5f58;
+}
+
+pre.theme-duotone-earth .token.punctuation {
+	color: #6a5f58;
+}
+
+pre.theme-duotone-earth .token.namespace {
+	opacity: .7;
+}
+
+pre.theme-duotone-earth .token.tag,
+pre.theme-duotone-earth .token.operator,
+pre.theme-duotone-earth .token.number {
+	color: #bfa05a;
+}
+
+pre.theme-duotone-earth .token.property,
+pre.theme-duotone-earth .token.function {
+	color: #88786d;
+}
+
+pre.theme-duotone-earth .token.tag-id,
+pre.theme-duotone-earth .token.selector,
+pre.theme-duotone-earth .token.atrule-id {
+	color: #fff3eb;
+}
+
+pre.theme-duotone-earth code.language-javascript,
+pre.theme-duotone-earth .token.attr-name {
+	color: #a48774;
+}
+
+pre.theme-duotone-earth code.language-css,
+pre.theme-duotone-earth code.language-scss,
+pre.theme-duotone-earth .token.boolean,
+pre.theme-duotone-earth .token.string,
+pre.theme-duotone-earth .token.entity,
+pre.theme-duotone-earth .token.url,
+pre.theme-duotone-earth .language-css .token.string,
+pre.theme-duotone-earth .language-scss .token.string,
+pre.theme-duotone-earth .style .token.string,
+pre.theme-duotone-earth .token.attr-value,
+pre.theme-duotone-earth .token.keyword,
+pre.theme-duotone-earth .token.control,
+pre.theme-duotone-earth .token.directive,
+pre.theme-duotone-earth .token.unit,
+pre.theme-duotone-earth .token.statement,
+pre.theme-duotone-earth .token.regex,
+pre.theme-duotone-earth .token.atrule {
+	color: #fcc440;
+}
+
+pre.theme-duotone-earth .token.placeholder,
+pre.theme-duotone-earth .token.variable {
+	color: #fcc440;
+}
+
+pre.theme-duotone-earth .token.deleted {
+	text-decoration: line-through;
+}
+
+pre.theme-duotone-earth .token.inserted {
+	border-bottom: 1px dotted #fff3eb;
+	text-decoration: none;
+}
+
+pre.theme-duotone-earth .token.italic {
+	font-style: italic;
+}
+
+pre.theme-duotone-earth .token.important,
+pre.theme-duotone-earth .token.bold {
+	font-weight: bold;
+}
+
+pre.theme-duotone-earth .token.important {
+	color: #a48774;
+}
+
+pre.theme-duotone-earth .token.entity {
+	cursor: help;
+}
+
+pre > pre.theme-duotone-earth code.highlight {
+	outline: .4em solid #816d5f;
+	outline-offset: .4em;
+}
+
+/* overrides color-values for the Line Numbers plugin
+ * http://prismjs.com/plugins/line-numbers/
+ */
+pre.theme-duotone-earth .line-numbers.line-numbers .line-numbers-rows {
+	border-right-color: #35302b;
+}
+
+pre.theme-duotone-earth .line-numbers .line-numbers-rows > span:before {
+	color: #46403d;
+}
+
+/* overrides color-values for the Line Highlight plugin
+* http://prismjs.com/plugins/line-highlight/
+*/
+pre.theme-duotone-earth .line-highlight.line-highlight {
+	background: rgba(191, 160, 90, 0.2);
+	background: -webkit-linear-gradient(left, rgba(191, 160, 90, 0.2) 70%, rgba(191, 160, 90, 0));
+	background: linear-gradient(to right, rgba(191, 160, 90, 0.2) 70%, rgba(191, 160, 90, 0));
+}
+pre.theme-duotone-earth.line-numbers .line-numbers-rows {
+	position: absolute;
+	pointer-events: none;
+	top: 50%;
+	transform: translateY(-50%);
+	font-size: 100%;
+	left: 0;
+	width: 3em;
+	letter-spacing: -1px;
+	border-right: 1px solid #999;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	-webkit-transform: translateY(-50%);
+	-moz-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	-o-transform: translateY(-50%);
+}
+
+pre.theme-duotone-earth .line-numbers-rows > span {
+	display: block;
+	counter-increment: linenumber;
+}
+
+pre.theme-duotone-earth .line-numbers-rows > span:before {
+	content: counter(linenumber);
+	color: #999;
+	display: block;
+	padding-right: 0.8em;
+	text-align: right;
+}

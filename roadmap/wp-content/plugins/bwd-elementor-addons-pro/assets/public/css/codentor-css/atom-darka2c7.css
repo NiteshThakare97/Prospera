@@ -1,0 +1,176 @@
+/**
+ * atom-dark theme for `prism.js`
+ * Based on Atom's `atom-dark` theme: https://github.com/atom/atom-dark-syntax
+ * @author Joe Gibson (@gibsjose)
+ */
+
+pre.theme-atom-dark code[class*="language-"],
+pre[class*="language-"].theme-atom-dark {
+	color: #c5c8c6;
+	text-shadow: 0 1px rgba(0, 0, 0, 0.3);
+	font-family: Inconsolata, Monaco, Consolas, 'Courier New', Courier, monospace;
+	direction: ltr;
+	text-align: left;
+	white-space: pre;
+	word-spacing: normal;
+	word-break: normal;
+	line-height: 1.5;
+
+	-moz-tab-size: 4;
+	-o-tab-size: 4;
+	tab-size: 4;
+
+	-webkit-hyphens: none;
+	-moz-hyphens: none;
+	-ms-hyphens: none;
+	hyphens: none;
+}
+
+/* Code blocks */
+pre[class*="language-"].theme-atom-dark {
+	padding: 1em;
+	margin: .5em 0;
+	overflow: auto;
+	border-radius: 0.3em;
+	padding-left: 3.8em;
+}
+
+:not(pre) > pre.theme-atom-dark pre.theme-atom-dark code[class*="language-"],
+pre[class*="language-"].theme-atom-dark {
+	background: #1d1f21;
+}
+
+/* Inline code */
+:not(pre) > code[class*="language-"] {
+	padding: .1em;
+	border-radius: .3em;
+}
+
+pre.theme-atom-dark .token.comment,
+pre.theme-atom-dark .token.prolog,
+pre.theme-atom-dark .token.doctype,
+pre.theme-atom-dark .token.cdata {
+	color: #7C7C7C;
+}
+
+pre.theme-atom-dark .token.punctuation {
+	color: #9f2e6c;
+}
+
+pre.theme-atom-dark .namespace {
+	opacity: .7;
+}
+
+pre.theme-atom-dark .token.property,
+pre.theme-atom-dark .token.keyword,
+pre.theme-atom-dark .token.tag {
+	color: #96CBFE;
+}
+
+pre.theme-atom-dark .token.class-name {
+	color: #FFFFB6;
+	text-decoration: underline;
+}
+
+pre.theme-atom-dark .token.boolean,
+pre.theme-atom-dark .token.constant {
+	color: #99CC99;
+}
+
+pre.theme-atom-dark .token.symbol,
+pre.theme-atom-dark .token.deleted {
+	color: #f92672;
+}
+
+pre.theme-atom-dark .token.number {
+	color: #FF73FD;
+}
+
+pre.theme-atom-dark .token.selector,
+pre.theme-atom-dark .token.attr-name,
+pre.theme-atom-dark .token.string,
+pre.theme-atom-dark .token.char,
+pre.theme-atom-dark .token.builtin,
+pre.theme-atom-dark .token.inserted {
+	color: #A8FF60;
+}
+
+pre.theme-atom-dark .token.variable {
+	color: #C6C5FE;
+}
+
+pre.theme-atom-dark .token.operator {
+	color: #EDEDED;
+}
+
+pre.theme-atom-dark .token.entity {
+	color: #FFFFB6;
+	cursor: help;
+}
+
+pre.theme-atom-dark .token.url {
+	color: #96CBFE;
+}
+
+pre.theme-atom-dark .language-css .token.string,
+pre.theme-atom-dark .style .token.string {
+	color: #87C38A;
+}
+
+pre.theme-atom-dark .token.atrule,
+pre.theme-atom-dark .token.attr-value {
+	color: #F9EE98;
+}
+
+pre.theme-atom-dark .token.function {
+	color: #DAD085;
+}
+
+pre.theme-atom-dark .token.regex {
+	color: #E9C062;
+}
+
+pre.theme-atom-dark .token.important {
+	color: #fd971f;
+}
+
+pre.theme-atom-dark .token.important,
+pre.theme-atom-dark .token.bold {
+	font-weight: bold;
+}
+
+pre.theme-atom-dark .token.italic {
+	font-style: italic;
+}
+pre.theme-atom-dark.line-numbers .line-numbers-rows {
+	position: absolute;
+	pointer-events: none;
+	top: 50%;
+	transform: translateY(-50%);
+	font-size: 100%;
+	left: 0;
+	width: 3em;
+	letter-spacing: -1px;
+	border-right: 1px solid #999;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	-webkit-transform: translateY(-50%);
+	-moz-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	-o-transform: translateY(-50%);
+}
+
+pre.theme-atom-dark .line-numbers-rows > span {
+	display: block;
+	counter-increment: linenumber;
+}
+
+pre.theme-atom-dark .line-numbers-rows > span:before {
+	content: counter(linenumber);
+	color: #999;
+	display: block;
+	padding-right: 0.8em;
+	text-align: right;
+}

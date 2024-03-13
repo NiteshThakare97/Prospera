@@ -1,0 +1,155 @@
+/**
+ * Lucario Theme originally by Raphael Amorim [@raphamorim]
+ * https://github.com/raphamorim/lucario
+ *
+ * Ported for PrismJS by Christopher Kapic [@christopher-kapic]
+ */
+
+pre.theme-lucario-theme code[class*="language-"],
+pre[class*="language-"].theme-lucario-theme {
+	color: #f8f8f2;
+	background: none;
+	text-shadow: 0 1px rgba(0, 0, 0, 0.3);
+	font-family: Monaco, Consolas, 'Andale Mono', 'Ubuntu Mono', monospace;
+	text-align: left;
+	white-space: pre;
+	word-spacing: normal;
+	word-break: normal;
+	word-wrap: normal;
+	line-height: 1.5;
+	-moz-tab-size: 4;
+	-o-tab-size: 4;
+	tab-size: 4;
+	-webkit-hyphens: none;
+	-moz-hyphens: none;
+	-ms-hyphens: none;
+	hyphens: none;
+}
+
+/* Code blocks */
+pre[class*="language-"].theme-lucario-theme {
+	padding: 1em;
+	margin: .5em 0;
+	overflow: auto;
+	border-radius: 0.3em;
+	padding-left: 3.8em;
+}
+
+:not(pre) > pre.theme-lucario-theme code[class*="language-"],
+pre[class*="language-"].theme-lucario-theme {
+	background: #263E52;
+}
+
+/* Inline code */
+:not(pre) > code[class*="language-"] {
+	padding: .1em;
+	border-radius: .3em;
+	white-space: normal;
+}
+
+pre.theme-lucario-theme .token.comment,
+pre.theme-lucario-theme .token.prolog,
+pre.theme-lucario-theme .token.doctype,
+pre.theme-lucario-theme .token.cdata {
+	color: #5c98cd;
+}
+
+pre.theme-lucario-theme .token.punctuation {
+	color: #ffff00;
+}
+
+pre.theme-lucario-theme .namespace {
+	opacity: .7;
+}
+
+pre.theme-lucario-theme .token.property,
+pre.theme-lucario-theme .token.tag,
+pre.theme-lucario-theme .token.constant,
+pre.theme-lucario-theme .token.symbol,
+pre.theme-lucario-theme .token.deleted {
+	color: #F05E5D;
+}
+
+pre.theme-lucario-theme .token.boolean,
+pre.theme-lucario-theme .token.number {
+	color: #BC94F9;
+}
+
+pre.theme-lucario-theme .token.selector,
+pre.theme-lucario-theme .token.attr-name,
+pre.theme-lucario-theme .token.string,
+pre.theme-lucario-theme .token.char,
+pre.theme-lucario-theme .token.builtin,
+pre.theme-lucario-theme .token.inserted {
+	color: #FCFCD6;
+}
+
+pre.theme-lucario-theme .token.operator,
+pre.theme-lucario-theme .token.entity,
+pre.theme-lucario-theme .token.url,
+pre.theme-lucario-theme .language-css .token.string,
+pre.theme-lucario-theme .style .token.string,
+pre.theme-lucario-theme .token.variable {
+	color: #f8f8f2;
+}
+
+pre.theme-lucario-theme .token.atrule,
+pre.theme-lucario-theme .token.attr-value,
+pre.theme-lucario-theme .token.function,
+pre.theme-lucario-theme .token.class-name {
+	color: #66D8EF;
+}
+
+pre.theme-lucario-theme .token.keyword {
+	color: #6EB26E;
+}
+
+pre.theme-lucario-theme .token.regex,
+pre.theme-lucario-theme .token.important {
+	color: #F05E5D;
+}
+
+pre.theme-lucario-theme .token.important,
+pre.theme-lucario-theme .token.bold {
+	font-weight: bold;
+}
+
+pre.theme-lucario-theme .token.italic {
+	font-style: italic;
+}
+
+pre.theme-lucario-theme .token.entity {
+	cursor: help;
+}
+pre.theme-lucario-theme.line-numbers .line-numbers-rows {
+	position: absolute;
+	pointer-events: none;
+	top: 50%;
+	transform: translateY(-50%);
+	font-size: 100%;
+	left: 0;
+	width: 3em;
+	letter-spacing: -1px;
+	border-right: 1px solid #999;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	-webkit-transform: translateY(-50%);
+	-moz-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	-o-transform: translateY(-50%);
+}
+
+pre.theme-lucario-theme .line-numbers-rows > span {
+	display: block;
+	counter-increment: linenumber;
+}
+
+pre.theme-lucario-theme .line-numbers-rows > span:before {
+	content: counter(linenumber);
+	color: #999;
+	display: block;
+	padding-right: 0.8em;
+	text-align: right;
+}

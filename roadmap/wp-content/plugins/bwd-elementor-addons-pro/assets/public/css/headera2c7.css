@@ -1,0 +1,4814 @@
+
+.menu-primary-menu li {
+    margin: 0;
+    padding: 0;
+}
+
+.offcanvas-header-common .dates-menu-area li {
+    margin: 0;
+}
+
+.sub-menu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.thf-dates-menu-area button {
+    display: none !important;
+}
+
+.thf-dates-menu-area ul {
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+.dates-header-1 .thf-dates-menu-area ul,
+.dates-header-6 .thf-dates-menu-area ul {
+    gap: 18px;
+}
+
+.dates-header-1 .thf-dates-menu-area ul {
+    gap: 25px;
+}
+
+.dates-header-5 .thf-dates-menu-area ul {
+    gap: 38px;
+}
+
+.dates-header-7 .thf-dates-menu-area ul {
+    gap: 48px;
+}
+
+.thf-dates-menu-area-right {
+    justify-content: end !important;
+}
+
+.thf-dates-menu-area-center {
+    justify-content: center !important;
+}
+
+.thf-dates-menu-area-left {
+    justify-content: start !important;
+}
+
+.thf-all-button-con {
+    flex-basis: 15%;
+    display: flex;
+    justify-content: end;
+    ;
+}
+
+.thf-header-login-author {
+    display: flex;
+}
+
+.dates-header-widget-wrapper.toggled {
+    visibility: visible;
+    opacity: 1;
+    max-height: 100vh;
+}
+
+.thf-main-header-width {
+    display: flex;
+    margin: auto;
+    align-items: center;
+    width: 100%;
+}
+
+.dates-header-1 {
+    padding: 10px 40px;
+    position: relative;
+    background: #002626;
+    margin: auto;
+}
+
+.dates-header-1 .dates-header-logo a img {
+    width: 100%;
+}
+
+.dates-header-1 .thf-dates-menu-area .menu-items .thf-menu-part-item li {
+    position: relative;
+    display: inline-block;
+    margin: 0;
+}
+
+.dates-header-down-1 .thf-dates-menu-area .menu-items .thf-menu-part-item .menu-item-has-children::before {
+    content: "\f078";
+}
+
+.dates-header-plus-1 .thf-dates-menu-area .menu-items .thf-menu-part-item .menu-item-has-children::before {
+    content: "\2b";
+}
+
+.dates-header-1 .thf-dates-menu-area .menu-items .thf-menu-part-item .menu-item-has-children::before {
+    font-family: "Font Awesome 5 free";
+    font-weight: 600;
+    font-size: 13px;
+    color: #fff;
+    display: inline-block;
+    padding-left: 5px;
+    cursor: pointer;
+    position: absolute;
+    right: -8px;
+    top: 50%;
+    transform: translateY(-50%);
+    transition: 0.2s;
+}
+
+.menu_indicator_left .thf-dates-menu-area .menu-items .thf-menu-part-item .menu-item-has-children::before {
+    left: -14px;
+}
+
+.dates-header-1 .thf-dates-menu-area .menu-items .thf-menu-part-item li a {
+    color: #fff;
+    font-size: 15px;
+    font-weight: 600;
+    display: inline-block;
+    padding-bottom: 5px;
+    padding-right: 9px;
+    transition: 0.2s;
+    text-transform: capitalize;
+}
+
+.dates-header-1 .thf-dates-menu-area .menu-items .thf-menu-part-item li.active-dates-menu-item a {
+    color: crimson;
+}
+
+.dates-header-1 .thf-dates-menu-area .menu-items .thf-menu-part-item>.menu-item-has-children.active-dates-menu-item::before {
+    content: "\f068";
+    color: crimson;
+}
+
+.dates-header-1 .thf-dates-menu-area .menu-items .thf-menu-part-item li .sub-menu {
+    position: absolute;
+    left: 0;
+    width: 250px;
+    background: #3f7878;
+    transition: 0.1s;
+    z-index: 9999;
+    top: 100%;
+}
+
+.dates-header-1 .thf-dates-menu-area .menu-items .thf-menu-part-item li .sub-menu {
+    top: 122%;
+    opacity: 0;
+    visibility: hidden;
+    flex-direction: column;
+    gap: 0;
+}
+
+.dates-header-1 .thf-dates-menu-area .menu-items .thf-menu-part-item li:hover>.sub-menu {
+    opacity: 1;
+    visibility: visible;
+    top: calc(100% + 20px);
+}
+
+.dates-header-1 .thf-dates-menu-area .menu-items .thf-menu-part-item li .sub-menu li:hover .sub-menu {
+    top: 100%;
+}
+
+.dates-header-1 .thf-dates-menu-area .menu-items .thf-menu-part-item li .sub-menu li a {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 600;
+    display: block;
+    width: 100%;
+    white-space: nowrap;
+    transition: 0.2s;
+    margin: 0;
+    padding: 10px 20px 10px 20px;
+}
+
+.dates-header-1 .thf-dates-menu-area .menu-items .thf-menu-part-item li .sub-menu li:hover {
+    background: #1c4545;
+}
+
+.dates-header-1 .thf-dates-menu-area .menu-items .thf-menu-part-item li .sub-menu li:hover>a {
+    color: crimson;
+}
+
+.ocv-style-1 {
+    background: #002626;
+}
+
+.ocv-style-1 .menu-items ul>li:hover>a {
+    color: crimson;
+}
+
+.ocv-style-1 .menu-items>ul>li.active-dates-menu-item>a {
+    color: crimson;
+}
+
+.dates-header-1 .thf-dates-menu-area .menu-items .thf-menu-part-item li .sub-menu li .sub-menu {
+    position: absolute;
+    left: 100%;
+    top: 140%;
+    transition: 0.2s;
+    padding: 0;
+}
+
+.dates-header-1 .thf-dates-menu-area .menu-items .thf-menu-part-item li .sub-menu li {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    display: block;
+}
+
+.offcanvas-header-common .dates-menu-area .menu-item-has-children a::before {
+    font-family: "Font Awesome 5 free";
+    font-weight: 600;
+    font-size: 13px;
+    color: #fff;
+    display: inline-block;
+    padding-left: 5px;
+    cursor: pointer;
+    position: absolute;
+    right: 15px;
+    transform: translateY(-50%);
+    transition: 0.2s;
+}
+
+.offcanvas-header-common .dates-menu-area .menu-item-has-children .sub-menu .menu-item-has-children a::before {
+    font-family: "Font Awesome 5 free";
+    font-weight: 600;
+    font-size: 13px;
+    color: #fff;
+    display: inline-block;
+    padding-left: 5px;
+    cursor: pointer;
+    position: absolute;
+    right: 15px;
+    transform: translateY(-50%);
+    transition: 0.2s;
+}
+
+.thf-main-down .thf-dates-menu-area .menu-items .thf-menu-part-item .menu-item-has-children::before,
+.thf-main-down .dates-menu-area .menu-item-has-children>a::before {
+    content: "\f078";
+}
+
+.thf-child-down .thf-dates-menu-area .menu-items .thf-menu-part-item .menu-item-has-children .sub-menu .menu-item-has-children::before,
+.thf-main-down .dates-menu-area .menu-item-has-children .sub-menu .menu-item-has-children>a::before {
+    content: "\f078";
+}
+
+.thf-main-right .thf-dates-menu-area .menu-items .thf-menu-part-item .menu-item-has-children::before,
+.thf-main-right .dates-menu-area .menu-item-has-children>a::before {
+    content: "\f105";
+}
+
+.thf-child-right .thf-dates-menu-area .menu-items .thf-menu-part-item .menu-item-has-children .sub-menu .menu-item-has-children::before {
+    content: "\f105";
+}
+
+.thf-main-updown-leftright .thf-dates-menu-area .menu-items .thf-menu-part-item .menu-item-has-children::before,
+.thf-main-updown-leftright .dates-menu-area .menu-item-has-children>a::before {
+    content: "\f422";
+}
+
+.thf-child-updown-leftright .thf-dates-menu-area .menu-items .thf-menu-part-item .menu-item-has-children .sub-menu .menu-item-has-children::before {
+    content: "\f422";
+}
+
+.thf-main-quote-left .thf-dates-menu-area .menu-items .thf-menu-part-item .menu-item-has-children::before,
+.thf-main-quote-left .dates-menu-area .menu-item-has-children>a::before {
+    content: "\f10d";
+}
+
+.thf-child-quote-left .thf-dates-menu-area .menu-items .thf-menu-part-item .menu-item-has-children .sub-menu .menu-item-has-children::before {
+    content: "\f10d";
+}
+
+.thf-main-left-right .thf-dates-menu-area .menu-items .thf-menu-part-item .menu-item-has-children::before,
+.thf-main-left-right .dates-menu-area .menu-item-has-children>a::before {
+    content: "\f337";
+}
+
+.thf-child-left-right .thf-dates-menu-area .menu-items .thf-menu-part-item .menu-item-has-children .sub-menu .menu-item-has-children::before {
+    content: "\f337";
+}
+
+.thf-main-double-right .thf-dates-menu-area .menu-items .thf-menu-part-item .menu-item-has-children::before,
+.thf-main-double-right .dates-menu-area .menu-item-has-children>a::before {
+    content: "\f101";
+}
+
+.thf-child-double-right .thf-dates-menu-area .menu-items .thf-menu-part-item .menu-item-has-children .sub-menu .menu-item-has-children::before {
+    content: "\f101";
+}
+
+.thf-main-bolt-right .thf-dates-menu-area .menu-items .thf-menu-part-item .menu-item-has-children::before,
+.thf-main-bolt-right .dates-menu-area .menu-item-has-children>a::before {
+    content: "\f0da";
+}
+
+.thf-child-bolt-right .thf-dates-menu-area .menu-items .thf-menu-part-item .menu-item-has-children .sub-menu .menu-item-has-children::before {
+    content: "\f0da";
+}
+
+.thf-main-plus .thf-dates-menu-area .menu-items .thf-menu-part-item .menu-item-has-children::before,
+.thf-main-plus .dates-menu-area .menu-item-has-children>a::before {
+    content: "\2b";
+}
+
+.thf-child-plus .thf-dates-menu-area .menu-items .thf-menu-part-item .menu-item-has-children .sub-menu .menu-item-has-children::before {
+    content: "\2b";
+}
+
+.thf-main-user-plus .thf-dates-menu-area .menu-items .thf-menu-part-item .menu-item-has-children::before,
+.thf-main-user-plus .dates-menu-area .menu-item-has-children>a::before {
+    content: "\f234";
+}
+
+.thf-child-user-plus .thf-dates-menu-area .menu-items .thf-menu-part-item .menu-item-has-children .sub-menu .menu-item-has-children::before {
+    content: "\f234";
+}
+
+.dates-header-1 .thf-dates-menu-area .menu-items .menu-item-has-children::before {
+    font-family: "Font Awesome 5 free";
+    font-weight: 600;
+    font-size: 14px;
+    color: #fff;
+    display: inline-block;
+    padding-left: 5px;
+    cursor: pointer;
+    position: absolute;
+    right: -6px !important;
+    top: 50%;
+    transform: translateY(-50%);
+    transition: 0.2s;
+}
+
+.dates-header-1 .thf-dates-menu-area .menu-items .thf-menu-part-item .menu-item-has-children .sub-menu li:before {
+    right: 14px !important;
+}
+
+.dates-header-1 .thf-dates-menu-area .menu-items .thf-menu-part-item li:hover a {
+    color: crimson;
+}
+
+.dates-header-1 .thf-dates-menu-area .menu-items .thf-menu-part-item li:hover::before {
+    color: crimson;
+}
+
+.dates-header-1 .thf-dates-menu-area .menu-items .thf-menu-part-item .menu-item-has-children .sub-menu li:hover:before {
+    color: crimson;
+}
+
+.dates-header-1 .dates-mobile-menu {
+    display: none;
+}
+
+.dates-header-1 .dates-mobile-menu i {
+    font-size: 28px;
+    color: #fff;
+}
+
+.dates-header-1 .dates-header-button .dates-button-item a {
+    padding: 15px 25px;
+    background: #374363;
+    color: #fff;
+    border-radius: 8px;
+    transition: 0.2s;
+    display: inline-block;
+    font-weight: 600;
+}
+
+.dates-header-1 .dates-header-button .dates-button-item a:hover {
+    background: crimson;
+    color: #fff;
+}
+
+.dates-header-1 .dates-button-inside a {
+    padding: 15px 25px;
+    background: #374363;
+    color: #fff;
+    border-radius: 8px;
+    transition: 0.2s;
+    display: inline-block;
+    font-weight: 600;
+}
+
+.dates-header-1 .dates-button-inside a:hover {
+    background: crimson;
+    color: #fff;
+}
+
+.dates-header-1 .thf-dates-menu-area .dates-button-inside {
+    display: none;
+}
+
+.dates-header-logo {
+    display: flex;
+    flex-basis: 10%;
+    flex-grow: 1;
+    justify-content: start;
+    align-items: center;
+}
+
+.thf-dates-menu-area {
+    flex-basis: 75%;
+    flex-grow: 1;
+}
+
+.dates-header-button {
+    display: flex;
+    flex-basis: 25%;
+    flex-grow: 1;
+}
+
+.dates-header-1 .thf-dates-menu-area {
+    display: flex;
+    justify-content: center;
+}
+
+.dates-header-1 .style1 .thf-title {
+    border-color: #fff;
+    color: #fff;
+}
+
+.dates-header-2 {
+    padding: 20px 40px;
+    position: relative;
+    margin: auto;
+    background: #4f772d;
+}
+
+.dates-header-widget-wrapper {
+    order: 2;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.dates-header-2 .dates-header-button {
+    margin-left: 50px;
+}
+
+.dates-header-2 .dates-header-logo a img {
+    height: 100%;
+}
+
+.dates-header-2 .thf-dates-menu-area .menu-items .thf-menu-part-item li {
+    position: relative;
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    transition: 0.2s;
+    z-index: 9;
+}
+
+.dates-header-2 .thf-dates-menu-area .menu-items .thf-menu-part-item .menu-item-has-children::before {
+    font-family: "Font Awesome 5 free";
+    font-weight: 600;
+    font-size: 13px;
+    color: #fff;
+    display: inline-block;
+    padding-left: 5px;
+    cursor: pointer;
+    position: absolute;
+    right: 7px;
+    top: 50%;
+    transform: translateY(-50%);
+    transition: 0.2s;
+}
+
+.dates-header-2 .thf-dates-menu-area .menu-items .thf-menu-part-item>li::after {
+    position: absolute;
+    content: "";
+    left: 0;
+    bottom: auto;
+    width: 100%;
+    height: 0;
+    top: 0;
+    background: #ffc107a6;
+    z-index: -1;
+    transition: 0.4s;
+}
+
+.dates-header-2 .thf-dates-menu-area .menu-items .thf-menu-part-item>li:hover::after {
+    height: 100%;
+    bottom: 0;
+    top: auto;
+}
+
+.dates-header-2 .thf-dates-menu-area .menu-items .thf-menu-part-item li a {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    display: inline-block;
+    padding: 12px 22px;
+    transition: 0.2s;
+}
+
+.dates-header-2 .thf-dates-menu-area .menu-items .thf-menu-part-item li .sub-menu {
+    position: absolute;
+    left: 0;
+    width: 250px;
+    background: #d29523bf;
+    top: 122%;
+    flex-direction: column;
+    gap: 0;
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.1s;
+    z-index: 9999;
+}
+
+.dates-header-2 .thf-dates-menu-area ul {
+    gap: 0;
+}
+
+.dates-header-2 .thf-dates-menu-area .menu-items .thf-menu-part-item li:hover>.sub-menu {
+    opacity: 1;
+    visibility: visible;
+    top: 100%;
+}
+
+.dates-header-2 .thf-dates-menu-area .menu-items .thf-menu-part-item li .sub-menu li a {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 600;
+    display: inline-block;
+    width: 100%;
+    white-space: nowrap;
+    transition: 0.2s;
+    margin: 0;
+    padding: 10px 20px 10px 20px;
+}
+
+.dates-header-2 .thf-dates-menu-area .menu-items .thf-menu-part-item li .sub-menu li:hover {
+    background: #fbba42df;
+}
+
+.dates-header-2 .thf-dates-menu-area .menu-items .thf-menu-part-item li .sub-menu li:hover>a {
+    color: #0018ff;
+}
+
+.dates-header-2 .thf-dates-menu-area .menu-items .thf-menu-part-item li .sub-menu li .sub-menu {
+    position: absolute;
+    left: 100%;
+    top: 140%;
+    transition: 0.2s;
+    padding: 0;
+}
+
+.dates-header-2 .thf-dates-menu-area .menu-items .thf-menu-part-item li .sub-menu li:hover .sub-menu {
+    top: 100%;
+}
+
+.dates-header-2 .thf-dates-menu-area .menu-items .thf-menu-part-item li .sub-menu li {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    display: block;
+}
+
+.dates-header-2 .thf-dates-menu-area .menu-items .thf-menu-part-item .menu-item-has-children .sub-menu .menu-item-has-children::before {
+    font-family: "Font Awesome 5 free";
+    font-weight: 600;
+    font-size: 14px;
+    color: #444;
+    display: inline-block;
+    padding-left: 5px;
+    cursor: pointer;
+    position: absolute;
+    right: 14px;
+    top: 50%;
+    transform: translateY(-50%);
+    transition: 0.2s;
+}
+
+.dates-header-2 .thf-dates-menu-area .menu-items .thf-menu-part-item li:hover a {
+    color: #0018ff;
+}
+
+.dates-header-2 .thf-dates-menu-area .menu-items .thf-menu-part-item li:hover::before {
+    color: #0018ff;
+}
+
+.dates-header-2 .thf-dates-menu-area .menu-items .thf-menu-part-item .menu-item-has-children .sub-menu li:hover:before {
+    color: #0018ff;
+}
+
+.dates-header-2 .dates-social-icon i {
+    margin-left: 24px;
+    font-size: 22px;
+    color: #111;
+    transition: 0.2s;
+}
+
+.dates-header-2 .dates-social-icon i:hover {
+    color: #0018ff;
+}
+
+.dates-header-2 .dates-button-inside a {
+    padding: 15px 25px;
+    background: #374363;
+    color: #fff;
+    border-radius: 8px;
+    transition: 0.2s;
+    display: inline-block;
+    font-weight: 600;
+}
+
+.dates-header-2 .dates-button-inside a:hover {
+    background: crimson;
+    color: #fff;
+}
+
+.dates-header-2 .thf-dates-menu-area .dates-button-inside {
+    display: none;
+}
+
+.dates-header-2 .dates-mobile-menu {
+    display: none;
+}
+
+.dates-header-2 .dates-mobile-menu i {
+    font-size: 28px;
+    color: #444;
+}
+
+.dates-header-2 .thf-dates-menu-area {
+    display: flex;
+    justify-content: center;
+}
+
+.dates-header-3 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    position: relative;
+    background: #023e8a;
+}
+
+.dates-header-3 .dates-header-logo a {
+    height: 85px;
+    display: inline-block;
+}
+
+.dates-header-3 .dates-header-logo a {
+    height: 100%;
+}
+
+.dates-header-3 .thf-dates-menu-area .menu-items .thf-menu-part-item li {
+    position: relative;
+    display: inline-block;
+    margin: 0;
+    transition: 0.2s;
+    padding: 0;
+    z-index: 9;
+}
+
+.dates-header-3 .thf-dates-menu-area .menu-items .thf-menu-part-item>li::after {
+    position: absolute;
+    content: "";
+    left: 0;
+    width: 100%;
+    height: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    background: #252d42;
+    z-index: -1;
+    transition: 0.4s;
+}
+
+.dates-header-3 .thf-dates-menu-area .menu-items .thf-menu-part-item>li:hover::after {
+    height: 100%;
+}
+
+.dates-header-3 .thf-dates-menu-area .menu-items .thf-menu-part-item li a {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    display: inline-block;
+    padding: 8px 25px;
+    transition: 0.2s;
+}
+
+.dates-header-3 .thf-dates-menu-area .menu-items .thf-menu-part-item li .sub-menu {
+    position: absolute;
+    left: 0;
+    width: 250px;
+    background: #252d42;
+    flex-direction: column;
+    gap: 0;
+    top: 122%;
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.1s;
+    z-index: 9999;
+}
+
+.dates-header-3 .thf-dates-menu-area .menu-items .thf-menu-part-item li:hover>.sub-menu {
+    opacity: 1;
+    visibility: visible;
+    top: 100%;
+}
+
+.dates-header-3 .thf-dates-menu-area .menu-items .thf-menu-part-item li .sub-menu li a {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 600;
+    display: block;
+    width: 100%;
+    white-space: nowrap;
+    margin: 0;
+    padding: 10px 20px 10px 20px;
+}
+
+.dates-header-3 .thf-dates-menu-area .menu-items .thf-menu-part-item li .sub-menu li:hover {
+    background: #90ee90ad;
+}
+
+.dates-header-3 .thf-dates-menu-area .menu-items .thf-menu-part-item li .sub-menu li:hover>a {
+    color: #fff;
+}
+
+.dates-header-3 .thf-dates-menu-area .menu-items .thf-menu-part-item li .sub-menu li .sub-menu {
+    position: absolute;
+    left: 100%;
+    top: 140%;
+    transition: 0.2s;
+    padding: 0;
+}
+
+.dates-header-3 .thf-dates-menu-area .menu-items .thf-menu-part-item li .sub-menu li:hover .sub-menu {
+    top: 100%;
+}
+
+.dates-header-3 .thf-dates-menu-area .menu-items .thf-menu-part-item li .sub-menu li {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    display: block;
+}
+
+.dates-header-3 .thf-dates-menu-area .menu-items .thf-menu-part-item .menu-item-has-children::before {
+    font-family: "Font Awesome 5 free";
+    font-weight: 600;
+    font-size: 14px;
+    color: #fff;
+    display: inline-block;
+    padding-left: 5px;
+    cursor: pointer;
+    position: absolute;
+    right: 6px;
+    top: 50%;
+    transform: translateY(-50%);
+    transition: 0.2s;
+}
+
+.dates-header-3 .thf-dates-menu-area .menu-items .thf-menu-part-item .menu-item-has-children .sub-menu .menu-item-has-children::before {
+    right: 10px;
+}
+
+.dates-header-3 .thf-dates-menu-area .menu-items .thf-menu-part-item>li a {
+    color: #fff;
+}
+
+.dates-header-3 .thf-dates-menu-area .menu-items .thf-menu-part-item>li:hover a {
+    color: #fff;
+}
+
+.dates-header-3 .thf-dates-menu-area .menu-items .thf-menu-part-item>li.active-dates-menu-item a {
+    color: #fff;
+}
+
+.dates-header-3 .thf-dates-menu-area .menu-items .thf-menu-part-item>li.active-dates-menu-item::after {
+    height: 100%;
+}
+
+.dates-header-3 .thf-dates-menu-area .menu-items .thf-menu-part-item>.menu-item-has-children:hover::before {
+    color: #fff;
+}
+
+.dates-header-3 .dates-header-button .dates-button-item a {
+    padding: 15px 25px;
+    background: #39314F;
+    color: #eee;
+    border-radius: 30px;
+    transition: 0.2s;
+    display: inline-block;
+    font-weight: 600;
+}
+
+.dates-header-3 .dates-header-button .dates-button-item a:hover {
+    color: #fff;
+}
+
+.dates-header-3 .dates-mobile-menu {
+    display: none;
+}
+
+.dates-header-3 .dates-mobile-menu i {
+    font-size: 28px;
+    color: #444;
+}
+
+.dates-header-3 .thf-dates-menu-area {
+    display: flex;
+    justify-content: center;
+}
+
+.dates-header-button {
+    order: 4;
+    margin-left: 30px;
+}
+
+.dates-header-4 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    position: relative;
+    background: #9b5de5;
+}
+
+.dates-header-4 .dates-header-logo a img {
+    height: 100%;
+}
+
+.dates-header-4 .thf-dates-menu-area .menu-items .thf-menu-part-item li {
+    position: relative;
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    transition: 0.2s;
+    z-index: 9;
+}
+
+.dates-header-4 .thf-dates-menu-area .menu-items .thf-menu-part-item li a {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    display: inline-block;
+    padding: 12px 25px;
+    transition: 0.2s;
+}
+
+.dates-header-4 .thf-dates-menu-area .menu-items .thf-menu-part-item li .sub-menu {
+    position: absolute;
+    left: 0;
+    top: 100%;
+    flex-direction: column;
+    gap: 0;
+    padding: 0;
+    z-index: 9999;
+    background: #f04336;
+}
+
+.dates-header-4 .thf-dates-menu-area .menu-items .thf-menu-part-item li .sub-menu {
+    top: calc(100% + 20px);
+    width: 250px;
+    opacity: 0;
+    visibility: hidden;
+    transform-origin: top center;
+    transform: scaleY(0) translateZ(100px);
+    transition: opacity 500ms ease, visibility 500ms ease, transform 700ms ease;
+}
+
+.dates-header-4 .thf-dates-menu-area .menu-items .thf-menu-part-item li:hover>.sub-menu {
+    opacity: 1;
+    transform: scaleY(1) translateZ(0px);
+    visibility: visible;
+}
+
+.dates-header-4 .thf-dates-menu-area .menu-items .thf-menu-part-item li .sub-menu li:hover .sub-menu {
+    top: 100%;
+}
+
+.dates-header-4 .thf-dates-menu-area .menu-items .thf-menu-part-item>.menu-item-has-children::before {
+    font-family: "Font Awesome 5 free";
+    font-weight: 600;
+    font-size: 13px;
+    color: #fff;
+    display: inline-block;
+    padding-left: 5px;
+    cursor: pointer;
+    position: absolute;
+    right: 6px;
+    top: 50%;
+    transform: translateY(-50%);
+    transition: 0.2s;
+}
+
+.dates-header-4 .thf-dates-menu-area .menu-items .thf-menu-part-item>li::after {
+    position: absolute;
+    content: "";
+    right: 0;
+    top: 0;
+    height: 0;
+    width: 0;
+    bottom: auto;
+    left: auto;
+    background: #f0433670;
+    z-index: -1;
+    transition: 0.4s;
+}
+
+.dates-header-4 .thf-dates-menu-area .menu-items .thf-menu-part-item>li:hover::after {
+    height: 100%;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    right: auto;
+    top: auto;
+}
+
+.dates-header-4 .thf-dates-menu-area .menu-items .thf-menu-part-item>li.active-dates-menu-item::after {
+    height: 100%;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    right: auto;
+    top: auto;
+}
+
+.dates-header-4 .thf-dates-menu-area .menu-items .thf-menu-part-item li .sub-menu li a {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 600;
+    display: block;
+    width: 100%;
+    white-space: nowrap;
+    transition: 0.2s;
+    margin: 0;
+    padding: 10px 30px 10px 20px;
+}
+
+.dates-header-4 .thf-dates-menu-area .menu-items .thf-menu-part-item li .sub-menu li:hover>a {
+    color: #fff;
+}
+
+.dates-header-4 .thf-dates-menu-area .menu-items .thf-menu-part-item li .sub-menu li .sub-menu {
+    position: absolute;
+    left: 100%;
+    top: 100%;
+    transition: 0.2s;
+    padding: 0;
+}
+
+.dates-header-4 .thf-dates-menu-area .menu-items .thf-menu-part-item li .sub-menu li {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    display: block;
+}
+
+.dates-header-4 .thf-dates-menu-area .menu-items .thf-menu-part-item .menu-item-has-children .sub-menu .menu-item-has-children::before {
+    font-family: "Font Awesome 5 free";
+    font-weight: 600;
+    font-size: 14px;
+    color: #fff;
+    display: inline-block;
+    padding-left: 5px;
+    cursor: pointer;
+    position: absolute;
+    right: 14px;
+    top: 50%;
+    transform: translateY(-50%);
+    transition: 0.2s;
+}
+
+.dates-header-4 .dates-header-button .dates-button-item .dates-button-style {
+    background: #f04336;
+    border-radius: 3px;
+    color: #fff;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 1.5px;
+    line-height: 1;
+    padding: 24px 30px;
+    text-align: center;
+    text-transform: capitalize;
+    transition: all 0.3s ease 0s;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+}
+
+.dates-header-4 .dates-header-button .dates-button-item .dates-button-style:before {
+    content: "";
+    position: absolute;
+    transition-duration: 800ms;
+    width: 200%;
+    height: 200%;
+    top: 110%;
+    left: 50%;
+    background: #0a303a;
+    transform: translateX(-50%);
+    border-radius: 50%;
+    z-index: -1;
+}
+
+.dates-header-4 .dates-header-button .dates-button-item .dates-button-style:hover:before {
+    top: -40%;
+}
+
+.dates-header-4 .dates-header-button .dates-button-item .dates-button-style:hover {
+    color: #fff;
+}
+
+.dates-header-4 .dates-mobile-menu {
+    display: none;
+}
+
+.dates-header-4 .dates-mobile-menu i {
+    font-size: 28px;
+    color: #444;
+}
+
+.dates-header-4 .thf-dates-menu-area {
+    display: flex;
+    justify-content: center;
+}
+
+.dates-header-5 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    position: relative;
+    background: #42b9cc;
+}
+
+.dates-header-5 .dates-header-logo a img {
+    height: 100%;
+}
+
+.dates-header-5 .thf-dates-menu-area .menu-items .thf-menu-part-item li {
+    position: relative;
+    display: inline-block;
+    transition: 0.2s;
+    margin: 0;
+}
+
+.dates-header-5 .thf-dates-menu-area .menu-items .thf-menu-part-item li:after {
+    position: absolute;
+    content: "";
+    left: auto;
+    height: 3px;
+    right: 0;
+    width: 0;
+    bottom: -6px;
+    background: #cc6032;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.5s;
+}
+
+.dates-header-5 .thf-dates-menu-area .menu-items .thf-menu-part-item>li:hover:after {
+    width: 100%;
+    opacity: 1;
+    visibility: visible;
+    right: auto;
+    left: 0;
+}
+
+.dates-header-5 .thf-dates-menu-area .menu-items .thf-menu-part-item>.menu-item-has-children::before {
+    font-family: "Font Awesome 5 free";
+    font-weight: 600;
+    font-size: 13px;
+    color: #fff;
+    display: inline-block;
+    padding-left: 5px;
+    cursor: pointer;
+    position: absolute;
+    right: -16px;
+    top: 6px;
+    transition: 0.2s;
+}
+
+.dates-header-5 .thf-dates-menu-area .menu-items .thf-menu-part-item li a {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    display: inline-block;
+    transition: 0.2s;
+}
+
+.dates-header-5 .thf-dates-menu-area .menu-items .thf-menu-part-item li .sub-menu {
+    position: absolute;
+    left: 0;
+    background: #7f3c1f;
+    flex-direction: column;
+    gap: 0;
+    width: 250px;
+    top: calc(100% + 20px);
+    opacity: 0;
+    visibility: hidden;
+    transform-origin: top center;
+    z-index: 9999;
+    transition: 0.1s;
+}
+
+.dates-header-5 .thf-dates-menu-area .menu-items .thf-menu-part-item li:hover>.sub-menu {
+    opacity: 1;
+    visibility: visible;
+}
+
+.dates-header-5 .thf-dates-menu-area .menu-items .thf-menu-part-item .menu-item-has-children .sub-menu .menu-item-has-children::before {
+    font-family: "Font Awesome 5 free";
+    font-weight: 600;
+    font-size: 14px;
+    color: #c6c6c6;
+    display: inline-block;
+    padding-left: 5px;
+    cursor: pointer;
+    position: absolute;
+    right: 14px;
+    top: 50%;
+    transform: translateY(-50%);
+    transition: 0.2s;
+}
+
+.dates-header-5 .thf-dates-menu-area .menu-items .thf-menu-part-item .menu-item-has-children .sub-menu .menu-item-has-children:hover:after {
+    color: #fff;
+}
+
+.dates-header-5 .thf-dates-menu-area .menu-items .thf-menu-part-item li .sub-menu li a {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 600;
+    display: inline-block;
+    width: 100%;
+    white-space: nowrap;
+    transition: 0.2s;
+    margin: 0;
+    padding: 10px 20px 10px 20px;
+}
+
+.dates-header-5 .thf-dates-menu-area .menu-items .thf-menu-part-item li .sub-menu li:hover {
+    background: #b2542c;
+}
+
+.dates-header-5 .thf-dates-menu-area .menu-items .thf-menu-part-item li .sub-menu li:hover>a {
+    color: #fff;
+}
+
+.dates-header-5 .thf-dates-menu-area .menu-items .thf-menu-part-item li .sub-menu li .sub-menu {
+    position: absolute;
+    left: 100%;
+    top: 100%;
+    transition: 0.2s;
+    padding: 0;
+}
+
+.dates-header-5 .thf-dates-menu-area .menu-items .thf-menu-part-item li .sub-menu li {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    display: block;
+}
+
+.dates-header-5 .dates-mobile-menu {
+    display: none;
+}
+
+.dates-header-5 .dates-mobile-menu i {
+    font-size: 28px;
+    color: #444;
+}
+
+.dates-header-5 .thf-dates-menu-area {
+    display: flex;
+    justify-content: center;
+}
+
+.dates-header-5 .dates-header-button {
+    margin-left: 60px;
+}
+
+.dates-header-6 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 40px;
+    position: relative;
+    background-color: #926c15;
+}
+
+.dates-header-6 .thf-dates-menu-area .menu-items .thf-menu-part-item li {
+    position: relative;
+    display: inline-block;
+    transition: 0.2s;
+    margin: 0;
+    margin-left: 15px;
+}
+
+.dates-header-6 .thf-dates-menu-area .menu-items .thf-menu-part-item>.menu-item-has-children::before {
+    font-family: "Font Awesome 5 free";
+    font-weight: 600;
+    font-size: 13px;
+    color: #fff;
+    display: inline-block;
+    padding-left: 5px;
+    cursor: pointer;
+    position: absolute;
+    right: -16px;
+    top: 6px;
+    transition: 0.2s;
+}
+
+.dates-header-6 .thf-dates-menu-area .menu-items .thf-menu-part-item li:after {
+    position: absolute;
+    content: "";
+    left: 50%;
+    transform: translateX(-50%);
+    height: 3px;
+    width: 20px;
+    bottom: 15px;
+    background: #202E4A;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.4s cubic-bezier(0.3, 0.1, 0.58, 1);
+}
+
+.dates-header-6 .thf-dates-menu-area .menu-items .thf-menu-part-item>li:hover:after {
+    opacity: 1;
+    visibility: visible;
+    bottom: 25px;
+}
+
+.dates-header-6 .thf-dates-menu-area .menu-items .thf-menu-part-item>li:hover::before {
+    color: #202E4A;
+}
+
+.dates-header-6 .thf-dates-menu-area .menu-items .thf-menu-part-item li a {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+    display: inline-block;
+    transition: 0.2s;
+}
+
+.dates-header-6 .thf-dates-menu-area .menu-items .thf-menu-part-item li:hover a {
+    color: #202E4A;
+}
+
+.dates-header-6 .thf-dates-menu-area .menu-items .thf-menu-part-item li .sub-menu {
+    position: absolute;
+    left: 0;
+    width: 250px;
+    background: #926c15;
+    box-shadow: 0 0 10px #4444442b;
+    flex-direction: column;
+    gap: 0;
+    top: calc(100% + 20px);
+    opacity: 0;
+    visibility: hidden;
+    transform-origin: top center;
+    z-index: 9999;
+    transition: 0.1s;
+}
+
+.dates-header-6 .thf-dates-menu-area .menu-items .thf-menu-part-item li:hover>.sub-menu {
+    opacity: 1;
+    visibility: visible;
+}
+
+.dates-header-6 .thf-dates-menu-area .menu-items .thf-menu-part-item li .sub-menu li a {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 600;
+    display: inline-block;
+    width: 100%;
+    white-space: nowrap;
+    transition: 0.2s;
+    margin: 0;
+    padding: 10px 25px 10px 20px;
+}
+
+.dates-header-6 .thf-dates-menu-area .menu-items .thf-menu-part-item li .sub-menu li:hover {
+    background: #c6c6c64d;
+}
+
+.dates-header-6 .thf-dates-menu-area .menu-items .thf-menu-part-item li .sub-menu li:hover>a {
+    color: #b2542c;
+}
+
+.dates-header-6 .thf-dates-menu-area .menu-items .thf-menu-part-item li .sub-menu li .sub-menu {
+    position: absolute;
+    left: 100%;
+    top: 100%;
+    transition: 0.2s;
+    padding: 0;
+}
+
+.dates-header-6 .thf-dates-menu-area .menu-items .thf-menu-part-item .menu-item-has-children .sub-menu .menu-item-has-children::before {
+    font-family: "Font Awesome 5 free";
+    font-weight: 600;
+    font-size: 14px;
+    color: #444;
+    display: inline-block;
+    padding-left: 5px;
+    cursor: pointer;
+    position: absolute;
+    right: 14px;
+    top: 50%;
+    transform: translateY(-50%);
+    transition: 0.2s;
+}
+
+.dates-header-6 .thf-dates-menu-area .menu-items .thf-menu-part-item .menu-item-has-children .sub-menu li:hover:before {
+    color: #b2542c;
+}
+
+.dates-header-6 .thf-dates-menu-area .menu-items .thf-menu-part-item li .sub-menu li {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    display: block;
+}
+
+.dates-header-6 .dates-mobile-menu {
+    display: none;
+}
+
+.dates-header-6 .dates-mobile-menu i {
+    font-size: 28px;
+    color: #444;
+}
+
+.dates-header-6 .thf-dates-menu-area {
+    display: flex;
+    justify-content: center;
+}
+
+.dates-header-6 .dates-header-button {
+    margin-left: 44px;
+}
+
+.dates-header-7 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    position: relative;
+    background-color: #3a3d0d;
+}
+
+.dates-header-7 .dates-header-logo a img {
+    display: inline-block;
+    height: 100%;
+}
+
+.dates-header-7 .thf-dates-menu-area .menu-items .thf-menu-part-item li {
+    position: relative;
+    display: inline-block;
+    transition: 0.2s;
+    margin: 0;
+}
+
+.dates-header-7 .thf-dates-menu-area .menu-items .thf-menu-part-item>.menu-item-has-children::before {
+    font-family: "Font Awesome 5 free";
+    font-weight: 600;
+    font-size: 13px;
+    color: #fff;
+    display: inline-block;
+    padding-left: 5px;
+    cursor: pointer;
+    position: absolute;
+    right: -20px;
+    top: 65%;
+    transform: translateY(-65%);
+    transition: 0.2s;
+}
+
+.dates-header-7 .thf-dates-menu-area .menu-items .thf-menu-part-item li:after {
+    position: absolute;
+    content: "";
+    left: 50%;
+    transform: translateX(-50%);
+    height: 3px;
+    width: 0;
+    bottom: -6px;
+    background: #01b2ec;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.4s cubic-bezier(0.3, 0.1, 0.58, 1);
+}
+
+.dates-header-7 .thf-dates-menu-area .menu-items .thf-menu-part-item>li:hover:after {
+    opacity: 1;
+    visibility: visible;
+    width: 100%;
+}
+
+.dates-header-7 .thf-dates-menu-area .menu-items .thf-menu-part-item>li:hover::before {
+    color: #01b2ec;
+}
+
+.dates-header-7 .thf-dates-menu-area .menu-items .thf-menu-part-item li a {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    display: inline-block;
+    transition: 0.2s;
+}
+
+.dates-header-7 .thf-dates-menu-area .menu-items .thf-menu-part-item li:hover a {
+    color: #01b2ec;
+}
+
+.dates-header-7 .thf-dates-menu-area .menu-items .thf-menu-part-item li .sub-menu {
+    position: absolute;
+    left: 0;
+    width: 250px;
+    background-color: #3a3d0d;
+    flex-direction: column;
+    gap: 0;
+    box-shadow: 0 0 10px #01b2ec5c;
+    top: 200%;
+    opacity: 0;
+    visibility: hidden;
+    transform-origin: top center;
+    z-index: 9999;
+    transition: 0.1s;
+}
+
+.dates-header-7 .thf-dates-menu-area .menu-items .thf-menu-part-item li:hover>.sub-menu {
+    opacity: 1;
+    visibility: visible;
+    top: 150%;
+}
+
+.dates-header-7 .thf-dates-menu-area .menu-items .thf-menu-part-item li .sub-menu li a {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 600;
+    display: inline-block;
+    width: 100%;
+    white-space: nowrap;
+    transition: 0.2s;
+    margin: 0;
+    padding: 10px 20px;
+}
+
+.dates-header-7 .thf-dates-menu-area .menu-items .thf-menu-part-item li .sub-menu li:hover>a {
+    color: #01b2ec;
+}
+
+.dates-header-7 .thf-dates-menu-area .menu-items .thf-menu-part-item li .sub-menu li .sub-menu {
+    position: absolute;
+    left: 100%;
+    top: 140%;
+    transition: 0.2s;
+    padding: 0;
+}
+
+.dates-header-7 .thf-dates-menu-area .menu-items .thf-menu-part-item li .sub-menu li:hover .sub-menu {
+    top: 100%;
+}
+
+.dates-header-7 .thf-dates-menu-area .menu-items .thf-menu-part-item .menu-item-has-children .sub-menu .menu-item-has-children::before {
+    font-family: "Font Awesome 5 free";
+    font-weight: 600;
+    font-size: 14px;
+    color: #fff;
+    display: inline-block;
+    padding-left: 5px;
+    cursor: pointer;
+    position: absolute;
+    right: 14px;
+    top: 50%;
+    transform: translateY(-50%);
+    transition: 0.2s;
+}
+
+.dates-header-7 .thf-dates-menu-area .menu-items .thf-menu-part-item .menu-item-has-children .sub-menu li:hover:before {
+    color: #01b2ec;
+}
+
+.dates-header-7 .thf-dates-menu-area .menu-items .thf-menu-part-item li .sub-menu li {
+    position: relative;
+    margin: 0;
+    display: block;
+}
+
+.dates-header-7 .dates-header-button .dates-button-item a {
+    padding: 12px 32px;
+    color: #01b2ec;
+    font-size: 20px;
+    font-weight: 500;
+    border-radius: 7px;
+    transition: 0.2s;
+    border: 2px solid #01b2ec;
+    display: inline-block;
+    transition: 0.2s;
+}
+
+.dates-header-7 .dates-header-button .dates-button-item a:hover {
+    color: #fff;
+    border: 2px solid #01b2ec;
+    background: #01b2ec;
+}
+
+.dates-header-7 .dates-mobile-menu {
+    display: none;
+}
+
+.dates-header-7 .dates-mobile-menu i {
+    font-size: 28px;
+    color: #444;
+}
+
+.dates-header-7 .thf-dates-menu-area {
+    display: flex;
+    justify-content: center;
+}
+
+.dates-header-7 .dates-header-button {
+    order: 4;
+    margin-left: 50px;
+}
+
+.dates-header-8 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    position: relative;
+    background: #5e5e5e;
+}
+
+.dates-header-8 .dates-header-logo a img {
+    display: inline-block;
+    height: 100%;
+}
+
+.dates-header-8 .thf-dates-menu-area .menu-items .thf-menu-part-item li {
+    position: relative;
+    display: inline-block;
+    transition: 0.2s;
+    margin: 0;
+    z-index: 1;
+}
+
+.dates-header-8 .thf-dates-menu-area .menu-items .thf-menu-part-item>.menu-item-has-children::before {
+    font-family: "Font Awesome 5 free";
+    font-weight: 600;
+    font-size: 13px;
+    color: #eee;
+    display: inline-block;
+    cursor: pointer;
+    position: absolute;
+    right: 6px;
+    top: 50%;
+    transform: translateY(-50%);
+    transition: 0.2s;
+}
+
+.dates-header-8 .thf-dates-menu-area .menu-items .thf-menu-part-item>.menu-item-has-children:hover::before {
+    color: #eee;
+    content: "\f068";
+}
+
+.dates-header-8 .thf-dates-menu-area .menu-items .thf-menu-part-item li a {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    display: inline-block;
+    padding: 0;
+    transition: 0.2s;
+    padding: 12px 20px;
+}
+
+.dates-header-8 .thf-dates-menu-area .menu-items .thf-menu-part-item li:hover a {
+    color: #fff;
+}
+
+.dates-header-8 .thf-dates-menu-area .menu-items .thf-menu-part-item li .sub-menu {
+    position: absolute;
+    left: 0px;
+    width: 250px;
+    flex-direction: column;
+    gap: 0;
+    background: #5e5e5e;
+    box-shadow: 0 0 50px 0 rgb(29 35 58 / 0.08);
+    top: 130%;
+    opacity: 0;
+    visibility: hidden;
+    z-index: 9999;
+    transition: 0.1s;
+}
+
+.dates-header-8 .thf-dates-menu-area .menu-items .thf-menu-part-item li:hover>.sub-menu {
+    opacity: 1;
+    visibility: visible;
+    left: 0;
+    top: 115%;
+}
+
+.dates-header-8 .thf-dates-menu-area .menu-items .thf-menu-part-item li .sub-menu li a {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 600;
+    display: inline-block;
+    width: calc(100% + 20px);
+    white-space: nowrap;
+    transition: 0.2s;
+    margin: 0;
+    padding: 0;
+}
+
+.dates-header-8 .thf-dates-menu-area .menu-items .thf-menu-part-item li .sub-menu li:hover {
+    background: #7432ff1a;
+}
+
+.dates-header-8 .thf-dates-menu-area .menu-items .thf-menu-part-item li .sub-menu li:hover>a {
+    color: #7432ff;
+}
+
+.dates-header-8 .thf-dates-menu-area .menu-items .thf-menu-part-item li .sub-menu li .sub-menu {
+    position: absolute;
+    left: 100%;
+    top: 100%;
+    transition: 0.2s;
+    padding: 0;
+}
+
+.dates-header-8 .thf-dates-menu-area .menu-items .thf-menu-part-item .menu-item-has-children .sub-menu .menu-item-has-children::before {
+    font-family: "Font Awesome 5 free";
+    font-weight: 600;
+    font-size: 14px;
+    color: #fff;
+    display: inline-block;
+    padding-left: 5px;
+    cursor: pointer;
+    position: absolute;
+    right: 14px;
+    top: 50%;
+    transform: translateY(-50%);
+    transition: 0.2s;
+}
+
+.dates-header-8 .thf-dates-menu-area .menu-items .thf-menu-part-item .menu-item-has-children .sub-menu .menu-item-has-children:hover:before {
+    color: #7432ff;
+    content: "\f068";
+}
+
+.dates-header-8 .thf-dates-menu-area .menu-items .thf-menu-part-item li .sub-menu li {
+    position: relative;
+    margin: 0;
+    display: block;
+}
+
+.dates-header-8 .thf-dates-menu-area .menu-items .thf-menu-part-item li .sub-menu li a {
+    padding: 10px 20px;
+}
+
+.dates-header-8 .dates-header-button .dates-button-item a {
+    padding: 15px 30px;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+    border-radius: 7px;
+    transition: 0.2s;
+    display: inline-block;
+    transition: 0.2s;
+    background: #7432ff;
+}
+
+.dates-header-8 .dates-header-button .dates-button-item a:hover {
+    color: #fff;
+    background: #4400d4;
+}
+
+.dates-header-8 .dates-mobile-menu {
+    display: none;
+}
+
+.dates-header-8 .dates-mobile-menu i {
+    font-size: 28px;
+    color: #444;
+}
+
+.dates-header-8 .thf-dates-menu-area {
+    display: flex;
+    justify-content: center;
+}
+
+.dates-header-9 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    position: relative;
+    background-color: #7161ef;
+}
+
+.dates-header-9 .dates-header-logo a {
+    display: inline-block;
+    height: 100%;
+}
+
+.dates-header-9 .thf-dates-menu-area .menu-items .thf-menu-part-item li {
+    position: relative;
+    display: inline-block;
+    transition: 0.2s;
+    margin: 0;
+}
+
+.dates-header-9 .thf-dates-menu-area .menu-items .thf-menu-part-item li a {
+    display: inline-block;
+    padding: 12px 20px;
+}
+
+.dates-header-9 .thf-dates-menu-area .menu-items .thf-menu-part-item>.menu-item-has-children::before {
+    font-family: "Font Awesome 5 free";
+    font-weight: 600;
+    font-size: 13px;
+    color: #fff;
+    display: inline-block;
+    padding-left: 5px;
+    cursor: pointer;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    transform-origin: center;
+    transition: 0.2s;
+}
+
+.dates-header-9 .thf-dates-menu-area .menu-items .thf-menu-part-item li a {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    display: inline-block;
+    transition: 0.2s;
+}
+
+.dates-header-9 .thf-dates-menu-area .menu-items .thf-menu-part-item li .sub-menu {
+    position: absolute;
+    left: 0;
+    width: 200px;
+    background-color: #7161ef;
+    flex-direction: column;
+    gap: 0;
+    box-shadow: 0 0 50px 0 rgb(29 35 58 / 0.08);
+    border-top: 2px solid #ff630e;
+    border-radius: 6px;
+    top: 130%;
+    opacity: 0;
+    visibility: hidden;
+    z-index: 9999;
+    transition: 0.1s;
+}
+
+.dates-header-9 .thf-dates-menu-area .menu-items .thf-menu-part-item>li:hover::before {
+    color: #ff630e;
+    transform: translateY(-50%) rotate(180deg);
+}
+
+.dates-header-9 .thf-dates-menu-area .menu-items .thf-menu-part-item li:hover a {
+    color: #ff630e;
+}
+
+.dates-header-9 .thf-dates-menu-area .menu-items .thf-menu-part-item li:hover>.sub-menu {
+    opacity: 1;
+    visibility: visible;
+    top: 100%;
+}
+
+.dates-header-9 .thf-dates-menu-area .menu-items .thf-menu-part-item li .sub-menu li:hover {
+    background: #ff630e1f;
+}
+
+.dates-header-9 .thf-dates-menu-area .menu-items .thf-menu-part-item li .sub-menu li:hover>a {
+    color: #ff630e;
+}
+
+.dates-header-9 .thf-dates-menu-area .menu-items .thf-menu-part-item li .sub-menu li:hover .sub-menu {
+    top: 100%;
+}
+
+.dates-header-9 .thf-dates-menu-area .menu-items .thf-menu-part-item .menu-item-has-children .sub-menu li:hover:before {
+    color: #ff630e;
+    transform: translateY(-50%) rotate(180deg);
+}
+
+.dates-header-9 .thf-dates-menu-area .menu-items .thf-menu-part-item li .sub-menu li a {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 600;
+    display: inline-block;
+    width: 100%;
+    white-space: nowrap;
+    transition: 0.2s;
+    margin: 0;
+    padding: 0;
+}
+
+.dates-header-9 .thf-dates-menu-area .menu-items .thf-menu-part-item li .sub-menu li .sub-menu {
+    position: absolute;
+    left: 100%;
+    top: 140%;
+    transition: 0.2s;
+    padding: 0;
+}
+
+.dates-header-9 .thf-dates-menu-area .menu-items .thf-menu-part-item .menu-item-has-children .sub-menu .menu-item-has-children::before {
+    font-family: "Font Awesome 5 free";
+    font-weight: 600;
+    font-size: 14px;
+    color: #fff;
+    display: inline-block;
+    padding-left: 5px;
+    cursor: pointer;
+    position: absolute;
+    right: 14px;
+    top: 50%;
+    transform: translateY(-50%);
+    transition: 0.2s;
+}
+
+.dates-header-9 .thf-dates-menu-area .menu-items .thf-menu-part-item li .sub-menu li {
+    position: relative;
+    margin: 0;
+    display: block;
+}
+
+.dates-header-9 .thf-dates-menu-area .menu-items .thf-menu-part-item li .sub-menu li a {
+    padding: 10px 20px;
+}
+
+.dates-header-9 .dates-mobile-menu {
+    display: none;
+}
+
+.dates-header-9 .dates-mobile-menu i {
+    font-size: 28px;
+    color: #444;
+}
+
+.dates-header-9 .thf-dates-menu-area {
+    display: flex;
+    justify-content: center;
+}
+
+.dates-header-10 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    position: relative;
+    background-color: #540d6e;
+}
+
+.dates-header-10 .dates-header-logo a {
+    display: inline-block;
+    height: 100%;
+}
+
+.dates-header-10 .dates-header-logo a img {
+    display: inline-block;
+    height: 100%;
+}
+
+.dates-header-10 .thf-dates-menu-area .menu-items .thf-menu-part-item li {
+    position: relative;
+    display: inline-block;
+    transition: 0.2s;
+    margin: 0;
+}
+
+.dates-header-10 .thf-dates-menu-area .menu-items .thf-menu-part-item>li:hover {
+    background: #ff630e1f;
+}
+
+.dates-header-10 .thf-dates-menu-area .menu-items .thf-menu-part-item>li::before {
+    color: #fff !important;
+}
+
+.dates-header-10 .thf-dates-menu-area .menu-items li.menu-item-has-children::before {
+    font-family: "Font Awesome 5 free";
+    font-weight: 600;
+    font-size: 14px;
+    color: #000;
+    display: inline-block;
+    padding-left: 5px;
+    cursor: pointer;
+    position: absolute;
+    right: 6px;
+    top: 50%;
+    transform: translateY(-50%);
+    transition: 0.2s;
+}
+
+.dates-header-10 .thf-dates-menu-area .menu-items li.menu-item-has-children:hover::before {
+    color: #f87060;
+}
+
+.dates-header-10 .thf-dates-menu-area .menu-items .thf-menu-part-item li a {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    display: inline-block;
+    padding: 12px 22px;
+    transition: 0.2s;
+    border-radius: 8px;
+}
+
+.dates-header-10 .thf-dates-menu-area .menu-items .thf-menu-part-item li .sub-menu {
+    position: absolute;
+    left: 0;
+    flex-direction: column;
+    gap: 0;
+    width: 250px;
+    background: #ffffff;
+    box-shadow: 0 0 50px 0 rgb(29 35 58 / 0.08);
+    border-radius: 6px;
+    top: 100%;
+    z-index: 9999;
+}
+
+.dates-header-10 .thf-dates-menu-area .menu-items .thf-menu-part-item li .sub-menu {
+    top: 105%;
+    opacity: 0;
+    visibility: hidden;
+    transform: rotateX(-90deg);
+    transition: all 0.1s ease-out;
+    transform-origin: 0 0;
+}
+
+.dates-header-10 .thf-dates-menu-area .menu-items .thf-menu-part-item li:hover>.sub-menu {
+    opacity: 1;
+    visibility: visible;
+    transform: rotateX(0);
+}
+
+.dates-header-10 .thf-dates-menu-area .menu-items .thf-menu-part-item li .sub-menu li:hover .sub-menu {
+    top: 100%;
+}
+
+.dates-header-10 .thf-dates-menu-area .menu-items .thf-menu-part-item li .sub-menu li:hover {
+    background: #ff630e1f;
+}
+
+.dates-header-10 .thf-dates-menu-area .menu-items .thf-menu-part-item li .sub-menu li:hover>a {
+    color: #f87060;
+}
+
+.dates-header-10 .dates-social-icon a:hover {
+    color: #f87060;
+}
+
+.dates-header-10 .thf-dates-menu-area .menu-items .thf-menu-part-item li:hover a {
+    color: #f87060;
+}
+
+.dates-header-10 .thf-dates-menu-area .menu-items .thf-menu-part-item li .sub-menu li a {
+    color: #444;
+    font-size: 14px;
+    font-weight: 600;
+    display: inline-block;
+    width: 100%;
+    white-space: nowrap;
+    transition: 0.2s;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+}
+
+.dates-header-10 .thf-dates-menu-area .menu-items .thf-menu-part-item li .sub-menu li .sub-menu {
+    position: absolute;
+    left: 100%;
+    top: 100%;
+    transition: 0.2s;
+    padding: 0;
+}
+
+.dates-header-10 .thf-dates-menu-area .menu-items .thf-menu-part-item li .sub-menu li {
+    position: relative;
+    margin: 0;
+    display: block;
+}
+
+.dates-header-10 .thf-dates-menu-area .menu-items .thf-menu-part-item li .sub-menu li a {
+    padding: 10px 20px;
+}
+
+.dates-header-10 .dates-social-icon a {
+    display: inline-block;
+    font-size: 24px;
+    color: #444;
+    padding: 0px 10px;
+    transition: 0.4s;
+}
+
+.dates-header-10 .dates-mobile-menu {
+    display: none;
+}
+
+.dates-header-10 .dates-mobile-menu i {
+    font-size: 28px;
+    color: #444;
+}
+
+.dates-header-10 .thf-dates-menu-area {
+    display: flex;
+    justify-content: center;
+}
+
+.dates-header-11 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    position: relative;
+    background-color: #00296b;
+}
+
+.dates-header-11 .dates-header-logo a {
+    display: inline-block;
+    height: 100%;
+}
+
+.dates-header-11 .dates-header-logo a img {
+    display: inline-block;
+    height: 100%;
+}
+
+.dates-header-11 .thf-dates-menu-area .menu-items .thf-menu-part-item li {
+    position: relative;
+    display: inline-block;
+    transition: 0.2s;
+    margin: 0;
+    z-index: 9;
+}
+
+.dates-header-11 .thf-dates-menu-area .menu-items .thf-menu-part-item>.menu-item-has-children::before {
+    font-family: "Font Awesome 5 free";
+    font-weight: 600;
+    font-size: 13px;
+    color: #fff;
+    display: inline-block;
+    padding-left: 5px;
+    cursor: pointer;
+    position: absolute;
+    right: 6px;
+    top: 50%;
+    transform: translateY(-50%);
+    transition: 0.2s;
+}
+
+.dates-header-11 .thf-dates-menu-area .menu-items .thf-menu-part-item>li:hover::before {
+    color: #d9aa2f;
+}
+
+.dates-header-11 .thf-dates-menu-area .menu-items .thf-menu-part-item>li>a::before {
+    content: "";
+    position: absolute;
+    top: 10px;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background: #d9aa2f;
+    transition: 0.2s;
+    z-index: -1;
+    opacity: 0;
+}
+
+.dates-header-11 .thf-dates-menu-area .menu-items .thf-menu-part-item>li>a:hover::before {
+    opacity: 1;
+    top: 0;
+}
+
+.dates-header-11 .thf-dates-menu-area .menu-items .thf-menu-part-item>li>a::after {
+    content: "";
+    position: absolute;
+    bottom: 10px;
+    right: 0;
+    width: 100%;
+    height: 2px;
+    background: #d9aa2f;
+    transition: 0.2s;
+    z-index: -1;
+    opacity: 0;
+}
+
+.dates-header-11 .thf-dates-menu-area .menu-items .thf-menu-part-item>li>a:hover::after {
+    opacity: 1;
+    bottom: 0px;
+}
+
+.dates-header-11 .thf-dates-menu-area .menu-items .thf-menu-part-item li a {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    display: inline-block;
+    padding: 12px 22px;
+    transition: 0.2s;
+}
+
+.dates-header-11 .thf-dates-menu-area .menu-items .thf-menu-part-item li:hover a {
+    color: #d9aa2f;
+}
+
+.dates-header-11 .thf-dates-menu-area .menu-items .thf-menu-part-item li .sub-menu {
+    position: absolute;
+    left: 0;
+    width: 250px;
+    flex-direction: column;
+    gap: 0;
+    background: #122243;
+    box-shadow: 0 0 50px 0 rgb(29 35 58 / 0.08);
+    top: 100%;
+    z-index: 9999;
+}
+
+.dates-header-11 .thf-dates-menu-area .menu-items .thf-menu-part-item li:hover>.sub-menu {
+    opacity: 1;
+    visibility: visible;
+    transform: rotateX(0);
+}
+
+.dates-header-11 .thf-dates-menu-area .menu-items .thf-menu-part-item li .sub-menu {
+    top: 112%;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.2s ease-out;
+    transform: rotateX(-90deg);
+    transform-origin: 0 0;
+}
+
+.dates-header-11 .thf-dates-menu-area .menu-items .thf-menu-part-item li:hover>.sub-menu {
+    opacity: 1;
+    visibility: visible;
+    transform: rotateX(0);
+}
+
+.dates-header-11 .thf-dates-menu-area .menu-items .thf-menu-part-item li .sub-menu li:hover .sub-menu {
+    top: 100%;
+}
+
+.dates-header-11 .thf-dates-menu-area .menu-items .thf-menu-part-item li .sub-menu li a {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 600;
+    display: inline-block;
+    width: 100%;
+    white-space: nowrap;
+    transition: 0.2s;
+    margin: 0;
+    padding: 0;
+}
+
+.dates-header-11 .thf-dates-menu-area .menu-items .thf-menu-part-item li .sub-menu li:hover>a {
+    color: #d9aa2f;
+}
+
+.dates-header-11 .thf-dates-menu-area .menu-items .thf-menu-part-item li .sub-menu li .sub-menu {
+    position: absolute;
+    left: -100%;
+    top: 100%;
+    transition: 0.2s;
+    padding: 0;
+}
+
+.dates-header-11 .thf-dates-menu-area .menu-items .thf-menu-part-item .menu-item-has-children .sub-menu .menu-item-has-children::before {
+    font-family: "Font Awesome 5 free";
+    font-weight: 600;
+    font-size: 14px;
+    color: #fff;
+    display: inline-block;
+    padding-left: 5px;
+    cursor: pointer;
+    position: absolute;
+    right: 14px;
+    top: 50%;
+    transform: translateY(-50%);
+    transition: 0.2s;
+}
+
+.dates-header-11 .thf-dates-menu-area .menu-items .thf-menu-part-item .menu-item-has-children .sub-menu li:hover:before {
+    color: #d9aa2f;
+}
+
+.dates-header-11 .thf-dates-menu-area .menu-items .thf-menu-part-item li .sub-menu li {
+    position: relative;
+    margin: 0;
+    display: block;
+    border-bottom: 1px solid #dddddd8a;
+}
+
+.dates-header-11 .thf-dates-menu-area .menu-items .thf-menu-part-item li .sub-menu li a {
+    padding: 10px 20px 10px 20px;
+}
+
+.dates-header-11 .thf-dates-menu-area .menu-items .thf-menu-part-item li .sub-menu li:nth-last-child(1) {
+    border-bottom: none;
+}
+
+.dates-header-11 .dates-mobile-menu {
+    display: none;
+}
+
+.dates-header-11 .dates-mobile-menu i {
+    font-size: 28px;
+    color: #444;
+}
+
+.dates-header-11 .thf-dates-menu-area {
+    display: flex;
+    justify-content: center;
+}
+
+.dates-header-12 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    position: relative;
+    background-color: #3a0ca3;
+}
+
+.dates-header-12 .dates-header-logo a {
+    display: inline-block;
+    height: 100%;
+}
+
+.dates-header-12 .dates-header-logo a img {
+    display: inline-block;
+    height: 100%;
+}
+
+.dates-header-12 .thf-dates-menu-area .menu-items .thf-menu-part-item li {
+    position: relative;
+    display: inline-block;
+    transition: 0.2s;
+    margin: 0;
+    z-index: 9;
+}
+
+.dates-header-12 .thf-dates-menu-area .menu-items .thf-menu-part-item li a {
+    padding: 12px 20px;
+}
+
+.dates-header-12 .thf-dates-menu-area .menu-items .menu-item-has-children::before {
+    font-family: "Font Awesome 5 free";
+    font-weight: 600;
+    font-size: 13px;
+    color: #fff;
+    display: inline-block;
+    padding-left: 5px;
+    cursor: pointer;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    transition: 0.2s;
+}
+
+.dates-header-12 .thf-dates-menu-area .menu-items .thf-menu-part-item li .sub-menu li:hover {
+    background: #0095d5;
+}
+
+.dates-header-12 .thf-dates-menu-area .menu-items .thf-menu-part-item li:hover a {
+    color: #0095d5;
+}
+
+.dates-header-12 .thf-dates-menu-area .menu-items .thf-menu-part-item li a {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    display: inline-block;
+    transition: 0.2s;
+}
+
+.dates-header-12 .thf-dates-menu-area .menu-items .thf-menu-part-item li .sub-menu {
+    position: absolute;
+    left: 0;
+    width: 250px;
+    flex-direction: column;
+    gap: 0;
+    background: #fff;
+    box-shadow: 0 0 50px 0 rgba(0, 0, 0, 0.1);
+    top: 140%;
+    opacity: 0;
+    visibility: hidden;
+    z-index: 9999;
+    transition: all 0.1s ease-out;
+    transform-origin: 0 0;
+}
+
+.dates-header-12 .thf-dates-menu-area .menu-items .thf-menu-part-item li .sub-menu li a {
+    color: #444;
+    font-size: 14px;
+    font-weight: 600;
+    display: inline-block;
+    width: 100%;
+    white-space: nowrap;
+    transition: 0.2s;
+    margin: 0;
+}
+
+.dates-header-12 .thf-dates-menu-area .menu-items .thf-menu-part-item li .sub-menu li .sub-menu {
+    position: absolute;
+    left: 100%;
+    top: 140%;
+    transition: 0.2s;
+    padding: 0;
+}
+
+.dates-header-12 .thf-dates-menu-area .menu-items .thf-menu-part-item .menu-item-has-children .sub-menu .menu-item-has-children::before {
+    content: "\f067" !important;
+    font-family: "Font Awesome 5 free";
+    font-weight: 600;
+    font-size: 14px;
+    color: #444;
+    display: inline-block;
+    padding-left: 5px;
+    cursor: pointer;
+    position: absolute;
+    right: 14px;
+    top: 50%;
+    transform: translateY(-50%);
+    transition: 0.2s;
+}
+
+.dates-header-12 .thf-dates-menu-area .menu-items .thf-menu-part-item .menu-item-has-children .sub-menu .menu-item-has-children:hover::before {
+    content: "\f068" !important;
+}
+
+.dates-header-12 .thf-dates-menu-area .menu-items .thf-menu-part-item>li::after {
+    content: "";
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background: #94f2ff70;
+    transition: 0.2s;
+    z-index: -1;
+    transform: scale(0);
+}
+
+.dates-header-12 .thf-dates-menu-area .menu-items .thf-menu-part-item>li:hover::after {
+    transform: scale(1);
+}
+
+.dates-header-12 .thf-dates-menu-area .menu-items .thf-menu-part-item li:hover>.sub-menu {
+    opacity: 1;
+    visibility: visible;
+    top: 100%;
+}
+
+.dates-header-12 .thf-dates-menu-area .menu-items .thf-menu-part-item li .sub-menu li:hover>a {
+    color: #fff;
+}
+
+.dates-header-12 .thf-dates-menu-area .menu-items .thf-menu-part-item li .sub-menu li:hover .sub-menu {
+    top: 100%;
+}
+
+.dates-header-12 .dates-header-button .dates-button-item a:hover {
+    box-shadow: inset 0 -60px 0 #0095d5, 2px 2px 3px rgba(0, 0, 0, 0.3);
+    color: #fff;
+}
+
+.dates-header-12 .thf-dates-menu-area .menu-items .thf-menu-part-item li .sub-menu li {
+    position: relative;
+    margin: 0;
+    display: block;
+    transition: 0.2s;
+}
+
+.dates-header-12 .thf-dates-menu-area .menu-items .thf-menu-part-item li .sub-menu li a {
+    padding: 10px 20px 10px 20px;
+}
+
+.dates-header-12 .dates-header-button .dates-button-item a {
+    padding: 17px 30px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 16px;
+    letter-spacing: 1px;
+    position: relative;
+    overflow: hidden;
+    border: 2px solid #0095d5;
+    color: #0095d5;
+    border-radius: 10px;
+    box-shadow: inset 0 -5px 0 #0095d5;
+    transition: 0.4s ease-in-out;
+}
+
+.dates-header-12 .dates-mobile-menu {
+    display: none;
+}
+
+.dates-header-12 .dates-mobile-menu i {
+    font-size: 28px;
+    color: #444;
+}
+
+.dates-header-12 .thf-dates-menu-area {
+    display: flex;
+    justify-content: center;
+}
+
+.dates-header-13 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    position: relative;
+    background-color: #e85d04;
+}
+
+.dates-header-13 .dates-header-logo a {
+    display: inline-block;
+    height: 100%;
+}
+
+.dates-header-13 .dates-header-logo a img {
+    display: inline-block;
+    height: 100%;
+}
+
+.dates-header-13 .thf-dates-menu-area .menu-items .thf-menu-part-item li {
+    position: relative;
+    display: inline-block;
+    margin: 0;
+    transition: 0.2s;
+}
+
+.dates-header-13 .thf-dates-menu-area .menu-items .thf-menu-part-item li a {
+    padding: 10px 20px;
+}
+
+.dates-header-13 .thf-dates-menu-area .menu-items .thf-menu-part-item>.menu-item-has-children::before {
+    font-family: "Font Awesome 5 free";
+    font-weight: 600;
+    font-size: 13px;
+    color: #fff;
+    display: inline-block;
+    padding-left: 5px;
+    cursor: pointer;
+    position: absolute;
+    right: 0px;
+    top: 50%;
+    transform: translateY(-50%);
+    transition: 0.2s;
+}
+
+.dates-header-13 .thf-dates-menu-area .menu-items .thf-menu-part-item>li::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    width: 0%;
+    left: 0;
+    height: 100%;
+    background: #202E4A;
+    transition: 0.2s;
+    z-index: -1;
+}
+
+.dates-header-13 .thf-dates-menu-area .menu-items .thf-menu-part-item li a {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    display: inline-block;
+    transition: 0.2s;
+}
+
+.dates-header-13 .thf-dates-menu-area .menu-items .thf-menu-part-item li:hover a {
+    color: #d72324;
+}
+
+.dates-header-13 .thf-dates-menu-area .menu-items .thf-menu-part-item li .sub-menu {
+    position: absolute;
+    left: 0;
+    background: #fff;
+    flex-direction: column;
+    gap: 0;
+    width: 250px;
+    box-shadow: 0 0 50px 0 rgba(0, 0, 0, 0.1);
+    top: 140%;
+    opacity: 0;
+    visibility: hidden;
+    z-index: 9999;
+    transition: all 0.1s ease-out;
+    transform-origin: 0 0;
+}
+
+.dates-header-13 .thf-dates-menu-area .menu-items .thf-menu-part-item li:hover>.sub-menu {
+    opacity: 1;
+    visibility: visible;
+    top: 100%;
+}
+
+.dates-header-13 .thf-dates-menu-area .menu-items .thf-menu-part-item>li:hover::after {
+    width: 100%;
+}
+
+.dates-header-13 .thf-dates-menu-area .menu-items .thf-menu-part-item>li:hover::after {
+    transition: transform 0.5s;
+    transform-origin: left;
+}
+
+.dates-header-13 .thf-dates-menu-area .menu-items .thf-menu-part-item>li:hover::before {
+    color: #d72324;
+    transform: translateY(-58%);
+    top: 58%;
+    right: 4px;
+}
+
+.dates-header-13 .thf-dates-menu-area .menu-items .thf-menu-part-item:hover>li {
+    opacity: 0.2;
+    filter: blur(5px);
+}
+
+.dates-header-13 .thf-dates-menu-area .menu-items .thf-menu-part-item li:hover {
+    opacity: 1;
+    filter: blur(0);
+}
+
+.dates-header-13 .thf-dates-menu-area .menu-items .thf-menu-part-item>li:hover>a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.dates-header-13 .thf-dates-menu-area .menu-items .thf-menu-part-item li .sub-menu li:hover .sub-menu {
+    top: 100%;
+}
+
+.dates-header-13 .thf-dates-menu-area .menu-items .thf-menu-part-item li .sub-menu li:hover:after {
+    height: 15px;
+}
+
+.dates-header-13 .thf-dates-menu-area .menu-items .thf-menu-part-item li .sub-menu li a {
+    color: #444;
+    font-size: 14px;
+    font-weight: 600;
+    display: inline-block;
+    width: 100%;
+    white-space: nowrap;
+    transition: 0.2s;
+    margin: 0;
+    padding: 0;
+}
+
+.dates-header-13 .thf-dates-menu-area .menu-items .thf-menu-part-item li .sub-menu li:hover>a {
+    color: #d72324;
+}
+
+.dates-header-13 .thf-dates-menu-area .menu-items .thf-menu-part-item li .sub-menu li .sub-menu {
+    position: absolute;
+    left: 100%;
+    top: 150%;
+    transition: 0.5s ease-in-out;
+    padding: 0;
+}
+
+.dates-header-13 .thf-dates-menu-area .menu-items .thf-menu-part-item .menu-item-has-children .sub-menu .menu-item-has-children::before {
+    font-family: "Font Awesome 5 free";
+    font-weight: 600;
+    font-size: 14px;
+    color: #444;
+    display: inline-block;
+    padding-left: 5px;
+    cursor: pointer;
+    position: absolute;
+    right: 14px;
+    top: 50%;
+    transform: translateY(-50%);
+    transition: 0.2s;
+}
+
+.dates-header-13 .thf-dates-menu-area .menu-items .thf-menu-part-item .menu-item-has-children .sub-menu li:hover:before {
+    color: #d72324;
+}
+
+.dates-header-13 .thf-dates-menu-area .menu-items .thf-menu-part-item li .sub-menu li {
+    position: relative;
+    margin: 0;
+    display: block;
+    transition: 0.2s;
+}
+
+.dates-header-13 .thf-dates-menu-area .menu-items .thf-menu-part-item li .sub-menu li a {
+    padding: 10px 20px 10px 20px;
+}
+
+.dates-header-13 .thf-dates-menu-area .menu-items .thf-menu-part-item li .sub-menu li:after {
+    position: absolute;
+    content: "";
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    height: 0;
+    width: 2px;
+    background: #d72324;
+    transition: 0.2s;
+}
+
+.dates-header-13 .dates-header-button .dates-button-item a {
+    padding: 17px 30px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 16px;
+    letter-spacing: 1px;
+    position: relative;
+    overflow: hidden;
+    border: 2px solid #d72324;
+    color: #d72324;
+    border-radius: 10px;
+    box-shadow: inset 0 -3px 0 #d72324;
+    transition: 0.4s ease-in-out;
+}
+
+.dates-header-13 .dates-header-button .dates-button-item a:hover {
+    box-shadow: inset 0 -70px 0 #d72324, 2px 2px 3px rgba(0, 0, 0, 0.3);
+    color: #fff;
+}
+
+.dates-header-13 .dates-mobile-menu {
+    display: none;
+}
+
+.dates-header-13 .dates-mobile-menu i {
+    font-size: 28px;
+    color: #444;
+}
+
+.dates-header-13 .thf-dates-menu-area {
+    display: flex;
+    justify-content: center;
+    z-index: 999;
+}
+
+.dates-header-14 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    position: relative;
+    background-color: #240046;
+}
+
+.dates-header-14 .dates-header-logo a {
+    display: inline-block;
+    height: 100%;
+}
+
+.dates-header-14 .dates-header-logo a img {
+    display: inline-block;
+    height: 100%;
+}
+
+.dates-header-14 .thf-dates-menu-area .menu-items .thf-menu-part-item li {
+    position: relative;
+    display: inline-block;
+    transition: 0.2s;
+    margin: 0;
+    z-index: 9;
+}
+
+.dates-header-14 .thf-dates-menu-area .menu-items .thf-menu-part-item .menu-item-has-children::before {
+    font-family: "Font Awesome 5 free";
+    font-weight: 600;
+    font-size: 13px;
+    color: #fff;
+    display: inline-block;
+    padding-left: 5px;
+    cursor: pointer;
+    position: absolute;
+    right: 6px;
+    top: 50%;
+    transform: translateY(-50%);
+    transition: 0.2s;
+}
+
+.dates-header-14 .thf-dates-menu-area .menu-items .thf-menu-part-item>li:hover::before {
+    color: #fff;
+}
+
+.dates-header-14 .thf-dates-menu-area .menu-items .thf-menu-part-item>li:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%) scale(0);
+    width: 100%;
+    height: 100%;
+    transition: 0.2s;
+    background: #3b3256;
+    z-index: -1;
+}
+
+.dates-header-14 .thf-dates-menu-area .menu-items .thf-menu-part-item>li:hover:after {
+    transform: translateX(-50%) scale(1);
+}
+
+.dates-header-14 .thf-dates-menu-area .menu-items .thf-menu-part-item>li>a:hover::before {
+    opacity: 1;
+    top: -5px;
+}
+
+.dates-header-14 .thf-dates-menu-area .menu-items .thf-menu-part-item>li>a:hover::after {
+    opacity: 1;
+    bottom: -5px;
+}
+
+.dates-header-14 .thf-dates-menu-area .menu-items .thf-menu-part-item>li>a::before {
+    content: "";
+    position: absolute;
+    top: -30px;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background: #3b3256;
+    transition: 0.2s;
+    z-index: -1;
+    opacity: 0;
+}
+
+.dates-header-14 .thf-dates-menu-area .menu-items .thf-menu-part-item>li>a::after {
+    content: "";
+    position: absolute;
+    bottom: -40px;
+    right: 0;
+    width: 100%;
+    height: 2px;
+    background: #3b3256;
+    transition: 0.2s;
+    z-index: -1;
+    opacity: 0;
+}
+
+.dates-header-14 .thf-dates-menu-area .menu-items .thf-menu-part-item li a {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    display: inline-block;
+    padding: 10px 22px;
+    transition: 0.2s;
+    position: relative;
+}
+
+.dates-header-14 .thf-dates-menu-area .menu-items .thf-menu-part-item li:hover a {
+    color: #fff;
+}
+
+.dates-header-14 .thf-dates-menu-area .menu-items .thf-menu-part-item li .sub-menu {
+    position: absolute;
+    left: 0;
+    background: #fff;
+    flex-direction: column;
+    gap: 0;
+    width: 250px;
+    box-shadow: 0 0 50px 0 rgba(0, 0, 0, 0.1);
+    top: 140%;
+    opacity: 0;
+    border-bottom: 3px solid #3b3256;
+    visibility: hidden;
+    z-index: 9999;
+    transition: all 0.1s ease-out;
+    transform-origin: 0 0;
+}
+
+.dates-header-14 .thf-dates-menu-area .menu-items .thf-menu-part-item li .sub-menu li a {
+    color: #444;
+    font-size: 14px;
+    font-weight: 600;
+    display: inline-block;
+    width: 100%;
+    white-space: nowrap;
+    transition: 0.2s;
+    margin: 0;
+    padding: 0;
+}
+
+.dates-header-14 .thf-dates-menu-area .menu-items .thf-menu-part-item li .sub-menu li:hover>a {
+    color: #3b3256;
+}
+
+.dates-header-14 .thf-dates-menu-area .menu-items .thf-menu-part-item li .sub-menu li .sub-menu {
+    position: absolute;
+    left: 100%;
+    top: 150%;
+    transition: 0.5s ease-in-out;
+    padding: 0;
+}
+
+.dates-header-14 .thf-dates-menu-area .menu-items .thf-menu-part-item li .sub-menu li:hover .sub-menu {
+    top: 100%;
+}
+
+.dates-header-14 .thf-dates-menu-area .menu-items .thf-menu-part-item li:hover>.sub-menu {
+    opacity: 1;
+    visibility: visible;
+    top: 115%;
+}
+
+.dates-header-14 .thf-dates-menu-area .menu-items .thf-menu-part-item .menu-item-has-children .sub-menu .menu-item-has-children::before {
+    font-family: "Font Awesome 5 free";
+    font-weight: 600;
+    font-size: 14px;
+    color: #444;
+    display: inline-block;
+    padding-left: 5px;
+    cursor: pointer;
+    position: absolute;
+    right: 14px;
+    top: 50%;
+    transform: translateY(-50%);
+    transition: 0.2s;
+}
+
+.dates-header-14 .thf-dates-menu-area .menu-items .thf-menu-part-item .menu-item-has-children .sub-menu li:hover:before {
+    color: #3b3256;
+}
+
+.dates-header-14 .thf-dates-menu-area .menu-items .thf-menu-part-item li .sub-menu li {
+    position: relative;
+    margin: 0;
+    display: block;
+    transition: 0.2s;
+}
+
+.dates-header-14 .thf-dates-menu-area .menu-items .thf-menu-part-item li .sub-menu li a {
+    padding: 10px 20px 10px 20px;
+}
+
+.dates-header-14 .dates-mobile-menu {
+    display: none;
+}
+
+.dates-header-14 .dates-mobile-menu i {
+    font-size: 28px;
+    color: #444;
+}
+
+.dates-header-14 .thf-dates-menu-area {
+    display: flex;
+    justify-content: center;
+}
+
+.dates-header-15 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    position: relative;
+    background-color: #926c15;
+}
+
+.dates-header-15 .dates-header-logo a {
+    display: inline-block;
+    height: 100%;
+}
+
+.dates-header-15 .dates-header-logo a img {
+    display: inline-block;
+    height: 100%;
+}
+
+.dates-header-15 .thf-dates-menu-area .menu-items .thf-menu-part-item li {
+    position: relative;
+    display: inline-block;
+    transition: 0.2s;
+    margin: 0;
+    z-index: 9;
+}
+
+.dates-header-15 .thf-dates-menu-area .menu-items .menu-item-has-children::before {
+    font-family: "Font Awesome 5 free";
+    font-weight: 600;
+    font-size: 13px;
+    color: #fff;
+    display: inline-block;
+    padding-left: 5px;
+    cursor: pointer;
+    position: absolute;
+    right: 6px;
+    top: 50%;
+    transform: translateY(-50%);
+    transition: 0.2s;
+}
+
+.dates-header-15 .thf-dates-menu-area .menu-items .menu-item-has-children .sub-menu .menu-item-has-children::before {
+    color: #000;
+}
+
+.dates-header-15 .thf-dates-menu-area .menu-items .thf-menu-part-item>li:hover::before {
+    color: #fff;
+}
+
+.dates-header-15 .thf-dates-menu-area .menu-items .thf-menu-part-item>li:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transition: 0.2s;
+    background: #fbba42;
+    z-index: -1;
+    transform: scale(0);
+}
+
+.dates-header-15 .thf-dates-menu-area .menu-items .thf-menu-part-item>li:hover:after {
+    transform: scale(1);
+}
+
+.dates-header-15 .thf-dates-menu-area .menu-items .thf-menu-part-item>li>a::before {
+    content: "";
+    position: absolute;
+    top: 12px;
+    left: 12px;
+    width: 10px;
+    height: 10px;
+    border: 3px solid #fbba42;
+    transition: 0.2s;
+    border-width: 3px 0px 0px 3px;
+    opacity: 0;
+}
+
+.dates-header-15 .thf-dates-menu-area .menu-items .thf-menu-part-item>li>a:hover::before {
+    top: -8px;
+    left: -8px;
+    opacity: 1;
+}
+
+.dates-header-15 .thf-dates-menu-area .menu-items .thf-menu-part-item>li>a::after {
+    content: "";
+    position: absolute;
+    right: 12px;
+    bottom: 12px;
+    width: 10px;
+    height: 10px;
+    border: 3px solid #fbba42;
+    transition: 0.2s;
+    border-width: 0px 3px 3px 0px;
+    opacity: 0;
+}
+
+.dates-header-15 .thf-dates-menu-area .menu-items .thf-menu-part-item>li>a:hover::after {
+    right: -8px;
+    bottom: -8px;
+    opacity: 1;
+}
+
+.dates-header-15 .thf-dates-menu-area .menu-items .thf-menu-part-item li a {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    display: inline-block;
+    padding: 10px 22px;
+    transition: 0.2s;
+    position: relative;
+}
+
+.dates-header-15 .thf-dates-menu-area .menu-items .thf-menu-part-item li:hover a {
+    color: #fff;
+}
+
+.dates-header-15 .thf-dates-menu-area .menu-items .thf-menu-part-item li .sub-menu {
+    position: absolute;
+    left: 0;
+    background: #fff;
+    flex-direction: column;
+    gap: 0;
+    width: 250px;
+    box-shadow: 0 0 50px 0 rgba(0, 0, 0, 0.1);
+    top: 140%;
+    opacity: 0;
+    visibility: hidden;
+    z-index: 9999;
+    transition: all 0.1s ease-out;
+    transform-origin: 0 0;
+}
+
+.dates-header-15 .thf-dates-menu-area .menu-items .thf-menu-part-item li .sub-menu li a {
+    color: #444;
+    font-size: 14px;
+    font-weight: 600;
+    display: inline-block;
+    width: 100%;
+    white-space: nowrap;
+    transition: 0.2s;
+    margin: 0;
+    padding: 0;
+}
+
+.dates-header-15 .thf-dates-menu-area .menu-items .thf-menu-part-item li .sub-menu li:hover>a {
+    color: #ffb703;
+}
+
+.dates-header-15 .thf-dates-menu-area .menu-items .thf-menu-part-item li:hover>.sub-menu {
+    opacity: 1;
+    visibility: visible;
+    top: 100%;
+}
+
+.dates-header-15 .thf-dates-menu-area .menu-items .thf-menu-part-item li .sub-menu li .sub-menu {
+    position: absolute;
+    left: 100%;
+    top: 150%;
+    transition: 0.5s ease-in-out;
+    padding: 0;
+}
+
+.dates-header-15 .thf-dates-menu-area .menu-items .thf-menu-part-item li .sub-menu li:hover .sub-menu {
+    top: 100%;
+}
+
+.dates-header-15 .thf-dates-menu-area .menu-items .thf-menu-part-item .menu-item-has-children .sub-menu li:hover:before {
+    color: #ffb703;
+}
+
+.dates-header-15 .thf-dates-menu-area .menu-items .thf-menu-part-item li .sub-menu li {
+    position: relative;
+    margin: 0;
+    display: block;
+    transition: 0.2s;
+}
+
+.dates-header-15 .thf-dates-menu-area .menu-items .thf-menu-part-item li .sub-menu li a {
+    padding: 10px 20px;
+}
+
+.dates-header-15 .dates-right-content {
+    display: flex;
+    align-items: center;
+    order: 4;
+}
+
+.dates-header-15 .dates-right-content .dates-social-icon a {
+    display: inline-block;
+    font-size: 24px;
+    color: #444;
+    padding: 0 35px 0 0;
+    transition: 0.4s;
+}
+
+.dates-header-15 .dates-right-content .dates-social-icon a:hover {
+    color: #ffb703;
+}
+
+.dates-header-15 .dates-right-content .dates-header-button .dates-button-item a {
+    padding: 17px 28px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 16px;
+    letter-spacing: 1px;
+    position: relative;
+    overflow: hidden;
+    border: 2px solid #ffb703;
+    color: #ffb703;
+    box-shadow: inset 0 -3px 0 #ffb703;
+    transition: 0.4s ease-in-out;
+}
+
+.dates-header-15 .dates-right-content .dates-header-button .dates-button-item a:hover {
+    box-shadow: inset 0 -70px 0 #ffb703, 2px 2px 3px rgba(0, 0, 0, 0.3);
+    color: #fff;
+}
+
+.dates-header-15 .dates-mobile-menu {
+    display: none;
+}
+
+.dates-header-15 .dates-mobile-menu i {
+    font-size: 28px;
+    color: #444;
+}
+
+.dates-header-15 .thf-dates-menu-area {
+    display: flex;
+    justify-content: center;
+}
+
+.dates-header-16 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    position: relative;
+    background-color: #3a3d0d;
+}
+
+.dates-header-16 .dates-header-logo a {
+    display: inline-block;
+    height: 100%;
+}
+
+.dates-header-16 .dates-header-logo a img {
+    display: inline-block;
+    height: 100%;
+}
+
+.dates-header-16 .thf-dates-menu-area .menu-items .thf-menu-part-item li {
+    position: relative;
+    display: inline-block;
+    transition: 0.2s;
+    margin: 0;
+    z-index: 9;
+}
+
+.dates-header-16 .thf-dates-menu-area .menu-items .menu-item-has-children::before {
+    font-family: "Font Awesome 5 free";
+    font-weight: 600;
+    font-size: 13px;
+    color: #fff;
+    display: inline-block;
+    padding-left: 5px;
+    cursor: pointer;
+    position: absolute;
+    right: 6px;
+    top: 50%;
+    transform: translateY(-50%);
+    transition: 0.2s;
+}
+
+.dates-header-16 .thf-dates-menu-area .menu-items .menu-item-has-children .sub-menu .menu-item-has-children::before {
+    color: #000;
+}
+
+.dates-header-16 .thf-dates-menu-area .menu-items .thf-menu-part-item>.menu-item-has-children:hover::before {
+    color: #fff;
+}
+
+.dates-header-16 .thf-dates-menu-area .menu-items .thf-menu-part-item>li:hover::before {
+    color: #4caf50;
+}
+
+.dates-header-16 .thf-dates-menu-area .menu-items .thf-menu-part-item>li:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 0;
+    height: 100%;
+    transition: 0.2s;
+    background: #4caf50;
+    z-index: -1;
+}
+
+.dates-header-16 .thf-dates-menu-area .menu-items .thf-menu-part-item>li:hover:after {
+    width: 100%;
+}
+
+.dates-header-16 .thf-dates-menu-area .menu-items .thf-menu-part-item>li>a::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background: #4caf5094;
+    transition: 0.2s;
+    z-index: -1;
+}
+
+.dates-header-16 .thf-dates-menu-area .menu-items .thf-menu-part-item>li>a:hover::before {
+    width: 50%;
+}
+
+.dates-header-16 .thf-dates-menu-area .menu-items .thf-menu-part-item>li>a::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 0;
+    height: 100%;
+    background: #4caf5094;
+    transition: 0.2s;
+    z-index: -1;
+}
+
+.dates-header-16 .thf-dates-menu-area .menu-items .thf-menu-part-item>li>a:hover::after {
+    width: 50%;
+}
+
+.dates-header-16 .thf-dates-menu-area .menu-items .thf-menu-part-item li a {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    display: inline-block;
+    padding: 12px 22px;
+    transition: 0.2s;
+    position: relative;
+}
+
+.dates-header-16 .thf-dates-menu-area .menu-items .thf-menu-part-item li:hover a {
+    color: #fff;
+}
+
+.dates-header-16 .thf-dates-menu-area .menu-items .thf-menu-part-item li .sub-menu {
+    position: absolute;
+    left: 0;
+    width: 250px;
+    background: #fff;
+    flex-direction: column;
+    gap: 0;
+    box-shadow: 0 0 50px 0 rgba(0, 0, 0, 0.1);
+    top: 140%;
+    opacity: 0;
+    visibility: hidden;
+    z-index: 9999;
+    transition: all 0.1s ease-out;
+    transform-origin: 0 0;
+}
+
+.dates-header-16 .thf-dates-menu-area .menu-items .thf-menu-part-item li .sub-menu li a {
+    color: #444;
+    font-size: 14px;
+    font-weight: 600;
+    display: inline-block;
+    width: 100%;
+    white-space: nowrap;
+    transition: 0.2s;
+    margin: 0;
+    padding: 0;
+}
+
+.dates-header-16 .thf-dates-menu-area .menu-items .thf-menu-part-item li .sub-menu li:hover>a {
+    color: #4caf50;
+}
+
+.dates-header-16 .thf-dates-menu-area .menu-items .thf-menu-part-item li .sub-menu li .sub-menu {
+    position: absolute;
+    left: 100%;
+    top: 150%;
+    transition: 0.5s ease-in-out;
+    padding: 0;
+}
+
+.dates-header-16 .thf-dates-menu-area .menu-items .thf-menu-part-item li .sub-menu li:hover .sub-menu {
+    top: 100%;
+}
+
+.dates-header-16 .thf-dates-menu-area .menu-items .thf-menu-part-item li:hover>.sub-menu {
+    opacity: 1;
+    visibility: visible;
+    top: 100%;
+}
+
+.dates-header-16 .thf-dates-menu-area .menu-items .thf-menu-part-item .menu-item-has-children .sub-menu li:hover:before {
+    color: #4caf50;
+}
+
+.dates-header-16 .thf-dates-menu-area .menu-items .thf-menu-part-item li .sub-menu li {
+    position: relative;
+    margin: 0;
+    display: block;
+    transition: 0.2s;
+}
+
+.dates-header-16 .thf-dates-menu-area .menu-items .thf-menu-part-item li .sub-menu li a {
+    padding: 10px 20px 10px 20px;
+}
+
+.dates-header-16 .dates-right-content {
+    display: flex;
+    align-items: center;
+    order: 4;
+}
+
+.dates-header-16 .dates-right-content .dates-social-icon a {
+    display: inline-block;
+    font-size: 24px;
+    color: #444;
+    padding: 0 0 0 35px;
+    transition: 0.4s;
+}
+
+.dates-header-16 .dates-right-content .dates-social-icon a:hover {
+    color: #4caf50;
+}
+
+.dates-header-16 .dates-header-button-left .dates-button-item .dates-button-style {
+    background: #4caf50;
+    border-radius: 3px;
+    color: #fff;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 1.5px;
+    line-height: 1;
+    padding: 24px 28px;
+    text-align: center;
+    text-transform: capitalize;
+    transition: all 0.3s ease 0s;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+}
+
+.dates-header-16 .dates-header-button-left .dates-button-item .dates-button-style:before {
+    content: "";
+    position: absolute;
+    transition-duration: 800ms;
+    width: 200%;
+    height: 200%;
+    top: 110%;
+    left: 50%;
+    background: #0a303a;
+    transform: translateX(-50%);
+    border-radius: 50%;
+    z-index: -1;
+}
+
+.dates-header-16 .dates-header-button-left .dates-button-item .dates-button-style:hover:before {
+    top: -40%;
+}
+
+.dates-header-16 .dates-header-button-left .dates-button-item .dates-button-style:hover {
+    color: #fff;
+}
+
+.dates-header-16 .dates-mobile-menu {
+    display: none;
+}
+
+.dates-header-16 .dates-mobile-menu i {
+    font-size: 28px;
+    color: #444;
+}
+
+.dates-header-16 .thf-dates-menu-area {
+    display: flex;
+    justify-content: center;
+}
+
+.dates-header-16 .dates-header-button-left {
+    margin-left: 40px;
+    padding: 20px 0 30px;
+}
+
+.dates-header-button input.search-submit {
+    border: none;
+    background: #2cfff3;
+    padding: 10px 22px;
+    border-radius: 5px;
+    font-size: 13px;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+
+.dates-header-button input.search-field {
+    border: none;
+    background: #ffffff;
+    color: black;
+    padding: 10px 5px;
+    border-radius: 5px;
+    width: 100px;
+}
+
+.dates-header-button a {
+    display: inline-block;
+    color: white;
+    background: #7c7c7c;
+    padding: 12px 10px;
+    position: relative;
+    border-radius: 6px;
+}
+
+.dates-header-button a:hover {
+    color: white;
+}
+
+.dates-header-button-left a {
+    color: white;
+    background: #7c7c7c;
+    padding: 12px 10px;
+    border-radius: 6px;
+    border: 1px solid black;
+}
+
+.dates-header-logo p {
+    display: -webkit-box;
+}
+
+.thf-style-solid a {
+    border-style: solid !important;
+}
+
+.thf-style-dashed a {
+    border-style: dashed !important;
+}
+
+.thf-style-dotted a {
+    border-style: dotted !important;
+}
+
+.thf-style-double a {
+    border-style: double !important;
+}
+
+.thf-style-solid .search-submit {
+    border-style: solid !important;
+}
+
+.thf-style-dashed .search-submit {
+    border-style: dashed !important;
+}
+
+.thf-style-dotted .search-submit {
+    border-style: dotted !important;
+}
+
+.thf-style-double .search-submit {
+    border-style: double !important;
+}
+
+.thf-header-login-author img {
+    border-radius: 50% !important;
+    height: 30px;
+    width: 30px;
+}
+
+.thf-header-login-author a {
+    color: black;
+    font-size: 16px;
+    font-family: sans-serif;
+}
+
+.thf-header-login-author:hover a {
+    color: black;
+    font-size: 16px;
+    font-family: sans-serif;
+}
+
+.bwdhf_site_title,
+.bwdhf_custom_site_title {
+    position: relative;
+    font-size: 35px;
+    color: #fff;
+    line-height: 1;
+    text-shadow: 0 0 1px black;
+    z-index: 0;
+}
+
+.thf_bg_trans {
+    background: transparent !important;
+}
+
+.offcanvas-header-common {
+    display: none;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 99999;
+}
+
+.offcanvas-header-common .dates-menu-area {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: flex-start;
+    top: 0;
+    left: 0;
+    height: 100%;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    transition: .5s;
+}
+
+.offcanvas-header-common .dates-header-logo img {
+    display: inline-block;
+    height: 100%;
+}
+
+.offcanvas-header-common .dates-menu-area .menu-item-has-children ul.sub-menu {
+    max-height: 0;
+    visibility: hidden;
+    overflow: hidden;
+    transition: .5s;
+}
+
+.offcanvas-header-common .dates-menu-area .menu-item-has-children ul.sub-menu.active-submenu {
+    max-height: 1000px;
+    visibility: visible;
+}
+
+.dates-header-logo a {
+    display: inline-flex !important;
+    align-items: center;
+}
+
+.off-canvas-dates-header-1 {
+    padding: 10px 40px;
+}
+
+.off-canvas-dates-header-1 .style1 .thf-title {
+    border-color: #fff;
+    color: #fff;
+}
+
+.off-canvas-dates-header-1 .dates-menu-area {
+    position: fixed;
+    padding: 60px;
+    width: 100vw;
+    bottom: 0;
+    background: #002626;
+    overflow-y: scroll;
+    transform: translateX(-105%);
+    transition: .5s;
+}
+
+.off-canvas-dates-header-1 .dates-menu-area.dates-menu-active {
+    transform: translate(0);
+}
+
+@media (max-width: 767px) {
+    .off-canvas-dates-header-1 .dates-menu-area {
+        padding: 30px;
+    }
+}
+
+.off-canvas-dates-header-1 .dates-menu-area li {
+    border-bottom: 0.5px solid #051e1e;
+}
+
+.off-canvas-dates-header-1 .dates-menu-area li:nth-last-child(1) {
+    border: 0;
+}
+
+.off-canvas-dates-header-1 .dates-menu-area a {
+    position: relative;
+    width: 100%;
+    padding: 15px 0;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: capitalize;
+    line-height: 1;
+    color: #ddd;
+    transition: .2s;
+}
+
+.off-canvas-dates-header-1 .dates-menu-area a:hover {
+    color: #fff;
+}
+
+.off-canvas-dates-header-1 .dates-menu-area .menu-item-has-children>a.deactivate-plus-icon::after {
+    transform: translate(-6px, -50%) rotate(90deg);
+}
+
+.off-canvas-dates-header-1 .dates-menu-area nav {
+    width: 100%;
+}
+
+.off-canvas-dates-header-1 .dates-menu-area .menu-part-item>li {
+    position: relative;
+    overflow: hidden;
+}
+
+.off-canvas-dates-header-1 .dates-menu-area .menu-part-item>li>a {
+    transform: translateY(250%);
+    visibility: hidden;
+    transition: .6s;
+    transition-delay: .4s;
+}
+
+.off-canvas-dates-header-1 .dates-menu-area.dates-menu-active .menu-part-item>li>a {
+    transform: translate(0);
+    visibility: visible;
+}
+
+.off-canvas-dates-header-1 .dates-menu-area .menu-part-item>li::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    height: 4px;
+    width: 0;
+    right: 0;
+    background: #fff;
+}
+
+.off-canvas-dates-header-1 .dates-menu-area.dates-menu-active .menu-part-item>li::before {
+    animation: nav-line .7s ease-in-out .1s 1;
+}
+
+.off-canvas-dates-header-1 .dates-menu-area.dates-menu-active .menu-part-item>li:nth-child(2):before {
+    animation: nav-line .7s ease-in-out .2s 1;
+}
+
+.off-canvas-dates-header-1 .dates-menu-area.dates-menu-active .menu-part-item>li:nth-child(3):before {
+    animation: nav-line .7s ease-in-out .3s 1;
+}
+
+.off-canvas-dates-header-1 .dates-menu-area.dates-menu-active .menu-part-item>li:nth-child(4):before {
+    animation: nav-line .7s ease-in-out .4s 1;
+}
+
+.off-canvas-dates-header-1 .dates-menu-area.dates-menu-active .menu-part-item>li:nth-child(5):before {
+    animation: nav-line .7s ease-in-out .5s 1;
+}
+
+.off-canvas-dates-header-1 .dates-menu-area.dates-menu-active .menu-part-item>li:nth-child(6):before {
+    animation: nav-line .7s ease-in-out .6s 1;
+}
+
+.off-canvas-dates-header-1 .dates-menu-area.dates-menu-active .menu-part-item>li:nth-child(7):before {
+    animation: nav-line .7s ease-in-out .7s 1;
+}
+
+.off-canvas-dates-header-1 .dates-menu-area.dates-menu-active .menu-part-item>li:nth-child(8):before {
+    animation: nav-line .7s ease-in-out .8s 1;
+}
+
+@keyframes nav-line {
+    0% {
+        width: 0;
+        left: 0;
+    }
+    50% {
+        width: 100%;
+        right: 0;
+    }
+    70% {
+        width: 100%;
+        right: 0;
+    }
+    100% {
+        width: 0;
+        right: 0;
+    }
+}
+
+.off-canvas-dates-header-1 .dates-menu-area .menu-item-has-children ul.sub-menu.active-submenu {
+    padding-inline-start: 25px !important;
+    border-left: 0.5px solid #051e1e;
+}
+
+.off-canvas-dates-header-1 .dates-mobile-menu {
+    font-size: 32px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.off-canvas-dates-header-1 .dates-header-close {
+    position: absolute;
+    top: 7px;
+    right: 20px;
+    background: transparent;
+    height: 30px;
+    width: 30px;
+    cursor: pointer;
+}
+
+.off-canvas-dates-header-1 .dates-header-close::before,
+.off-canvas-dates-header-1 .dates-header-close::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 4px;
+    background: #ddd;
+    transform-origin: top;
+    top: 50%;
+    border-radius: 5px;
+}
+
+.off-canvas-dates-header-1 .dates-header-close:hover::before,
+.off-canvas-dates-header-1 .dates-header-close:hover::after {
+    background: #fff;
+}
+
+.off-canvas-dates-header-1 .dates-header-close::before {
+    transform: rotate(45deg) translateY(-50%);
+}
+
+.off-canvas-dates-header-1 .dates-header-close::after {
+    transform: rotate(-45deg) translateY(-50%);
+}
+
+.off-canvas-dates-header-2 {
+    padding: 20px 40px;
+    background: #4f772d;
+}
+
+.off-canvas-dates-header-2 .dates-menu-area {
+    position: fixed;
+    padding: 30px 0;
+    padding-top: 70px;
+    width: 350px;
+    background: #404040;
+    transform: translateX(-105%);
+}
+
+.off-canvas-dates-header-2 .dates-menu-area.dates-menu-active {
+    transform: translateX(0);
+}
+
+.off-canvas-dates-header-2 .dates-menu-area li {
+    background: rgba(255, 255, 255, 0.05);
+    border-top: 1px solid #5a5a5a;
+    border-bottom: 1px solid #333;
+    padding-left: 25px;
+}
+
+.off-canvas-dates-header-2 .dates-menu-area li:hover {
+    box-shadow: 0 0px 12px 3px #333;
+}
+
+.off-canvas-dates-header-2 .dates-menu-area a {
+    position: relative;
+    width: 100%;
+    padding: 15px 0;
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: capitalize;
+    line-height: 1;
+    color: #ddd;
+    transition: .2s;
+}
+
+.off-canvas-dates-header-2 .dates-menu-area a:hover {
+    color: #fff;
+    text-shadow: 0px -2px #333;
+}
+
+.thf-main-default-icon .dates-menu-area .menu-item-has-children>a::before,
+.thf-main-default-icon .dates-menu-area .menu-item-has-children>a::after {
+    content: "";
+    position: absolute;
+    right: 25px;
+    background: #fff;
+    cursor: pointer;
+    top: 50%;
+    transition: .5s;
+    box-shadow: 0 0px 12px 3px #33333352;
+}
+
+.thf-main-default-icon .dates-menu-area .menu-item-has-children>a::before {
+    height: 2px;
+    width: 13px;
+    transform: translateY(-50%);
+}
+
+.thf-main-default-icon .dates-menu-area .menu-item-has-children>a::after {
+    height: 13px;
+    width: 2px;
+    transform: translate(-5.5px, -50%);
+}
+
+.off-canvas-dates-header-2 .dates-menu-area .menu-item-has-children>a.deactivate-plus-icon::after {
+    transform: translate(-6px, -50%) rotate(90deg);
+}
+
+.off-canvas-dates-header-2 .dates-menu-area nav {
+    width: 100%;
+}
+
+.off-canvas-dates-header-2 .dates-menu-area .menu-part-item>li {
+    position: relative;
+    overflow: hidden;
+}
+
+.off-canvas-dates-header-2 .dates-menu-area .menu-part-item>li>a {
+    padding-right: 25px;
+}
+
+.off-canvas-dates-header-2 .dates-menu-area .menu-item-has-children ul.sub-menu.active-submenu {
+    border-left: 1px solid #333;
+}
+
+.off-canvas-dates-header-2 .dates-mobile-menu {
+    font-size: 32px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.off-canvas-dates-header-2 .dates-header-close {
+    position: absolute;
+    top: 25px;
+    right: 25px;
+    background: transparent;
+    height: 27px;
+    width: 27px;
+    cursor: pointer;
+}
+
+.off-canvas-dates-header-2 .dates-header-close::before,
+.off-canvas-dates-header-2 .dates-header-close::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    height: 4px;
+    background: #ddd;
+    transform-origin: top;
+    border-radius: 5px;
+}
+
+.off-canvas-dates-header-2 .dates-header-close:hover::before,
+.off-canvas-dates-header-2 .dates-header-close:hover::after {
+    background: #fff;
+}
+
+.off-canvas-dates-header-2 .dates-header-close::before {
+    transform: rotate(45deg) translateY(-50%);
+}
+
+.off-canvas-dates-header-2 .dates-header-close::after {
+    transform: rotate(-45deg) translateY(-50%);
+}
+
+.off-canvas-dates-header-2 .dates-header-button a {
+    display: inline-block;
+    line-height: 1;
+    padding: 15px 30px;
+    background: transparent;
+    border: 2px solid #fff;
+    color: #fff;
+    border-radius: 30px;
+    margin: 20px 25px;
+    text-align: center;
+    transition: .3s;
+}
+
+.off-canvas-dates-header-2 .dates-header-button a {
+    background: #c3600e;
+    border-color: #c3600e;
+}
+
+.off-canvas-dates-header-3 {
+    padding: 20px 40px;
+}
+
+.off-canvas-dates-header-3::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: #06050bb3;
+    transition: .5s;
+    transform: translateX(100%);
+}
+
+.off-canvas-dates-header-3.expand-dates-header::before {
+    transform: translate(0);
+}
+
+.off-canvas-dates-header-3 .dates-menu-area {
+    justify-content: start;
+    position: fixed;
+    left: auto;
+    right: 0;
+    padding: 30px 0;
+    padding-top: 60px;
+    width: 350px;
+    background: #3C3453;
+    transform: translateX(105%);
+}
+
+@media (max-width: 349px) {
+    .off-canvas-dates-header-3 .dates-menu-area {
+        width: 100%;
+    }
+}
+
+.off-canvas-dates-header-3 .dates-menu-area.dates-menu-active {
+    transform: translateX(0);
+}
+
+.off-canvas-dates-header-3 .dates-menu-area li {
+    padding-left: 30px;
+    box-shadow: 0 1px 2px #322b46e0, 0 -19px 26px #322b4694 inset;
+    transition: box-shadow .2s;
+}
+
+.off-canvas-dates-header-3 .dates-menu-area li:hover {
+    box-shadow: 0 5px 10px #140d29e0, 0 -19px 26px #302844 inset;
+}
+
+.off-canvas-dates-header-3 .dates-menu-area a {
+    position: relative;
+    width: 100%;
+    padding: 15px 0;
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: capitalize;
+    line-height: 1;
+    color: #eee;
+    transition: .2s;
+}
+
+.off-canvas-dates-header-3 .dates-menu-area a:hover {
+    color: #fff;
+}
+
+.off-canvas-dates-header-3 .dates-menu-area nav {
+    width: 100%;
+}
+
+.off-canvas-dates-header-3 .dates-menu-area .menu-part-item>li {
+    position: relative;
+    overflow: hidden;
+}
+
+.off-canvas-dates-header-3 .dates-menu-area .menu-part-item>li>a {
+    padding-right: 30px;
+    transform: translateX(50%);
+}
+
+.off-canvas-dates-header-3.expand-dates-header .dates-menu-area .menu-part-item>li>a {
+    transform: translateX(0);
+    transition: .3s ease-in-out;
+    transition-delay: .2s;
+}
+
+.off-canvas-dates-header-3.expand-dates-header .dates-menu-area .menu-part-item>li:nth-child(2)>a {
+    transition-delay: .3s;
+}
+
+.off-canvas-dates-header-3.expand-dates-header .dates-menu-area .menu-part-item>li:nth-child(3)>a {
+    transition-delay: .4s;
+}
+
+.off-canvas-dates-header-3.expand-dates-header .dates-menu-area .menu-part-item>li:nth-child(4)>a {
+    transition-delay: .5s;
+}
+
+.off-canvas-dates-header-3.expand-dates-header .dates-menu-area .menu-part-item>li:nth-child(5)>a {
+    transition-delay: .6s;
+}
+
+.off-canvas-dates-header-3.expand-dates-header .dates-menu-area .menu-part-item>li:nth-child(6)>a {
+    transition-delay: .7s;
+}
+
+.off-canvas-dates-header-3 .dates-mobile-menu {
+    font-size: 32px;
+    color: #fff;
+    cursor: pointer;
+    transition: .5s;
+    visibility: visible;
+    opacity: 1;
+}
+
+.dates-mobile-menu.hide-bar {
+    visibility: hidden;
+    opacity: 0;
+    overflow: hidden;
+}
+
+.off-canvas-dates-header-3 .dates-header-close {
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    background: transparent;
+    height: 27px;
+    width: 27px;
+    cursor: pointer;
+}
+
+.off-canvas-dates-header-3 .dates-header-close::before,
+.off-canvas-dates-header-3 .dates-header-close::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    height: 2px;
+    background: #eee;
+    transform-origin: top;
+    border-radius: 5px;
+}
+
+.off-canvas-dates-header-3 .dates-header-close:hover::before,
+.off-canvas-dates-header-3 .dates-header-close:hover::after {
+    background: #fff;
+}
+
+.off-canvas-dates-header-3 .dates-header-close::before {
+    transform: rotate(45deg) translateY(-50%);
+}
+
+.off-canvas-dates-header-3 .dates-header-close::after {
+    transform: rotate(-45deg) translateY(-50%);
+}
+
+.off-canvas-dates-header-3 .dates-header-button a {
+    display: inline-block;
+    line-height: 1;
+    padding: 15px 25px;
+    background: #F61D73;
+    border-radius: 5px;
+    margin: 34px 30px 0 30px;
+    text-align: center;
+    transition: .3s;
+    border: 2px solid transparent;
+}
+
+.off-canvas-dates-header-3 .dates-header-button:hover a {
+    border: 2px solid #F61D73;
+    background: transparent;
+}
+
+.off-canvas-dates-header-3 .dates-social-icons {
+    margin: 40px 30px 0;
+}
+
+.off-canvas-dates-header-3 .dates-icon-title {
+    font-size: 18px;
+    text-transform: capitalize;
+    font-weight: 600;
+    color: #fff;
+}
+
+.off-canvas-dates-header-3 .dates-icon-wrapper {
+    display: flex;
+    gap: 12px;
+    margin-top: 20px;
+}
+
+.off-canvas-dates-header-3 .dates-icon-wrapper .dates-social-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    color: #eee;
+    height: 50px;
+    width: 50px;
+    transition: .3s;
+    border-radius: 50%;
+    border: 2px solid grey;
+}
+
+.off-canvas-dates-header-3 .dates-icon-wrapper .dates-social-icon:hover {
+    color: #fff;
+    border-color: #F61D73;
+    background: #F61D73;
+}
+
+.off-canvas-dates-header-4 {
+    padding: 20px 40px;
+}
+
+.off-canvas-dates-header-4::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: #06050b7a;
+    transition: .5s;
+    transform: translateX(-100%);
+    z-index: -1;
+}
+
+.off-canvas-dates-header-4.expand-dates-header::before {
+    transform: translate(0);
+}
+
+.off-canvas-dates-header-4::after {
+    content: "";
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: -20vw;
+    width: 100vw;
+    background: #202E4A;
+    transition: .5s;
+    transform: translateX(-130%) skew(15deg);
+    z-index: -1;
+}
+
+.off-canvas-dates-header-4.expand-dates-header::after {
+    transform: translateX(0) skew(15deg);
+}
+
+.off-canvas-dates-header-4 .dates-menu-area {
+    justify-content: start;
+    position: fixed;
+    padding: 30px 0;
+    padding-top: 60px;
+    width: 350px;
+    background: #1b4332;
+    transform: translateX(-105%);
+}
+
+@media (max-width:349px) {
+    .off-canvas-dates-header-4 .dates-menu-area {
+        width: 100%;
+    }
+}
+
+.off-canvas-dates-header-4 .dates-menu-area::-webkit-scrollbar {
+    width: 4px;
+    border-radius: 10px;
+}
+
+.off-canvas-dates-header-4 .dates-menu-area::-webkit-scrollbar-track {
+    background: #141c2e;
+}
+
+.off-canvas-dates-header-4 .dates-menu-area::-webkit-scrollbar-thumb {
+    background: #FF8939;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #ab5923;
+}
+
+.off-canvas-dates-header-4 .dates-menu-area.dates-menu-active {
+    transform: translateX(0);
+}
+
+.off-canvas-dates-header-4 .dates-menu-area li {
+    padding-left: 30px;
+    box-shadow: 0 0.5px 1px #162034a8;
+    transition: box-shadow .3s ease-in;
+}
+
+.off-canvas-dates-header-4 .dates-menu-area li:hover {
+    box-shadow: 0 -9px 20px inset #0f162487;
+}
+
+.off-canvas-dates-header-4 .dates-menu-area a {
+    position: relative;
+    width: 100%;
+    padding: 15px 0;
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: capitalize;
+    line-height: 1;
+    color: #eee;
+    transition: .2s;
+}
+
+.off-canvas-dates-header-4 .dates-menu-area a:hover {
+    color: #fff;
+}
+
+.off-canvas-dates-header-4 .dates-menu-area .menu-item-has-children>a.deactivate-plus-icon::before,
+.off-canvas-dates-header-4 .dates-menu-area .menu-item-has-children>a.deactivate-plus-icon::after {
+    height: 15px;
+}
+
+.off-canvas-dates-header-4 .dates-menu-area .menu-item-has-children>a.deactivate-plus-icon::after {
+    transform-origin: top;
+    transform: rotate(227deg) translateY(-50%);
+}
+
+.off-canvas-dates-header-4 .dates-menu-area nav {
+    width: 100%;
+}
+
+.off-canvas-dates-header-4 .dates-menu-area .menu-part-item>li {
+    position: relative;
+    overflow: hidden;
+}
+
+.off-canvas-dates-header-4 .dates-menu-area .menu-part-item>li>a {
+    padding-right: 30px;
+    transform: translateX(50%);
+}
+
+.off-canvas-dates-header-4.expand-dates-header .dates-menu-area .menu-part-item>li>a {
+    transform: translateX(0);
+    transition: .3s ease-in-out;
+    transition-delay: .2s;
+}
+
+.off-canvas-dates-header-4.expand-dates-header .dates-menu-area .menu-part-item>li:nth-child(2)>a {
+    transition-delay: .3s;
+}
+
+.off-canvas-dates-header-4.expand-dates-header .dates-menu-area .menu-part-item>li:nth-child(3)>a {
+    transition-delay: .4s;
+}
+
+.off-canvas-dates-header-4.expand-dates-header .dates-menu-area .menu-part-item>li:nth-child(4)>a {
+    transition-delay: .5s;
+}
+
+.off-canvas-dates-header-4.expand-dates-header .dates-menu-area .menu-part-item>li:nth-child(5)>a {
+    transition-delay: .6s;
+}
+
+.off-canvas-dates-header-4.expand-dates-header .dates-menu-area .menu-part-item>li:nth-child(6)>a {
+    transition-delay: .7s;
+}
+
+.off-canvas-dates-header-4 .dates-mobile-menu {
+    font-size: 32px;
+    color: #fff;
+    cursor: pointer;
+    transition: .4s;
+    visibility: visible;
+    opacity: 1;
+}
+
+.off-canvas-dates-header-4 .dates-mobile-menu.hide-bar {
+    visibility: hidden;
+    opacity: 0;
+    overflow: hidden;
+}
+
+.off-canvas-dates-header-4 .dates-header-close {
+    position: absolute;
+    top: 25px;
+    right: 25px;
+    background: transparent;
+    height: 25px;
+    width: 25px;
+    cursor: pointer;
+}
+
+.off-canvas-dates-header-4 .dates-header-close::before,
+.off-canvas-dates-header-4 .dates-header-close::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    height: 2px;
+    background: #eee;
+    transform-origin: top;
+    border-radius: 5px;
+}
+
+.off-canvas-dates-header-4 .dates-header-close:hover::before,
+.off-canvas-dates-header-4 .dates-header-close:hover::after {
+    background: #fff;
+}
+
+.off-canvas-dates-header-4 .dates-header-close::before {
+    transform: rotate(45deg) translateY(-50%);
+}
+
+.off-canvas-dates-header-4 .dates-header-close::after {
+    transform: rotate(-45deg) translateY(-50%);
+}
+
+.off-canvas-dates-header-4 .dates-header-button a {
+    display: inline-block;
+    line-height: 1;
+    padding: 15px 25px;
+    background: #ce661f;
+    border-radius: 5px;
+    margin: 34px 30px 0 30px;
+    text-align: center;
+    transition: .3s;
+    border: 2px solid transparent;
+}
+
+.off-canvas-dates-header-4 .dates-header-button:hover a {
+    border: 2px solid #ce661f;
+    background: transparent;
+}
+
+.off-canvas-dates-header-4 .dates-social-icons {
+    margin: 40px 30px 0;
+}
+
+.off-canvas-dates-header-4 .dates-icon-title {
+    font-size: 18px;
+    text-transform: capitalize;
+    font-weight: 600;
+    color: #fff;
+}
+
+.off-canvas-dates-header-4 .dates-icon-wrapper {
+    display: flex;
+    gap: 12px;
+    margin-top: 20px;
+}
+
+.off-canvas-dates-header-4 .dates-icon-wrapper .dates-social-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    color: #eee;
+    height: 50px;
+    width: 50px;
+    transition: .3s;
+    border-radius: 50%;
+    border: 2px solid grey;
+}
+
+.off-canvas-dates-header-4 .dates-icon-wrapper .dates-social-icon:hover {
+    color: #fff;
+    border-color: #FF8939;
+    background: #FF8939;
+}
+
+.offcanvas-header-common a {
+    padding: 0;
+}
+
+.off-canvas-dates-header-1 .dates-mobile-menu-btn-wrap {
+    margin: 20px 25px 0 0;
+}
+
+.dates-mobile-menu-btn-wrap {
+    margin: 20px 25px 0 25px;
+}
+
+.offcanvas-header-common .dates-mobile-menu-btn-wrap a {
+    padding: 0;
+}
+
+.offcanvas-header-common a .thf-title {
+    color: #000;
+    border-color: #eee;
+}
+
+.off-canvas-dates-header-1 a .thf-title {
+    margin: 0;
+}
+
+.offcanvas-header-common .thf-all-button-con {
+    flex-basis: 0;
+}
+
+.offcanvas-header-common .dates-header-logo {
+    justify-content: flex-start;
+}
+
+.ocv-style-2 .dates-menu-area {
+    background: #9a7125;
+}
+
+.ocv-style-2 .dates-menu-area li {
+    background: #926a21;
+    border-top: 1px solid #9A7125;
+    border-bottom: 1px solid #9A7125;
+}
+
+.ocv-style-2 .dates-menu-area .menu-item-has-children ul.sub-menu.active-submenu {
+    border-left-color: #926a21;
+}
+
+.ocv-style-2 .dates-menu-area li:hover {
+    box-shadow: 0 0px 15px 4px #805d1d, 0 0px 14px 4px #805d1d inset;
+    background: #ad8844;
+}
+
+.ocv-style-2 .dates-menu-area li.active-dates-menu-item {
+    box-shadow: 0 0px 15px 4px #805d1d, 0 0px 14px 4px #805d1d inset;
+    background: #ad8844;
+}
+
+.ocv-style-3 .dates-menu-area li.active-dates-menu-item {
+    box-shadow: 0 5px 10px #140d29e0, 0 -19px 26px #302844 inset;
+}
+
+.ocv-style-3 {
+    background: #023e8a;
+}
+
+.ocv-style-4::after {
+    background: #a14c3c;
+}
+
+.ocv-style-4 {
+    background: #9b5de5;
+}
+
+.ocv-style-4::after {
+    background: #a14c3c;
+}
+
+.ocv-style-4 .dates-menu-area li.active-dates-menu-item {
+    box-shadow: 0 -9px 20px inset #0f162487;
+}
+
+.ocv-style-5 .dates-menu-area {
+    background: #256974;
+}
+
+.ocv-style-5 {
+    background: #42b9cc;
+}
+
+.ocv-style-5 .dates-menu-area li {
+    border-bottom: 0.5px solid #196161cf;
+}
+
+.ocv-style-5 .dates-menu-area .menu-item-has-children ul.sub-menu.active-submenu {
+    border-left: 0.5px solid #196161cf;
+}
+
+.dates-header-5 .thf-dates-menu-area .menu-items .thf-menu-part-item>li.active-dates-menu-item:after {
+    width: 100%;
+    opacity: 1;
+    visibility: visible;
+    right: auto;
+    left: 0;
+}
+
+.ocv-style-5 .dates-menu-area li.active-dates-menu-item {
+    box-shadow: 0 3px 10px #196161cf;
+}
+
+.dates-header-6 .thf-dates-menu-area .menu-items .thf-menu-part-item>li.active-dates-menu-item:after {
+    opacity: 1;
+    visibility: visible;
+    bottom: 25px;
+}
+
+.ocv-style-6 .dates-menu-area li.active-dates-menu-item {
+    box-shadow: 0 -9px 20px inset #0f162487;
+}
+
+.ocv-style-6 {
+    background-color: #926c15;
+}
+
+.ocv-style-7 .dates-menu-area {
+    background: #007297;
+}
+
+.ocv-style-7 {
+    background-color: #3a3d0d;
+}
+
+.ocv-style-7::after {
+    background: #007297;
+}
+
+.dates-header-7 .thf-dates-menu-area .menu-items .thf-menu-part-item>li.active-dates-menu-item:after {
+    opacity: 1;
+    visibility: visible;
+    width: 100%;
+}
+
+.dates-header-7 .thf-dates-menu-area .menu-items .thf-menu-part-item li.active-dates-menu-item a {
+    color: #01b2ec;
+}
+
+.ocv-style-7 .dates-menu-area li.active-dates-menu-item {
+    box-shadow: 0 -9px 20px inset #0f162487;
+}
+
+.ocv-style-8 .dates-menu-area {
+    background: #5e5e5e;
+}
+
+.ocv-style-8 {
+    background: #5e5e5e;
+}
+
+.dates-header-8 .thf-dates-menu-area .menu-items .thf-menu-part-item li {
+    border: 2px solid transparent;
+}
+
+.dates-header-8 .thf-dates-menu-area .menu-items .thf-menu-part-item li:hover {
+    border-color: #9a7dd8e0;
+}
+
+.dates-header-8 .thf-dates-menu-area .menu-items .thf-menu-part-item li.active-dates-menu-item {
+    border-color: #9a7dd8e0;
+}
+
+.ocv-style-8 .dates-menu-area li {
+    border-bottom: 0.5px solid #535151b9;
+}
+
+.ocv-style-8 .dates-menu-area li:hover {
+    box-shadow: 0 6px 9px #9a7dd85a;
+}
+
+.ocv-style-8 .dates-menu-area li.active-dates-menu-item {
+    box-shadow: 0 6px 9px #9a7dd85a;
+}
+
+.ocv-style-8 .dates-menu-area .menu-item-has-children ul.sub-menu.active-submenu {
+    border-left: 0.5px solid #535151;
+}
+
+.dates-header-9 .thf-dates-menu-area .menu-items .thf-menu-part-item li.active-dates-menu-item a {
+    color: #ff630e;
+}
+
+.ocv-style-9::after {
+    background: #c27b2f;
+}
+
+.ocv-style-9 {
+    background-color: #7161ef;
+}
+
+.ocv-style-9 .dates-menu-area li.active-dates-menu-item {
+    box-shadow: 0 -9px 20px inset #0f162487;
+}
+
+.ocv-style-9 .dates-menu-area li {
+    background: #c27b2f;
+    border-bottom: 0.5px #894e067a;
+    box-shadow: none;
+}
+
+.ocv-style-9 .dates-menu-area::-webkit-scrollbar {
+    width: 4px;
+    border-radius: 10px;
+}
+
+.ocv-style-9 .dates-menu-area::-webkit-scrollbar-track {
+    background: #a36827;
+}
+
+.ocv-style-10 .dates-menu-area li {
+    border-top: 1px solid #b84f42;
+    border-bottom: 1px solid #b84f42;
+}
+
+.ocv-style-10 {
+    background-color: #540d6e;
+}
+
+.ocv-style-10 .dates-menu-area .menu-item-has-children ul.sub-menu.active-submenu {
+    border-left-color: #b84f42;
+}
+
+.ocv-style-10 .dates-menu-area {
+    background: #b84f42;
+}
+
+.ocv-style-10 .dates-menu-area li:hover {
+    box-shadow: 0 0px 12px 3px #f87060;
+}
+
+.ocv-style-10 .dates-menu-area li.active-dates-menu-item {
+    box-shadow: 0 0px 12px 3px #f87060;
+}
+
+.dates-header-10 .thf-dates-menu-area .menu-items .thf-menu-part-item>li.active-dates-menu-item {
+    background: #ff630e1f;
+}
+
+.dates-header-10 .thf-dates-menu-area .menu-items .thf-menu-part-item li.active-dates-menu-item a {
+    color: #f87060;
+}
+
+.dates-header-10 .thf-dates-menu-area .menu-items .thf-menu-part-item li.active-dates-menu-item::before {
+    color: #f87060;
+}
+
+.dates-header-11 .thf-dates-menu-area .menu-items .thf-menu-part-item li.active-dates-menu-item a {
+    color: #d9aa2f;
+}
+
+.dates-header-11 .thf-dates-menu-area .menu-items .thf-menu-part-item>li.active-dates-menu-item::before {
+    color: #d9aa2f;
+}
+
+.dates-header-11 .thf-dates-menu-area .menu-items .thf-menu-part-item>li.active-dates-menu-item>a::before {
+    opacity: 1;
+    top: 0;
+}
+
+.dates-header-11 .thf-dates-menu-area .menu-items .thf-menu-part-item>li.active-dates-menu-item>a::after {
+    opacity: 1;
+    bottom: 0;
+}
+
+.ocv-style-11 .dates-menu-area li.active-dates-menu-item {
+    box-shadow: 0 -9px 20px inset #0f162487;
+}
+
+.ocv-style-11 {
+    background-color: #00296b;
+}
+
+@media (max-width:767px) {
+    .off-canvas-dates-header-4.expand-dates-header::after {
+        transform: translateX(0) skew(0) !important;
+        left: 0;
+    }
+}
+
+.dates-header-12 .thf-dates-menu-area .menu-items .thf-menu-part-item>li.active-dates-menu-item::after {
+    transform: scale(1);
+}
+
+.dates-header-12 .thf-dates-menu-area .menu-items .thf-menu-part-item>li.active-dates-menu-item a {
+    color: #0095d5;
+}
+
+.dates-header-12 .thf-dates-menu-area .menu-items .thf-menu-part-item>li.active-dates-menu-item::before {
+    color: #0095d5;
+}
+
+.ocv-style-12 .dates-menu-area {
+    background: #0095d5;
+}
+
+.ocv-style-12 {
+    background-color: #3a0ca3;
+}
+
+.ocv-style-12 .dates-menu-area li {
+    background: #0095d5;
+    border-color: #0781b5;
+}
+
+.ocv-style-12 .dates-menu-area li:hover {
+    box-shadow: 0 0px 20px 3px #0e6d96c9;
+}
+
+.ocv-style-12 .dates-menu-area li.active-dates-menu-item {
+    box-shadow: 0 0px 20px 3px #0e6d96c9;
+}
+
+.ocv-style-12 .dates-menu-area .menu-item-has-children ul.sub-menu.active-submenu {
+    border-left-color: #0781b5;
+}
+
+.dates-header-13 .thf-dates-menu-area .menu-items .thf-menu-part-item>li.active-dates-menu-item::after {
+    transition: transform 0.5s;
+    transform-origin: left;
+    width: 100%;
+}
+
+.dates-header-13 .thf-dates-menu-area .menu-items .thf-menu-part-item>li.active-dates-menu-item::before {
+    color: red;
+}
+
+.dates-header-13 .thf-dates-menu-area .menu-items .thf-menu-part-item>li.active-dates-menu-item a {
+    color: #fff;
+}
+
+.ocv-style-13 .dates-menu-area li.active-dates-menu-item {
+    box-shadow: 0 -9px 20px inset #0f162487;
+}
+
+.ocv-style-13 {
+    background-color: #e85d04;
+}
+
+.dates-header-14 .thf-dates-menu-area .menu-items .thf-menu-part-item li.active-dates-menu-item a {
+    color: #fff;
+}
+
+.dates-header-14 .thf-dates-menu-area .menu-items .thf-menu-part-item>li.active-dates-menu-item::after {
+    transform: translateX(-50%) scale(1);
+}
+
+.dates-header-14 .thf-dates-menu-area .menu-items .thf-menu-part-item>li.active-dates-menu-item>a::before {
+    opacity: 1;
+    top: -5px;
+}
+
+.dates-header-14 .thf-dates-menu-area .menu-items .thf-menu-part-item>li.active-dates-menu-item>a::after {
+    opacity: 1;
+    bottom: -5px;
+}
+
+.dates-header-14 .thf-dates-menu-area .menu-items .thf-menu-part-item .menu-item-has-children.active-dates-menu-item::before {
+    color: #fff;
+}
+
+.ocv-style-14 .dates-menu-area li.active-dates-menu-item {
+    box-shadow: 0 5px 10px #140d29e0, 0 -19px 26px #302844 inset;
+}
+
+.ocv-style-14 {
+    background-color: #240046;
+}
+
+.ocv-style-15 .dates-menu-area {
+    background: #a06f15;
+}
+
+.ocv-style-15 {
+    background-color: #926c15;
+}
+
+.ocv-style-15 .dates-menu-area li {
+    border-bottom-color: #885e11e6;
+}
+
+.ocv-style-15 .dates-menu-area .menu-item-has-children ul.sub-menu.active-submenu {
+    border-left-color: #885e11e6;
+}
+
+.dates-header-15 .thf-dates-menu-area .menu-items .thf-menu-part-item>li.active-dates-menu-item:after {
+    transform: scale(1);
+}
+
+.dates-header-15 .thf-dates-menu-area .menu-items .menu-item-has-children.active-dates-menu-item::before {
+    color: #fff;
+}
+
+.dates-header-15 .thf-dates-menu-area .menu-items .thf-menu-part-item li.active-dates-menu-item a {
+    color: #fff;
+}
+
+.dates-header-15 .thf-dates-menu-area .menu-items .thf-menu-part-item>li.active-dates-menu-item>a::before {
+    top: -8px;
+    left: -8px;
+    opacity: 1;
+}
+
+.dates-header-15 .thf-dates-menu-area .menu-items .thf-menu-part-item>li.active-dates-menu-item>a::after {
+    right: -8px;
+    bottom: -8px;
+    opacity: 1;
+}
+
+.ocv-style-15 .dates-menu-area li:hover {
+    box-shadow: 0 7px 10px #885e118f;
+}
+
+.ocv-style-15 .dates-menu-area li.active-dates-menu-item {
+    box-shadow: 0 7px 10px #885e118f;
+}
+
+.ocv-style-16 .dates-menu-area {
+    background: #2f7532;
+}
+
+.ocv-style-16 .dates-menu-area li {
+    background: #2a702d;
+    border-top: 1px solid #2f7532;
+    border-bottom: 1px solid #2f7532;
+    padding-left: 25px;
+}
+
+.ocv-style-16 .dates-menu-area li:hover {
+    box-shadow: 0 0px 12px 3px #1e6021;
+}
+
+.ocv-style-16 {
+    background-color: #3a3d0d;
+}
+
+.ocv-style-16 .dates-menu-area .menu-item-has-children ul.sub-menu.active-submenu {
+    border-left-color: #1e6021;
+}
+
+.dates-header-16 .thf-dates-menu-area .menu-items .thf-menu-part-item>.menu-item-has-children.active-dates-menu-item::before {
+    color: #fff;
+}
+
+.dates-header-16 .thf-dates-menu-area .menu-items .thf-menu-part-item>li.active-dates-menu-item:after {
+    width: 100%;
+}
+
+.dates-header-16 .thf-dates-menu-area .menu-items .thf-menu-part-item li.active-dates-menu-item a {
+    color: #fff;
+}
+
+.dates-header-16 .thf-dates-menu-area .menu-items .thf-menu-part-item>li.active-dates-menu-item>a::before {
+    width: 50%;
+}
+
+.dates-header-16 .thf-dates-menu-area .menu-items .thf-menu-part-item>li.active-dates-menu-item>a::after {
+    width: 50%;
+}
+
+.ocv-style-16 .dates-menu-area li.active-dates-menu-item {
+    box-shadow: 0 0px 12px 3px #1e6021;
+}
+
+.thf-sticky-header {
+    position: fixed !important;
+    top: 0;
+    left: 0;
+    width: 100% !important;
+    animation: stickyHeaderAnim .5s ease 0s 1;
+}
+
+@keyframes stickyHeaderAnim {
+    0% {
+        transform: translateY(-100%);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+
+.offcanvas-header-common .dates-menu-area {
+    z-index: 10;
+}
+
+.thf_hb_left {
+    position: absolute !important;
+    left: 5% !important;
+}
+
+.thf_hb_center {
+    position: absolute !important;
+    right: 50% !important;
+    left: 50% !important;
+}
+
+.thf_hb_right {
+    position: absolute !important;
+    right: 5% !important;
+}

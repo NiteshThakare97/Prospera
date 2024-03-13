@@ -1,0 +1,194 @@
+/*
+ * Z-Toch
+ * by Zeel Codder
+ * https://github.com/zeel-codder
+ *
+ */
+pre.theme-z-touch code[class*="language-"],
+pre[class*="language-"].theme-z-touch {
+	color: #22da17;
+	font-family: monospace;
+	text-align: left;
+	white-space: pre;
+	word-spacing: normal;
+	word-break: normal;
+	word-wrap: normal;
+	-moz-tab-size: 4;
+	-o-tab-size: 4;
+	tab-size: 4;
+	-webkit-hyphens: none;
+	-moz-hyphens: none;
+	-ms-hyphens: none;
+	hyphens: none;
+	line-height: 25px;
+	font-size: 18px;
+	margin: 5px 0;
+}
+
+pre[class*="language-"].theme-z-touch * {
+	font-family: monospace;
+}
+
+:not(pre) > code[class*="language-"],
+pre[class*="language-"].theme-z-touch {
+	color: white;
+	background: #0a143c;
+	padding: 22px;
+}
+
+/* Code blocks */
+pre[class*="language-"].theme-z-touch {
+	padding: 1em;
+	margin: 0.5em 0;
+	overflow: auto;
+	padding-left: 3.8em;
+}
+
+pre[class*="language-"].theme-z-touch::-moz-selection,
+pre[class*="language-"].theme-z-touch ::-moz-selection,
+pre.theme-z-touch code[class*="language-"]::-moz-selection,
+pre.theme-z-touch code[class*="language-"] ::-moz-selection {
+	text-shadow: none;
+	background: rgba(29, 59, 83, 0.99);
+}
+
+pre[class*="language-"].theme-z-touch::selection,
+pre[class*="language-"].theme-z-touch ::selection,
+pre.theme-z-touch code[class*="language-"]::selection,
+pre.theme-z-touch code[class*="language-"] ::selection {
+	text-shadow: none;
+	background: rgba(29, 59, 83, 0.99);
+}
+
+@media print {
+	pre.theme-z-touch code[class*="language-"],
+	pre[class*="language-"].theme-z-touch {
+		text-shadow: none;
+	}
+}
+
+:not(pre) > code[class*="language-"] {
+	padding: 0.1em;
+	border-radius: 0.3em;
+	white-space: normal;
+}
+
+pre.theme-z-touch .token.comment,
+pre.theme-z-touch .token.prolog,
+pre.theme-z-touch .token.cdata {
+	color: rgb(99, 119, 119);
+	font-style: italic;
+}
+
+pre.theme-z-touch .token.punctuation {
+	color: rgb(199, 146, 234);
+}
+
+pre.theme-z-touch .namespace {
+	color: rgb(178, 204, 214);
+}
+
+pre.theme-z-touch .token.deleted {
+	color: rgba(239, 83, 80, 0.56);
+	font-style: italic;
+}
+
+pre.theme-z-touch .token.symbol,
+pre.theme-z-touch .token.property {
+	color: rgb(128, 203, 196);
+}
+
+pre.theme-z-touch .token.tag,
+pre.theme-z-touch .token.operator,
+pre.theme-z-touch .token.keyword {
+	color: rgb(127, 219, 202);
+}
+
+pre.theme-z-touch .token.boolean {
+	color: rgb(255, 88, 116);
+}
+
+pre.theme-z-touch .token.number {
+	color: rgb(247, 140, 108);
+}
+
+pre.theme-z-touch .token.constant,
+pre.theme-z-touch .token.function,
+pre.theme-z-touch .token.builtin,
+pre.theme-z-touch .token.char {
+	color: rgb(34 183 199);
+}
+
+pre.theme-z-touch .token.selector,
+pre.theme-z-touch .token.doctype {
+	color: rgb(199, 146, 234);
+	font-style: italic;
+}
+
+pre.theme-z-touch .token.attr-name,
+pre.theme-z-touch .token.inserted {
+	color: rgb(173, 219, 103);
+	font-style: italic;
+}
+
+pre.theme-z-touch .token.string,
+pre.theme-z-touch .token.url,
+pre.theme-z-touch .token.entity,
+pre.theme-z-touch .language-css .token.string,
+pre.theme-z-touch .style .token.string {
+	color: rgb(173, 219, 103);
+}
+
+pre.theme-z-touch .token.class-name,
+pre.theme-z-touch .token.atrule,
+pre.theme-z-touch .token.attr-value {
+	color: rgb(255, 203, 139);
+}
+
+pre.theme-z-touch .token.regex,
+pre.theme-z-touch .token.important,
+pre.theme-z-touch .token.variable {
+	color: rgb(214, 222, 235);
+}
+
+pre.theme-z-touch .token.important,
+pre.theme-z-touch .token.bold {
+	font-weight: bold;
+}
+
+pre.theme-z-touch .token.italic {
+	font-style: italic;
+}
+
+pre.theme-z-touch.line-numbers .line-numbers-rows {
+	position: absolute;
+	pointer-events: none;
+	top: 50%;
+	transform: translateY(-50%);
+	font-size: 100%;
+	left: 0;
+	width: 3em;
+	letter-spacing: -1px;
+	border-right: 1px solid #999;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	-webkit-transform: translateY(-50%);
+	-moz-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	-o-transform: translateY(-50%);
+}
+
+pre.theme-z-touch .line-numbers-rows > span {
+	display: block;
+	counter-increment: linenumber;
+}
+
+pre.theme-z-touch .line-numbers-rows > span:before {
+	content: counter(linenumber);
+	color: #999;
+	display: block;
+	padding-right: 0.8em;
+	text-align: right;
+}

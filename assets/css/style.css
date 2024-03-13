@@ -1158,7 +1158,7 @@ img {
 }
 
 .inner-bg5 {
-    background-image: url(../img/inner-banner/5.jpg)
+    background-image: url(../images/Tokenomics/TokenomicsBanner.png)
 }
 
 .inner-bg6 {
@@ -7089,59 +7089,115 @@ img {
 .room-details-item img {
     width: -webkit-fill-available;
 }
+
 #abt-sec4-1 {
     display: none;
 }
 
 @keyframes fadeInLeft {
     0% {
-      transform: translateX(-100%);
-      opacity: 0;
+        transform: translateX(-100%);
+        opacity: 0;
     }
+
     100% {
-      transform: translateX(0%);
-      opacity: 1;
+        transform: translateX(0%);
+        opacity: 1;
     }
-  }
-  
-  @keyframes fadeInRight {
+}
+
+@keyframes fadeInRight {
     0% {
-      transform: translateX(100%);
-      opacity: 0;
+        transform: translateX(100%);
+        opacity: 0;
     }
+
     100% {
-      transform: translateX(0%);
-      opacity: 1;
+        transform: translateX(0%);
+        opacity: 1;
     }
-  }
-  
-  .fadeInLeft-animation, .fadeInRight-animation {
-    opacity: 0; /* Initially hide the elements */
-  }
-  
-  .fadeInLeft-animation.fade-in {
-    animation: fadeInLeft 1.5s forwards; /* Apply fadeInLeft animation */
-  }
-  
-  .fadeInRight-animation.fade-in {
-    animation: fadeInRight 2.5s forwards; /* Apply fadeInRight animation */
-  }
-  
-  .delay-1 {
-    animation-delay: 1.5s; /* Delay for h1 */
-  }
-  
-  .delay-2 {
-    animation-delay: 2s; /* Delay for h3 */
-  }
-  
-  .delay-3 {
-    animation-delay: 0.5s !important; /* Delay for h2 */
-  }
-  
-  
-  
-  
+}
+
+.fadeInLeft-animation,
+.fadeInRight-animation {
+    opacity: 0;
+    /* Initially hide the elements */
+}
+
+.fadeInLeft-animation.fade-in {
+    animation: fadeInLeft 1.5s forwards;
+    /* Apply fadeInLeft animation */
+}
+
+.fadeInRight-animation.fade-in {
+    animation: fadeInRight 2.5s forwards;
+    /* Apply fadeInRight animation */
+}
+
+.delay-1 {
+    animation-delay: 1.5s;
+    /* Delay for h1 */
+}
+
+.delay-2 {
+    animation-delay: 2s;
+    /* Delay for h3 */
+}
+
+.delay-3 {
+    animation-delay: 0.5s !important;
+    /* Delay for h2 */
+}
+
+/* Tokenomics  */
+.tokenomics-area {
+    background: linear-gradient(180deg, #015176, #023b58);
+    padding: 50px 0px;
+}
+
+.tokenomics-area tbody>tr {
+    color: #fff;
+    border-bottom-color: #0270a3;
+}
+
+.tokenomics-area tbody>tr>td {
+    text-align: center;
+}
+
+.tokenomics-area tbody>tr>th,
+.tokenomics-area thead>tr>th:first-child {
+    padding-left: 36px;
+}
+
+.tokenomics-area thead {
+    background-color: #fff;
+    color: #033a58;
+    /* border-radius: 20px 20px 0px 0px; */
+}
+
+.tokenomics-area .table>tbody {
+    border-color: #fff;
+}
+
+.tokenomics-area .table {
+    border-collapse: collapse;
+    border-radius: 22px;
+    overflow: hidden;
+}
+
+.tokenomics-area tbody>tr:last-child {
+    border-bottom-color: #fff;
+}
+.tokenomics-area .table>:not(:first-child) {
+    border-top: none;
+}
+.tokenomics-area .card {
+    background-color: #023b59;
+    border: 2px dashed #0e768f;
+    border-radius: 100px;
+    padding: 150px 25px;
+}
+
 
 @media only screen and (min-width: 1600px) {
 
@@ -7201,7 +7257,9 @@ img {
 }
 
 @media only screen and (min-width: 600px) and (max-width: 1000px) {
-    .item-bg1, .item-bg2 {
+
+    .item-bg1,
+    .item-bg2 {
         margin-top: 57px;
     }
 
@@ -7304,7 +7362,8 @@ img {
         padding: 20px;
     }
 
-    .item-bg1, .item-bg2 {
+    .item-bg1,
+    .item-bg2 {
         margin-top: 55px;
     }
 
@@ -7334,9 +7393,11 @@ img {
     .apartment-offer-area {
         background: #fff;
         padding-bottom: 0px;
-        padding-top: 60px;    
+        padding-top: 60px;
     }
-    .flaticon-left-chevron, .flaticon-right-chevron {
+
+    .flaticon-left-chevron,
+    .flaticon-right-chevron {
         display: none;
     }
 
@@ -7384,6 +7445,14 @@ img {
 
     #abt-sec4 h2 {
         font-size: 36px;
+    } 
+
+    /* Tokenomics  */
+    .tokenomics-area .card {
+        padding: 70px 15px;
+    }
+    .inner-bg5 .inner-title h2 {
+        font-size: 19px !important;
+        margin-top: 20px;
     }
 }
-

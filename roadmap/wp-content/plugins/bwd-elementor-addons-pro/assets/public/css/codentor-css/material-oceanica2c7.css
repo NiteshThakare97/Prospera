@@ -1,0 +1,243 @@
+pre.theme-material-oceanic code[class*="language-"],
+pre[class*="language-"].theme-material-oceanic {
+	text-align: left;
+	white-space: pre;
+	word-spacing: normal;
+	word-break: normal;
+	word-wrap: normal;
+	color: #c3cee3;
+	background: #263238;
+	font-family: Roboto Mono, monospace;
+	font-size: 1em;
+	line-height: 1.5em;
+
+	-moz-tab-size: 4;
+	-o-tab-size: 4;
+	tab-size: 4;
+
+	-webkit-hyphens: none;
+	-moz-hyphens: none;
+	-ms-hyphens: none;
+	hyphens: none;
+}
+
+pre.theme-material-oceanic code[class*="language-"]::-moz-selection,
+pre[class*="language-"].theme-material-oceanic::-moz-selection,
+pre.theme-material-oceanic code[class*="language-"] ::-moz-selection,
+pre[class*="language-"].theme-material-oceanic ::-moz-selection {
+	background: #363636;
+}
+
+pre.theme-material-oceanic code[class*="language-"]::selection,
+pre[class*="language-"].theme-material-oceanic::selection,
+pre.theme-material-oceanic code[class*="language-"] ::selection,
+pre[class*="language-"].theme-material-oceanic ::selection {
+	background: #363636;
+}
+
+:not(pre) > code[class*="language-"] {
+	white-space: normal;
+	border-radius: 0.2em;
+	padding: 0.1em;
+}
+
+pre[class*="language-"].theme-material-oceanic {
+	overflow: auto;
+	position: relative;
+	margin: 0.5em 0;
+	padding: 1.25em 1em;
+	padding-left: 3.8em;
+}
+
+pre.theme-material-oceanic.language-css > code,
+pre.theme-material-oceanic.language-sass > code,
+pre.theme-material-oceanic.language-scss > code {
+	color: #fd9170;
+}
+
+[class*="language-"]pre.theme-material-oceanic .namespace {
+	opacity: 0.7;
+}
+
+pre.theme-material-oceanic.token.atrule {
+	color: #c792ea;
+}
+
+pre.theme-material-oceanic.token.attr-name {
+	color: #ffcb6b;
+}
+
+pre.theme-material-oceanic.token.attr-value {
+	color: #c3e88d;
+}
+
+pre.theme-material-oceanic .token.attribute {
+	color: #c3e88d;
+}
+
+pre.theme-material-oceanic .token.boolean {
+	color: #c792ea;
+}
+
+pre.theme-material-oceanic .token.builtin {
+	color: #ffcb6b;
+}
+
+pre.theme-material-oceanic .token.cdata {
+	color: #80cbc4;
+}
+
+pre.theme-material-oceanic .token.char {
+	color: #80cbc4;
+}
+
+pre.theme-material-oceanic .token.class {
+	color: #ffcb6b;
+}
+
+pre.theme-material-oceanic .token.class-name {
+	color: #f2ff00;
+}
+
+pre.theme-material-oceanic .token.color {
+	color: #f2ff00;
+}
+
+pre.theme-material-oceanic .token.comment {
+	color: #546e7a;
+}
+
+pre.theme-material-oceanic .token.constant {
+	color: #c792ea;
+}
+
+pre.theme-material-oceanic .token.deleted {
+	color: #f07178;
+}
+
+pre.theme-material-oceanic .token.doctype {
+	color: #546e7a;
+}
+
+pre.theme-material-oceanic .token.entity {
+	color: #f07178;
+}
+
+pre.theme-material-oceanic .token.function {
+	color: #c792ea;
+}
+
+pre.theme-material-oceanic .token.hexcode {
+	color: #f2ff00;
+}
+
+pre.theme-material-oceanic .token.id {
+	color: #c792ea;
+	font-weight: bold;
+}
+
+pre.theme-material-oceanic .token.important {
+	color: #c792ea;
+	font-weight: bold;
+}
+
+pre.theme-material-oceanic .token.inserted {
+	color: #80cbc4;
+}
+
+pre.theme-material-oceanic .token.keyword {
+	color: #c792ea;
+	font-style: italic;
+}
+
+pre.theme-material-oceanic .token.number {
+	color: #fd9170;
+}
+
+pre.theme-material-oceanic .token.operator {
+	color: #89ddff;
+}
+
+pre.theme-material-oceanic .token.prolog {
+	color: #546e7a;
+}
+
+pre.theme-material-oceanic .token.property {
+	color: #80cbc4;
+}
+
+pre.theme-material-oceanic .token.pseudo-class {
+	color: #c3e88d;
+}
+
+pre.theme-material-oceanic .token.pseudo-element {
+	color: #c3e88d;
+}
+
+pre.theme-material-oceanic .token.punctuation {
+	color: #89ddff;
+}
+
+pre.theme-material-oceanic .token.regex {
+	color: #f2ff00;
+}
+
+pre.theme-material-oceanic .token.selector {
+	color: #f07178;
+}
+
+pre.theme-material-oceanic .token.string {
+	color: #c3e88d;
+}
+
+pre.theme-material-oceanic .token.symbol {
+	color: #c792ea;
+}
+
+pre.theme-material-oceanic .token.tag {
+	color: #f07178;
+}
+
+pre.theme-material-oceanic .token.unit {
+	color: #f07178;
+}
+
+pre.theme-material-oceanic .token.url {
+	color: #fd9170;
+}
+
+pre.theme-material-oceanic .token.variable {
+	color: #f07178;
+}
+pre.theme-material-oceanic.line-numbers .line-numbers-rows {
+	position: absolute;
+	pointer-events: none;
+	top: 50%;
+	transform: translateY(-50%);
+	font-size: 100%;
+	left: 0;
+	width: 3em;
+	letter-spacing: -1px;
+	border-right: 1px solid #999;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	-webkit-transform: translateY(-50%);
+	-moz-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	-o-transform: translateY(-50%);
+}
+
+pre.theme-material-oceanic .line-numbers-rows > span {
+	display: block;
+	counter-increment: linenumber;
+}
+
+pre.theme-material-oceanic .line-numbers-rows > span:before {
+	content: counter(linenumber);
+	color: #999;
+	display: block;
+	padding-right: 0.8em;
+	text-align: right;
+}

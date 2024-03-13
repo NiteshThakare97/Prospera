@@ -1,0 +1,930 @@
+ @import url("https://fonts.googleapis.com/css2?family=Montserrat&amp;family=Teko:wght@300;400;500&amp;display=swap");
+ .bwdiscr-image-scroll-common {
+     max-width: 500px;
+     max-height: 500px;
+     position: relative;
+     margin: 0 auto;
+ }
+
+ .bwdiscr-image-scroll-bottom-top .bwdiscr-scroll-img-area img {
+     object-fit: cover;
+     object-position: top;
+     background-position: top;
+     transition: all 4s ease-in-out;
+     height: 100%;
+     width: 100%;
+ }
+
+ .bwdiscr-image-scroll-bottom-top .bwdiscr-scroll-img-area:hover img {
+     background-position: bottom center !important;
+     object-position: bottom !important;
+ }
+
+ .bwdiscr-image-scroll-top-bottom .bwdiscr-scroll-img-area img {
+     -o-object-fit: cover;
+     object-fit: cover;
+     -o-object-position: bottom center;
+     object-position: bottom center;
+     -webkit-transition: all 6s ease-in-out;
+     transition: all 6s ease-in-out;
+     height: 100%;
+ }
+
+ .bwdiscr-image-scroll-top-bottom .bwdiscr-scroll-img-area:hover img {
+     object-position: top center;
+ }
+
+ .bwdiscr-image-scroll-right-left .bwdiscr-scroll-img-area img {
+     width: 200% !important;
+     max-width: 200%;
+     height: 100%;
+     -o-object-fit: cover;
+     object-fit: cover;
+     position: relative;
+     -webkit-transform: translateX(0);
+     transform: translateX(0);
+     -webkit-transition: all 3s ease-in-out;
+     transition: all 3s ease-in-out;
+ }
+
+ .bwdiscr-image-scroll-right-left .bwdiscr-scroll-img-area:hover img {
+     -webkit-transform: translateX(-480px);
+     transform: translateX(-480px);
+ }
+
+ .bwdiscr-image-scroll-left-right .bwdiscr-scroll-img-area img {
+     width: 200% !important;
+     max-width: 200%;
+     height: 100%;
+     -o-object-fit: cover;
+     object-fit: cover;
+     position: relative;
+     -webkit-transform: translateX(-480px);
+     transform: translateX(-480px);
+     -webkit-transition: all 3s ease-in-out;
+     transition: all 3s ease-in-out;
+ }
+
+ .bwdiscr-image-scroll-left-right .bwdiscr-scroll-img-area:hover img {
+     -webkit-transform: translateX(0px);
+     transform: translateX(0px);
+ }
+
+ .bwdiscr-image-scroll-1-area {
+     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+ }
+
+ .bwdiscr-image-scroll-1-area .bwdiscr-scroll-img-area {
+     width: 100%;
+     height: 500px;
+     cursor: pointer;
+ }
+
+ .bwdiscr-image-scroll-1-area .bwdiscr-scroll-img-area:hover {
+     box-shadow: 0 0 16px 3px #ddddddf1;
+ }
+
+ .bwdiscr-image-scroll-2-area {
+     box-shadow: 0 0 16px 0px #dddddd86;
+ }
+
+ .bwdiscr-image-scroll-2-area .bwdiscr-scroll-img-area img {
+     width: 100%;
+     height: 100%;
+     overflow: hidden;
+     border-radius: 15px;
+     cursor: pointer;
+ }
+
+ .bwdiscr-image-scroll-2-area .bwdiscr-scroll-img-area {
+     height: 500px;
+     width: 500px;
+ }
+
+ .bwdiscr-image-scroll-3-area.bwdiscr-image-scroll-common {
+     max-height: 600px;
+     max-width: 260px;
+ }
+
+ .bwdiscr-image-scroll-3-area .bwdiscr-scroll-item {
+     max-width: 100%;
+     max-height: 450px;
+     position: relative;
+     margin: 0 auto;
+     overflow: hidden;
+     border-radius: 20px;
+ }
+
+ .bwdiscr-image-scroll-3-area .bwdiscr-scroll-item .bwdiscr-scroll-device-img {
+     position: relative;
+     width: 100%;
+     height: 450px;
+ }
+
+ .bwdiscr-image-scroll-3-area .bwdiscr-scroll-item .bwdiscr-scroll-device-img img {
+     height: 100%;
+     width: 100%;
+ }
+
+ .bwdiscr-image-scroll-3-area .bwdiscr-scroll-item .bwdiscr-scroll-img-area {
+     position: absolute;
+     top: 3px;
+     left: 6px;
+     width: 96% !important;
+     max-width: 95% !important;
+     max-height: 99% !important;
+     height: 98.6% !important;
+     overflow: hidden;
+     border-radius: 42px;
+     cursor: pointer;
+ }
+
+ .bwdiscr-image-scroll-3-area .bwdiscr-scroll-item .bwdiscr-scroll-img-area img {
+     width: 100%;
+     height: 100%;
+     cursor: pointer;
+ }
+
+ .bwdiscr-image-scroll-right-left .bwdiscr-image-scroll-3-area .bwdiscr-scroll-item .bwdiscr-scroll-img-area img {
+     width: 350% !important;
+     max-width: 300%;
+ }
+
+ .bwdiscr-image-scroll-left-right .bwdiscr-image-scroll-3-area .bwdiscr-scroll-item .bwdiscr-scroll-img-area img {
+     width: 350% !important;
+     max-width: 300%;
+ }
+
+ .bwdiscr-image-scroll-4-area.bwdiscr-image-scroll-common {
+     max-height: 650px;
+     max-width: 500px;
+ }
+
+ .bwdiscr-image-scroll-4-area .bwdiscr-scroll-item {
+     max-width: 100%;
+     max-height: 600px;
+     position: relative;
+     margin: 0 auto;
+     overflow: hidden;
+     border-radius: 20px;
+ }
+
+ .bwdiscr-image-scroll-4-area .bwdiscr-scroll-item .bwdiscr-scroll-device-img {
+     position: relative;
+     width: 100%;
+     height: 600px;
+ }
+
+ .bwdiscr-image-scroll-4-area .bwdiscr-scroll-item .bwdiscr-scroll-device-img img {
+     height: 100%;
+     width: 100%;
+ }
+
+ .bwdiscr-image-scroll-4-area .bwdiscr-scroll-item .bwdiscr-scroll-img-area {
+     position: absolute;
+     top: 20px;
+     left: 10px;
+     width: 95% !important;
+     max-width: 95% !important;
+     max-height: 87% !important;
+     height: 87.6% !important;
+     overflow: hidden;
+     border-radius: 10px;
+     cursor: pointer;
+ }
+
+ @media only screen and (min-width: 200px) and (max-width: 315px) {
+     .bwdiscr-image-scroll-4-area .bwdiscr-scroll-item .bwdiscr-scroll-img-area {
+         left: 6px;
+     }
+ }
+
+ .bwdiscr-image-scroll-4-area .bwdiscr-scroll-item .bwdiscr-scroll-img-area img {
+     width: 100%;
+     height: 100%;
+     cursor: pointer;
+ }
+
+ .bwdiscr-image-scroll-right-left .bwdiscr-image-scroll-4-area .bwdiscr-scroll-item .bwdiscr-scroll-img-area img {
+     width: 250% !important;
+     max-width: 250%;
+ }
+
+ .bwdiscr-image-scroll-left-right .bwdiscr-image-scroll-4-area .bwdiscr-scroll-item .bwdiscr-scroll-img-area img {
+     width: 250% !important;
+     max-width: 250%;
+ }
+
+ .bwdiscr-image-scroll-5-area .bwdiscr-scroll-item {
+     max-width: 500px;
+     max-height: 400px;
+     position: relative;
+     margin: 0 auto;
+     overflow: hidden;
+     border-radius: 20px;
+ }
+
+ .bwdiscr-image-scroll-5-area .bwdiscr-scroll-item .bwdiscr-scroll-device-img {
+     position: relative;
+     width: 100%;
+     height: 100%;
+ }
+
+ .bwdiscr-image-scroll-5-area .bwdiscr-scroll-item .bwdiscr-scroll-device-img img {
+     height: 100%;
+     width: 100%;
+ }
+
+ .bwdiscr-image-scroll-5-area .bwdiscr-scroll-item .bwdiscr-scroll-img-area {
+     position: absolute;
+     top: 6px;
+     left: 53px;
+     width: 79% !important;
+     height: 90% !important;
+     max-width: 79% !important;
+     max-height: 88% !important;
+     border-radius: 0px;
+     overflow: hidden;
+ }
+
+ .bwdiscr-image-scroll-5-area .bwdiscr-scroll-item .bwdiscr-scroll-img-area img {
+     width: 110%;
+     max-width: 110%;
+     height: 100%;
+     cursor: pointer;
+ }
+
+ .bwdiscr-image-scroll-right-left .bwdiscr-image-scroll-5-area .bwdiscr-scroll-item .bwdiscr-scroll-img-area img {
+     width: 300% !important;
+     max-width: 300%;
+ }
+
+ .bwdiscr-image-scroll-left-right .bwdiscr-image-scroll-5-area .bwdiscr-scroll-item .bwdiscr-scroll-img-area img {
+     width: 300% !important;
+     max-width: 300%;
+ }
+
+ @media only screen and (min-width: 200px) and (max-width: 229px) {
+     .bwdiscr-image-scroll-5-area .bwdiscr-scroll-item .bwdiscr-scroll-img-area {
+         top: 2px;
+         left: 20.5px;
+         width: 79% !important;
+         height: 90% !important;
+         max-width: 79% !important;
+         max-height: 88% !important;
+     }
+ }
+
+ @media only screen and (min-width: 230px) and (max-width: 259px) {
+     .bwdiscr-image-scroll-5-area .bwdiscr-scroll-item .bwdiscr-scroll-img-area {
+         top: 3px;
+         left: 23px;
+         width: 79% !important;
+         height: 90% !important;
+         max-width: 79% !important;
+         max-height: 88% !important;
+     }
+ }
+
+ @media only screen and (min-width: 260px) and (max-width: 279px) {
+     .bwdiscr-image-scroll-5-area .bwdiscr-scroll-item .bwdiscr-scroll-img-area {
+         top: 3px;
+         left: 26px;
+         width: 79% !important;
+         height: 90% !important;
+         max-width: 79% !important;
+         max-height: 88% !important;
+     }
+ }
+
+ @media only screen and (min-width: 280px) and (max-width: 300px) {
+     .bwdiscr-image-scroll-5-area .bwdiscr-scroll-item .bwdiscr-scroll-img-area {
+         top: 3px;
+         left: 28px;
+         width: 79% !important;
+         height: 90% !important;
+         max-width: 79% !important;
+         max-height: 88% !important;
+     }
+ }
+
+ @media only screen and (min-width: 301px) and (max-width: 330px) {
+     .bwdiscr-image-scroll-5-area .bwdiscr-scroll-item .bwdiscr-scroll-img-area {
+         top: 4px;
+         left: 31px;
+         width: 80% !important;
+         height: 90% !important;
+         max-width: 80% !important;
+         max-height: 88% !important;
+     }
+ }
+
+ @media only screen and (min-width: 331px) and (max-width: 350px) {
+     .bwdiscr-image-scroll-5-area .bwdiscr-scroll-item .bwdiscr-scroll-img-area {
+         top: 3px;
+         left: 33px;
+         width: 79% !important;
+         height: 90% !important;
+         max-width: 80% !important;
+     }
+ }
+
+ @media only screen and (min-width: 351px) and (max-width: 370px) {
+     .bwdiscr-image-scroll-5-area .bwdiscr-scroll-item .bwdiscr-scroll-img-area {
+         top: 4px;
+         left: 35px;
+         width: 79% !important;
+         height: 90% !important;
+         max-width: 79% !important;
+     }
+ }
+
+ @media only screen and (min-width: 371px) and (max-width: 400px) {
+     .bwdiscr-image-scroll-5-area .bwdiscr-scroll-item .bwdiscr-scroll-img-area {
+         top: 5px;
+         left: 39px;
+         width: 79% !important;
+         height: 90% !important;
+         max-width: 79% !important;
+     }
+ }
+
+ @media only screen and (min-width: 401px) and (max-width: 430px) {
+     .bwdiscr-image-scroll-5-area .bwdiscr-scroll-item .bwdiscr-scroll-img-area {
+         top: 5px;
+         left: 42px;
+     }
+ }
+
+ @media only screen and (min-width: 431px) and (max-width: 470px) {
+     .bwdiscr-image-scroll-5-area .bwdiscr-scroll-item .bwdiscr-scroll-img-area {
+         top: 5px;
+         left: 45.5px;
+     }
+ }
+
+ @media only screen and (min-width: 471px) and (max-width: 500px) {
+     .bwdiscr-image-scroll-5-area .bwdiscr-scroll-item .bwdiscr-scroll-img-area {
+         top: 5px;
+         left: 49px;
+     }
+ }
+
+ .bwdiscr-image-scroll-6-area .bwdiscr-scroll-item {
+     max-width: 500px;
+     max-height: 400px;
+     position: relative;
+     margin: 0 auto;
+     overflow: hidden;
+     border-radius: 20px;
+ }
+
+ .bwdiscr-image-scroll-6-area .bwdiscr-scroll-item .bwdiscr-scroll-device-img {
+     position: relative;
+     width: 100%;
+     height: 100%;
+ }
+
+ .bwdiscr-image-scroll-6-area .bwdiscr-scroll-item .bwdiscr-scroll-device-img img {
+     height: 100%;
+     width: 100%;
+     object-fit: cover;
+ }
+
+ .bwdiscr-image-scroll-6-area .bwdiscr-scroll-item .bwdiscr-scroll-img-area {
+     position: absolute;
+     top: 10px;
+     left: 12px;
+     width: 95% !important;
+     height: 68% !important;
+     max-width: 95% !important;
+     max-height: 68% !important;
+     border-radius: 10px;
+     overflow: hidden;
+ }
+
+ @media only screen and (min-width: 200px) and (max-width: 350px) {
+     .bwdiscr-image-scroll-6-area .bwdiscr-scroll-item .bwdiscr-scroll-img-area {
+         top: 6px;
+         left: 7px;
+         width: 94% !important;
+         height: 66% !important;
+         max-width: 94% !important;
+         max-height: 66% !important;
+     }
+ }
+
+ @media only screen and (min-width: 351px) and (max-width: 450px) {
+     .bwdiscr-image-scroll-6-area .bwdiscr-scroll-item .bwdiscr-scroll-img-area {
+         top: 8px;
+         left: 10px;
+         width: 95% !important;
+         height: 66% !important;
+         max-width: 95% !important;
+         max-height: 66% !important;
+     }
+ }
+
+ .bwdiscr-image-scroll-6-area .bwdiscr-scroll-item .bwdiscr-scroll-img-area img {
+     width: 100%;
+     height: 100%;
+     cursor: pointer;
+ }
+
+ .bwdiscr-image-scroll-7-area.bwdiscr-image-scroll-common {
+     max-height: 800px;
+     width: 100%;
+     max-width: 100%;
+ }
+
+ .bwdiscr-image-scroll-7-area .bwdiscr-scroll-img-area {
+     width: 100%;
+     height: 900px;
+     position: relative;
+     margin: 0 auto;
+     background-position: center center;
+     background-size: auto;
+     background-attachment: fixed;
+     background-repeat: no-repeat;
+     cursor: pointer;
+ }
+
+ .bwdiscr-image-scroll-8-area .bwdiscr-scroll-img-area {
+     max-height: 495px;
+     max-width: 495px;
+     overflow: hidden;
+     position: relative;
+     overflow-x: auto;
+     margin: 5px;
+     cursor: pointer;
+ }
+
+ .bwdiscr-image-scroll-8-area .bwdiscr-scroll-img-area::before {
+     content: "";
+     position: absolute;
+     top: 0;
+     left: 0;
+     width: 200%;
+     height: 100%;
+     background-color: #000;
+     opacity: .3;
+     -webkit-transition: .5s linear;
+     transition: .5s linear;
+ }
+
+ .bwdiscr-image-scroll-8-area.bwdiscr-image-scroll-common .bwdiscr-scroll-img-area img {
+     width: 200%;
+     height: 100%;
+     object-fit: cover;
+     transition: all 10s ease-in-out;
+     max-width: initial;
+     cursor: pointer;
+ }
+
+ .bwdiscr-image-scroll-8-area .bwdiscr-scroll-img-area .bwdiscr-scroll-icon {
+     position: absolute;
+     top: 0;
+     left: 0;
+     width: 100%;
+     height: 100%;
+     font-size: 35px;
+     font-weight: 900;
+     display: -webkit-box;
+     display: -ms-flexbox;
+     display: flex;
+     -webkit-box-align: center;
+     -ms-flex-align: center;
+     align-items: center;
+     -webkit-box-pack: center;
+     -ms-flex-pack: center;
+     justify-content: center;
+     -webkit-animation: bwdiscr-scroll-8 .5s linear infinite alternate;
+     animation: bwdiscr-scroll-8 .5s linear infinite alternate;
+ }
+
+ @-webkit-keyframes bwdiscr-scroll-8 {
+     0% {
+         -webkit-transform: translateX(0);
+         transform: translateX(0);
+     }
+     100% {
+         -webkit-transform: translateX(15px);
+         transform: translateX(15px);
+     }
+ }
+
+ @keyframes bwdiscr-scroll-8 {
+     0% {
+         -webkit-transform: translateX(0);
+         transform: translateX(0);
+     }
+     100% {
+         -webkit-transform: translateX(15px);
+         transform: translateX(15px);
+     }
+ }
+
+ .bwdiscr-image-scroll-8-area .bwdiscr-scroll-img-area .bwdiscr-scroll-icon a {
+     color: #fff;
+ }
+
+ .bwdiscr-image-scroll-8-area .bwdiscr-scroll-img-area:hover {
+     -webkit-box-shadow: 0 0 16px 0px #504f4fa7;
+     box-shadow: 0 0 16px 0px #504f4fa7;
+ }
+
+ .bwdiscr-image-scroll-8-area .bwdiscr-scroll-img-area:hover::before {
+     opacity: 0;
+ }
+
+ .bwdiscr-image-scroll-8-area .bwdiscr-scroll-img-area:hover .bwdiscr-scroll-icon {
+     opacity: 0;
+ }
+
+ .bwdiscr-image-scroll-9-area .bwdiscr-scroll-img-area {
+     overflow-y: auto;
+     max-height: 500px;
+     position: relative;
+     overflow-x: inherit;
+     cursor: pointer;
+ }
+
+ .bwdiscr-image-scroll-9-area .bwdiscr-scroll-img-area::before {
+     content: "";
+     position: absolute;
+     top: 0;
+     left: 0;
+     width: 200%;
+     height: 100%;
+     background-color: #000;
+     opacity: .3;
+     -webkit-transition: .5s linear;
+     transition: .5s linear;
+ }
+
+ .bwdiscr-image-scroll-9-area .bwdiscr-scroll-img-area img {
+     width: 100%;
+     height: 100%;
+     -o-object-fit: cover;
+     object-fit: cover;
+ }
+
+ .bwdiscr-image-scroll-top-bottom .bwdiscr-image-scroll-9-area .bwdiscr-scroll-img-area img {
+     height: 900px;
+ }
+
+ .bwdiscr-image-scroll-bottom-top .bwdiscr-image-scroll-9-area .bwdiscr-scroll-img-area img {
+     height: 900px;
+ }
+
+ .bwdiscr-image-scroll-top-bottom .bwdiscr-image-scroll-9-area .bwdiscr-scroll-img-area .bwdiscr-scroll-icon {
+     animation: none !important;
+ }
+
+ .bwdiscr-image-scroll-bottom-top .bwdiscr-image-scroll-9-area .bwdiscr-scroll-img-area .bwdiscr-scroll-icon {
+     animation: none !important;
+ }
+
+ .bwdiscr-image-scroll-9-area .bwdiscr-scroll-img-area .bwdiscr-scroll-icon {
+     position: absolute;
+     top: 0;
+     left: 0;
+     width: 100%;
+     height: 100%;
+     font-size: 35px;
+     font-weight: 900;
+     color: #fff;
+     display: -webkit-box;
+     display: -ms-flexbox;
+     display: flex;
+     -webkit-box-align: center;
+     -ms-flex-align: center;
+     align-items: center;
+     -webkit-box-pack: center;
+     -ms-flex-pack: center;
+     justify-content: center;
+     -webkit-animation: bwdiscr-scroll-6 .5s linear infinite alternate;
+     animation: bwdiscr-scroll-6 .5s linear infinite alternate;
+ }
+
+ @keyframes bwdiscr-scroll-9 {
+     0% {
+         -webkit-transform: translateY(0);
+         transform: translateY(0);
+     }
+     100% {
+         -webkit-transform: translateY(15px);
+         transform: translateY(15px);
+     }
+ }
+
+ .bwdiscr-image-scroll-9-area .bwdiscr-scroll-img-area .bwdiscr-scroll-icon a {
+     color: #fff;
+ }
+
+ .bwdiscr-image-scroll-9-area .bwdiscr-scroll-img-area:hover {
+     -webkit-box-shadow: 0 0 16px 0px #504f4fa7;
+     box-shadow: 0 0 16px 0px #504f4fa7;
+ }
+
+ .bwdiscr-image-scroll-9-area .bwdiscr-scroll-img-area:hover::before {
+     opacity: 0;
+ }
+
+ .bwdiscr-image-scroll-9-area .bwdiscr-scroll-img-area:hover .bwdiscr-scroll-icon {
+     opacity: 0;
+ }
+
+ .bwdiscr-image-scroll-10-area .bwdiscr-scroll-img-area {
+     width: 100%;
+     height: 500px;
+     overflow: hidden;
+     position: relative;
+     transition: .4s;
+     border-radius: 20px;
+     cursor: pointer;
+ }
+
+ .bwdiscr-image-scroll-10-area .bwdiscr-scroll-img-area:hover {
+     animation-duration: 1.5s;
+     animation-fill-mode: both;
+     animation-name: bwdiscr-image-scroll-10;
+ }
+
+ @keyframes bwdiscr-image-scroll-10 {
+     0% {
+         transform: scale3d(1, 1, 1);
+     }
+     30% {
+         transform: scale3d(0.75, 1.25, 1);
+     }
+     40% {
+         transform: scale3d(1.25, 0.75, 1);
+     }
+     50% {
+         transform: scale3d(0.85, 1.15, 1);
+     }
+     65% {
+         transform: scale3d(1.05, 0.95, 1);
+     }
+     75% {
+         transform: scale3d(0.95, 1.05, 1);
+     }
+     100% {
+         transform: scale3d(1, 1, 1);
+     }
+ }
+
+ .bwdiscr-image-scroll-11-area {
+     box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+ }
+
+ .bwdiscr-image-scroll-11-area.bwdiscr-image-scroll-common {
+     max-width: 100% !important;
+ }
+
+ .bwdiscr-image-scroll-11-area .bwdiscr-scroll-img-area {
+     height: 500px;
+     width: auto;
+     cursor: pointer;
+ }
+
+ .bwdiscr-image-scroll-11-area .bwdiscr-scroll-img-area::before {
+     content: "";
+     position: absolute;
+     top: 0;
+     left: 0;
+     width: 100%;
+     height: 100%;
+     background-color: #000;
+     opacity: .3;
+     -webkit-transition: .5s linear;
+     transition: .5s linear;
+ }
+
+ .bwdiscr-image-scroll-11-area .bwdiscr-scroll-img-area img {
+     width: 100%;
+     height: 100%;
+     ;
+ }
+
+ .bwdiscr-image-scroll-11-area .bwdiscr-scroll-img-area:hover::before {
+     opacity: 0;
+ }
+
+ .bwdiscr-image-scroll-12-area .bwdiscr-scroll-img-area {
+     width: 100%;
+     height: 500px;
+     box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+     overflow: hidden;
+     position: relative;
+     border-radius: 15px;
+     transition: .4s;
+     cursor: pointer;
+ }
+
+ .bwdiscr-image-scroll-12-area .bwdiscr-scroll-img-area::before {
+     content: "";
+     position: absolute;
+     top: 0;
+     left: 0;
+     width: 200%;
+     height: 100%;
+     background-color: #00235a;
+     opacity: .5;
+     transition: .4s linear;
+     border-radius: 15px;
+ }
+
+ .bwdiscr-image-scroll-12-area .bwdiscr-scroll-img-area:hover:before {
+     opacity: 0;
+ }
+
+ .bwdiscr-image-scroll-12-area .bwdiscr-scroll-img-area:hover {
+     transform: translateY(-15px);
+     box-shadow: none;
+     border-radius: 0;
+ }
+
+ .bwdiscr-image-scroll-13-area {
+     max-width: 100%;
+     width: 100%;
+     transition: .3s linear;
+ }
+
+ .bwdiscr-image-scroll-13-area:hover {
+     box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+ }
+
+ .bwdiscr-image-scroll-13-area .bwdiscr-scroll-img-area {
+     width: 100%;
+     height: 500px;
+     overflow: hidden;
+     position: relative;
+     cursor: pointer;
+     transition: .4s;
+ }
+
+ .bwdiscr-image-scroll-13-area .bwdiscr-scroll-img-area img {
+     overflow: hidden;
+     transform: scale(1);
+ }
+
+ .bwdiscr-image-scroll-13-area .bwdiscr-scroll-img-area:hover img {
+     transform: scale(1.4);
+ }
+
+ .bwdiscr-image-scroll-14-area .bwdiscr-scroll-img-area {
+     width: 100%;
+     height: 500px;
+     overflow: hidden;
+     position: relative;
+     transition: .4s;
+     border-radius: 20px;
+     border: 5px solid transparent;
+     cursor: pointer;
+ }
+
+ .bwdiscr-image-scroll-14-area .bwdiscr-scroll-img-area img {
+     overflow: hidden;
+ }
+
+ .bwdiscr-image-scroll-14-area .bwdiscr-scroll-img-area:hover {
+     border-color: #f39c12;
+ }
+
+ .bwdiscr-image-scroll-15-area .bwdiscr-scroll-img-area {
+     width: 100%;
+     height: 500px;
+     box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+     overflow: hidden;
+     position: relative;
+     transition: .4s;
+     cursor: pointer;
+ }
+
+ .bwdiscr-image-scroll-15-area .bwdiscr-scroll-img-area::before {
+     content: "";
+     position: absolute;
+     top: 0;
+     left: 0;
+     width: 200%;
+     height: 100%;
+     background-color: #16a085;
+     opacity: 0;
+     transition: .4s linear;
+     transform: scale(0);
+     transform-origin: center center;
+ }
+
+ .bwdiscr-image-scroll-15-area .bwdiscr-scroll-img-area:hover:before {
+     opacity: .6;
+     transform: scale(1);
+ }
+
+ .bwdiscr-image-scroll-16-area .bwdiscr-scroll-img-area {
+     width: 100%;
+     height: 500px;
+     overflow: hidden;
+     position: relative;
+     transition: .4s;
+     will-change: transform;
+     transform: perspective(300px) rotateX(0deg) rotateY(0deg);
+     cursor: pointer;
+     box-shadow: 0 0 20px #00000038;
+     border-radius: 15px;
+ }
+
+ .bwdiscr-image-scroll-16-area .bwdiscr-scroll-img-area:hover {
+     will-change: transform;
+     transform: perspective(300px) rotateX(10.77deg) rotateY(-7.03deg) scale3d(0.95, 0.95, 0.95)
+ }
+
+ .bwdiscr-image-scroll-17-area .bwdiscr-scroll-img-area {
+     width: 100%;
+     height: 500px;
+     overflow: hidden;
+     position: relative;
+     transition: .4s;
+     border-radius: 15px;
+     filter: grayscale(0%);
+     box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+     cursor: pointer;
+ }
+
+ .bwdiscr-image-scroll-17-area .bwdiscr-scroll-img-area:hover {
+     filter: grayscale(100%);
+ }
+
+ .bwdiscr-image-scroll-18-area .bwdiscr-scroll-img-area {
+     width: 100%;
+     height: 500px;
+     overflow: hidden;
+     position: relative;
+     transition: .4s;
+     will-change: transform;
+     transform: perspective(300px) rotateX(0deg) rotateY(0deg);
+     cursor: pointer;
+ }
+
+ .bwdiscr-image-scroll-18-area .bwdiscr-scroll-img-area:hover {
+     will-change: transform;
+     transform: perspective(300px) rotateX(-9.9deg) rotateY(-0.1deg) scale3d(0.95, 0.95, 0.95);
+ }
+
+ .bwdiscr-image-scroll-19-area .bwdiscr-scroll-img-area {
+     width: 100%;
+     height: 500px;
+     overflow: hidden;
+     position: relative;
+     transition: .4s;
+     will-change: transform;
+     transform: perspective(800px) rotateX(0deg) rotateY(0deg) scale3d(1, 1, 1);
+     cursor: pointer;
+ }
+
+ .bwdiscr-image-scroll-19-area .bwdiscr-scroll-img-area:hover {
+     will-change: transform;
+     transform: perspective(800px) rotateX(30deg) rotateY(-1.1deg) scale3d(1, 1, 1);
+ }
+
+ .bwdiscr-image-scroll-20-area {
+     box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+ }
+
+ .bwdiscr-image-scroll-20-area .bwdiscr-scroll-img-area {
+     width: 100%;
+     height: 500px;
+     overflow: hidden;
+     position: relative;
+     transition: .4s;
+     border: 8px solid #ff3838;
+     cursor: pointer;
+ }
+
+ .bwdiscr-image-scroll-21-area .bwdiscr-scroll-img-area {
+     width: 100%;
+     height: 500px;
+     overflow: hidden;
+     position: relative;
+     transition: .4s;
+     border-radius: 15px;
+     cursor: pointer;
+ }
+
+ .bwdiscr-image-scroll-21-area .bwdiscr-scroll-img-area::before {
+     content: "";
+     position: absolute;
+     top: 0;
+     left: 0;
+     width: 200%;
+     height: 5px;
+     background-color: #16a085;
+     transition: .4s linear;
+     transform-origin: center center;
+ }
+
+ .bwdiscr-image-scroll-21-area .bwdiscr-scroll-img-area:hover:before {
+     height: 100%;
+     opacity: .4;
+ }

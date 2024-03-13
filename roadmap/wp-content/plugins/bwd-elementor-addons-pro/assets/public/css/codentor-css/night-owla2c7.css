@@ -1,0 +1,191 @@
+/**
+ * MIT License
+ * Copyright (c) 2018 Sarah Drasner
+ * Sarah Drasner's[@sdras] Night Owl
+ * Ported by Sara vieria [@SaraVieira]
+ * Added by Souvik Mandal [@SimpleIndian]
+ */
+
+pre.theme-night-owl code[class*="language-"],
+pre[class*="language-"].theme-night-owl {
+	color: #d6deeb;
+	font-family: Consolas, Monaco, "Andale Mono", "Ubuntu Mono", monospace;
+	text-align: left;
+	white-space: pre;
+	word-spacing: normal;
+	word-break: normal;
+	word-wrap: normal;
+	line-height: 1.5;
+	font-size: 1em;
+
+	-moz-tab-size: 4;
+	-o-tab-size: 4;
+	tab-size: 4;
+
+	-webkit-hyphens: none;
+	-moz-hyphens: none;
+	-ms-hyphens: none;
+	hyphens: none;
+}
+
+pre[class*="language-"].theme-night-owl::-moz-selection,
+pre[class*="language-"].theme-night-owl ::-moz-selection,
+pre.theme-night-owl code[class*="language-"]::-moz-selection,
+pre.theme-night-owl code[class*="language-"] ::-moz-selection {
+	text-shadow: none;
+	background: rgba(29, 59, 83, 0.99);
+}
+
+pre[class*="language-"].theme-night-owl::selection,
+pre[class*="language-"].theme-night-owl ::selection,
+pre.theme-night-owl code[class*="language-"]::selection,
+pre.theme-night-owl code[class*="language-"] ::selection {
+	text-shadow: none;
+	background: rgba(29, 59, 83, 0.99);
+}
+
+@media print {
+	pre.theme-night-owl code[class*="language-"],
+	pre[class*="language-"].theme-night-owl {
+		text-shadow: none;
+	}
+}
+
+/* Code blocks */
+pre[class*="language-"].theme-night-owl {
+	padding: 1em;
+	margin: 0.5em 0;
+	overflow: auto;
+	padding-left: 3.8em;
+}
+
+:not(pre) > pre.theme-night-owl code[class*="language-"],
+pre[class*="language-"].theme-night-owl {
+	color: white;
+	background: #011627;
+}
+
+:not(pre) > code[class*="language-"] {
+	padding: 0.1em;
+	border-radius: 0.3em;
+	white-space: normal;
+}
+
+pre.theme-night-owl .token.comment,
+pre.theme-night-owl .token.prolog,
+pre.theme-night-owl .token.cdata {
+	color: rgb(99, 119, 119);
+	font-style: italic;
+}
+
+pre.theme-night-owl .token.punctuation {
+	color: rgb(199, 146, 234);
+}
+
+pre.theme-night-owl .namespace {
+	color: rgb(178, 204, 214);
+}
+
+pre.theme-night-owl .token.deleted {
+	color: rgba(239, 83, 80, 0.56);
+	font-style: italic;
+}
+
+pre.theme-night-owl .token.symbol,
+pre.theme-night-owl .token.property {
+	color: rgb(128, 203, 196);
+}
+
+pre.theme-night-owl .token.tag,
+pre.theme-night-owl .token.operator,
+pre.theme-night-owl .token.keyword {
+	color: rgb(127, 219, 202);
+}
+
+pre.theme-night-owl .token.boolean {
+	color: rgb(255, 88, 116);
+}
+
+pre.theme-night-owl .token.number {
+	color: rgb(247, 140, 108);
+}
+
+pre.theme-night-owl .token.constant,
+pre.theme-night-owl .token.function,
+pre.theme-night-owl .token.builtin,
+pre.theme-night-owl .token.char {
+	color: rgb(130, 170, 255);
+}
+
+pre.theme-night-owl .token.selector,
+pre.theme-night-owl .token.doctype {
+	color: rgb(199, 146, 234);
+	font-style: italic;
+}
+
+pre.theme-night-owl .token.attr-name,
+pre.theme-night-owl .token.inserted {
+	color: rgb(173, 219, 103);
+	font-style: italic;
+}
+
+pre.theme-night-owl .token.string,
+pre.theme-night-owl .token.url,
+pre.theme-night-owl .token.entity,
+pre.theme-night-owl .language-css .token.string,
+.style .token.string {
+	color: rgb(173, 219, 103);
+}
+
+pre.theme-night-owl .token.class-name,
+pre.theme-night-owl .token.atrule,
+pre.theme-night-owl .token.attr-value {
+	color: rgb(255, 203, 139);
+}
+
+pre.theme-night-owl .token.regex,
+pre.theme-night-owl .token.important,
+pre.theme-night-owl .token.variable {
+	color: rgb(214, 222, 235);
+}
+
+pre.theme-night-owl .token.important,
+pre.theme-night-owl .token.bold {
+	font-weight: bold;
+}
+
+pre.theme-night-owl .token.italic {
+	font-style: italic;
+}
+pre.theme-night-owl.line-numbers .line-numbers-rows {
+	position: absolute;
+	pointer-events: none;
+	top: 50%;
+	transform: translateY(-50%);
+	font-size: 100%;
+	left: 0;
+	width: 3em;
+	letter-spacing: -1px;
+	border-right: 1px solid #999;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	-webkit-transform: translateY(-50%);
+	-moz-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	-o-transform: translateY(-50%);
+}
+
+pre.theme-night-owl .line-numbers-rows > span {
+	display: block;
+	counter-increment: linenumber;
+}
+
+pre.theme-night-owl .line-numbers-rows > span:before {
+	content: counter(linenumber);
+	color: #999;
+	display: block;
+	padding-right: 0.8em;
+	text-align: right;
+}

@@ -1,0 +1,176 @@
+/**
+ * Gruvbox light theme
+ *
+ * Based on Gruvbox: https://github.com/morhetz/gruvbox
+ * Adapted from PrismJS gruvbox-dark theme: https://github.com/schnerring/prism-themes/blob/master/themes/prism-gruvbox-dark.css
+ *
+ * @author Michael Schnerring (https://schnerring.net)
+ * @version 1.0
+ */
+
+pre.theme-gruvbox-light code[class*="language-"],
+pre[class*="language-"].theme-gruvbox-light {
+	color: #3c3836; /* fg1 / fg */
+	font-family: Consolas, Monaco, "Andale Mono", monospace;
+	direction: ltr;
+	text-align: left;
+	white-space: pre;
+	word-spacing: normal;
+	word-break: normal;
+	line-height: 1.5;
+
+	-moz-tab-size: 4;
+	-o-tab-size: 4;
+	tab-size: 4;
+
+	-webkit-hyphens: none;
+	-moz-hyphens: none;
+	-ms-hyphens: none;
+	hyphens: none;
+}
+
+pre[class*="language-"].theme-gruvbox-light::-moz-selection,
+pre[class*="language-"].theme-gruvbox-light ::-moz-selection,
+pre.theme-gruvbox-light code[class*="language-"]::-moz-selection,
+pre.theme-gruvbox-light code[class*="language-"] ::-moz-selection {
+	color: #282828; /* fg0 */
+	background: #a89984; /* bg4 */
+}
+
+pre[class*="language-"].theme-gruvbox-light::selection,
+pre[class*="language-"].theme-gruvbox-light ::selection,
+pre.theme-gruvbox-light code[class*="language-"]::selection,
+pre.theme-gruvbox-light code[class*="language-"] ::selection {
+	color: #282828; /* fg0 */
+	background: #a89984; /* bg4 */
+}
+
+/* Code blocks */
+pre[class*="language-"].theme-gruvbox-light {
+	padding: 1em;
+	margin: 0.5em 0;
+	overflow: auto;
+	padding-left: 3.8em;
+}
+
+:not(pre) > pre.theme-gruvbox-light code[class*="language-"],
+pre[class*="language-"].theme-gruvbox-light {
+	background: #f9f5d7; /* bg0_h */
+}
+
+/* Inline code */
+:not(pre) > code[class*="language-"] {
+	padding: 0.1em;
+	border-radius: 0.3em;
+}
+
+pre.theme-gruvbox-light .token.comment,
+pre.theme-gruvbox-light .token.prolog,
+pre.theme-gruvbox-light .token.cdata {
+	color: #7c6f64; /* fg4 / gray1 */
+}
+
+pre.theme-gruvbox-light .token.delimiter,
+pre.theme-gruvbox-light .token.boolean,
+pre.theme-gruvbox-light .token.keyword,
+pre.theme-gruvbox-light .token.selector,
+pre.theme-gruvbox-light .token.important,
+pre.theme-gruvbox-light .token.atrule {
+	color: #9d0006; /* red2 */
+}
+
+pre.theme-gruvbox-light .token.operator,
+pre.theme-gruvbox-light .token.punctuation,
+pre.theme-gruvbox-light .token.attr-name {
+	color: #7c6f64; /* fg4 / gray1 */
+}
+
+pre.theme-gruvbox-light .token.tag,
+pre.theme-gruvbox-light .token.tag .punctuation,
+pre.theme-gruvbox-light .token.doctype,
+pre.theme-gruvbox-light .token.builtin {
+	color: #b57614; /* yellow2 */
+}
+
+pre.theme-gruvbox-light .token.entity,
+pre.theme-gruvbox-light .token.number,
+pre.theme-gruvbox-light .token.symbol {
+	color: #8f3f71; /* purple2 */
+}
+
+pre.theme-gruvbox-light .token.property,
+pre.theme-gruvbox-light .token.constant,
+pre.theme-gruvbox-light .token.variable {
+	color: #9d0006; /* red2 */
+}
+
+pre.theme-gruvbox-light .token.string,
+pre.theme-gruvbox-light .token.char {
+	color: #797403; /* green2 */
+}
+
+pre.theme-gruvbox-light .token.attr-value,
+pre.theme-gruvbox-light .token.attr-value .punctuation {
+	color: #7c6f64; /* fg4 / gray1 */
+}
+
+pre.theme-gruvbox-light .token.url {
+	color: #797403; /* green2 */
+	text-decoration: underline;
+}
+
+pre.theme-gruvbox-light .token.function {
+	color: #b57614; /* yellow2 */
+}
+
+pre.theme-gruvbox-light .token.regex {
+	background: #797403; /* green2 */
+}
+
+pre.theme-gruvbox-light .token.bold {
+	font-weight: bold;
+}
+
+pre.theme-gruvbox-light .token.italic {
+	font-style: italic;
+}
+
+pre.theme-gruvbox-light .token.inserted {
+	background: #7c6f64; /* fg4 / gray1 */
+}
+
+pre.theme-gruvbox-light .token.deleted {
+	background: #9d0006; /* red2 */
+}
+pre.theme-gruvbox-light.line-numbers .line-numbers-rows {
+	position: absolute;
+	pointer-events: none;
+	top: 50%;
+	font-size: 100%;
+	left: 0;
+	width: 3em;
+	/*worksforline-numbersbelow1000lines*/letter-spacing: -1px;
+	border-right: 1px solid #999;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	transform: translateY(-50%);
+	-webkit-transform: translateY(-50%);
+	-moz-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	-o-transform: translateY(-50%);
+}
+
+pre.theme-gruvbox-light .line-numbers-rows > span {
+	display: block;
+	counter-increment: linenumber;
+}
+
+pre.theme-gruvbox-light .line-numbers-rows > span:before {
+	content: counter(linenumber);
+	color: #999;
+	display: block;
+	padding-right: 0.8em;
+	text-align: right;
+}

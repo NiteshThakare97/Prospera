@@ -1,0 +1,258 @@
+.elementor-editor-active .bwdspox-age-gate-wrapper {
+    display: block;
+}
+.bwdspox-age-gate-wrapper {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    display: none;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.4117647059);
+}
+.bwdspox-age-gate-wrapper:after {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.5);
+    content: "";
+}
+.bwdspox-age-gate-wrapper .bwdspox-age-gate-inner-wrapper {
+    position: relative;
+}
+.bwdspox-age-gate-wrapper .bwdspox-age-gate-boxes,
+.bwdspox-age-gate-wrapper .bwdspox-age-gate-inner-wrapper {
+    /* position: relative; */
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+}
+.bwdspox-age-gate-wrapper .bwdspox-age-gate-inner-wrapper {
+    top: 50%;
+    z-index: 10001;
+    overflow: hidden;
+    margin: 0 auto;
+    min-height: 300px;
+    max-width: 576px;
+    border-radius: 5px;
+    background: #fff;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+.bwdspox-age-gate-wrapper .bwdspox-age-gate-boxes {
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+    -ms-flex-align: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    padding: 50px;
+    width: 100%;
+    /* position: relative; */
+}
+.bwdspox-age-gate-wrapper .bwdspox-age-gate-boxes.bwdspox-age-gate-equ-width-50 {
+    width: 50%;
+}
+.bwdspox-age-gate-wrapper .bwdspox-age-gate-header {
+    width: 100%;
+    text-align: center;
+}
+.bwdspox-age-gate-wrapper .bwdspox-age-gate-header .bwdspox-age-gate-warning-msg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    display: none;
+    overflow: hidden;
+    padding: 10px 15px;
+    width: 100%;
+    height: auto;
+    background-color: rgba(17, 17, 17, 0.9019607843);
+    color: #f1f7f1;
+    text-align: center;
+    font-size: 16px;
+    -webkit-transition: all 0.3s linear;
+    transition: all 0.3s linear;
+}
+.bwdspox-age-gate-wrapper .bwdspox-age-gate-header .bwdspox-age-gate-image {
+    position: relative;
+    display: block;
+}
+.bwdspox-age-gate-wrapper .bwdspox-age-gate-header .bwdspox-age-gate-image img {
+    position: relative;
+    display: -webkit-inline-box;
+    display: -webkit-inline-flex;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    max-width: 80px;
+}
+.bwdspox-age-gate-wrapper .bwdspox-age-gate-header .bwdspox-age-gate-title {
+    margin-top: 15px;
+    color: #000;
+    font-size: 22px;
+}
+.bwdspox-age-gate-wrapper .bwdspox-age-gate-header .bwdspox-age-gate-description {
+    margin-top: 15px;
+    width: 100%;
+    color: #000;
+    letter-spacing: 0.8px;
+    font-size: 14px;
+    line-height: 1.2;
+}
+.bwdspox-age-gate-wrapper .bwdspox-age-gate-footer-text {
+    margin-top: 15px;
+    width: 100%;
+    color: #818181;
+    text-align: center;
+    font-weight: 400;
+    font-size: 14px;
+}
+.bwdspox-age-gate-wrapper .bwdspox-age-gate-footer-text p {
+    margin: 0;
+    font-weight: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
+/* .bwdspox-age-gate-wrapper .bwdspox-age-gate-form-body {
+    position: relative;
+    display: block;
+    width: 100%;
+} */
+/* .bwdspox-age-gate-wrapper.bwdspox-age-gate-confirm-age .bwdspox-age-gate-form-body {
+    position: relative;
+    display: -webkit-inline-box;
+    display: -webkit-inline-flex;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+    -ms-flex-align: center;
+} */
+.bwdspox-age-gate-wrapper.bwdspox-age-gate-confirm-age .bwdspox-age-gate-form-body .bwdspox-age-gate-checkbox.remove-checkbox,
+.bwdspox-age-gate-wrapper.bwdspox-age-gate-confirm-age .bwdspox-age-gate-form-body .bwdspox-age-gate-checkbox.remove-checkbox label {
+    position: relative;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+    -ms-flex-align: center;
+}
+.bwdspox-age-gate-wrapper.bwdspox-age-gate-confirm-age .bwdspox-age-gate-form-body .bwdspox-age-gate-checkbox.remove-checkbox .bwdspox-age-gate-checkbox-input {
+    display: none;
+}
+.bwdspox-age-gate-wrapper.bwdspox-age-gate-confirm-age .bwdspox-age-gate-form-body .bwdspox-age-gate-checkbox.remove-checkbox .bwdspox-age-gate-checkmark {
+    position: relative;
+    z-index: 111;
+    display: inline-table;
+    margin-right: 10px;
+    min-width: 20px;
+    width: 20px;
+    height: 20px;
+    border-radius: 4px;
+    background-color: #eee;
+    -webkit-transition: all 0.3s linear;
+    transition: all 0.3s linear;
+}
+.bwdspox-age-gate-wrapper.bwdspox-age-gate-confirm-age .bwdspox-age-gate-form-body .bwdspox-age-gate-checkbox.remove-checkbox:hover input ~ .bwdspox-age-gate-checkmark {
+    background-color: #c5c2c2;
+}
+.bwdspox-age-gate-wrapper.bwdspox-age-gate-confirm-age .bwdspox-age-gate-form-body .bwdspox-age-gate-checkbox.remove-checkbox input:checked ~ .bwdspox-age-gate-checkmark {
+    background-color: #c5c2c2;
+}
+.bwdspox-age-gate-wrapper.bwdspox-age-gate-confirm-age .bwdspox-age-gate-form-body .bwdspox-age-gate-checkbox.remove-checkbox .bwdspox-age-gate-checkmark:after {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    display: none;
+    width: 5px;
+    height: 10px;
+    border: solid #fff;
+    border-width: 0 3px 3px 0;
+    content: "";
+    -webkit-transform: translateY(-50%) translateX(-50%) rotate(45deg);
+    -ms-transform: translateY(-50%) translateX(-50%) rotate(45deg);
+    transform: translateY(-50%) translateX(-50%) rotate(45deg);
+}
+.bwdspox-age-gate-wrapper.bwdspox-age-gate-confirm-age .bwdspox-age-gate-form-body .bwdspox-age-gate-checkbox.remove-checkbox input:checked ~ .bwdspox-age-gate-checkmark:after {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+}
+.bwdspox-age-gate-wrapper.bwdspox-age-gate-confirm-age .bwdspox-age-gate-form-body .bwdspox-age-gate-confirm-age-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    /* top: 10px;
+    right: 10px; */
+	padding: 0;
+	margin: 0;
+    outline: 0;
+    border: 1px solid #002D40;
+    width: 35px;
+    height: 35px;
+    border-radius: 100px;
+    color: #002D40;
+    text-decoration: none;
+    font-size: 15px;
+    line-height: 1;
+    transition: all 0.3s;
+}
+
+/* @media (max-width: 1024px) and (min-width: 768px) {
+    .bwdspox-age-gate-wrapper .bwdspox-age-gate-boxes.bwdspox-age-gate-equ-width-50 {
+        width: 100%;
+    }
+} */
+/* @media (max-width: 767px) and (min-width: 300px) {
+    .bwdspox-age-gate-wrapper .bwdspox-age-gate-boxes.bwdspox-age-gate-equ-width-50 {
+        min-width: 100%;
+        width: 100%;
+    }
+} */
+.bwdspox-age-gate-wrapper .bwdspox-age-gate-boxes .bwdspox-age-gate-form-body .bwdspox-age-gate-confirm-no-btn svg,
+.bwdspox-age-gate-wrapper .bwdspox-age-gate-boxes .bwdspox-age-gate-form-body .bwdspox-age-gate-confirm-yes-btn svg {
+    width: 12px;
+    height: 12px;
+}
+.bwdspox-age-gate-boxes .bwdspox-linkup-button {
+    margin-top: 15px;
+    width: 100%;
+    text-align: center;
+}
+.bwdspox-age-gate-boxes .bwdspox-linkup-button .bwdspox-links {
+    background: linear-gradient(to right, #12c2e9, #c471ed, #f64f59);
+    color: #fff;
+    display: inline-flex;
+	gap: 6px;
+    font-size: 16px;
+    line-height: 1;
+    border-radius: 4px;
+    padding: 12px 30px;
+    transition: all .3s ease-in-out;
+}
+.bwdspox-age-gate-boxes .bwdspox-linkup-button .bwdspox-links i {
+    font-size: 14px;
+}

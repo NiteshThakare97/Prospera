@@ -1,0 +1,99 @@
+
+div.code-toolbar {
+	position: relative;
+}
+
+div.code-toolbar > .codentor_toolbar {
+	position: absolute;
+	top: 12px;
+	right: .2em;
+	transition: opacity 0.3s ease-in-out;
+	opacity: 0;
+}
+
+div.code-toolbar:hover > .codentor_toolbar {
+	opacity: 1;
+}
+
+/* Separate line b/c rules are thrown out if selector is invalid.
+   IE11 and old Edge versions don't support :focus-within. */
+div.code-toolbar:focus-within > .codentor_toolbar {
+	opacity: 1;
+}
+
+div.code-toolbar > .codentor_toolbar .toolbar-item {
+	display: inline-block;
+}
+
+div.code-toolbar > .codentor_toolbar a {
+	cursor: pointer;
+}
+
+div.code-toolbar > .codentor_toolbar button {
+	background: none;
+	border: 0;
+	color: inherit;
+	font: inherit;
+	line-height: normal;
+	overflow: visible;
+	padding: 0;
+	user-select: none;
+	-webkit-user-select: none; /* for button */
+	-moz-user-select: none;
+	-ms-user-select: none;
+}
+
+div.code-toolbar > .codentor_toolbar a,
+div.code-toolbar > .codentor_toolbar button,
+div.code-toolbar > .codentor_toolbar span {
+	color: #bbb;
+    font-size: 15px;
+    padding: 7px 15px 7px;
+    background: #28303d;
+    box-shadow: 0 2px 0 0 rgba(0,0,0,0.2);
+    border-radius: .5em;
+    line-height: 1;
+    border-radius: 5px;
+	font-weight: 400;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+}
+
+div.code-toolbar > .codentor_toolbar a:hover,
+div.code-toolbar > .codentor_toolbar a:focus,
+div.code-toolbar > .codentor_toolbar button:hover,
+div.code-toolbar > .codentor_toolbar button:focus,
+div.code-toolbar > .codentor_toolbar span:hover,
+div.code-toolbar > .codentor_toolbar span:focus {
+	color: #d1e4dd;
+	text-decoration: none;
+}
+
+.code-toolbar div.codentor_language_type {
+	position: absolute;
+	padding: 2px 10px;
+	top: 12px;
+	right: 4em;
+	display: none;
+	font-size: 15px;
+}
+.code-toolbar:hover div.codentor_language_type {
+	 position: absolute;
+    background: #28303d;
+    color: #d1e4dd;
+    line-height: 1;
+    font-family: 'Roboto';
+    font-weight: 400;
+    padding: 7px 15px;
+    letter-spacing: 1px;
+    font-size: 15px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    top: 12px;
+    right: 5em;
+	margin-right: 15px;
+    transition: opacity 0.3s ease-in-out;
+    display: block;
+	text-shadow: none;
+    z-index: 1;
+}

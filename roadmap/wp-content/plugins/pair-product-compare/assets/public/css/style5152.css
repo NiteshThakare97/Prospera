@@ -1,0 +1,143 @@
+.pptcr-table {
+    border-collapse: collapse;
+width: 100%;
+}
+.pptcr-wrapper-p .pptcr-header, .pptcr-data {
+    padding: 8px 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+.pptcr-wrapper-p .pptcr-header {
+    background-color: #f0f0f0; /* Different color for first column in first row */
+}
+.pptcr-even{
+    background-color: #f9f9f9;
+}
+.pptcr-top-title{
+    padding-bottom: 10px;
+}
+.pptcr_1 .pptcr-header {
+    background-color: #ff6464;
+}
+.pptcr_1 .pptcr-even, .pptcr_1 .wppgpc-price-range, .pptcr_1 .woocommerce-Price-amount {
+    background-color: #e69494;
+}
+.pptcr_2 .pptcr-even, .pptcr_2 .wppgpc-price-range, .pptcr_2 .woocommerce-Price-amount {
+    background-color: #2be0d5;
+}
+.pptcr_2 .pptcr-header {
+    background-color: #2eb7b0;
+}
+.pptcr_3 .pptcr-header {
+    background-color: #2e8eb7;
+}
+.pptcr_3 .pptcr-even, .pptcr_3 .wppgpc-price-range, .pptcr_3 .woocommerce-Price-amount {
+    background-color: #5fb2eb;
+}
+.pptcr_4 .pptcr-even, .pptcr_4 .wppgpc-price-range, .pptcr_4 .woocommerce-Price-amount {
+    background-color: #656565;
+    color: white;
+}
+.pptcr_4 .pptcr-header {
+    background-color: #3f3f3f;
+    color: white;
+}
+.pptcr_5 .pptcr-header {
+    background-color: #acac33;
+    color: white;
+}
+.pptcr_5 .pptcr-even, .pptcr_5 .wppgpc-price-range, .pptcr_5 .woocommerce-Price-amount {
+    background-color: #808431;
+    color: white;
+}
+a.pptcr_go_more {
+    background-color: gray;
+    color: white;
+    padding: 5px 20px;
+    border-radius: 4px;
+}
+.pptcr_6 .pptcr-header {
+    background-color: #d9d9d9;
+    font-style: italic;
+    color: brown;
+}
+.pptcr_6 .pptcr-even, .pptcr_6 .wppgpc-price-range, .pptcr_6 .woocommerce-Price-amount {
+    background-color: #e6e6e6;
+    font-style: italic;
+    color: brown;
+}
+.pptcr_6 a.pptcr_go_more {
+    background-color: #d68080;
+    color: #ececec;
+    padding: 3px 15px;
+    border-radius: 20px;
+    font-weight: 600;
+}
+.pptcr_7 .pptcr-header {
+    background-color: #c6d975;
+    font-style: normal;
+    color: #9e1616;
+}
+.pptcr_7 .pptcr-even, .pptcr_7 .wppgpc-price-range, .pptcr_7 .woocommerce-Price-amount {
+    background-color: #a4b056;
+    font-style: italic;
+    color: #1911aa;
+}
+.pptcr_7 a.pptcr_go_more {
+    background-color: #8080d6;
+    color: #c5cae5;
+    padding: 3px 15px;
+    border-radius: 20px;
+    font-weight: 600;
+}
+.pptcr_8 .pptcr-header {
+    background-color: #ebff93;
+    font-style: normal;
+    color: #9e1616;
+}
+.pptcr_8 .pptcr-even, .pptcr_8 .wppgpc-price-range, .pptcr_8 .woocommerce-Price-amount {
+    background-color: #dedfd7;
+    font-style: italic;
+    color: #1911aa;
+}
+.pptcr_8 a.pptcr_go_more {
+    background-color: #ffffff;
+    color: #767678;
+    padding: 3px 15px;
+    border-radius: 20px;
+    font-weight: 600;
+}
+.pptcr_9 .pptcr-header {
+    background-color: #868686;
+    font-style: normal;
+    color: #2a2929;
+}
+.pptcr_9 .pptcr-even, .pptcr_9 .wppgpc-price-range, .pptcr_9 .woocommerce-Price-amount {
+    background-color: #4e4e4e;
+    font-style: italic;
+    color: #9493a2;
+}
+.pptcr_9 a.pptcr_go_more {
+    background-color: #3d0b0b;
+    color: #b4b1f8;
+    padding: 3px 15px;
+    border-radius: 20px;
+    font-weight: 600;
+}
+.pptcr_10 .pptcr-header {
+    background-color: #b94a9a;
+    font-style: normal;
+    color: #bbbbbb;
+}
+.pptcr_10 .pptcr-even, .pptcr_10 .wppgpc-price-range, .pptcr_10 .woocommerce-Price-amount {
+    background-color: #b872c2;
+    font-style: italic;
+    color: #ffffff;
+}
+.pptcr_10 a.pptcr_go_more {
+    background-color: #f85c5c;
+    color: #b4b1f8;
+    padding: 3px 15px;
+    border-radius: 20px;
+    font-weight: 600;
+}

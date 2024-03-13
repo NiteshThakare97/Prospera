@@ -1,0 +1,193 @@
+/**
+ * Darcula theme
+ *
+ * Adapted from a theme based on:
+ * IntelliJ Darcula Theme (https://github.com/bulenkov/Darcula)
+ *
+ * @author Alexandre Paradis <service.paradis@gmail.com>
+ * @version 1.0
+ */
+
+pre.theme-dracula-theme vcode[class*="language-"],
+pre[class*="language-"].theme-dracula-theme {
+	color: #a9b7c6;
+	font-family: Consolas, Monaco, 'Andale Mono', monospace;
+	direction: ltr;
+	text-align: left;
+	white-space: pre;
+	word-spacing: normal;
+	word-break: normal;
+	line-height: 1.5;
+
+	-moz-tab-size: 4;
+	-o-tab-size: 4;
+	tab-size: 4;
+
+	-webkit-hyphens: none;
+	-moz-hyphens: none;
+	-ms-hyphens: none;
+	hyphens: none;
+}
+
+pre[class*="language-"].theme-dracula-theme::-moz-selection, pre[class*="language-"].theme-dracula-theme ::-moz-selection,
+pre.theme-dracula-theme code[class*="language-"]::-moz-selection, pre.theme-dracula-theme code[class*="language-"] ::-moz-selection {
+	color: inherit;
+	background: rgba(33, 66, 131, .85);
+}
+
+pre[class*="language-"].theme-dracula-theme::selection, pre[class*="language-"].theme-dracula-theme ::selection,
+pre.theme-dracula-theme code[class*="language-"]::selection, pre.theme-dracula-theme code[class*="language-"] ::selection {
+	color: inherit;
+	background: rgba(33, 66, 131, .85);
+}
+
+/* Code blocks */
+pre[class*="language-"].theme-dracula-theme {
+	padding: 1em;
+	margin: .5em 0;
+	overflow: auto;
+	padding-left: 3.8em;
+}
+
+:not(pre) > pre.theme-dracula-theme code[class*="language-"],
+pre[class*="language-"].theme-dracula-theme {
+	background: #2b2b2b;
+}
+
+/* Inline code */
+:not(pre) > code[class*="language-"] {
+	padding: .1em;
+	border-radius: .3em;
+}
+
+pre.theme-dracula-theme .token.comment,
+pre.theme-dracula-theme .token.prolog,
+pre.theme-dracula-theme .token.cdata {
+	color: #808080;
+}
+
+pre.theme-dracula-theme .token.delimiter,
+pre.theme-dracula-theme .token.boolean,
+pre.theme-dracula-theme .token.keyword,
+pre.theme-dracula-theme .token.selector,
+pre.theme-dracula-theme .token.important,
+pre.theme-dracula-theme .token.atrule {
+	color: #cc7832;
+}
+
+pre.theme-dracula-theme .token.operator,
+pre.theme-dracula-theme .token.punctuation,
+pre.theme-dracula-theme .token.attr-name {
+	color: #a9b7c6;
+}
+
+pre.theme-dracula-theme .token.tag,
+pre.theme-dracula-theme .token.tag .punctuation,
+pre.theme-dracula-theme .token.doctype,
+pre.theme-dracula-theme .token.builtin {
+	color: #e8bf6a;
+}
+
+pre.theme-dracula-theme .token.entity,
+pre.theme-dracula-theme .token.number,
+pre.theme-dracula-theme .token.symbol {
+	color: #6897bb;
+}
+
+pre.theme-dracula-theme .token.property,
+pre.theme-dracula-theme .token.constant,
+pre.theme-dracula-theme .token.variable {
+	color: #9876aa;
+}
+
+pre.theme-dracula-theme .token.string,
+pre.theme-dracula-theme .token.char {
+	color: #6a8759;
+}
+
+pre.theme-dracula-theme .token.attr-value,
+pre.theme-dracula-theme .token.attr-value .punctuation {
+	color: #a5c261;
+}
+
+pre.theme-dracula-theme .token.attr-value .punctuation:first-child {
+	color: #a9b7c6;
+}
+
+pre.theme-dracula-theme .token.url {
+	color: #287bde;
+	text-decoration: underline;
+}
+
+pre.theme-dracula-themev .token.function {
+	color: #ffc66d;
+}
+
+pre.theme-dracula-themev .token.regex {
+	background: #364135;
+}
+
+pre.theme-dracula-themev .token.bold {
+	font-weight: bold;
+}
+
+pre.theme-dracula-themev .token.italic {
+	font-style: italic;
+}
+
+pre.theme-dracula-themev .token.inserted {
+	background: #294436;
+}
+
+pre.theme-dracula-themev .token.deleted {
+	background: #484a4a;
+}
+
+pre.theme-dracula-theme code.language-css .token.property,
+pre.theme-dracula-theme code.language-css .token.property + .token.punctuation {
+	color: #a9b7c6;
+}
+
+pre.theme-dracula-theme code.language-css .token.id {
+	color: #ffc66d;
+}
+
+pre.theme-dracula-theme code.language-css .token.selector > .token.class,
+pre.theme-dracula-theme code.language-css .token.selector > .token.attribute,
+pre.theme-dracula-theme code.language-css .token.selector > .token.pseudo-class,
+pre.theme-dracula-theme code.language-css .token.selector > .token.pseudo-element {
+	color: #ffc66d;
+}
+
+pre.theme-dracula-theme.line-numbers .line-numbers-rows {
+	position: absolute;
+	pointer-events: none;
+	top: 50%;
+	transform: translateY(-50%);
+	font-size: 100%;
+	left: 0;
+	width: 3em;
+	letter-spacing: -1px;
+	border-right: 1px solid #999;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	-webkit-transform: translateY(-50%);
+	-moz-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	-o-transform: translateY(-50%);
+}
+
+pre.theme-dracula-theme .line-numbers-rows > span {
+	display: block;
+	counter-increment: linenumber;
+}
+
+pre.theme-dracula-theme .line-numbers-rows > span:before {
+	content: counter(linenumber);
+	color: #999;
+	display: block;
+	padding-right: 0.8em;
+	text-align: right;
+}

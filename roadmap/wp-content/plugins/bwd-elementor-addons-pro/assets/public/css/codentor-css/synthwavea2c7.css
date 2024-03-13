@@ -1,0 +1,174 @@
+/*
+ * Synthwave '84 Theme originally by Robb Owen [@Robb0wen] for Visual Studio Code
+ * Demo: https://marc.dev/demo/prism-synthwave84
+ *
+ * Ported for PrismJS by Marc Backes [@themarcba]
+ */
+
+pre.theme-synthwave code[class*="language-"],
+pre[class*="language-"].theme-synthwave {
+	color: #f92aad;
+	text-shadow: 0 0 2px #100c0f, 0 0 5px #dc078e33, 0 0 10px #fff3;
+	background: none;
+	font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+	font-size: 1em;
+	text-align: left;
+	white-space: pre;
+	word-spacing: normal;
+	word-break: normal;
+	word-wrap: normal;
+	line-height: 1.5;
+
+	-moz-tab-size: 4;
+	-o-tab-size: 4;
+	tab-size: 4;
+
+	-webkit-hyphens: none;
+	-moz-hyphens: none;
+	-ms-hyphens: none;
+	hyphens: none;
+}
+
+/* Code blocks */
+pre[class*="language-"].theme-synthwave {
+	padding: 1em;
+	margin: .5em 0;
+	overflow: auto;
+	padding-left: 3.8em;
+}
+
+:not(pre) > pre.theme-synthwave code[class*="language-"],
+pre[class*="language-"].theme-synthwave {
+	background-color: transparent !important;
+	background-image: linear-gradient(to bottom, #2a2139 75%, #34294f);
+}
+
+/* Inline code */
+:not(pre) > code[class*="language-"] {
+	padding: .1em;
+	border-radius: .3em;
+	white-space: normal;
+}
+
+pre.theme-synthwave .token.comment,
+pre.theme-synthwave .token.block-comment,
+pre.theme-synthwave .token.prolog,
+pre.theme-synthwave .token.doctype,
+pre.theme-synthwave .token.cdata {
+	color: #8e8e8e;
+}
+
+pre.theme-synthwave .token.punctuation {
+	color: #ccc;
+}
+
+pre.theme-synthwave .token.tag,
+pre.theme-synthwave .token.attr-name,
+pre.theme-synthwave .token.namespace,
+pre.theme-synthwave .token.number,
+pre.theme-synthwave .token.unit,
+pre.theme-synthwave .token.hexcode,
+pre.theme-synthwave .token.deleted {
+	color: #e2777a;
+}
+
+pre.theme-synthwave .token.property,
+pre.theme-synthwave .token.selector {
+	color: #72f1b8;
+	text-shadow: 0 0 2px #100c0f, 0 0 10px #257c5575, 0 0 35px #21272475;
+}
+
+pre.theme-synthwave .token.function-name {
+	color: #6196cc;
+}
+
+pre.theme-synthwave .token.boolean,
+pre.theme-synthwave .token.selector .token.id,
+pre.theme-synthwave .token.function {
+	color: #fdfdfd;
+	text-shadow: 0 0 2px #001716, 0 0 3px #03edf975, 0 0 5px #03edf975, 0 0 8px #03edf975;
+}
+
+pre.theme-synthwave .token.class-name {
+	color: #fff5f6;
+	text-shadow: 0 0 2px #000, 0 0 10px #fc1f2c75, 0 0 5px #fc1f2c75, 0 0 25px #fc1f2c75;
+}
+
+pre.theme-synthwave .token.constant,
+pre.theme-synthwave .token.symbol {
+	color: #f92aad;
+	text-shadow: 0 0 2px #100c0f, 0 0 5px #dc078e33, 0 0 10px #fff3;
+}
+
+pre.theme-synthwave .token.important,
+pre.theme-synthwave .token.atrule,
+pre.theme-synthwave .token.keyword,
+pre.theme-synthwave .token.selector .token.class,
+pre.theme-synthwave .token.builtin {
+	color: #f4eee4;
+	text-shadow: 0 0 2px #393a33, 0 0 8px #f39f0575, 0 0 2px #f39f0575;
+}
+
+pre.theme-synthwave .token.string,
+pre.theme-synthwave .token.char,
+pre.theme-synthwave .token.attr-value,
+pre.theme-synthwave .token.regex,
+pre.theme-synthwave .token.variable {
+	color: #f87c32;
+}
+
+pre.theme-synthwave .token.operator,
+pre.theme-synthwave .token.entity,
+pre.theme-synthwave .token.url {
+	color: #67cdcc;
+}
+
+pre.theme-synthwave .token.important,
+pre.theme-synthwave .token.bold {
+	font-weight: bold;
+}
+
+pre.theme-synthwave .token.italic {
+	font-style: italic;
+}
+
+pre.theme-synthwave .token.entity {
+	cursor: help;
+}
+
+pre.theme-synthwave .token.inserted {
+	color: green;
+}
+
+pre.theme-synthwave.line-numbers .line-numbers-rows {
+	position: absolute;
+	pointer-events: none;
+	top: 50%;
+	transform: translateY(-50%);
+	font-size: 100%;
+	left: 0;
+	width: 3em;
+	letter-spacing: -1px;
+	border-right: 1px solid #999;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	-webkit-transform: translateY(-50%);
+	-moz-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	-o-transform: translateY(-50%);
+}
+
+pre.theme-synthwave .line-numbers-rows > span {
+	display: block;
+	counter-increment: linenumber;
+}
+
+pre.theme-synthwave .line-numbers-rows > span:before {
+	content: counter(linenumber);
+	color: #999;
+	display: block;
+	padding-right: 0.8em;
+	text-align: right;
+}

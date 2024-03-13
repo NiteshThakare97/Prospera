@@ -1,0 +1,176 @@
+/**
+ * Solarized dark atom theme for `prism.js`
+ * Based on Atom's `atom-dark` theme: https://github.com/atom/atom-dark-syntax
+ * @author Pranay Chauhan (@PranayChauhan2516)
+ */
+
+pre.theme-solarized-dark-atom code[class*="language-"],
+pre[class*="language-"].theme-solarized-dark-atom {
+	color: #839496;
+	text-shadow: 0 1px rgba(0, 0, 0, 0.3);
+	font-family: Inconsolata, Monaco, Consolas, 'Courier New', Courier, monospace;
+	direction: ltr;
+	text-align: left;
+	white-space: pre;
+	word-spacing: normal;
+	word-break: normal;
+	line-height: 1.5;
+
+	-moz-tab-size: 4;
+	-o-tab-size: 4;
+	tab-size: 4;
+
+	-webkit-hyphens: none;
+	-moz-hyphens: none;
+	-ms-hyphens: none;
+	hyphens: none;
+}
+
+/* Code blocks */
+pre[class*="language-"].theme-solarized-dark-atom {
+	padding: 1em;
+	margin: .5em 0;
+	overflow: auto;
+	border-radius: 0.3em;
+	padding-left: 3.8em;
+}
+
+:not(pre) > pre.theme-solarized-dark-atom code[class*="language-"],
+pre[class*="language-"].theme-solarized-dark-atom {
+	background: #002b36;
+}
+
+/* Inline code */
+:not(pre) > code[class*="language-"] {
+	padding: .1em;
+	border-radius: .3em;
+}
+
+pre.theme-solarized-dark-atom .token.comment,
+pre.theme-solarized-dark-atom .token.prolog,
+pre.theme-solarized-dark-atom .token.doctype,
+pre.theme-solarized-dark-atom .token.cdata {
+	color: #586e75;
+}
+
+pre.theme-solarized-dark-atom .token.punctuation {
+	color: #93a1a1;
+}
+
+pre.theme-solarized-dark-atom .namespace {
+	opacity: .7;
+}
+
+pre.theme-solarized-dark-atom .token.property,
+pre.theme-solarized-dark-atom .token.keyword,
+pre.theme-solarized-dark-atom .token.tag {
+	color: #268bd2;
+}
+
+pre.theme-solarized-dark-atom .token.class-name {
+	color: #FFFFB6;
+	text-decoration: underline;
+}
+
+pre.theme-solarized-dark-atom .token.boolean,
+pre.theme-solarized-dark-atom .token.constant {
+	color: #b58900;
+}
+
+pre.theme-solarized-dark-atom .token.symbol,
+pre.theme-solarized-dark-atom .token.deleted {
+	color: #dc322f;
+}
+
+pre.theme-solarized-dark-atom .token.number {
+	color: #859900;
+}
+
+pre.theme-solarized-dark-atom .token.selector,
+pre.theme-solarized-dark-atom .token.attr-name,
+pre.theme-solarized-dark-atom .token.string,
+pre.theme-solarized-dark-atom .token.char,
+pre.theme-solarized-dark-atom .token.builtin,
+pre.theme-solarized-dark-atom .token.inserted {
+	color: #859900;
+}
+
+pre.theme-solarized-dark-atom .token.variable {
+	color: #268bd2;
+}
+
+pre.theme-solarized-dark-atom .token.operator {
+	color: #EDEDED;
+}
+
+pre.theme-solarized-dark-atom .token.function {
+	color: #268bd2;
+}
+
+pre.theme-solarized-dark-atom .token.regex {
+	color: #E9C062;
+}
+
+pre.theme-solarized-dark-atom .token.important {
+	color: #fd971f;
+}
+
+pre.theme-solarized-dark-atom .token.entity {
+	color: #FFFFB6;
+	cursor: help;
+}
+
+pre.theme-solarized-dark-atom .token.url {
+	color: #96CBFE;
+}
+
+pre.theme-solarized-dark-atom .language-css .token.string,
+pre.theme-solarized-dark-atom .style .token.string {
+	color: #87C38A;
+}
+
+pre.theme-solarized-dark-atom .token.important,
+pre.theme-solarized-dark-atom .token.bold {
+	font-weight: bold;
+}
+
+pre.theme-solarized-dark-atom .token.italic {
+	font-style: italic;
+}
+
+pre.theme-solarized-dark-atom .token.atrule,
+pre.theme-solarized-dark-atom .token.attr-value {
+	color: #F9EE98;
+}
+pre.theme-solarized-dark-atom.line-numbers .line-numbers-rows {
+	position: absolute;
+	pointer-events: none;
+	top: 50%;
+	font-size: 100%;
+	left: 0;
+	width: 3em;
+	/*worksforline-numbersbelow1000lines*/letter-spacing: -1px;
+	border-right: 1px solid #999;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	transform: translateY(-50%);
+	-webkit-transform: translateY(-50%);
+	-moz-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	-o-transform: translateY(-50%);
+}
+
+pre.theme-solarized-dark-atom .line-numbers-rows > span {
+	display: block;
+	counter-increment: linenumber;
+}
+
+pre.theme-solarized-dark-atom .line-numbers-rows > span:before {
+	content: counter(linenumber);
+	color: #999;
+	display: block;
+	padding-right: 0.8em;
+	text-align: right;
+}

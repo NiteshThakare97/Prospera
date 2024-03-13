@@ -1,0 +1,229 @@
+/**
+ * Shades of Purple Theme for Prism.js
+ *
+ * @author Ahmad Awais <https://twitter.com/MrAhmadAwais/>
+ * @support Follow/tweet at https://twitter.com/MrAhmadAwais/
+ */
+
+pre.theme-shades-of-purple code[class*='language-'],
+pre[class*='language-'].theme-shades-of-purple {
+	color: #9efeff;
+	direction: ltr;
+	text-align: left;
+	white-space: pre;
+	word-spacing: normal;
+	word-break: normal;
+
+	-moz-tab-size: 4;
+	-o-tab-size: 4;
+	tab-size: 4;
+
+	-webkit-hyphens: none;
+	-moz-hyphens: none;
+	-ms-hyphens: none;
+	hyphens: none;
+
+	font-family: 'Operator Mono', 'Fira Code', Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+	font-weight: 400;
+	font-size: 17px;
+	line-height: 25px;
+	letter-spacing: 0.5px;
+	text-shadow: 0 1px #222245;
+}
+
+pre[class*='language-'].theme-shades-of-purple::-moz-selection,
+pre[class*='language-'].theme-shades-of-purple ::-moz-selection,
+pre.theme-shades-of-purple code[class*='language-']::-moz-selection,
+pre.theme-shades-of-purple code[class*='language-'] ::-moz-selection,
+pre[class*='language-'].theme-shades-of-purple::selection,
+pre[class*='language-'].theme-shades-of-purple ::selection,
+pre.theme-shades-of-purple code[class*='language-']::selection,
+pre.theme-shades-of-purple code[class*='language-'] ::selection {
+	color: inherit;
+	background: #a599e9;
+}
+
+/* Code blocks. */
+pre[class*='language-'].theme-shades-of-purple {
+	padding: 2em;
+	margin: 0.5em 0;
+	overflow: auto;
+	padding-left: 3.8em;
+}
+
+:not(pre) > pre.theme-shades-of-purple code[class*='language-'],
+pre[class*='language-'].theme-shades-of-purple {
+	background: #1e1e3f;
+}
+
+/* Inline code */
+:not(pre) > code[class*='language-'] {
+	padding: 0.1em;
+	border-radius: 0.3em;
+}
+
+pre.theme-shades-of-purple .token {
+	font-weight: 400;
+}
+
+pre.theme-shades-of-purple .token.comment,
+pre.theme-shades-of-purple .token.prolog,
+pre.theme-shades-of-purple .token.cdata {
+	color: #b362ff;
+}
+
+pre.theme-shades-of-purple .token.delimiter,
+pre.theme-shades-of-purple .token.keyword,
+pre.theme-shades-of-purple .token.selector,
+pre.theme-shades-of-purple .token.important,
+pre.theme-shades-of-purple .token.atrule {
+	color: #ff9d00;
+}
+
+pre.theme-shades-of-purple .token.operator,
+pre.theme-shades-of-purple .token.attr-name {
+	color: rgb(255, 180, 84);
+}
+
+pre.theme-shades-of-purple .token.punctuation {
+	color: #ffffff;
+}
+
+pre.theme-shades-of-purple .token.boolean {
+	color: rgb(255, 98, 140);
+}
+
+pre.theme-shades-of-purple .token.tag,
+pre.theme-shades-of-purple .token.tag .punctuation,
+pre.theme-shades-of-purple .token.doctype,
+pre.theme-shades-of-purple .token.builtin {
+	color: rgb(255, 157, 0);
+}
+
+pre.theme-shades-of-purple .token.entity,
+pre.theme-shades-of-purple .token.symbol {
+	color: #6897bb;
+}
+
+pre.theme-shades-of-purple .token.number {
+	color: #ff628c;
+}
+
+pre.theme-shades-of-purple .token.property,
+pre.theme-shades-of-purple .token.constant,
+pre.theme-shades-of-purple .token.variable {
+	color: #ff628c;
+}
+
+pre.theme-shades-of-purple .token.string,
+pre.theme-shades-of-purple .token.char {
+	color: #a5ff90;
+}
+
+pre.theme-shades-of-purple .token.attr-value,
+pre.theme-shades-of-purple .token.attr-value .punctuation {
+	color: #a5c261;
+}
+
+pre.theme-shades-of-purple .token.attr-value .punctuation:first-child {
+	color: #a9b7c6;
+}
+
+pre.theme-shades-of-purple .token.url {
+	color: #287bde;
+	text-decoration: underline;
+}
+
+pre.theme-shades-of-purple .token.function {
+	color: rgb(250, 208, 0);
+}
+
+pre.theme-shades-of-purple .token.regex {
+	background: #364135;
+}
+
+pre.theme-shades-of-purple .token.bold {
+	font-weight: bold;
+}
+
+pre.theme-shades-of-purple .token.italic {
+	font-style: italic;
+}
+
+pre.theme-shades-of-purple .token.inserted {
+	background: #00ff00;
+}
+
+pre.theme-shades-of-purple .token.deleted {
+	background: #ff000d;
+}
+
+pre.theme-shades-of-purple code.language-css .token.property,
+pre.theme-shades-of-purple code.language-css .token.property + .token.punctuation {
+	color: #a9b7c6;
+}
+
+pre.theme-shades-of-purple code.language-css .token.id {
+	color: #ffc66d;
+}
+
+pre.theme-shades-of-purple code.language-css .token.selector > .token.class,
+pre.theme-shades-of-purple code.language-css .token.selector > .token.attribute,
+pre.theme-shades-of-purple code.language-css .token.selector > .token.pseudo-class,
+pre.theme-shades-of-purple code.language-css .token.selector > .token.pseudo-element {
+	color: #ffc66d;
+}
+
+pre.theme-shades-of-purple .token.class-name {
+	color: #fb94ff;
+}
+
+pre.theme-shades-of-purple .token.operator,
+pre.theme-shades-of-purple .token.entity,
+pre.theme-shades-of-purple .token.url,
+pre.theme-shades-of-purple .language-css .token.string,
+pre.theme-shades-of-purple .style .token.string {
+	background: none;
+}
+
+pre.theme-shades-of-purple .line-highlight.line-highlight {
+	margin-top: 36px;
+	background: linear-gradient(to right, rgba(179, 98, 255, 0.17), transparent);
+}
+
+pre.theme-shades-of-purple .line-highlight.line-highlight:before,
+pre.theme-shades-of-purple .line-highlight.line-highlight[data-end]:after {
+	content: '';
+}
+pre.theme-shades-of-purple.line-numbers .line-numbers-rows {
+	position: absolute;
+	pointer-events: none;
+	top: 50%;
+	transform: translateY(-50%);
+	font-size: 100%;
+	left: 0;
+	width: 3em;
+	letter-spacing: -1px;
+	border-right: 1px solid #999;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	-webkit-transform: translateY(-50%);
+	-moz-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	-o-transform: translateY(-50%);
+}
+
+pre.theme-shades-of-purple .line-numbers-rows > span {
+	display: block;
+	counter-increment: linenumber;
+}
+
+pre.theme-shades-of-purple .line-numbers-rows > span:before {
+	content: counter(linenumber);
+	color: #999;
+	display: block;
+	padding-right: 0.8em;
+	text-align: right;
+}

@@ -1,0 +1,90 @@
+.bwdccpx-countdown-items {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	display: table;
+	table-layout: fixed;
+	width: 100%;
+  }
+  
+  .bwdccpx-countdown-items > li {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	display: table-cell;
+	position: relative;
+  }
+  
+  .bwdccpx-countdown-item > div {
+	text-align: center;
+	padding: 20px;
+  }
+  
+  .bwdccpx-countdown-digits {
+	font-size: 54px;
+	line-height: 1;
+  }
+  
+  .bwdccpx-countdown-label {
+	font-size: 18px;
+	line-height: 1;
+	color: #ffffff;
+  }
+  
+  .bwdccpx-countdown-show-separator.bwdccpx-countdown-separator-solid .bwdccpx-countdown-digits::after {
+	content: "|";
+	position: absolute;
+	left: 98%;
+	z-index: 1;
+  }
+  
+  .bwdccpx-countdown-show-separator.bwdccpx-countdown-separator-dotted .bwdccpx-countdown-digits::after {
+	content: ":";
+	position: absolute;
+	left: 98%;
+	z-index: 1;
+  }
+  
+  .bwdccpx-countdown-item:last-child .bwdccpx-countdown-digits::after {
+	display: none;
+  }
+  
+  /*--- Style 1 ---*/
+  
+  .bwdccpx-countdown-items.style-1 .bwdccpx-countdown-item > div {
+	background: #262625;
+  }
+  
+  @media all and (min-width: 1025px) {
+	.bwdccpx-countdown-label-block .bwdccpx-countdown-digits,
+	.bwdccpx-countdown-label-block .bwdccpx-countdown-label {
+	  display: block;
+	  text-align: center;
+	}
+  }
+  
+  @media all and (max-width: 1025px) {
+	.bwdccpx-countdown-label-inline-tablet .bwdccpx-countdown-digits,
+	.bwdccpx-countdown-label-inline-tablet .bwdccpx-countdown-label {
+	  display: inline-block !important;
+	}
+	.bwdccpx-countdown-label-block-tablet .bwdccpx-countdown-digits,
+	.bwdccpx-countdown-label-block-tablet .bwdccpx-countdown-label {
+	  display: block !important;
+	}
+  }
+  
+  @media all and (max-width: 767px) {
+	.bwdccpx-countdown-label-inline-mobile .bwdccpx-countdown-digits,
+	.bwdccpx-countdown-label-inline-mobile .bwdccpx-countdown-label {
+	  display: inline-block !important;
+	}
+	.bwdccpx-countdown-label-block-mobile .bwdccpx-countdown-digits,
+	.bwdccpx-countdown-label-block-mobile .bwdccpx-countdown-label {
+	  display: block !important;
+	}
+	.bwdccpx-countdown-container .bwdccpx-countdown-item > div {
+	  padding: 10px;
+	}
+  }
+  

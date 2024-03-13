@@ -1,0 +1,206 @@
+/*
+Name: Duotone Dark
+Author: Simurai, adapted from DuoTone themes for Atom (http://simurai.com/projects/2016/01/01/duotone-themes)
+
+Conversion: Bram de Haan (http://atelierbram.github.io/Base2Tone-prism/output/prism/prism-base2tone-evening-dark.css)
+Generated with Base16 Builder (https://github.com/base16-builder/base16-builder)
+*/
+
+pre.theme-duotone-dark code[class*="language-"],
+pre[class*="language-"].theme-duotone-dark {
+	font-family: Consolas, Menlo, Monaco, "Andale Mono WT", "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Liberation Mono", "Nimbus Mono L", "Courier New", Courier, monospace;
+	font-size: 14px;
+	line-height: 1.375;
+	direction: ltr;
+	text-align: left;
+	white-space: pre;
+	word-spacing: normal;
+	word-break: normal;
+
+	-moz-tab-size: 4;
+	-o-tab-size: 4;
+	tab-size: 4;
+
+	-webkit-hyphens: none;
+	-moz-hyphens: none;
+	-ms-hyphens: none;
+	hyphens: none;
+	background: #2a2734;
+	color: #9a86fd;
+}
+
+pre > pre.theme-duotone-dark code[class*="language-"] {
+	font-size: 1em;
+}
+
+pre[class*="language-"].theme-duotone-dark::-moz-selection, pre[class*="language-"].theme-duotone-dark ::-moz-selection,
+pre.theme-duotone-dark code[class*="language-"]::-moz-selection, pre.theme-duotone-dark code[class*="language-"] ::-moz-selection {
+	text-shadow: none;
+	background: #6a51e6;
+}
+
+pre[class*="language-"].theme-duotone-dark::selection, pre[class*="language-"].theme-duotone-dark ::selection,
+pre.theme-duotone-dark code[class*="language-"]::selection, pre.theme-duotone-dark code[class*="language-"] ::selection {
+	text-shadow: none;
+	background: #6a51e6;
+}
+
+/* Code blocks */
+pre[class*="language-"].theme-duotone-dark {
+	padding: 1em;
+	margin: .5em 0;
+	overflow: auto;
+	padding-left: 3.8em;
+}
+
+/* Inline code */
+:not(pre) > code[class*="language-"] {
+	padding: .1em;
+	border-radius: .3em;
+}
+
+pre.theme-duotone-dark .token.comment,
+pre.theme-duotone-dark .token.prolog,
+pre.theme-duotone-dark .token.doctype,
+pre.theme-duotone-dark .token.cdata {
+	color: #6c6783;
+}
+
+pre.theme-duotone-dark .token.punctuation {
+	color: #6c6783;
+}
+
+pre.theme-duotone-dark .token.namespace {
+	opacity: .7;
+}
+
+pre.theme-duotone-dark .token.tag,
+pre.theme-duotone-dark .token.operator,
+pre.theme-duotone-dark .token.number {
+	color: #e09142;
+}
+
+pre.theme-duotone-dark .token.property,
+pre.theme-duotone-dark .token.function {
+	color: #9a86fd;
+}
+
+pre.theme-duotone-dark .token.tag-id,
+pre.theme-duotone-dark .token.selector,
+pre.theme-duotone-dark .token.atrule-id {
+	color: #eeebff;
+}
+
+pre.theme-duotone-dark code.language-javascript,
+pre.theme-duotone-dark .token.attr-name {
+	color: #c4b9fe;
+}
+
+pre.theme-duotone-dark code.language-css,
+pre.theme-duotone-dark code.language-scss,
+pre.theme-duotone-dark .token.boolean,
+pre.theme-duotone-dark .token.string,
+pre.theme-duotone-dark .token.entity,
+pre.theme-duotone-dark .token.url,
+pre.theme-duotone-dark .language-css .token.string,
+pre.theme-duotone-dark .language-scss .token.string,
+pre.theme-duotone-dark .style .token.string,
+pre.theme-duotone-dark .token.attr-value,
+pre.theme-duotone-dark .token.keyword,
+pre.theme-duotone-dark .token.control,
+pre.theme-duotone-dark .token.directive,
+pre.theme-duotone-dark .token.unit,
+pre.theme-duotone-dark .token.statement,
+pre.theme-duotone-dark .token.regex,
+pre.theme-duotone-dark .token.atrule {
+	color: #ffcc99;
+}
+
+pre.theme-duotone-dark .token.placeholder,
+pre.theme-duotone-dark .token.variable {
+	color: #ffcc99;
+}
+
+pre.theme-duotone-dark .token.deleted {
+	text-decoration: line-through;
+}
+
+pre.theme-duotone-dark .token.inserted {
+	border-bottom: 1px dotted #eeebff;
+	text-decoration: none;
+}
+
+pre.theme-duotone-dark .token.italic {
+	font-style: italic;
+}
+
+pre.theme-duotone-dark .token.important,
+pre.theme-duotone-dark .token.bold {
+	font-weight: bold;
+}
+
+pre.theme-duotone-dark .token.important {
+	color: #c4b9fe;
+}
+
+pre.theme-duotone-dark .token.entity {
+	cursor: help;
+}
+
+pre > pre.theme-duotone-dark code.highlight {
+	outline: .4em solid #8a75f5;
+	outline-offset: .4em;
+}
+
+/* overrides color-values for the Line Numbers plugin
+ * http://prismjs.com/plugins/line-numbers/
+ */
+pre.theme-duotone-dark .line-numbers.line-numbers .line-numbers-rows {
+	border-right-color: #2c2937;
+}
+
+pre.theme-duotone-dark .line-numbers .line-numbers-rows > span:before {
+	color: #3c3949;
+}
+
+/* overrides color-values for the Line Highlight plugin
+* http://prismjs.com/plugins/line-highlight/
+*/
+pre.theme-duotone-dark .line-highlight.line-highlight {
+	background: rgba(224, 145, 66, 0.2);
+	background: -webkit-linear-gradient(left, rgba(224, 145, 66, 0.2) 70%, rgba(224, 145, 66, 0));
+	background: linear-gradient(to right, rgba(224, 145, 66, 0.2) 70%, rgba(224, 145, 66, 0));
+}
+
+pre.theme-duotone-dark.line-numbers .line-numbers-rows {
+	position: absolute;
+	pointer-events: none;
+	top: 50%;
+	transform: translateY(-50%);
+	font-size: 100%;
+	left: 0;
+	width: 3em;
+	letter-spacing: -1px;
+	border-right: 1px solid #999;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	-webkit-transform: translateY(-50%);
+	-moz-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	-o-transform: translateY(-50%);
+}
+
+pre.theme-duotone-dark .line-numbers-rows > span {
+	display: block;
+	counter-increment: linenumber;
+}
+
+pre.theme-duotone-dark .line-numbers-rows > span:before {
+	content: counter(linenumber);
+	color: #999;
+	display: block;
+	padding-right: 0.8em;
+	text-align: right;
+}

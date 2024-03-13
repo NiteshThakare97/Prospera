@@ -1,0 +1,67 @@
+
+:root {
+  --pulse-color: #b6b6b6;
+}
+.elementor-element.elementor-widget-empty:has(.plordiconsa-lordicons-animation){
+  background-color: transparent !important;
+}
+.elementor-element.elementor-widget-empty .plordiconsa-effective-icon{
+display: none !important;
+}
+.plordiconsa-lordicons-animation {
+  margin-bottom: -9px !important;
+}
+
+@keyframes pulse_animation {
+    0%,to {
+        -webkit-box-shadow: 0 0 0 0 var(--pulse-color);
+        box-shadow: 0 0 0 0 var(--pulse-color);
+        -webkit-transform: scale(.95);
+        transform: scale(.95)
+    }
+
+    70% {
+        -webkit-box-shadow: 0 0 0 20px var(--pulse-color);
+        box-shadow: 0 0 0 20px var(--pulse-color);
+        -webkit-transform: scale(1);
+        transform: scale(1)
+    }
+}
+
+.plordiconsa_pulse_effect {
+    -webkit-box-shadow: 0 0 0 0 var(--pulse-color);
+    box-shadow: 0 0 0 0 var(--pulse-color);
+    -webkit-animation: pulse_animation 1.5s infinite;
+    animation: pulse_animation 1.5s infinite
+}
+.plordiconsa-content-wrapper {
+    margin-bottom: 20px;
+}
+.plordiconsa-title {
+    font-size: 25px;
+    font-weight: 600;
+    color: #000;
+}
+.plordiconsa-desc {
+    font-size: 16px;
+    font-weight: 400;
+    color: #000;
+}
+.plordiconsa-btn a {
+    background: rebeccapurple;
+    display: inline-block;
+    line-height: 1;
+    padding: 10px 15px 12px;
+    border-radius: 5pxc;
+    border-radius: 5px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 10px;
+    transition: all .3s;
+}
+.plordiconsa-content-wrapper {
+    padding-left: 20px;
+    padding-right: 20px;
+}

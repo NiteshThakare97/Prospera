@@ -1,0 +1,205 @@
+/*
+Name:   Duotone Forest
+Author: by Simurai, adapted from DuoTone themes for Atom (http://simurai.com/projects/2016/01/01/duotone-themes)
+
+Conversion: Bram de Haan (http://atelierbram.github.io/Base2Tone-prism/output/prism/prism-base2tone-forest-dark.css)
+Generated with Base16 Builder (https://github.com/base16-builder/base16-builder)
+*/
+
+pre.theme-duotone-forest code[class*="language-"],
+pre[class*="language-"].theme-duotone-forest {
+	font-family: Consolas, Menlo, Monaco, "Andale Mono WT", "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Liberation Mono", "Nimbus Mono L", "Courier New", Courier, monospace;
+	font-size: 14px;
+	line-height: 1.375;
+	direction: ltr;
+	text-align: left;
+	white-space: pre;
+	word-spacing: normal;
+	word-break: normal;
+
+	-moz-tab-size: 4;
+	-o-tab-size: 4;
+	tab-size: 4;
+
+	-webkit-hyphens: none;
+	-moz-hyphens: none;
+	-ms-hyphens: none;
+	hyphens: none;
+	background: #2a2d2a;
+	color: #687d68;
+}
+
+pre > pre.theme-duotone-forest code[class*="language-"] {
+	font-size: 1em;
+}
+
+pre[class*="language-"].theme-duotone-forest::-moz-selection, pre[class*="language-"].theme-duotone-forest ::-moz-selection,
+pre.theme-duotone-forest code[class*="language-"]::-moz-selection, pre.theme-duotone-forest code[class*="language-"] ::-moz-selection {
+	text-shadow: none;
+	background: #435643;
+}
+
+pre[class*="language-"].theme-duotone-forest::selection, pre[class*="language-"].theme-duotone-forest ::selection,
+pre.theme-duotone-forest code[class*="language-"]::selection, pre.theme-duotone-forest code[class*="language-"] ::selection {
+	text-shadow: none;
+	background: #435643;
+}
+
+/* Code blocks */
+pre[class*="language-"].theme-duotone-forest {
+	padding: 1em;
+	margin: .5em 0;
+	overflow: auto;
+	padding-left: 3.8em;
+}
+
+/* Inline code */
+:not(pre) > code[class*="language-"] {
+	padding: .1em;
+	border-radius: .3em;
+}
+
+pre.theme-duotone-forest .token.comment,
+pre.theme-duotone-forest .token.prolog,
+pre.theme-duotone-forest .token.doctype,
+pre.theme-duotone-forest .token.cdata {
+	color: #535f53;
+}
+
+pre.theme-duotone-forest .token.punctuation {
+	color: #00ffa3;
+}
+
+pre.theme-duotone-forest .token.namespace {
+	opacity: .7;
+}
+
+pre.theme-duotone-forest .token.tag,
+pre.theme-duotone-forest .token.operator,
+pre.theme-duotone-forest .token.number {
+	color: #a2b34d;
+}
+
+pre.theme-duotone-forest .token.property,
+pre.theme-duotone-forest .token.function {
+	color: #687d68;
+}
+
+pre.theme-duotone-forest .token.tag-id,
+pre.theme-duotone-forest .token.selector,
+pre.theme-duotone-forest .token.atrule-id {
+	color: #f0fff0;
+}
+
+pre.theme-duotone-forest code.language-javascript,
+.token.attr-name {
+	color: #b3d6b3;
+}
+
+pre.theme-duotone-forest code.language-css,
+pre.theme-duotone-forest code.language-scss,
+pre.theme-duotone-forest .token.boolean,
+pre.theme-duotone-forest .token.string,
+pre.theme-duotone-forest .token.entity,
+pre.theme-duotone-forest .token.url,
+pre.theme-duotone-forest .language-css .token.string,
+pre.theme-duotone-forest .language-scss .token.string,
+pre.theme-duotone-forest .style .token.string,
+pre.theme-duotone-forest .token.attr-value,
+pre.theme-duotone-forest .token.keyword,
+pre.theme-duotone-forest .token.control,
+pre.theme-duotone-forest .token.directive,
+pre.theme-duotone-forest .token.unit,
+pre.theme-duotone-forest .token.statement,
+pre.theme-duotone-forest .token.regex,
+pre.theme-duotone-forest .token.atrule {
+	color: #e5fb79;
+}
+
+pre.theme-duotone-forest .token.placeholder,
+pre.theme-duotone-forest .token.variable {
+	color: #e5fb79;
+}
+
+pre.theme-duotone-forest .token.deleted {
+	text-decoration: line-through;
+}
+
+pre.theme-duotone-forest .token.inserted {
+	border-bottom: 1px dotted #f0fff0;
+	text-decoration: none;
+}
+
+pre.theme-duotone-forest .token.italic {
+	font-style: italic;
+}
+
+pre.theme-duotone-forest .token.important,
+pre.theme-duotone-forest .token.bold {
+	font-weight: bold;
+}
+
+pre.theme-duotone-forest .token.important {
+	color: #b3d6b3;
+}
+
+pre.theme-duotone-forest .token.entity {
+	cursor: help;
+}
+
+pre > pre.theme-duotone-forest code.highlight {
+	outline: .4em solid #5c705c;
+	outline-offset: .4em;
+}
+
+/* overrides color-values for the Line Numbers plugin
+ * http://prismjs.com/plugins/line-numbers/
+ */
+pre.theme-duotone-forest .line-numbers.line-numbers .line-numbers-rows {
+	border-right-color: #2c302c;
+}
+
+pre.theme-duotone-forest .line-numbers .line-numbers-rows > span:before {
+	color: #3b423b;
+}
+
+/* overrides color-values for the Line Highlight plugin
+* http://prismjs.com/plugins/line-highlight/
+*/
+pre.theme-duotone-forest .line-highlight.line-highlight {
+	background: rgba(162, 179, 77, 0.2);
+	background: -webkit-linear-gradient(left, rgba(162, 179, 77, 0.2) 70%, rgba(162, 179, 77, 0));
+	background: linear-gradient(to right, rgba(162, 179, 77, 0.2) 70%, rgba(162, 179, 77, 0));
+}
+pre.theme-duotone-forest.line-numbers .line-numbers-rows {
+	position: absolute;
+	pointer-events: none;
+	top: 50%;
+	transform: translateY(-50%);
+	font-size: 100%;
+	left: 0;
+	width: 3em;
+	letter-spacing: -1px;
+	border-right: 1px solid #999;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	-webkit-transform: translateY(-50%);
+	-moz-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	-o-transform: translateY(-50%);
+}
+
+pre.theme-duotone-forest .line-numbers-rows > span {
+	display: block;
+	counter-increment: linenumber;
+}
+
+pre.theme-duotone-forest .line-numbers-rows > span:before {
+	content: counter(linenumber);
+	color: #999;
+	display: block;
+	padding-right: 0.8em;
+	text-align: right;
+}

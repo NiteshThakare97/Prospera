@@ -1,0 +1,153 @@
+/**
+ * MIT License
+ * Copyright (c) 2021 Ayush Saini
+ * Holi Theme for prism.js
+ * @author Ayush Saini <@AyushCodes on Twitter>
+ */
+
+pre.theme-holy-theme code[class*='language-'],
+pre[class*='language-'].theme-holy-theme {
+	color: #d6e7ff;
+	background: #030314;
+	text-shadow: none;
+	font-family: Consolas, Monaco, "Andale Mono", "Ubuntu Mono", monospace;
+	font-size: 1em;
+	line-height: 1.5;
+	letter-spacing: .2px;
+	white-space: pre;
+	word-spacing: normal;
+	word-break: normal;
+	word-wrap: normal;
+	text-align: left;
+
+	-moz-tab-size: 4;
+	-o-tab-size: 4;
+	tab-size: 4;
+
+	-webkit-hyphens: none;
+	-moz-hyphens: none;
+	-ms-hyphens: none;
+	hyphens: none;
+}
+
+pre[class*='language-'].theme-holy-theme::-moz-selection,
+pre[class*='language-'].theme-holy-theme ::-moz-selection,
+pre.theme-holy-theme code[class*='language-']::-moz-selection,
+pre.theme-holy-theme code[class*='language-'] ::-moz-selection,
+pre[class*='language-'].theme-holy-theme::selection,
+pre[class*='language-'].theme-holy-theme ::selection,
+pre.theme-holy-theme code[class*='language-']::selection,
+pre.theme-holy-theme code[class*='language-'] ::selection {
+	color: inherit;
+	background: #1d3b54;
+	text-shadow: none;
+}
+
+pre[class*='language-'].theme-holy-theme {
+	border: 1px solid #2a4555;
+	border-radius: 5px;
+	padding: 1.5em 1em;
+	margin: 1em 0;
+	overflow: auto;
+	padding-left: 3.8em;
+}
+
+:not(pre) > pre.theme-holy-theme code[class*='language-'] {
+	color: #f0f6f6;
+	background: #2a4555;
+	padding: 0.2em 0.3em;
+	border-radius: 0.2em;
+	box-decoration-break: clone;
+}
+
+pre.theme-holy-theme .token.comment,
+pre.theme-holy-theme .token.prolog,
+pre.theme-holy-theme .token.doctype,
+pre.theme-holy-theme .token.cdata {
+	color: #446e69;
+}
+
+pre.theme-holy-theme .token.punctuation {
+	color: #d6b007;
+}
+
+pre.theme-holy-theme .token.property,
+pre.theme-holy-theme .token.tag,
+pre.theme-holy-theme .token.boolean,
+pre.theme-holy-theme .token.number,
+pre.theme-holy-theme .token.constant,
+pre.theme-holy-theme .token.symbol,
+pre.theme-holy-theme .token.deleted {
+	color: #d6e7ff;
+}
+
+pre.theme-holy-theme .token.selector,
+pre.theme-holy-theme .token.attr-name,
+pre.theme-holy-theme .token.builtin,
+pre.theme-holy-theme .token.inserted {
+	color: #e60067;
+}
+
+pre.theme-holy-theme .token.string,
+pre.theme-holy-theme .token.char {
+	color: #49c6ec;
+}
+
+pre.theme-holy-theme .token.operator,
+pre.theme-holy-theme .token.entity,
+pre.theme-holy-theme .token.url,
+pre.theme-holy-theme .language-css .token.string,
+pre.theme-holy-theme .style .token.string {
+	color: #ec8e01;
+	background: transparent;
+}
+
+pre.theme-holy-theme .token.atrule,
+pre.theme-holy-theme .token.attr-value,
+pre.theme-holy-theme .token.keyword {
+	color: #0fe468;
+}
+
+pre.theme-holy-theme .token.function,
+pre.theme-holy-theme .token.class-name {
+	color: #78f3e9;
+}
+
+pre.theme-holy-theme .token.regex,
+pre.theme-holy-theme .token.important,
+pre.theme-holy-theme .token.variable {
+	color: #d6e7ff;
+}
+
+pre.theme-holy-theme.line-numbers .line-numbers-rows {
+	position: absolute;
+	pointer-events: none;
+	top: 50%;
+	transform: translateY(-50%);
+	font-size: 100%;
+	left: 0;
+	width: 3em;
+	letter-spacing: -1px;
+	border-right: 1px solid #999;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	-webkit-transform: translateY(-50%);
+	-moz-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	-o-transform: translateY(-50%);
+}
+
+pre.theme-holy-theme .line-numbers-rows > span {
+	display: block;
+	counter-increment: linenumber;
+}
+
+pre.theme-holy-theme .line-numbers-rows > span:before {
+	content: counter(linenumber);
+	color: #999;
+	display: block;
+	padding-right: 0.8em;
+	text-align: right;
+}

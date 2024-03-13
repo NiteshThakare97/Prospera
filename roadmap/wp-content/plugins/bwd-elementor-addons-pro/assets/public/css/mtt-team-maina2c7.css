@@ -1,0 +1,5222 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&amp;family=Spicy+Rice&amp;display=swap");
+.mtt-social .mtt-social-icon-one svg,
+.mtt-social .mtt-social-icon-two svg,
+.mtt-social .mtt-social-icon-three svg,
+.mtt-social .mtt-social-icon-four svg {
+    width: 16px;
+}
+.mtt-team-area .mtt-team {
+    padding: 30px 25px 40px;
+    background: #f7f5ec;
+    text-align: center;
+    overflow: hidden;
+    position: relative;
+    margin-bottom: 30px;
+    border-radius: 5px;
+}
+.mtt-style-1 {
+    height: 130px !important;
+}
+.mtt-pic {
+    flex-basis: 250px;
+    height: 350px;
+}
+.mtt-pic img {
+    width: 100%;
+    height: 100% !important;
+    object-fit: cover;
+}
+.mtt-team-area .mtt-team .mtt-pic {
+    display: inline-block;
+    width: 130px;
+    height: 130px;
+    margin-bottom: 50px;
+    z-index: 1;
+    position: relative;
+    border: 10px solid transparent;
+    border-radius: 50%;
+    -webkit-transition: 0.4s linear;
+    transition: 0.4s linear;
+}
+.mtt-team-area .mtt-team .mtt-pic::before {
+    content: "";
+    width: 100%;
+    height: 0;
+    border-radius: 50%;
+    background: #ee4266;
+    position: absolute;
+    bottom: 135%;
+    right: 0;
+    left: 0;
+    opacity: 0.2;
+    -webkit-transform: scale(3);
+    transform: scale(3);
+    -webkit-transition: all 0.3s linear 0s;
+    transition: all 0.3s linear 0s;
+}
+.mtt-team-area .mtt-team .mtt-pic img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-transition: all 0.9s ease 0s;
+    transition: all 0.9s ease 0s;
+    -o-object-fit: cover;
+    object-fit: cover;
+}
+.mtt-team-area .mtt-team:hover .mtt-pic {
+    border-color: #ee4266;
+}
+.mtt-team-area .mtt-team:hover .mtt-pic::before {
+    height: 100%;
+}
+.mtt-team-area .mtt-team:hover .mtt-pic img {
+    -webkit-box-shadow: 0 0 0 14px #f7f5ec;
+    box-shadow: 0 0 0 14px #f7f5ec;
+    -webkit-transform: scale(0.7);
+    transform: scale(0.7);
+}
+.mtt-team-area .mtt-team .mtt-team-content {
+    margin-bottom: 30px;
+}
+.mtt-team-area .mtt-team .mtt-team-content .mtt-title {
+    font-size: 22px;
+    font-weight: 700;
+    color: #4e5052;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+    margin-bottom: 5px;
+}
+.mtt-team-area .mtt-team .mtt-team-content .mtt-post {
+    display: block;
+    font-size: 15px;
+    color: #4e5052;
+    text-transform: capitalize;
+}
+.mtt-team-area .mtt-team .mtt-social {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    background: #eb1768;
+    position: absolute;
+    bottom: -100px;
+    left: 0;
+    -webkit-transition: all 0.5s ease 0s;
+    transition: all 0.5s ease 0s;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+.mtt-team-area .mtt-team .mtt-social a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    font-size: 17px;
+    color: #fff;
+    -webkit-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+}
+.mtt-team-area .mtt-team .mtt-social a:hover {
+    color: #eb1768;
+    background: #f7f5ec;
+}
+.mtt-team-area .mtt-team:hover .mtt-social {
+    bottom: 0;
+}
+.mtt-our-team-area .mtt-our-team-box {
+    overflow: hidden;
+    cursor: pointer;
+    margin-bottom: 40px;
+}
+.mtt-our-team-area .mtt-our-team-box .mtt-our-team-item {
+    position: relative;
+    -webkit-transition: 0.4s linear;
+    transition: 0.4s linear;
+}
+.mtt-our-team-area .mtt-our-team-box .mtt-our-team-item .mtt-pic img {
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+}
+.mtt-our-team-area .mtt-our-team-box .mtt-our-team-item .mtt-team-content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    top: 0;
+    left: 0;
+    text-align: center;
+    background: -webkit-gradient(linear, left top, left bottom, from(#8dadc75d), color-stop(40%, #79a1c1f7), color-stop(40%, #81a2bd), to(#8dadc75d));
+    background: linear-gradient(#8dadc75d, #79a1c1f7 40%, #81a2bd 40%, #8dadc75d);
+    color: white;
+    text-transform: capitalize;
+    -webkit-transform: translateY(114%);
+    transform: translateY(114%);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    padding: 5px 15px;
+}
+@media (max-width: 767px) {
+    .mtt-our-team-area .mtt-our-team-box .mtt-our-team-item .mtt-team-content {
+        height: 102%;
+    }
+}
+.mtt-our-team-area .mtt-our-team-box .mtt-our-team-item .mtt-team-content .mtt-title {
+    font-size: 25px;
+    font-weight: 700;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+}
+.mtt-our-team-area .mtt-our-team-box .mtt-our-team-item .mtt-team-content .mtt-post {
+    display: block;
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+.mtt-our-team-area .mtt-our-team-box .mtt-our-team-item .mtt-team-content .mtt-social {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin-top: 10px;
+}
+.mtt-our-team-area .mtt-our-team-box .mtt-our-team-item .mtt-team-content .mtt-social a {
+    color: #fff;
+    font-size: 18px;
+    margin: 0 5px;
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 50%;
+    background: rgba(228, 101, 143, 0.87);
+    border: 1px solid transparent;
+    text-align: center;
+    -webkit-transition: 0.4s linear;
+    transition: 0.4s linear;
+}
+.mtt-our-team-area .mtt-our-team-box .mtt-our-team-item .mtt-team-content .mtt-social a:hover {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+    background: transparent;
+    border: 1px solid rgba(228, 101, 143, 0.87);
+}
+.mtt-our-team-area .mtt-our-team-box:hover .mtt-our-team-item {
+    -webkit-transform: translateY(-114%);
+    transform: translateY(-114%);
+}
+.mtt-portfolio-team-area .mtt-portfolio-team {
+    text-align: center;
+    -webkit-transition: all 0.5s ease 0s;
+    transition: all 0.5s ease 0s;
+    margin-bottom: 40px;
+    border-radius: 7px;
+}
+.mtt-portfolio-team-area .mtt-portfolio-team:hover {
+    -webkit-box-shadow: 0 15px 10px -10px rgba(0, 0, 0, 0.5), 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+    box-shadow: 0 15px 10px -10px rgba(0, 0, 0, 0.5), 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+}
+.mtt-portfolio-team-area .mtt-portfolio-team .mtt-pic {
+    overflow: hidden;
+    position: relative;
+    border-radius: 7px;
+}
+.mtt-portfolio-team-area .mtt-portfolio-team .mtt-pic img {
+    width: 100%;
+    height: auto;
+}
+.mtt-portfolio-team-area .mtt-portfolio-team .mtt-pic::before,
+.mtt-portfolio-team-area .mtt-portfolio-team .mtt-pic::after {
+    content: "";
+    width: 200%;
+    height: 65%;
+    background: rgba(38, 37, 37, 0.8);
+    position: absolute;
+    top: -100%;
+    left: -7%;
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+    -webkit-transition: all 0.5s ease 0s;
+    transition: all 0.5s ease 0s;
+}
+.mtt-portfolio-team-area .mtt-portfolio-team .mtt-pic::after {
+    background: rgba(8, 75, 77, 0.8);
+    top: auto;
+    left: auto;
+    bottom: -100%;
+    right: -10%;
+}
+.mtt-portfolio-team-area .mtt-portfolio-team:hover .mtt-pic {
+    border-radius: 7px 7px 0 0;
+}
+.mtt-portfolio-team-area .mtt-portfolio-team:hover .mtt-pic::before {
+    top: 0;
+}
+.mtt-portfolio-team-area .mtt-portfolio-team:hover .mtt-pic::after {
+    bottom: 0;
+}
+.mtt-portfolio-team-area .mtt-portfolio-team .mtt-social {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    position: absolute;
+    bottom: 45%;
+    left: 0;
+    opacity: 0;
+    z-index: 2;
+    -webkit-transition: 0.4s linear;
+    transition: 0.4s linear;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+.mtt-portfolio-team-area .mtt-portfolio-team .mtt-social a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    font-size: 20px;
+    color: #fff;
+    margin: 0 5px;
+    position: relative;
+    -webkit-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+}
+.mtt-portfolio-team-area .mtt-portfolio-team .mtt-social a::after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    background: #db162f;
+    border-radius: 0 20px 20px 20px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    -webkit-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+}
+.mtt-portfolio-team-area .mtt-portfolio-team .mtt-social a:hover::after {
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
+.mtt-portfolio-team-area .mtt-portfolio-team:hover .mtt-social {
+    opacity: 1;
+}
+.mtt-portfolio-team-area .mtt-portfolio-team .mtt-team-content {
+    padding: 20px;
+    border-radius: 0 0 7px 7px;
+}
+.mtt-portfolio-team-area .mtt-portfolio-team .mtt-team-content .mtt-title {
+    font-size: 22px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    color: #047168;
+    text-transform: uppercase;
+    margin-bottom: 7px;
+}
+.mtt-portfolio-team-area .mtt-portfolio-team .mtt-team-content .mtt-post {
+    display: block;
+    font-size: 17px;
+    font-weight: 600;
+    color: #707070;
+    text-transform: capitalize;
+}
+.mtt-single-team-area .mtt-single-team {
+    margin-bottom: 50px;
+}
+.mtt-single-team-area .mtt-single-team .mtt-pic {
+    position: relative;
+    overflow: hidden;
+}
+.mtt-single-team-area .mtt-single-team .mtt-pic img {
+    width: 100%;
+    -webkit-transition: 0.5s linear;
+    transition: 0.5s linear;
+}
+.mtt-single-team-area .mtt-single-team .mtt-pic .mtt-social {
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transition: 0.5s linear;
+    transition: 0.5s linear;
+    -webkit-transform: rotateY(180deg) scale(0.5, 0.5);
+    transform: rotateY(180deg) scale(0.5, 0.5);
+    background-color: rgba(0, 0, 0, 0.7);
+}
+.mtt-single-team-area .mtt-single-team .mtt-pic .mtt-social .mtt-ul {
+    text-align: center;
+    position: relative;
+    top: 50%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+.mtt-single-team-area .mtt-single-team .mtt-pic .mtt-social .mtt-ul a {
+    color: #fff;
+    font-size: 18px;
+    text-align: center;
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+    background-color: #112926;
+    -webkit-transition: 0.4s linear;
+    transition: 0.4s linear;
+    margin: 0 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mtt-single-team-area .mtt-single-team .mtt-pic .mtt-social .mtt-ul a:hover {
+    background-color: white;
+    color: #112926;
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+}
+.mtt-single-team-area .mtt-single-team:hover .mtt-pic img {
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+}
+.mtt-single-team-area .mtt-single-team:hover .mtt-social {
+    cursor: pointer;
+    opacity: 1;
+    visibility: visible;
+    -webkit-transform: rotateY(0deg) scale(1, 1);
+    transform: rotateY(0deg) scale(1, 1);
+    top: 1px;
+}
+.mtt-single-team-area .mtt-single-team .mtt-team-content {
+    text-align: center;
+    background: #112926;
+    padding: 10px 0;
+    color: #fff;
+    margin-top: -100px;
+    -webkit-transition: 0.5s linear;
+    transition: 0.5s linear;
+}
+.mtt-single-team-area .mtt-single-team .mtt-team-content .mtt-title {
+    font-size: 25px;
+    font-weight: 700;
+    text-transform: capitalize;
+    margin-bottom: 5px;
+}
+.mtt-single-team-area .mtt-single-team .mtt-team-content .mtt-post {
+    display: block;
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+.mtt-single-team-area .mtt-single-team:hover .mtt-team-content {
+    margin-top: 0;
+}
+.mtt-team-section-area .mtt-team-section {
+    border: 2px solid #ff3232;
+    border-radius: 10px;
+    text-align: center;
+    margin-bottom: 50px;
+    z-index: 1;
+    position: relative;
+}
+.mtt-team-section-area .mtt-team-section::before {
+    content: "";
+    width: 100%;
+    height: 104%;
+    background: #ff3232;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    z-index: -1;
+    -webkit-transform: translateY(-50%) scaleX(0.3);
+    transform: translateY(-50%) scaleX(0.3);
+    -webkit-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+}
+.mtt-team-section-area .mtt-team-section:hover::before {
+    -webkit-transform: translateY(-50%) scaleX(0.7);
+    transform: translateY(-50%) scaleX(0.7);
+}
+.mtt-team-section-area .mtt-team-section .mtt-pic img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    -webkit-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+}
+.mtt-team-section-area .mtt-team-section .mtt-team-content {
+    width: 93%;
+    padding: 25px 0 10px;
+    background: #ff4444;
+    position: absolute;
+    bottom: 50px;
+    left: 50%;
+    opacity: 0;
+    -webkit-clip-path: polygon(0% 15%, 15% 15%, 15% 0%, 85% 0%, 85% 15%, 100% 15%, 100% 85%, 85% 85%, 85% 100%, 15% 100%, 15% 85%, 0% 85%);
+    clip-path: polygon(0% 15%, 15% 15%, 15% 0%, 85% 0%, 85% 15%, 100% 15%, 100% 85%, 85% 85%, 85% 100%, 15% 100%, 15% 85%, 0% 85%);
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+    -webkit-transition: all 0.3s cubic-bezier(0.5, 0.2, 0.1, 0.9);
+    transition: all 0.3s cubic-bezier(0.5, 0.2, 0.1, 0.9);
+}
+.mtt-team-section-area .mtt-team-section .mtt-team-content .mtt-title {
+    font-size: 25px;
+    font-weight: 600;
+    color: #fff;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+    margin: 0;
+}
+.mtt-team-section-area .mtt-team-section .mtt-team-content .mtt-post {
+    display: block;
+    font-size: 16px;
+    color: #fff;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+.mtt-team-section-area .mtt-team-section .mtt-team-content .mtt-social {
+    padding: 0;
+    margin: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+.mtt-team-section-area .mtt-team-section .mtt-team-content .mtt-social a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background: #fff;
+    font-size: 20px;
+    color: #ff3232;
+    -webkit-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+    margin: 0 6px;
+}
+.mtt-team-section-area .mtt-team-section .mtt-team-content .mtt-social a:hover {
+    background: -webkit-gradient(linear, left top, left bottom, from(#ff3232), to(darkred));
+    background: linear-gradient(to bottom, #ff3232, darkred);
+    -webkit-box-shadow: 0 0 0 5px rgba(255, 255, 255, 0.3);
+    box-shadow: 0 0 0 5px rgba(255, 255, 255, 0.3);
+    color: #fff;
+}
+.mtt-team-section-area .mtt-team-section:hover .mtt-team-content {
+    bottom: 10px;
+    opacity: 1;
+}
+.mtt-team-iteam-area .mtt-team-iteam {
+    text-align: center;
+    overflow: hidden;
+    position: relative;
+    margin-bottom: 50px;
+    border-radius: 5px;
+}
+.mtt-team-iteam-area .mtt-team-iteam .mtt-pic img {
+    -webkit-transition: 0.4s linear;
+    transition: 0.4s linear;
+    width: 100%;
+}
+.mtt-team-iteam-area .mtt-team-iteam:hover .mtt-pic img {
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+}
+.mtt-team-iteam-area .mtt-team-iteam .mtt-social {
+    list-style: none;
+    padding: 30px 15px;
+    margin: 0;
+    background: #0facf3;
+    border-bottom-right-radius: 50px;
+    position: absolute;
+    top: 0;
+    left: -50%;
+    -webkit-transition: all 0.4s ease-in-out 0s;
+    transition: all 0.4s ease-in-out 0s;
+}
+@media (max-width: 767px) {
+    .mtt-team-iteam-area .mtt-team-iteam .mtt-social {
+        padding: 20px 15px;
+    }
+}
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+    .mtt-team-iteam-area .mtt-team-iteam .mtt-social {
+        padding: 15px;
+    }
+}
+.mtt-team-iteam-area .mtt-team-iteam .mtt-social a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background: #fff;
+    font-size: 20px;
+    color: #0facf3;
+    -webkit-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+    margin-bottom: 18px;
+}
+@media (max-width: 767px) {
+    .mtt-team-iteam-area .mtt-team-iteam .mtt-social a {
+        margin-bottom: 14px;
+    }
+}
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+    .mtt-team-iteam-area .mtt-team-iteam .mtt-social a {
+        margin-bottom: 14px;
+    }
+}
+.mtt-team-iteam-area .mtt-team-iteam .mtt-social a:hover {
+    background: -webkit-gradient(linear, left top, left bottom, from(#0facf3), to(rgba(0, 2, 139, 0.39)));
+    background: linear-gradient(to bottom, #0facf3, rgba(0, 2, 139, 0.39));
+    -webkit-box-shadow: 0 0 0 5px rgba(255, 255, 255, 0.3);
+    box-shadow: 0 0 0 5px rgba(255, 255, 255, 0.3);
+    color: #fff;
+}
+.mtt-team-iteam-area .mtt-team-iteam:hover .mtt-social {
+    left: 0;
+}
+.mtt-team-iteam-area .mtt-team-iteam .mtt-team-content {
+    width: 100%;
+    padding: 15px 10px;
+    background: rgba(0, 0, 0, 0.6);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+@media (max-width: 767px) {
+    .mtt-team-iteam-area .mtt-team-iteam .mtt-team-content {
+        bottom: -10px;
+    }
+}
+.mtt-team-iteam-area .mtt-team-iteam .mtt-team-content .mtt-title {
+    font-size: 22px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    color: #fff;
+    margin: 0 0 5px 0;
+}
+.mtt-team-iteam-area .mtt-team-iteam .mtt-team-content .mtt-post {
+    display: block;
+    font-size: 14px;
+    color: #0facf3;
+}
+.mtt-team-card-area .mtt-team-cards {
+    position: relative;
+    background: -webkit-gradient(linear, left top, left bottom, from(#8dadc75d), color-stop(40%, #2196f3), color-stop(40%, #1d3548), to(#648097a1));
+    background: linear-gradient(#8dadc75d, #2196f3 40%, #1d3548 40%, #648097a1);
+    margin-bottom: 30px;
+    width: 99%;
+    height: auto;
+    overflow: hidden;
+}
+.mtt-team-card-area .mtt-team-cards .mtt-pic {
+    -webkit-transition: 0.4s linear;
+    transition: 0.4s linear;
+    -webkit-transform-origin: top;
+    transform-origin: top;
+    overflow: hidden;
+}
+.mtt-team-card-area .mtt-team-cards .mtt-pic img {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    -o-object-fit: cover;
+    object-fit: cover;
+    z-index: 9;
+}
+.mtt-team-card-area .mtt-team-cards:hover .mtt-pic {
+    -webkit-transform: translateY(20px) scale(0.5);
+    transform: translateY(20px) scale(0.5);
+}
+.mtt-team-card-area .mtt-team-cards .mtt-team-content {
+    position: absolute;
+    left: 50%;
+    top: 77%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    color: white;
+    visibility: hidden;
+    -webkit-transition: 0.3s linear;
+    transition: 0.3s linear;
+    opacity: 0;
+    text-align: center;
+    -webkit-transform-origin: bottom;
+    transform-origin: bottom;
+}
+.mtt-team-card-area .mtt-team-cards .mtt-team-content .mtt-title {
+    font-size: 25px;
+}
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+    .mtt-team-card-area .mtt-team-cards .mtt-team-content .mtt-title {
+        font-size: 23px;
+    }
+}
+.mtt-team-card-area .mtt-team-cards .mtt-team-content .mtt-post {
+    display: block;
+    text-align: center;
+    text-transform: capitalize;
+    margin-bottom: 15px;
+}
+@media (max-width: 767px) {
+    .mtt-team-card-area .mtt-team-cards .mtt-team-content .mtt-post {
+        margin-bottom: 5px;
+    }
+}
+.mtt-team-card-area .mtt-team-cards .mtt-team-content .mtt-social {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+.mtt-team-card-area .mtt-team-cards .mtt-team-content .mtt-social a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background: #fff;
+    font-size: 20px;
+    color: #ff3232;
+    -webkit-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+    text-align: center;
+    margin: 0 5px;
+}
+.mtt-team-card-area .mtt-team-cards .mtt-team-content .mtt-social a:hover {
+    background: -webkit-gradient(linear, left top, left bottom, from(#ff3232), to(darkred));
+    background: linear-gradient(to bottom, #ff3232, darkred);
+    -webkit-box-shadow: 0 0 0 5px rgba(255, 255, 255, 0.3);
+    box-shadow: 0 0 0 5px rgba(255, 255, 255, 0.3);
+    color: #fff;
+}
+.mtt-team-card-area .mtt-team-cards:hover .mtt-team-content {
+    visibility: visible;
+    opacity: 1;
+}
+.mtt-team-box-area .mtt-team-box-item {
+    position: relative;
+    margin-bottom: 50px;
+    background-color: #f7dfdf;
+    -webkit-transition: -webkit-box-shadow 0.4s linear;
+    transition: -webkit-box-shadow 0.4s linear;
+    transition: box-shadow 0.4s linear;
+    transition: box-shadow 0.4s linear, -webkit-box-shadow 0.4s linear;
+}
+.mtt-team-box-area .mtt-team-box-item:hover {
+    -webkit-box-shadow: 0 0 15px #b7a6ce;
+    box-shadow: 0 0 15px #b7a6ce;
+}
+.mtt-team-box-area .mtt-team-box-item .mtt-pic img {
+    width: 100%;
+    padding: 0 30px 0 25px;
+    position: relative;
+    -webkit-transition: -webkit-transform 0.3s linear;
+    transition: -webkit-transform 0.3s linear;
+    transition: transform 0.3s linear;
+    transition: transform 0.3s linear, -webkit-transform 0.3s linear;
+    z-index: 1;
+}
+.mtt-team-box-area .mtt-team-box-item .mtt-team-content {
+    position: absolute;
+    right: 0;
+    left: 60px;
+    bottom: 15px;
+    background-color: white;
+    -webkit-box-shadow: 0 0 15px #b09fc7bb;
+    box-shadow: 0 0 15px #b09fc7bb;
+    padding: 20px 10px;
+    border-radius: 4px;
+    -webkit-transition: 0.3s linear;
+    transition: 0.3s linear;
+    z-index: 9;
+}
+.mtt-team-box-area .mtt-team-box-item .mtt-team-content h3 {
+    font-size: 22px;
+    font-weight: 700;
+    color: #4c5157;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+    margin-bottom: 5px;
+}
+.mtt-team-box-area .mtt-team-box-item .mtt-team-content span {
+    display: block;
+    font-size: 15px;
+    color: #4c5157;
+    text-transform: capitalize;
+    font-weight: 500;
+}
+.mtt-team-box-area .mtt-team-box-item:hover .mtt-team-content {
+    right: 15px;
+}
+@media (max-width: 767px) {
+    .mtt-team-box-area .mtt-team-box-item:hover .mtt-team-content {
+        right: 5px;
+    }
+}
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+    .mtt-team-box-area .mtt-team-box-item:hover .mtt-team-content {
+        right: 10px;
+    }
+}
+.mtt-team-box-area .mtt-team-box-item .mtt-social {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: white;
+    height: 100%;
+    width: 60px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    text-align: center;
+    -webkit-transform: translateX(100%);
+    transform: translateX(100%);
+    opacity: 0;
+    -webkit-transition: 0.4s linear;
+    transition: 0.4s linear;
+    padding-right: 17px;
+}
+.mtt-team-box-area .mtt-team-box-item .mtt-social a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+    font-size: 16px;
+    border: 1px solid #e2c4c4;
+    color: #777;
+    border-radius: 50%;
+    margin-bottom: 15px;
+    -webkit-transition: 0.4s linear;
+    transition: 0.4s linear;
+    margin-left: 5px;
+}
+@media (max-width: 767px) {
+    .mtt-team-box-area .mtt-team-box-item .mtt-social a {
+        width: 40px;
+        height: 40px;
+        line-height: 40px;
+        font-size: 20px;
+    }
+}
+.mtt-team-box-area .mtt-team-box-item .mtt-social a:hover {
+    background-color: rgba(3, 84, 116, 0.774);
+    color: #fff;
+    -webkit-transform: rotate(80deg);
+    transform: rotate(80deg);
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 20px;
+}
+.mtt-team-box-area .mtt-team-box-item:hover .mtt-social {
+    -webkit-transform: translateX(0%);
+    transform: translateX(0%);
+    opacity: 1;
+}
+.mtt-team-box-area .mtt-team-box-item:hover .mtt-pic img {
+    -webkit-transform: translateX(35px);
+    transform: translateX(35px);
+}
+.mtt-team-thumble-area .mtt-team-thumble {
+    overflow: hidden;
+    position: relative;
+    margin-bottom: 40px;
+    border-radius: 5px;
+}
+.mtt-team-thumble-area .mtt-team-thumble::after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    background: rgba(43, 193, 234, 0.6);
+    position: absolute;
+    top: -100%;
+    left: 0;
+    opacity: 0;
+    -webkit-transition: all 0.8s ease 0s;
+    transition: all 0.8s ease 0s;
+}
+.mtt-team-thumble-area .mtt-team-thumble:hover::after {
+    top: 0;
+    opacity: 1;
+}
+.mtt-team-thumble-area .mtt-team-thumble .mtt-pic img {
+    width: 100%;
+    height: auto;
+}
+.mtt-team-thumble-area .mtt-team-thumble .mtt-social {
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    top: -50%;
+    left: 0;
+    z-index: 2;
+    -webkit-transform: translateY(-50%) rotate(-12deg);
+    transform: translateY(-50%) rotate(-12deg);
+    -webkit-transition: all 0.8s ease 0s;
+    transition: all 0.8s ease 0s;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+.mtt-team-thumble-area .mtt-team-thumble .mtt-social a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 45px;
+    height: 45px;
+    background: #0b579f;
+    font-size: 18px;
+    color: #fff;
+    margin: 0 5px;
+    -webkit-transition: 0.3s linear;
+    transition: 0.3s linear;
+}
+.mtt-team-thumble-area .mtt-team-thumble .mtt-social a:hover {
+    border-radius: 50%;
+    -webkit-transform: rotate(12deg);
+    transform: rotate(12deg);
+}
+.mtt-team-thumble-area .mtt-team-thumble:hover .mtt-social {
+    top: 50%;
+}
+@media (max-width: 767px) {
+    .mtt-team-thumble-area .mtt-team-thumble:hover .mtt-social {
+        top: 30%;
+    }
+}
+.mtt-team-thumble-area .mtt-team-thumble .mtt-team-content {
+    width: 100%;
+    padding: 20px 25px;
+    background: #f7dfdf;
+    border-bottom: 3px solid #0b579f;
+    text-transform: uppercase;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+}
+.mtt-team-thumble-area .mtt-team-thumble .mtt-team-content::before {
+    content: "";
+    width: 100%;
+    border-top: 65px solid transparent;
+    position: absolute;
+    top: -60px;
+    left: 0;
+}
+@media (max-width: 767px) {
+    .mtt-team-thumble-area .mtt-team-thumble .mtt-team-content::before {
+        border-right: 20px solid #f7dfdf;
+    }
+}
+.mtt-team-thumble-area .mtt-team-thumble .mtt-team-content::after {
+    content: "";
+    width: 3px;
+    height: 0;
+    background: #0b579f;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    -webkit-transition: 0.6s linear;
+    transition: 0.6s linear;
+}
+.mtt-team-thumble-area .mtt-team-thumble .mtt-team-content .mtt-title {
+    font-size: 22px;
+    font-weight: 700;
+    color: #4c5157;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+    margin-bottom: 5px;
+}
+.mtt-team-thumble-area .mtt-team-thumble .mtt-team-content .mtt-post {
+    display: block;
+    font-size: 15px;
+    color: #4c5157;
+    text-transform: capitalize;
+    font-weight: 500;
+}
+.mtt-team-thumble-area .mtt-team-thumble:hover::before {
+    border-right-color: #f7dfdf;
+}
+.mtt-team-thumble-area .mtt-team-thumble:hover .team-content {
+    background: #f7dfdf;
+    -webkit-box-shadow: 0 0 15px #b7a6ce;
+    box-shadow: 0 0 15px #b7a6ce;
+}
+.mtt-team-thumble-area .mtt-team-thumble:hover .mtt-team-content::after {
+    height: 70%;
+}
+.mtt-team-portfolio-area .mtt-team-portfolio {
+    font-family: "Merriweather Sans", sans-serif;
+    overflow: hidden;
+    position: relative;
+    z-index: 1;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+    margin-bottom: 50px;
+}
+.mtt-team-portfolio-area .mtt-team-portfolio:hover {
+    -webkit-box-shadow: 3px 3px 5px #999;
+    box-shadow: 3px 3px 5px #999;
+}
+.mtt-team-portfolio-area .mtt-team-portfolio::before,
+.mtt-team-portfolio-area .mtt-team-portfolio::after {
+    content: "";
+    background: radial-gradient(circle at 23% 70%, rgba(255, 255, 255, 0.8), #fff 30%);
+    width: 150%;
+    height: 150%;
+    opacity: 0;
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+    position: absolute;
+    top: -32%;
+    right: -150%;
+    z-index: 1;
+    -webkit-transition: all 0.35s ease;
+    transition: all 0.35s ease;
+}
+@media (min-width: 768px) and (max-width: 991px) {
+    .mtt-team-portfolio-area .mtt-team-portfolio::before .box::before,
+    .mtt-team-portfolio-area .mtt-team-portfolio::after .box::before {
+        width: 167%;
+        height: 153%;
+    }
+}
+.mtt-team-portfolio-area .mtt-team-portfolio:after {
+    background: rgba(255, 255, 255, 0.5);
+    width: 85%;
+    height: 89%;
+    right: auto;
+    left: -15%;
+    top: -65%;
+}
+.mtt-team-portfolio-area .mtt-team-portfolio:hover::before {
+    opacity: 1;
+    right: -115%;
+}
+.mtt-team-portfolio-area .mtt-team-portfolio:hover::after {
+    opacity: 1;
+    top: -35%;
+}
+.mtt-team-portfolio-area .mtt-team-portfolio .mtt-pic img {
+    width: 100%;
+    height: 100%;
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+    -o-object-fit: cover;
+    object-fit: cover;
+}
+.mtt-team-portfolio-area .mtt-team-portfolio .mtt-pic:hover .mtt-pic img {
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+}
+.mtt-team-portfolio-area .mtt-team-portfolio .mtt-team-content {
+    text-align: right;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    position: absolute;
+    top: 55%;
+    right: -120%;
+    z-index: 2;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+}
+.mtt-team-portfolio-area .mtt-team-portfolio .mtt-team-content .mtt-title {
+    color: #1e272e;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+}
+@media (max-width: 767px) {
+    .mtt-team-portfolio-area .mtt-team-portfolio .mtt-team-content .mtt-title {
+        font-size: 16px;
+    }
+}
+.mtt-team-portfolio-area .mtt-team-portfolio .mtt-team-content .mtt-post {
+    font-size: 16px;
+    text-transform: capitalize;
+    margin: 0 0 10px;
+    display: block;
+}
+.mtt-team-portfolio-area .mtt-team-portfolio .mtt-team-content .mtt-social {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+.mtt-team-portfolio-area .mtt-team-portfolio .mtt-team-content .mtt-social a {
+    color: #fff;
+    background-color: #1e272e;
+    font-size: 18px;
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+    margin: 0 4px;
+}
+.mtt-team-portfolio-area .mtt-team-portfolio .mtt-team-content .mtt-social a:hover {
+    color: #1e272e;
+    background-color: #fff;
+    border-radius: 10%;
+    -webkit-box-shadow: 0 0 5px #1e272e inset;
+    box-shadow: 0 0 5px #1e272e inset;
+}
+.mtt-team-portfolio-area .mtt-team-portfolio:hover .mtt-team-content {
+    right: 5%;
+}
+.mtt-team-our-area .mtt-team-our-box {
+    background: transparent;
+    text-align: center;
+    overflow: hidden;
+    position: relative;
+    z-index: 1;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    margin-bottom: 40px;
+    border-radius: 5px;
+}
+.mtt-team-our-area .mtt-team-our-box:hover {
+    background: -webkit-gradient(linear, left top, left bottom, from(#b92b27), to(#1565c0));
+    background: linear-gradient(#b92b27, #1565c0);
+    -webkit-box-shadow: 0 0 20px -5px rgba(0, 0, 0, 0.4);
+    box-shadow: 0 0 20px -5px rgba(0, 0, 0, 0.4);
+}
+.mtt-team-our-area .mtt-team-our-box::before,
+.mtt-team-our-area .mtt-team-our-box::after {
+    content: "";
+    background: #fff;
+    width: 0;
+    height: 4px;
+    position: absolute;
+    top: 5%;
+    left: 0;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+}
+.mtt-team-our-area .mtt-team-our-box::after {
+    top: auto;
+    bottom: 5%;
+    left: auto;
+    right: 0;
+}
+.mtt-team-our-area .mtt-team-our-box:hover::before,
+.mtt-team-our-area .mtt-team-our-box:hover::after {
+    width: 80%;
+}
+.mtt-team-our-area .mtt-team-our-box .mtt-pic img {
+    width: 100%;
+    height: auto;
+    -webkit-transform: scale(1.25);
+    transform: scale(1.25);
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+.mtt-team-our-area .mtt-team-our-box:hover .mtt-pic img {
+    opacity: 0.2;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+}
+.mtt-team-our-area .mtt-team-our-box .mtt-team-our-box-content {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.mtt-team-our-area .mtt-team-our-box .mtt-team-our-box-content::before,
+.mtt-team-our-area .mtt-team-our-box .mtt-team-our-box-content::after {
+    content: "";
+    background: #fff;
+    width: 0;
+    height: 4px;
+    position: absolute;
+    top: 5%;
+    left: 0;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+}
+.mtt-team-our-area .mtt-team-our-box .mtt-team-our-box-content::before,
+.mtt-team-our-area .mtt-team-our-box .mtt-team-our-box-content:after {
+    height: 0;
+    width: 4px;
+    left: auto;
+    right: 5%;
+    top: 0;
+}
+.mtt-team-our-area .mtt-team-our-box .mtt-team-our-box-content:after {
+    right: auto;
+    top: auto;
+    bottom: 0;
+    left: 5%;
+}
+.mtt-team-our-area .mtt-team-our-box .mtt-team-our-box-content .mtt-team-content {
+    color: #fff;
+    width: 70%;
+    overflow: hidden;
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+.mtt-team-our-area .mtt-team-our-box .mtt-team-our-box-content .mtt-team-content .mtt-title {
+    font-size: 23px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin: 0 0 3px 0;
+    opacity: 0;
+    -webkit-transform: rotate(90deg);
+    transform: rotate(90deg);
+    -webkit-transform-origin: left bottom;
+    transform-origin: left bottom;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+.mtt-team-our-area .mtt-team-our-box .mtt-team-our-box-content .mtt-team-content .mtt-post {
+    font-size: 15px;
+    text-transform: capitalize;
+    display: block;
+    opacity: 0;
+    -webkit-transform: rotate(90deg);
+    transform: rotate(90deg);
+    -webkit-transform-origin: left bottom;
+    transform-origin: left bottom;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+.mtt-team-our-area .mtt-team-our-box .mtt-team-our-box-content .mtt-social {
+    overflow: hidden;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+    position: absolute;
+    left: 50%;
+    bottom: 15%;
+}
+.mtt-team-our-area .mtt-team-our-box .mtt-team-our-box-content .mtt-social .mtt-li {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+    -webkit-transform-origin: left top;
+    transform-origin: left top;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+.mtt-team-our-area .mtt-team-our-box .mtt-team-our-box-content .mtt-social .mtt-li a {
+    color: #b92b27;
+    background: #fff;
+    font-size: 20px;
+    line-height: 35px;
+    height: 35px;
+    width: 35px;
+    display: table;
+    position: relative;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    margin: 0 3px;
+}
+.mtt-team-our-area .mtt-team-our-box .mtt-team-our-box-content .mtt-social .mtt-li a i {
+    display: table-cell;
+    vertical-align: middle;
+}
+.mtt-team-our-area .mtt-team-our-box .mtt-team-our-box-content .mtt-social .mtt-li a:hover {
+    color: #fff;
+    background: #b92b27;
+    border-radius: 0 50%;
+    -webkit-box-shadow: 0 0 3px rgba(255, 255, 255, 0.9);
+    box-shadow: 0 0 3px rgba(255, 255, 255, 0.9);
+}
+.mtt-team-our-area .mtt-team-our-box:hover .mtt-team-our-box-content .mtt-social .mtt-li {
+    -webkit-transform: rotate(0);
+    transform: rotate(0);
+}
+.mtt-team-our-area .mtt-team-our-box:hover .mtt-team-content .mtt-title {
+    opacity: 1;
+    -webkit-transform: rotate(0);
+    transform: rotate(0);
+}
+.mtt-team-our-area .mtt-team-our-box:hover .mtt-team-content .mtt-post {
+    opacity: 1;
+    -webkit-transform: rotate(0);
+    transform: rotate(0);
+}
+.mtt-team-our-area .mtt-team-our-box:hover .mtt-team-our-box-content::before,
+.mtt-team-our-area .mtt-team-our-box:hover .mtt-team-our-box-content:after {
+    height: 80%;
+}
+.mtt-team-style-12-area .mtt-team-style-box {
+    text-align: center;
+    -webkit-box-shadow: 0 0 15px 5px rgba(0, 0, 0, 0.07);
+    box-shadow: 0 0 15px 5px rgba(0, 0, 0, 0.07);
+    overflow: hidden;
+    position: relative;
+    margin-bottom: 40px;
+}
+.mtt-team-style-12-area .mtt-team-style-box:before {
+    content: "";
+    width: 50%;
+    height: 75%;
+    border-top: 208px solid rgba(7, 0, 2, 0.3);
+    border-left: 140px solid rgba(240, 74, 126, 0.6);
+    border-bottom: 188px solid transparent;
+    border-right: 160px solid transparent;
+    position: absolute;
+    top: 0;
+    left: -260px;
+    z-index: 1;
+    -webkit-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+}
+@media (max-width: 767px) {
+    .mtt-team-style-12-area .mtt-team-style-box:before {
+        height: 205%;
+    }
+}
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+    .mtt-team-style-12-area .mtt-team-style-box:before {
+        height: 70%;
+    }
+}
+.mtt-team-style-12-area .mtt-team-style-box:hover:before {
+    border-top: 360px solid rgba(240, 74, 126, 0.8);
+    border-left: 422px solid rgba(240, 74, 126, 0.8);
+    border-bottom: 218px solid transparent;
+    border-right: 160px solid transparent;
+    -webkit-transform: rotate3d(0, 0, 1, 52deg) scale3d(1, 1, 1);
+    transform: rotate3d(0, 0, 1, 52deg) scale3d(1, 1, 1);
+    top: 103px;
+    left: -350px;
+}
+@media (min-width: 768px) and (max-width: 991px) {
+    .mtt-team-style-12-area .mtt-team-style-box:hover:before {
+        border-top: 240px solid rgba(240, 74, 126, 0.8);
+        border-left: 500px solid rgba(240, 74, 126, 0.8);
+        border-bottom: 400px solid transparent;
+        border-right: 130px solid transparent;
+        top: 135px;
+        left: -400px;
+    }
+}
+@media (max-width: 767px) {
+    .mtt-team-style-12-area .mtt-team-style-box:hover:before {
+        border-top: 156px solid rgba(240, 74, 126, 0.8);
+        border-left: 600px solid rgba(240, 74, 126, 0.8);
+        border-bottom: 485px solid transparent;
+        border-right: 260px solid transparent;
+        top: 300px;
+        left: -185%;
+    }
+}
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+    .mtt-team-style-12-area .mtt-team-style-box:hover:before {
+        border-top: 240px solid rgba(240, 74, 126, 0.8);
+        border-left: 500px solid rgba(240, 74, 126, 0.8);
+        border-bottom: 400px solid transparent;
+        border-right: 130px solid transparent;
+        top: 135px;
+        left: -400px;
+    }
+}
+.mtt-team-style-12-area .mtt-team-style-box .mtt-pic img {
+    width: 100%;
+    height: auto;
+}
+.mtt-team-style-12-area .mtt-team-style-box .mtt-team-content {
+    color: #fff;
+    background-color: rgba(240, 74, 126, 0.8);
+    width: 60%;
+    padding: 10px 10px;
+    -webkit-transform: scale(0);
+    transform: scale(0);
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    -webkit-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+    border-radius: 5px;
+}
+.mtt-team-style-12-area .mtt-team-style-box .mtt-team-content .mtt-title {
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    margin: 0;
+}
+.mtt-team-style-12-area .mtt-team-style-box .mtt-team-content .mtt-post {
+    font-size: 15px;
+    font-weight: 500;
+    font-style: italic;
+    text-transform: capitalize;
+    display: block;
+}
+.mtt-team-style-12-area .mtt-team-style-box:hover .mtt-team-content {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+}
+.mtt-team-style-12-area .mtt-team-style-box .mtt-social {
+    position: absolute;
+    left: 50%;
+    bottom: 10px;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+    z-index: 1;
+    -webkit-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    opacity: 0;
+}
+@media (max-width: 767px) {
+    .mtt-team-style-12-area .mtt-team-style-box .mtt-social {
+        left: 5%;
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+    }
+}
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+    .mtt-team-style-12-area .mtt-team-style-box .mtt-social {
+        left: 50%;
+        -webkit-transform: translateX(-50%);
+        transform: translateX(-50%);
+    }
+}
+.mtt-team-style-12-area .mtt-team-style-box .mtt-social a {
+    color: #f04a7e99;
+    background-color: #fff;
+    font-size: 16px;
+    height: 30px;
+    width: 30px;
+    border: 2px dotted transparent;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    -webkit-transform: rotate(0);
+    transform: rotate(0);
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+    margin: 0 4px;
+}
+.mtt-team-style-12-area .mtt-team-style-box .mtt-social a:hover {
+    color: #f44178;
+    background: #fff;
+    border-color: #f44178;
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+}
+.mtt-team-style-12-area .mtt-team-style-box:hover .mtt-social {
+    opacity: 1;
+}
+.mtt-team-style-13-area .mtt-team-style-13-box {
+    background: #7b410e;
+    overflow: hidden;
+    position: relative;
+    -webkit-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+    margin-bottom: 50px;
+}
+.mtt-team-style-13-area .mtt-team-style-13-box:before {
+    content: "";
+    background: #fff;
+    -webkit-box-shadow: 0 0 50px rgba(0, 0, 0, 0.5) inset;
+    box-shadow: 0 0 50px rgba(0, 0, 0, 0.5) inset;
+    opacity: 0;
+    -webkit-transform: perspective(1000px) rotateX(90deg);
+    transform: perspective(1000px) rotateX(90deg);
+    -webkit-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+    position: absolute;
+    top: 12px;
+    left: 12px;
+    right: 12px;
+    bottom: 12px;
+    -webkit-transition: 0.5s linear;
+    transition: 0.5s linear;
+}
+.mtt-team-style-13-area .mtt-team-style-13-box:hover:before {
+    opacity: 1;
+    -webkit-transform: perspective(1000px) rotateX(0);
+    transform: perspective(1000px) rotateX(0);
+}
+.mtt-team-style-13-area .mtt-team-style-13-box .mtt-pic img {
+    width: 100%;
+    height: auto;
+    -webkit-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+}
+.mtt-team-style-13-area .mtt-team-style-13-box:hover .mtt-pic img {
+    opacity: 0.7;
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+.mtt-team-style-13-area .mtt-team-style-13-box .mtt-team-content {
+    color: #fff;
+    background: rgba(19, 175, 217, 0.86);
+    text-align: center;
+    width: 80%;
+    padding: 15px 10px;
+    border-radius: 0 20px;
+    opacity: 0;
+    -webkit-transform: translateX(-50%) translateY(-200%);
+    transform: translateX(-50%) translateY(-200%);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 1;
+    -webkit-transition: 0.6s linear;
+    transition: 0.6s linear;
+    visibility: hidden;
+}
+.mtt-team-style-13-area .mtt-team-style-13-box .mtt-team-content .mtt-title {
+    font-size: 22px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    margin: 0 0 5px;
+}
+.mtt-team-style-13-area .mtt-team-style-13-box .mtt-team-content .mtt-title .mtt-post {
+    font-size: 16px;
+    font-style: italic;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+.mtt-team-style-13-area .mtt-team-style-13-box:hover .mtt-team-content {
+    opacity: 1;
+    visibility: visible;
+    -webkit-transform: translateX(-50%) translateY(-60%);
+    transform: translateX(-50%) translateY(-60%);
+}
+.mtt-team-style-13-area .mtt-team-style-13-box .mtt-social {
+    opacity: 0;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+    position: absolute;
+    left: 50%;
+    bottom: -20px;
+    -webkit-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    visibility: hidden;
+}
+.mtt-team-style-13-area .mtt-team-style-13-box .mtt-social a {
+    color: rgba(19, 175, 217, 0.86);
+    background: #fff;
+    font-size: 20px;
+    height: 35px;
+    width: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    margin: 0 4px;
+}
+.mtt-team-style-13-area .mtt-team-style-13-box .mtt-social a:hover {
+    color: #fff;
+    background: rgba(19, 175, 217, 0.86);
+    border-radius: 0 50%;
+    -webkit-box-shadow: 0 0 3px rgba(255, 255, 255, 0.9);
+    box-shadow: 0 0 3px rgba(255, 255, 255, 0.9);
+}
+.mtt-team-style-13-area .mtt-team-style-13-box:hover .mtt-social {
+    opacity: 1;
+    bottom: 20px;
+    visibility: visible;
+}
+.mtt-team-style-14-area .mtt-team-style-14-box {
+    background: #de3545bf;
+    overflow: hidden;
+    position: relative;
+    margin-bottom: 40px;
+    border-radius: 5px;
+}
+.mtt-team-style-14-area .mtt-team-style-14-box .mtt-pic img {
+    width: 100%;
+    height: auto;
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+    -webkit-transform-origin: right center;
+    transform-origin: right center;
+    -webkit-transition: 0.5s linear;
+    transition: 0.5s linear;
+}
+.mtt-team-style-14-area .mtt-team-style-14-box:hover .mtt-pic img {
+    opacity: 0.7;
+    -webkit-transform: translateX(50px) scale(1.2);
+    transform: translateX(50px) scale(1.2);
+}
+@media (max-width: 767px) {
+    .mtt-team-style-14-area .mtt-team-style-14-box:hover .mtt-pic img {
+        -webkit-transform: translateX(40px) scale(1.2);
+        transform: translateX(40px) scale(1.2);
+    }
+}
+.mtt-team-style-14-area .mtt-team-style-14-box .mtt-team-content {
+    background: #fff;
+    text-align: center;
+    width: 75%;
+    padding: 20px;
+    -webkit-box-shadow: 0 0 20px rgba(0, 0, 0, 0.9);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.9);
+    opacity: 0;
+    -webkit-transform-origin: left center;
+    transform-origin: left center;
+    -webkit-transform: translateX(-100%) translateY(-50%) scale(0);
+    transform: translateX(-100%) translateY(-50%) scale(0);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transition: 0.5s linear;
+    transition: 0.5s linear;
+    visibility: hidden;
+}
+.mtt-team-style-14-area .mtt-team-style-14-box .mtt-team-content .mtt-title {
+    color: #f93f48;
+    font-size: 26px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    text-transform: capitalize;
+    margin: 0 0 5px;
+}
+.mtt-team-style-14-area .mtt-team-style-14-box .mtt-team-content .mtt-title:after {
+    content: "";
+    height: 2px;
+    width: 60px;
+    margin: 7px auto 0;
+    border-bottom: 2px dashed #555;
+    display: block;
+    clear: both;
+}
+.mtt-team-style-14-area .mtt-team-style-14-box .mtt-team-content .mtt-post {
+    color: #555;
+    font-size: 14px;
+    font-weight: 500;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    margin: 0 0 10px;
+    display: block;
+}
+.mtt-team-style-14-area .mtt-team-style-14-box:hover .mtt-team-content {
+    opacity: 1;
+    visibility: visible;
+    -webkit-transform: translateX(-50%) translateY(-50%) scale(1);
+    transform: translateX(-50%) translateY(-50%) scale(1);
+}
+.mtt-team-style-14-area .mtt-team-style-14-box .mtt-social {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+.mtt-team-style-14-area .mtt-team-style-14-box .mtt-social a {
+    color: #fff;
+    background-color: #f93f48;
+    font-size: 15px;
+    text-align: center;
+    height: 35px;
+    width: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    -webkit-transition: 0.4s linear;
+    transition: 0.4s linear;
+    margin: 0 6px;
+}
+.mtt-team-style-14-area .mtt-team-style-14-box .mtt-social a:hover {
+    -webkit-box-shadow: -3px -3px 0 rgba(0, 0, 0, 0.3);
+    box-shadow: -3px -3px 0 rgba(0, 0, 0, 0.3);
+    border-radius: 50% 0 0 0;
+}
+.mtt-team-style-15-area .mtt-team-style-15-box {
+    position: relative;
+    margin-bottom: 30px;
+}
+.mtt-team-style-15-area .mtt-team-style-15-box:before {
+    content: "";
+    background: rgba(96, 98, 145, 0.651);
+    height: 90%;
+    width: 90%;
+    opacity: 0;
+    -webkit-transform: rotate(-180deg);
+    transform: rotate(-180deg);
+    position: absolute;
+    left: 12px;
+    top: 20px;
+    -webkit-transition: 0.4s linear;
+    transition: 0.4s linear;
+    visibility: hidden;
+}
+.mtt-team-style-15-area .mtt-team-style-15-box:hover:before {
+    opacity: 1;
+    -webkit-transform: rotate(0);
+    transform: rotate(0);
+    -webkit-transition: all 1s ease 0s;
+    transition: all 1s ease 0s;
+    visibility: visible;
+}
+.mtt-team-style-15-area .mtt-team-style-15-box .mtt-pic img {
+    width: 100%;
+    height: auto;
+}
+.mtt-team-style-15-area .mtt-team-style-15-box .mtt-team-content {
+    text-align: center;
+    width: 80%;
+    opacity: 0;
+    -webkit-transform: translateX(-50%) translateY(-50%) rotate(-180deg);
+    transform: translateX(-50%) translateY(-50%) rotate(-180deg);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transition: opacity 0.1s ease 0s, -webkit-transform 0.1s ease 0s;
+    transition: opacity 0.1s ease 0s, -webkit-transform 0.1s ease 0s;
+    transition: opacity 0.1s ease 0s, transform 0.1s ease 0s;
+    transition: opacity 0.1s ease 0s, transform 0.1s ease 0s, -webkit-transform 0.1s ease 0s;
+}
+.mtt-team-style-15-area .mtt-team-style-15-box .mtt-team-content .mtt-title {
+    color: #fff;
+    font-size: 28px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+}
+.mtt-team-style-15-area .mtt-team-style-15-box .mtt-team-content .mtt-post {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+    display: block;
+}
+.mtt-team-style-15-area .mtt-team-style-15-box:hover .mtt-team-content {
+    opacity: 1;
+    -webkit-transform: translateX(-50%) translateY(-50%) rotate(0);
+    transform: translateX(-50%) translateY(-50%) rotate(0);
+    -webkit-transition: all 1s ease 0s;
+    transition: all 1s ease 0s;
+}
+.mtt-team-style-15-area .mtt-team-style-15-box .mtt-social {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+.mtt-team-style-15-area .mtt-team-style-15-box .mtt-social a {
+    color: #fff;
+    font-size: 18px;
+    height: 37px;
+    width: 37px;
+    border: 1px solid #111;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    -webkit-transition: 0.3s linear;
+    transition: 0.3s linear;
+    margin: 0 3px;
+}
+.mtt-team-style-15-area .mtt-team-style-15-box .mtt-social a:hover {
+    color: #fff;
+    background: #111;
+    border-radius: 50%;
+}
+.mtt-team-style-16-area .mtt-team-style-16-box {
+    text-align: center;
+    -webkit-box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
+    overflow: hidden;
+    -webkit-perspective: 200px;
+    perspective: 200px;
+    position: relative;
+    margin-bottom: 40px;
+    border-radius: 5px;
+}
+.mtt-team-style-16-area .mtt-team-style-16-box::before {
+    content: "";
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: -100%;
+    left: 0;
+    z-index: 1;
+    -webkit-transition: 0.4s linear;
+    transition: 0.4s linear;
+}
+.mtt-team-style-16-area .mtt-team-style-16-box:hover::before {
+    top: 0;
+}
+.mtt-team-style-16-area .mtt-team-style-16-box .mtt-pic img {
+    width: 100%;
+    height: auto;
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    -webkit-transition: 0.4s linear;
+    transition: 0.4s linear;
+}
+.mtt-team-style-16-area .mtt-team-style-16-box:hover .mtt-pic img {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+}
+.mtt-team-style-16-area .mtt-team-style-16-box .mtt-team-content {
+    width: 101%;
+    background: #fff;
+    position: absolute;
+    bottom: -1px;
+    height: 35%;
+    left: 50%;
+    opacity: 0;
+    z-index: 1;
+    -webkit-transform: translateX(-50%) rotateX(90deg);
+    transform: translateX(-50%) rotateX(90deg);
+    -webkit-transform-origin: bottom;
+    transform-origin: bottom;
+    -webkit-transition: 0.4s linear;
+    transition: 0.4s linear;
+}
+@media (max-width: 767px) {
+    .mtt-team-style-16-area .mtt-team-style-16-box .mtt-team-content {
+        height: 40%;
+    }
+}
+.mtt-team-style-16-area .mtt-team-style-16-box .mtt-team-content .mtt-title {
+    font-size: 25px;
+    color: #101010;
+    letter-spacing: 1px;
+    margin-bottom: 8px;
+    text-transform: capitalize;
+    font-weight: 700;
+}
+.mtt-team-style-16-area .mtt-team-style-16-box .mtt-team-content .mtt-post {
+    display: inline-block;
+    font-size: 17px;
+    font-style: italic;
+    color: #606060;
+    font-weight: 500;
+}
+.mtt-team-style-16-area .mtt-team-style-16-box .mtt-team-content .mtt-social {
+    margin: -17px 0 20px 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+.mtt-team-style-16-area .mtt-team-style-16-box .mtt-team-content .mtt-social a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 35px;
+    height: 35px;
+    font-size: 18px;
+    color: #000;
+    position: relative;
+    margin: 0 8px;
+}
+.mtt-team-style-16-area .mtt-team-style-16-box .mtt-team-content .mtt-social a:hover {
+    color: #fff;
+}
+.mtt-team-style-16-area .mtt-team-style-16-box .mtt-team-content .mtt-social a:after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    background: #ff6070;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    z-index: -1;
+    -webkit-transform: translateY(-50%) rotate(45deg);
+    transform: translateY(-50%) rotate(45deg);
+    -webkit-transition: 0.4s linear;
+    transition: 0.4s linear;
+}
+.mtt-team-style-16-area .mtt-team-style-16-box .mtt-team-content .mtt-social a:hover::after {
+    -webkit-box-shadow: 0 0 10px #000;
+    box-shadow: 0 0 10px #000;
+    -webkit-transform: translateY(-50%) rotate(360deg);
+    transform: translateY(-50%) rotate(360deg);
+}
+.mtt-team-style-16-area .mtt-team-style-16-box:hover .mtt-team-content {
+    opacity: 1;
+    -webkit-transform: translateX(-50%) rotateX(0deg);
+    transform: translateX(-50%) rotateX(0deg);
+}
+.mtt-team-style-17-area .mtt-team-style-17-box {
+    overflow: hidden;
+    -webkit-box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
+    position: relative;
+    margin-bottom: 30px;
+    border-radius: 5px;
+}
+.mtt-team-style-17-area .mtt-team-style-17-box::before,
+.mtt-team-style-17-area .mtt-team-style-17-box::after {
+    content: "";
+    width: 50%;
+    height: 50%;
+    background: rgba(0, 0, 0, 0.8);
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    -webkit-transition: 0.4s linear;
+    transition: 0.4s linear;
+}
+.mtt-team-style-17-area .mtt-team-style-17-box::after {
+    top: 50%;
+}
+.mtt-team-style-17-area .mtt-team-style-17-box:hover:before {
+    left: 50%;
+    opacity: 1;
+}
+.mtt-team-style-17-area .mtt-team-style-17-box:hover:after {
+    top: 0;
+    opacity: 1;
+}
+.mtt-team-style-17-area .mtt-team-style-17-box .mtt-pic img {
+    width: 100%;
+    height: auto;
+}
+.mtt-team-style-17-area .mtt-team-style-17-box .mtt-team-content {
+    padding: 25% 5%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    text-align: center;
+    opacity: 0;
+    visibility: hidden;
+    z-index: 1;
+    -webkit-transition: 0.4s linear;
+    transition: 0.4s linear;
+}
+.mtt-team-style-17-area .mtt-team-style-17-box .mtt-team-content::before,
+.mtt-team-style-17-area .mtt-team-style-17-box .mtt-team-content::after {
+    content: "";
+    width: 50%;
+    height: 50%;
+    background: rgba(0, 0, 0, 0.8);
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transition: 0.4s linear;
+    transition: 0.4s linear;
+}
+.mtt-team-style-17-area .mtt-team-style-17-box .mtt-team-content::before,
+.mtt-team-style-17-area .mtt-team-style-17-box .mtt-team-content::after {
+    top: 0;
+    left: 50%;
+    z-index: -1;
+}
+.mtt-team-style-17-area .mtt-team-style-17-box .mtt-team-content::after {
+    top: 50%;
+}
+.mtt-team-style-17-area .mtt-team-style-17-box .mtt-team-content .mtt-title {
+    font-size: 26px;
+    font-style: italic;
+    color: #ffd700;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+.mtt-team-style-17-area .mtt-team-style-17-box .mtt-team-content .mtt-post {
+    display: block;
+    font-size: 14px;
+    font-weight: 700;
+    color: #fff;
+    margin-bottom: 20px;
+    text-transform: capitalize;
+}
+.mtt-team-style-17-area .mtt-team-style-17-box .mtt-team-content .mtt-social {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+.mtt-team-style-17-area .mtt-team-style-17-box .mtt-team-content .mtt-social a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 20%;
+    background: #fff;
+    font-size: 20px;
+    color: #2d2c2c;
+    -webkit-transition: 0.3s linear;
+    transition: 0.3s linear;
+    margin: 0 5px;
+    -webkit-box-shadow: 1px 1px 3px #fff, -1px -1px 3px #fff;
+    box-shadow: 1px 1px 3px #fff, -1px -1px 3px #fff;
+}
+.mtt-team-style-17-area .mtt-team-style-17-box .mtt-team-content .mtt-social a:hover {
+    background: transparent;
+    color: #fff;
+    border-radius: 50%;
+}
+.mtt-team-style-17-area .mtt-team-style-17-box:hover .mtt-team-content:before {
+    top: 50%;
+    opacity: 1;
+    visibility: visible;
+}
+.mtt-team-style-17-area .mtt-team-style-17-box:hover .mtt-team-content:after {
+    left: 0;
+    opacity: 1;
+    visibility: visible;
+}
+.mtt-team-style-17-area .mtt-team-style-17-box:hover .mtt-team-content {
+    opacity: 1;
+    visibility: visible;
+}
+.mtt-team-style-18-area .mtt-team-style-18-team {
+    text-align: center;
+    margin-bottom: 40px;
+}
+.mtt-team-style-18-area .mtt-team-style-18-team .mtt-pic {
+    position: relative;
+    overflow: hidden;
+}
+.mtt-team-style-18-area .mtt-team-style-18-team .mtt-pic:after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    background-color: #58b19f7a;
+    position: absolute;
+    bottom: -100%;
+    left: 0;
+    -webkit-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+}
+.mtt-team-style-18-area .mtt-team-style-18-team .mtt-pic img {
+    width: 100%;
+    height: auto;
+}
+.mtt-team-style-18-area .mtt-team-style-18-team .mtt-pic .mtt-social {
+    padding: 0 0 18px 0;
+    position: absolute;
+    top: -100%;
+    right: 10px;
+    background: #2c3a47;
+    border-radius: 0 0 20px 20px;
+    z-index: 1;
+    -webkit-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+}
+.mtt-team-style-18-area .mtt-team-style-18-team .mtt-pic .mtt-social a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    font-size: 15px;
+    color: #fff;
+}
+.mtt-team-style-18-area .mtt-team-style-18-team .mtt-pic .mtt-social a:hover {
+    color: #f76c5e;
+}
+.mtt-team-style-18-area .mtt-team-style-18-team:hover .mtt-pic:after {
+    bottom: 0;
+}
+.mtt-team-style-18-area .mtt-team-style-18-team:hover .mtt-pic .mtt-social {
+    top: 0;
+}
+.mtt-team-style-18-area .mtt-team-style-18-team .mtt-team-content {
+    padding: 20px 0;
+    background: #2c3a47;
+}
+.mtt-team-style-18-area .mtt-team-style-18-team .mtt-team-content .mtt-title {
+    font-size: 22px;
+    font-weight: 700;
+    color: #fff;
+    text-transform: capitalize;
+    margin: 0 0 20px;
+    position: relative;
+    font-style: italic;
+    letter-spacing: 1;
+}
+.mtt-team-style-18-area .mtt-team-style-18-team .mtt-team-content .mtt-title:before {
+    content: "";
+    width: 25px;
+    height: 2px;
+    background: #27ae61;
+    position: absolute;
+    bottom: -10px;
+    right: 50%;
+    margin-right: 9px;
+    -webkit-transition-duration: 0.25s;
+    transition-duration: 0.25s;
+}
+.mtt-team-style-18-area .mtt-team-style-18-team .mtt-team-content .mtt-title:after {
+    content: "";
+    width: 25px;
+    height: 2px;
+    background: #27ae61;
+    position: absolute;
+    bottom: -10px;
+    left: 50%;
+    margin-left: 9px;
+    -webkit-transition-duration: 0.25s;
+    transition-duration: 0.25s;
+}
+.mtt-team-style-18-area .mtt-team-style-18-team .mtt-team-content .mtt-post {
+    display: inline-block;
+    font-size: 16px;
+    color: #f76c5e;
+    text-transform: capitalize;
+}
+.mtt-team-style-18-area .mtt-team-style-18-team .mtt-team-content .mtt-post:before {
+    content: "";
+    display: block;
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    background: #27ae61;
+    margin: 0 auto;
+    position: relative;
+    top: -13px;
+}
+.mtt-team-style-18-area .mtt-team-style-18-team:hover .mtt-team-content .mtt-title::before,
+.mtt-team-style-18-area .mtt-team-style-18-team:hover .mtt-team-content .mtt-title::after {
+    width: 70px;
+}
+.mtt-team-style-19-area .mtt-team-style-19-team {
+    text-align: center;
+    margin-bottom: 40px;
+    border-radius: 15px;
+    background: #333;
+    overflow: hidden;
+    position: relative;
+    padding: 10px 10px 40px;
+}
+.mtt-team-style-19-area .mtt-team-style-19-team.dark-blue::before {
+    background: -webkit-gradient(linear, left top, right top, from(#00e9ff), to(#2dd0f8));
+    background: linear-gradient(to right, #00e9ff, #2dd0f8);
+}
+.mtt-team-style-19-area .mtt-team-style-19-team.dark-blue::after {
+    background: -webkit-gradient(linear, left top, right top, from(#00e9ff), to(#00a7cf));
+    background: linear-gradient(to right, #00e9ff, #00a7cf);
+}
+.mtt-team-style-19-area .mtt-team-style-19-team.dark-blue .mtt-team-content .mtt-social a {
+    color: #00e9ff;
+}
+.mtt-team-style-19-area .mtt-team-style-19-team.dark-blue .mtt-team-content .mtt-social a:hover {
+    color: #00e9ff;
+    border-color: #00e9ff;
+}
+.mtt-team-style-19-area .mtt-team-style-19-team.orange::before {
+    background: -webkit-gradient(linear, left top, right top, from(#fe8c00), to(#f83600));
+    background: linear-gradient(to right, #fe8c00, #f83600);
+}
+.mtt-team-style-19-area .mtt-team-style-19-team.orange::after {
+    background: -webkit-gradient(linear, left top, right top, from(#fe8c00), to(#f83600));
+    background: linear-gradient(to right, #fe8c00, #f83600);
+}
+.mtt-team-style-19-area .mtt-team-style-19-team.orange .mtt-team-content .mtt-social a {
+    color: #f83600;
+}
+.mtt-team-style-19-area .mtt-team-style-19-team.orange .mtt-team-content .mtt-social a:hover {
+    color: #f83600;
+    border-color: #f83600;
+}
+.mtt-team-style-19-area .mtt-team-style-19-team.yellow::before {
+    background: -webkit-gradient(linear, left top, right top, from(#f7971e), to(#ffd200));
+    background: linear-gradient(to right, #f7971e, #ffd200);
+}
+.mtt-team-style-19-area .mtt-team-style-19-team.yellow::after {
+    background: -webkit-gradient(linear, left top, right top, from(#f7971e), to(#ffd200));
+    background: linear-gradient(to right, #f7971e, #ffd200);
+}
+.mtt-team-style-19-area .mtt-team-style-19-team.yellow .mtt-team-content .mtt-social a {
+    color: #ffd200;
+}
+.mtt-team-style-19-area .mtt-team-style-19-team.yellow .mtt-team-content .mtt-social a:hover {
+    color: #ffd200;
+    border-color: #ffd200;
+}
+.mtt-team-style-19-area .mtt-team-style-19-team::before {
+    content: "";
+    position: absolute;
+    top: -1px;
+    right: -1px;
+    width: 108%;
+    height: 100%;
+    background: -webkit-gradient(linear, left top, right top, from(#7f00ff), to(#e100ff));
+    background: linear-gradient(to right, #7f00ff, #e100ff);
+    -webkit-clip-path: polygon(84% 0, 100% 0, 100% 20%, 100% 16%, 96% 13%, 96% 2%, 103% 7%, 92% 4%);
+    clip-path: polygon(84% 0, 100% 0, 100% 20%, 100% 16%, 96% 13%, 96% 2%, 103% 7%, 92% 4%);
+    z-index: 1;
+}
+.mtt-team-style-19-area .mtt-team-style-19-team::after {
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: -webkit-gradient(linear, left top, right top, from(#7f00ff), to(#e100ff));
+    background: linear-gradient(to right, #7f00ff, #e100ff);
+    -webkit-clip-path: polygon(13% 28%, 22% 45%, 48% 56%, 102% 45%, 100% 100%, 50% 100%, 0 100%, 0% 70%, 0% 35%, 0 10%);
+    clip-path: polygon(13% 28%, 22% 45%, 48% 56%, 102% 45%, 100% 100%, 50% 100%, 0 100%, 0% 70%, 0% 35%, 0 10%);
+}
+.mtt-team-style-19-area .mtt-team-style-19-team .mtt-pic {
+    height: 240px !important;
+}
+.mtt-team-style-19-area .mtt-team-style-19-team .mtt-team-content {
+    position: relative;
+    padding: 15px;
+    padding-top: 0px;
+    z-index: 9;
+    top: 8px;
+}
+.mtt-team-style-19-area .mtt-team-style-19-team .mtt-team-content .mtt-title {
+    color: #fff;
+    line-height: 22px;
+    font-size: 24px;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    margin-bottom: 5px;
+}
+.mtt-team-style-19-area .mtt-team-style-19-team .mtt-team-content .mtt-post {
+    font-size: 16px;
+    text-transform: capitalize;
+    color: #fff;
+    font-weight: 400;
+    margin-bottom: 30px;
+    display: block;
+}
+.mtt-team-style-19-area .mtt-team-style-19-team .mtt-team-content .mtt-social {
+    position: absolute;
+    left: 50%;
+    bottom: -45px;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+    overflow: hidden;
+    z-index: 1;
+    -webkit-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    opacity: 0;
+}
+.mtt-team-style-19-area .mtt-team-style-19-team .mtt-team-content .mtt-social a {
+    color: #e100ff;
+    background-color: #fff;
+    font-size: 18px;
+    height: 40px;
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px dotted transparent;
+    border-radius: 50%;
+    -webkit-transform: rotate(0);
+    transform: rotate(0);
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+    margin: 0 4px;
+}
+.mtt-team-style-19-area .mtt-team-style-19-team .mtt-team-content .mtt-social a:hover {
+    color: #e100ff;
+    background: #fff;
+    border-color: #e100ff;
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+}
+.mtt-team-style-19-area .mtt-team-style-19-team:hover .mtt-team-content .mtt-social {
+    opacity: 1;
+    bottom: 0px;
+}
+.mtt-team-style-20-area .mtt-team-style-20-team {
+    text-align: center;
+    position: relative;
+    margin-bottom: 40px;
+}
+.mtt-team-style-20-area .mtt-team-style-20-team .mtt-pic {
+    width: 190px;
+    height: 190px;
+    border-radius: 50%;
+    border: 8px solid #b33771;
+    margin: 0 auto;
+    overflow: hidden;
+    -webkit-transform: rotateY(0);
+    transform: rotateY(0);
+    -webkit-transition: 0.6s linear;
+    transition: 0.6s linear;
+}
+.mtt-team-style-20-area .mtt-team-style-20-team .mtt-pic img {
+    width: 100%;
+}
+.mtt-team-style-20-area .mtt-team-style-20-team:hover .mtt-pic {
+    -webkit-transform: rotateY(360deg);
+    transform: rotateY(360deg);
+}
+.mtt-team-style-20-area .mtt-team-style-20-team .mtt-social {
+    position: absolute;
+    top: 10px;
+    left: -8px;
+    -webkit-transition: 0.4s linear;
+    transition: 0.4s linear;
+}
+.mtt-team-style-20-area .mtt-team-style-20-team .mtt-social a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background: #f28a31;
+    font-size: 14px;
+    color: #fff;
+    margin-bottom: 10px;
+    -webkit-transform: scale(0);
+    transform: scale(0);
+    opacity: 0;
+    -webkit-transition: 0.3s linear;
+    transition: 0.3s linear;
+}
+.mtt-team-style-20-area .mtt-team-style-20-team .mtt-social a:hover {
+    background-color: #b33771;
+    -webkit-box-shadow: 0 0 0 5px rgba(44, 44, 44, 0.3);
+    box-shadow: 0 0 0 5px rgba(44, 44, 44, 0.3);
+}
+.mtt-team-style-20-area .mtt-team-style-20-team:hover .mtt-social a {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    opacity: 1;
+}
+.mtt-team-style-20-area .mtt-team-style-20-team .mtt-team-content {
+    padding: 15px 35px 20px;
+    background: #b33771;
+    border-radius: 40px 10px;
+    margin-top: -10px;
+    color: #fff;
+    -webkit-transition: 0.3s linear;
+    transition: 0.3s linear;
+}
+.mtt-team-style-20-area .mtt-team-style-20-team .mtt-team-content .mtt-title {
+    font-size: 26px;
+    font-weight: bold;
+    margin: 10px 0 5px 0;
+}
+.mtt-team-style-20-area .mtt-team-style-20-team .mtt-team-content .mtt-post {
+    display: block;
+    text-transform: capitalize;
+    font-weight: normal;
+    font-size: 13px;
+}
+.mtt-team-style-20-area .mtt-team-style-20-team:hover .mtt-team-content {
+    border-radius: 0;
+}
+.mtt-team-style-21-area .mtt-team-style-21-team {
+    text-align: center;
+    z-index: 1;
+    position: relative;
+    margin: 0 auto 30px;
+}
+@media (max-width: 767px) {
+    .mtt-team-style-21-area .mtt-team-style-21-team {
+        width: 280px;
+        margin: 0 auto 30px;
+    }
+}
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+    .mtt-team-style-21-area .mtt-team-style-21-team {
+        width: 250px;
+        margin-bottom: 30px;
+    }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .mtt-team-style-21-area .mtt-team-style-21-team {
+        width: 250px;
+        margin-bottom: 30px;
+    }
+}
+.mtt-team-style-21-area .mtt-team-style-21-team .mtt-pic {
+    border-radius: 50%;
+    overflow: hidden;
+    height: 220px;
+    width: 220px;
+    top: 0;
+    position: relative;
+    -webkit-transition: 0.4s linear;
+    transition: 0.4s linear;
+    z-index: 1;
+    margin: 0 auto;
+}
+@media (max-width: 767px) {
+    .mtt-team-style-21-area .mtt-team-style-21-team .mtt-pic {
+        height: 230px;
+        margin: 0 auto;
+    }
+}
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+    .mtt-team-style-21-area .mtt-team-style-21-team .mtt-pic {
+        height: 225px;
+        margin: inherit;
+    }
+}
+.mtt-team-style-21-area .mtt-team-style-21-team .mtt-pic::before {
+    content: "";
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background: rgba(0, 0, 0, 0.4);
+    opacity: 1;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.mtt-team-style-21-area .mtt-team-style-21-team .mtt-pic img {
+    width: 100%;
+    height: auto;
+}
+.mtt-team-style-21-area .mtt-team-style-21-team:hover .mtt-pic {
+    top: -115px;
+}
+.mtt-team-style-21-area .mtt-team-style-21-team .mtt-social {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    opacity: 0;
+    position: absolute;
+    top: -10px;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+    z-index: 1;
+    visibility: hidden;
+    overflow: hidden;
+}
+.mtt-team-style-21-area .mtt-team-style-21-team .mtt-social a {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 1px solid #fff;
+    font-size: 15px;
+    color: #fff;
+    margin: 0 3px;
+    -webkit-transition: 0.3s linear;
+    transition: 0.3s linear;
+}
+.mtt-team-style-21-area .mtt-team-style-21-team .mtt-social a:hover {
+    background: #fff;
+    color: #000;
+}
+.mtt-team-style-21-area .mtt-team-style-21-team:hover .mtt-social {
+    opacity: 1;
+    visibility: visible;
+}
+.mtt-team-style-21-area .mtt-team-style-21-team .mtt-team-content {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 0px;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+    visibility: hidden;
+    opacity: 0;
+    -webkit-transition: 0.4s linear;
+    transition: 0.4s linear;
+}
+.mtt-team-style-21-area .mtt-team-style-21-team .mtt-team-content::before {
+    content: "";
+    position: absolute;
+    top: -10px;
+    left: -2px;
+    right: -10px;
+    bottom: -10px;
+    width: 220px;
+    height: 220px;
+    background: transparent;
+    border: 2px dashed #029a90;
+    border-radius: 50%;
+    -webkit-animation: border 18s linear infinite;
+    animation: border 18s linear infinite;
+    margin: 0 auto;
+}
+@media (max-width: 767px) {
+    .mtt-team-style-21-area .mtt-team-style-21-team .mtt-team-content::before {
+        top: -5px;
+        left: -10px;
+        right: -5px;
+        bottom: -5px;
+        width: 225px;
+        height: 225px;
+        margin: 0 auto;
+    }
+}
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+    .mtt-team-style-21-area .mtt-team-style-21-team .mtt-team-content::before {
+        top: -10px;
+        left: 7px;
+        right: -10px;
+        bottom: -10px;
+        width: 225px;
+        height: 225px;
+        margin: inherit;
+    }
+}
+@-webkit-keyframes border {
+    form {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    to {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+@keyframes border {
+    form {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    to {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+.mtt-team-style-21-area .mtt-team-style-21-team .mtt-team-content .mtt-info {
+    position: absolute;
+    bottom: 35px;
+    padding: 25px 50px 10px 35px;
+    width: 100%;
+    left: 53%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+    .mtt-team-style-21-area .mtt-team-style-21-team .mtt-team-content .mtt-info {
+        padding: 25px 50px 10px 40px;
+    }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+    .mtt-team-style-21-area .mtt-team-style-21-team .mtt-team-content .mtt-info {
+        padding: 25px 50px 10px 40px;
+    }
+}
+@media (max-width: 767px) {
+    .mtt-team-style-21-area .mtt-team-style-21-team .mtt-team-content .mtt-info {
+        padding: 25px 55px 10px 55px;
+        left: 50%;
+    }
+}
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+    .mtt-team-style-21-area .mtt-team-style-21-team .mtt-team-content .mtt-info {
+        padding: 25px 45px 10px 40px;
+    }
+}
+.mtt-team-style-21-area .mtt-team-style-21-team .mtt-team-content .mtt-info .mtt-title {
+    font-size: 17px;
+    font-weight: 600;
+    text-transform: capitalize;
+    color: #00adae;
+    -webkit-transition: 0.8s linear;
+    transition: 0.8s linear;
+}
+.mtt-team-style-21-area .mtt-team-style-21-team .mtt-team-content .mtt-info .mtt-post {
+    font-size: 13px;
+    font-weight: normal;
+    text-transform: capitalize;
+}
+.mtt-team-style-21-area .mtt-team-style-21-team:hover .mtt-team-content {
+    visibility: visible;
+    opacity: 1;
+}
+.mtt-team-style-22-area .mtt-team-style-22-team {
+    margin-bottom: 40px;
+    -webkit-transition: 0.3s linear;
+    transition: 0.3s linear;
+    border: 1px solid transparent;
+    border-radius: 0 !important;
+}
+.mtt-team-style-22-area .mtt-team-style-22-team:hover {
+    border: 1px solid #ff8e72;
+    -webkit-box-shadow: 0 0 20px -5px rgba(0, 0, 0, 0.342);
+    box-shadow: 0 0 20px -5px rgba(0, 0, 0, 0.342);
+}
+@media (max-width: 767px) {
+    .mtt-team-style-22-area .mtt-team-style-22-team {
+        text-align: center;
+        width: 67%;
+        margin: 0 auto 40px;
+    }
+}
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+    .mtt-team-style-22-area .mtt-team-style-22-team {
+        text-align: inherit;
+        width: 100%;
+    }
+}
+.mtt-team-style-22-area .mtt-team-style-22-team .mtt-pic {
+    border-top: 5px solid #ff8e72;
+    border-bottom: 5px solid #ff8e72;
+    border-radius: 50% 50% 50% 0;
+    overflow: hidden;
+    height: 290px !important;
+    -webkit-transition: 0.2s linear;
+    transition: 0.2s linear;
+}
+.mtt-team-style-22-area .mtt-team-style-22-team .mtt-pic img {
+    width: 100%;
+    -webkit-transition: 0.3s linear;
+    transition: 0.3s linear;
+}
+@media (max-width: 767px) {
+    .mtt-team-style-22-area .mtt-team-style-22-team .mtt-pic img {
+        width: 350px;
+    }
+}
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+    .mtt-team-style-22-area .mtt-team-style-22-team .mtt-pic img {
+        width: 100%;
+    }
+}
+.mtt-team-style-22-area .mtt-team-style-22-team:hover .mtt-pic {
+    border-radius: 0;
+    border-top: 0px solid transparent;
+    border-bottom: 0px solid transparent;
+}
+.mtt-team-style-22-area .mtt-team-style-22-team .mtt-team-content {
+    padding: 20px 20px 10px;
+}
+.mtt-team-style-22-area .mtt-team-style-22-team .mtt-team-content .mtt-title {
+    font-size: 22px;
+    font-weight: 700;
+    color: #8f2d56;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+}
+.mtt-team-style-22-area .mtt-team-style-22-team .mtt-team-content .mtt-post {
+    display: block;
+    font-size: 17px;
+    color: #878484;
+    text-transform: capitalize;
+    margin-bottom: 0px;
+}
+.mtt-team-style-22-area .mtt-team-style-22-team .mtt-social {
+    padding: 0px 10px 20px;
+    display: flex;
+}
+.mtt-team-style-22-area .mtt-team-style-22-team .mtt-social a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    border: 1px solid #8f2d56;
+    background: #fff;
+    font-size: 17px;
+    color: #8f2d56;
+    -webkit-transition: 0.3s linear;
+    transition: 0.3s linear;
+    margin: 0 1px;
+}
+.mtt-team-style-22-area .mtt-team-style-22-team .mtt-social a:hover {
+    color: #8f2d56;
+    background-color: #fff;
+    border-radius: 10%;
+    -webkit-box-shadow: 0 0 15px #8f2d56 inset;
+    box-shadow: 0 0 15px #8f2d56 inset;
+}
+.mtt-team-style-23-area .mtt-team-style-23-team {
+    text-align: center;
+    background: #161616;
+    border-radius: 355px 355px 0 0 !important;
+    -webkit-transition: 0.3s linear;
+    transition: 0.3s linear;
+    margin-bottom: 40px;
+}
+@media (max-width: 767px) {
+    .mtt-team-style-23-area .mtt-team-style-23-team {
+        width: 256px;
+        margin: 0 auto 40px;
+    }
+}
+@media (max-width: 575px) {
+    .mtt-team-style-22-area .mtt-team-style-22-team .mtt-social a {
+        margin: 0;
+    }
+}
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+    .mtt-team-style-23-area .mtt-team-style-23-team {
+        width: inherit;
+        margin: 0 auto 40px;
+    }
+}
+.mtt-team-style-23-area .mtt-team-style-23-team:hover {
+    background-color: #816eda;
+}
+.mtt-team-style-23-area .mtt-team-style-23-team .mtt-pic {
+    overflow: hidden;
+    position: relative;
+    border-radius: 50%;
+    width: 260px;
+    height: 260px;
+    top: -2px;
+    left: -1px;
+    margin: auto;
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+    .mtt-team-style-23-area .mtt-team-style-23-team .mtt-pic {
+        width: 212px;
+        height: 212px;
+    }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+    .mtt-team-style-23-area .mtt-team-style-23-team .mtt-pic {
+        width: 332px;
+        height: 332px;
+    }
+}
+@media (max-width: 767px) {
+    .mtt-team-style-23-area .mtt-team-style-23-team .mtt-pic {
+        width: 258px;
+        height: 258px;
+    }
+}
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+    .mtt-team-style-23-area .mtt-team-style-23-team .mtt-pic {
+        width: 242px;
+        height: 242px;
+    }
+}
+.mtt-team-style-23-area .mtt-team-style-23-team .mtt-pic::before {
+    content: "";
+    width: 100%;
+    height: 100%;
+    background: #000;
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    -webkit-transition: 0.3s linear;
+    transition: 0.3s linear;
+}
+.mtt-team-style-23-area .mtt-team-style-23-team .mtt-pic img {
+    width: 100%;
+}
+.mtt-team-style-23-area .mtt-team-style-23-team:hover .mtt-pic::before {
+    opacity: 0.4;
+}
+.mtt-team-style-23-area .mtt-team-style-23-team .mtt-team-content {
+    padding: 25px 10px 20px;
+}
+.mtt-team-style-23-area .mtt-team-style-23-team .mtt-team-content .mtt-title {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: 2px;
+    text-transform: capitalize;
+    color: #fff;
+    margin: 0;
+}
+.mtt-team-style-23-area .mtt-team-style-23-team .mtt-team-content .mtt-post {
+    display: block;
+    font-size: 13px;
+    color: #fff;
+    text-transform: capitalize;
+}
+.mtt-team-style-23-area .mtt-team-style-23-team .mtt-social {
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mtt-team-style-23-area .mtt-team-style-23-team .mtt-social a {
+    display: inline-table;
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    border-radius: 30px;
+    text-align: center;
+    border: 1px solid #ddd;
+    color: #fff;
+    margin: 0 5px;
+    -webkit-transition: 0.3s linear;
+    transition: 0.3s linear;
+}
+.mtt-team-style-24-area .mtt-team-style-24-team {
+    margin-bottom: 40px;
+    -webkit-transition: 0.3s linear;
+    transition: 0.3s linear;
+}
+.mtt-team-style-24-area .mtt-team-style-24-team .mtt-pic {
+    -webkit-clip-path: polygon(0 25%, 50% 0, 100% 25%, 100% 75%, 50% 100%, 0 74%);
+    clip-path: polygon(0 25%, 50% 0, 100% 25%, 100% 75%, 50% 100%, 0 74%);
+    position: relative;
+    width: 100%;
+    height: 320px;
+    overflow: hidden;
+}
+@media (max-width: 767px) {
+    .mtt-team-style-24-area .mtt-team-style-24-team .mtt-pic {
+        height: 410px;
+    }
+}
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+    .mtt-team-style-24-area .mtt-team-style-24-team .mtt-pic {
+        height: 320px;
+    }
+}
+.mtt-team-style-24-area .mtt-team-style-24-team .mtt-pic img {
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+}
+.mtt-team-style-24-area .mtt-team-style-24-team .mtt-pic::before {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: #333;
+    opacity: 0.6;
+    -webkit-transform: scale(0);
+    transform: scale(0);
+    -webkit-transition: 0.3s linear;
+    transition: 0.3s linear;
+    overflow: hidden;
+}
+.mtt-team-style-24-area .mtt-team-style-24-team:hover .mtt-pic::before {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+}
+.mtt-team-style-24-area .mtt-team-style-24-team .mtt-team-content {
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+    padding: 0 20px;
+    -webkit-transition: 0.3s linear;
+    transition: 0.3s linear;
+    opacity: 0;
+}
+.mtt-team-style-24-area .mtt-team-style-24-team .mtt-team-content .mtt-title {
+    color: #7dbc26;
+    font-size: 22px;
+    text-transform: capitalize;
+    font-weight: 600;
+    margin-bottom: 10px;
+    letter-spacing: 1px;
+    position: relative;
+    -webkit-transform: translateX(60px);
+    transform: translateX(60px);
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transition-delay: 0.5s;
+    transition-delay: 0.5s;
+    -webkit-transition: 0.6s linear;
+    transition: 0.6s linear;
+}
+.mtt-team-style-24-area .mtt-team-style-24-team .mtt-team-content .mtt-post {
+    color: #f5f5f5;
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: capitalize;
+    display: block;
+    position: relative;
+    -webkit-transform: translateX(-60px);
+    transform: translateX(-60px);
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transition-delay: 0.6s;
+    transition-delay: 0.6s;
+    -webkit-transition: 0.7s linear;
+    transition: 0.7s linear;
+}
+.mtt-team-style-24-area .mtt-team-style-24-team .mtt-team-content .mtt-social {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    -webkit-transform: translateY(50px);
+    transform: translateY(50px);
+    -webkit-transition: 0.4s linear;
+    transition: 0.4s linear;
+    -webkit-transition-delay: 0.7s;
+    transition-delay: 0.7s;
+    margin-top: 15px;
+    overflow: hidden;
+    visibility: hidden;
+}
+.mtt-team-style-24-area .mtt-team-style-24-team .mtt-team-content .mtt-social a {
+    color: #7dbc26;
+    background: #fff;
+    font-size: 20px;
+    height: 35px;
+    width: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    -webkit-transition: 0.3s linear;
+    transition: 0.3s linear;
+    margin: 0 1px;
+}
+.mtt-team-style-24-area .mtt-team-style-24-team .mtt-team-content .mtt-social a:hover {
+    color: #fff;
+    background: #7dbc26;
+    border: none;
+    border-radius: 0 50%;
+    -webkit-box-shadow: 0 0 3px rgba(255, 255, 255, 0.842);
+    box-shadow: 0 0 3px rgba(255, 255, 255, 0.842);
+}
+.mtt-team-style-24-area .mtt-team-style-24-team:hover .mtt-team-content {
+    opacity: 1;
+}
+.mtt-team-style-24-area .mtt-team-style-24-team:hover .mtt-team-content .mtt-title {
+    -webkit-transform: translateX(0px);
+    transform: translateX(0px);
+    opacity: 1;
+    visibility: visible;
+}
+.mtt-team-style-24-area .mtt-team-style-24-team:hover .mtt-team-content .mtt-post {
+    -webkit-transform: translateX(0px);
+    transform: translateX(0px);
+    opacity: 1;
+    visibility: visible;
+}
+.mtt-team-style-24-area .mtt-team-style-24-team:hover .mtt-team-content .mtt-social {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+    visibility: visible;
+}
+.mtt-team-style-25-area .mtt-team-style-25-team {
+    margin-bottom: 30px;
+    position: relative;
+    background: repeating-linear-gradient(to right, #ff416c, #ff416c 15px, #ff4b2b 15px, #ff4b2b 30px);
+    text-align: center;
+    overflow: hidden;
+}
+.mtt-team-style-25-area .mtt-team-style-25-team::before {
+    content: "";
+    height: 150px;
+    width: 150px;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    opacity: 1;
+    -webkit-transform: translateX(-50%) translateY(-50%) rotateY(-810deg);
+    transform: translateX(-50%) translateY(-50%) rotateY(-810deg);
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transition: opacity 0.3s ease 0.1s, -webkit-transform 0.3s ease 0s;
+    transition: opacity 0.3s ease 0.1s, -webkit-transform 0.3s ease 0s;
+    transition: transform 0.3s ease 0s, opacity 0.3s ease 0.1s;
+    transition: transform 0.3s ease 0s, opacity 0.3s ease 0.1s, -webkit-transform 0.3s ease 0s;
+    z-index: 1;
+}
+.mtt-team-style-25-area .mtt-team-style-25-team .mtt-pic img {
+    width: 100%;
+    height: auto;
+    -webkit-transition: all 0.5s ease 0.2s;
+    transition: all 0.5s ease 0.2s;
+}
+.mtt-team-style-25-area .mtt-team-style-25-team .mtt-social {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    opacity: 0;
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    z-index: 1;
+    -webkit-transition: all 0.3s ease 0.1s;
+    transition: all 0.3s ease 0.1s;
+}
+.mtt-team-style-25-area .mtt-team-style-25-team .mtt-social a {
+    color: #ff416c;
+    background-color: #fff;
+    font-size: 18px;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    font-weight: 700;
+    margin: 0 1px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    -webkit-transition: 0.3s linear;
+    transition: 0.3s linear;
+    -webkit-transform: translateY(5px);
+    transform: translateY(5px);
+}
+.mtt-team-style-25-area .mtt-team-style-25-team .mtt-social a:hover {
+    -webkit-box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.377);
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.377);
+    color: #333;
+    -webkit-transform: translateY(0px);
+    transform: translateY(0px);
+}
+.mtt-team-style-25-area .mtt-team-style-25-team .mtt-team-content {
+    color: #fff;
+    text-align: left;
+    opacity: 0;
+    -webkit-transform: skew(20deg);
+    transform: skew(20deg);
+    position: absolute;
+    bottom: 25px;
+    left: -50%;
+    z-index: 1;
+    -webkit-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+}
+.mtt-team-style-25-area .mtt-team-style-25-team .mtt-team-content .mtt-title {
+    color: #fff;
+    background-color: #ff4b2b;
+    font-size: 23px;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    padding: 10px 8px;
+    margin-bottom: 8px;
+    border-radius: 0 5px 5px 0;
+}
+.mtt-team-style-25-area .mtt-team-style-25-team .mtt-team-content .mtt-post {
+    color: #fff;
+    background-color: #ff416c;
+    font-size: 15px;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    text-transform: capitalize;
+    padding: 6px;
+    margin: 0 0 5px;
+    border-radius: 0 5px 5px 0;
+    display: inline-block;
+}
+.mtt-team-style-25-area .mtt-team-style-25-team:hover::before {
+    opacity: 0;
+    -webkit-transform: translateX(-50%) translateY(-50%) rotateY(0);
+    transform: translateX(-50%) translateY(-50%) rotateY(0);
+}
+.mtt-team-style-25-area .mtt-team-style-25-team:hover .mtt-pic img {
+    opacity: 0.7;
+}
+.mtt-team-style-25-area .mtt-team-style-25-team:hover .mtt-social {
+    opacity: 1;
+}
+.mtt-team-style-25-area .mtt-team-style-25-team:hover .mtt-team-content {
+    opacity: 1;
+    -webkit-transform: skew(0);
+    transform: skew(0);
+    left: 0;
+}
+.mtt-team-style-26-area .mtt-team-style-26-team {
+    text-align: center;
+    margin-bottom: 40px;
+}
+.mtt-team-style-26-area .mtt-team-style-26-team .mtt-pic {
+    position: relative;
+    padding: 10px 0 10px 20px;
+    width: 100%;
+    height: 280px;
+    overflow: hidden;
+}
+.mtt-team-style-26-area .mtt-team-style-26-team .mtt-pic:before {
+    content: "";
+    position: absolute;
+    width: 40px;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: #222f3e;
+    z-index: -1;
+}
+.mtt-team-style-26-area .mtt-team-style-26-team .mtt-pic::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 93%;
+    background-color: #000;
+    opacity: 0.3;
+    top: 10px;
+    left: 140%;
+    -webkit-transition: 0.3s linear;
+    transition: 0.3s linear;
+}
+.mtt-team-style-26-area .mtt-team-style-26-team .mtt-pic img {
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+}
+.mtt-team-style-26-area .mtt-team-style-26-team .mtt-pic .mtt-social {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    left: 23px;
+    -webkit-transform: translateY(270%);
+    transform: translateY(270%);
+    bottom: 35px;
+    width: 90%;
+    overflow: hidden;
+    opacity: 0;
+    z-index: 1;
+    -webkit-transition: 0.3s linear;
+    transition: 0.3s linear;
+}
+.mtt-team-style-26-area .mtt-team-style-26-team .mtt-pic .mtt-social a {
+    color: #fff;
+    background-color: #25ccf7;
+    font-size: 15px;
+    text-align: center;
+    height: 35px;
+    width: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    -webkit-transition: 0.4s linear;
+    transition: 0.4s linear;
+    margin: 0 1px;
+}
+.mtt-team-style-26-area .mtt-team-style-26-team .mtt-pic .mtt-social a:hover {
+    -webkit-box-shadow: -3px -3px 0 rgba(0, 0, 0, 0.5);
+    box-shadow: -3px -3px 0 rgba(0, 0, 0, 0.5);
+    border-radius: 50% 0 0 0;
+}
+.mtt-team-style-26-area .mtt-team-style-26-team:hover .mtt-pic:after {
+    left: 20px;
+}
+.mtt-team-style-26-area .mtt-team-style-26-team:hover .mtt-pic .mtt-social {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+    opacity: 1;
+}
+.mtt-team-style-26-area .mtt-team-style-26-team .mtt-team-content {
+    padding: 20px;
+    background: #25ccf7;
+    color: #222f3e;
+    text-align: center;
+    position: relative;
+    top: -2px;
+    left: 0;
+    overflow: hidden;
+    z-index: 1;
+    -webkit-transition: all 0.5s ease 0s;
+    transition: all 0.5s ease 0s;
+}
+.mtt-team-style-26-area .mtt-team-style-26-team .mtt-team-content::before {
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: -100%;
+    background: #222f3e;
+    z-index: -1;
+    -webkit-transition: all 0.5s ease 0s;
+    transition: all 0.5s ease 0s;
+}
+.mtt-team-style-26-area .mtt-team-style-26-team .mtt-team-content .mtt-title {
+    font-size: 20px;
+    font-weight: 800;
+    margin-bottom: 5px;
+    text-transform: uppercase;
+    -webkit-transition: 0.3s linear;
+    transition: 0.3s linear;
+}
+.mtt-team-style-26-area .mtt-team-style-26-team .mtt-team-content .mtt-post {
+    display: block;
+    font-size: 13px;
+    font-weight: 600;
+    color: #e71d36;
+    text-transform: capitalize;
+    -webkit-transition: 0.3s linear;
+    transition: 0.3s linear;
+}
+.mtt-team-style-26-area .mtt-team-style-26-team:hover .mtt-team-content {
+    background: transparent;
+}
+.mtt-team-style-26-area .mtt-team-style-26-team:hover .mtt-team-content::before {
+    left: 0;
+}
+.mtt-team-style-26-area .mtt-team-style-26-team:hover .mtt-team-content .mtt-title {
+    color: #25ccf7;
+}
+.mtt-team-style-26-area .mtt-team-style-26-team:hover .mtt-team-content .mtt-post {
+    color: #fff;
+}
+.mtt-team-style-27-area .mtt-team-style-27-team {
+    text-align: center;
+    margin-bottom: 40px;
+    overflow: hidden;
+    padding: 10px 0;
+}
+.mtt-team-style-27-area .mtt-team-style-27-team .mtt-pic {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+@media (max-width: 767px) {
+    .mtt-team-style-27-area .mtt-team-style-27-team .mtt-pic {
+        margin-bottom: 30px;
+    }
+}
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+    .mtt-team-style-27-area .mtt-team-style-27-team .mtt-pic {
+        margin-bottom: 20px;
+    }
+}
+.mtt-team-style-27-area .mtt-team-style-27-team .mtt-pic .bwd-img-layer {
+    position: absolute;
+    top: -2px;
+    border: 9px solid #e6e5e5;
+    left: -1px;
+    width: 101%;
+    height: 102%;
+    border-radius: 50%;
+    border-color: #3f2b4f #e6e5e5 #e6e5e5 #3f2b4f;
+    z-index: 1;
+    -webkit-transform: rotate(-138deg);
+    transform: rotate(-138deg);
+    -webkit-transition: 0.4s linear;
+    transition: 0.4s linear;
+}
+.mtt-team-style-27-area .mtt-team-style-27-team .mtt-pic .bwd-img-layer::before {
+    content: "";
+    position: absolute;
+    top: 20px;
+    right: 12px;
+    width: 16px;
+    height: 16px;
+    border-radius: 30px;
+    background: #5e2a88;
+    z-index: 1;
+    -webkit-box-shadow: 0px 0px 15px #3f2b4f;
+    box-shadow: 0px 0px 15px #3f2b4f;
+}
+.mtt-team-style-27-area .mtt-team-style-27-team .mtt-pic .bwd-img-layer::after {
+    content: "";
+    position: absolute;
+    top: 83%;
+    left: 15px;
+    width: 16px;
+    height: 16px;
+    border-radius: 30px;
+    background: #5e2a88;
+    -webkit-box-shadow: 0px 0px 15px #3f2b4f;
+    box-shadow: 0px 0px 15px #3f2b4f;
+    z-index: 2;
+}
+.mtt-team-style-27-area .mtt-team-style-27-team .mtt-pic img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    -o-object-fit: cover;
+    object-fit: cover;
+}
+.mtt-team-style-27-area .mtt-team-style-27-team:hover .mtt-pic .bwd-img-layer {
+    -webkit-transform: rotate(220deg);
+    transform: rotate(220deg);
+}
+.mtt-team-style-27-area .mtt-team-style-27-team .mtt-team-content {
+    width: 100%;
+    background: #3f2b4f;
+    color: #fff;
+    padding: 15px 10px;
+    position: relative;
+    bottom: 0px;
+    left: 0;
+    z-index: 3;
+    -webkit-transition: 0.3s linear;
+    transition: 0.3s linear;
+}
+.mtt-team-style-27-area .mtt-team-style-27-team .mtt-team-content:before,
+.mtt-team-style-27-area .mtt-team-style-27-team .mtt-team-content:after {
+    content: "";
+    width: 56%;
+    height: 40px;
+    background: #3f2b4f;
+    position: absolute;
+    top: -18px;
+    -webkit-transform: rotate(15deg);
+    transform: rotate(12deg);
+    z-index: -1;
+}
+@media (min-width: 768px) and (max-width: 991px) {
+    .mtt-team-style-27-area .mtt-team-style-27-team .mtt-team-content:before,
+    .mtt-team-style-27-area .mtt-team-style-27-team .mtt-team-content:after {
+        height: 50px;
+        top: -24px;
+    }
+}
+@media (max-width: 767px) {
+    .mtt-team-style-27-area .mtt-team-style-27-team .mtt-team-content:before,
+    .mtt-team-style-27-area .mtt-team-style-27-team .mtt-team-content:after {
+        height: 65px;
+        top: -30px;
+    }
+}
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+    .mtt-team-style-27-area .mtt-team-style-27-team .mtt-team-content:before,
+    .mtt-team-style-27-area .mtt-team-style-27-team .mtt-team-content:after {
+        height: 40px;
+        top: -18px;
+    }
+}
+.mtt-team-style-27-area .mtt-team-style-27-team .mtt-team-content::before {
+    left: -3%;
+}
+.mtt-team-style-27-area .mtt-team-style-27-team .mtt-team-content::after {
+    right: -4%;
+    -webkit-transform: rotate(-15deg);
+    transform: rotate(-15deg);
+}
+.mtt-team-style-27-area .mtt-team-style-27-team .mtt-team-content .mtt-title {
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: capitalize;
+    margin: 0 0 7px 0;
+    position: relative;
+}
+.mtt-team-style-27-area .mtt-team-style-27-team .mtt-team-content .mtt-title::before,
+.mtt-team-style-27-area .mtt-team-style-27-team .mtt-team-content .mtt-title::after {
+    content: "";
+    width: 12px;
+    height: 100px;
+    background: #ff5543;
+    position: absolute;
+    top: -79px;
+    z-index: -2;
+    -webkit-transform: rotate(-77deg);
+    transform: rotate(-77deg);
+}
+@media (max-width: 767px) {
+    .mtt-team-style-27-area .mtt-team-style-27-team .mtt-team-content .mtt-title::before,
+    .mtt-team-style-27-area .mtt-team-style-27-team .mtt-team-content .mtt-title::after {
+        width: 15px;
+        top: -80px;
+        height: 102px;
+    }
+}
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+    .mtt-team-style-27-area .mtt-team-style-27-team .mtt-team-content .mtt-title::before,
+    .mtt-team-style-27-area .mtt-team-style-27-team .mtt-team-content .mtt-title::after {
+        width: 12px;
+        top: -79px;
+        height: 100px;
+    }
+}
+.mtt-team-style-27-area .mtt-team-style-27-team .mtt-team-content .mtt-title::before {
+    left: 31%;
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+    .mtt-team-style-27-area .mtt-team-style-27-team .mtt-team-content .mtt-title::before {
+        left: 33%;
+    }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+    .mtt-team-style-27-area .mtt-team-style-27-team .mtt-team-content .mtt-title::before {
+        left: 34%;
+    }
+}
+@media (max-width: 767px) {
+    .mtt-team-style-27-area .mtt-team-style-27-team .mtt-team-content .mtt-title::before {
+        left: 42.5%;
+        -webkit-transform: rotate(-78deg);
+        transform: rotate(-78deg);
+    }
+}
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+    .mtt-team-style-27-area .mtt-team-style-27-team .mtt-team-content .mtt-title::before {
+        left: 31%;
+        -webkit-transform: rotate(-77deg);
+        transform: rotate(-77deg);
+    }
+}
+.mtt-team-style-27-area .mtt-team-style-27-team .mtt-team-content .mtt-title::after {
+    right: 29%;
+    -webkit-transform: rotate(74deg);
+    transform: rotate(74deg);
+}
+@media (min-width: 768px) and (max-width: 991px) {
+    .mtt-team-style-27-area .mtt-team-style-27-team .mtt-team-content .mtt-title::after {
+        right: 33%;
+    }
+}
+@media (max-width: 767px) {
+    .mtt-team-style-27-area .mtt-team-style-27-team .mtt-team-content .mtt-title::after {
+        right: 38.5%;
+        -webkit-transform: rotate(75deg);
+        transform: rotate(75deg);
+    }
+}
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+    .mtt-team-style-27-area .mtt-team-style-27-team .mtt-team-content .mtt-title::after {
+        right: 29%;
+        -webkit-transform: rotate(74deg);
+        transform: rotate(74deg);
+    }
+}
+.mtt-team-style-27-area .mtt-team-style-27-team .mtt-team-content .mtt-post {
+    text-transform: capitalize;
+    font-size: 14px;
+}
+.mtt-team-style-27-area .mtt-team-style-27-team .mtt-team-content .mtt-social {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    position: absolute;
+    bottom: 0px;
+    -webkit-transform: translateY(60px);
+    transform: translateY(60px);
+    right: 0;
+    left: 0;
+    -webkit-transition: 0.3s linear;
+    transition: 0.3s linear;
+}
+.mtt-team-style-27-area .mtt-team-style-27-team .mtt-team-content .mtt-social a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+    border-radius: 20%;
+    background: #fff;
+    font-size: 16px;
+    color: #2d2c2c;
+    -webkit-transition: 0.3s linear;
+    transition: 0.3s linear;
+    margin: 0 3px;
+    -webkit-box-shadow: 1px 1px 3px #fff, -1px -1px 3px #fff;
+    box-shadow: 1px 1px 3px #fff, -1px -1px 3px #fff;
+}
+.mtt-team-style-27-area .mtt-team-style-27-team .mtt-team-content .mtt-social a:hover {
+    background: transparent;
+    color: #fff;
+    border-radius: 50%;
+}
+.mtt-team-style-27-area .mtt-team-style-27-team:hover .mtt-team-content {
+    padding-bottom: 65px;
+}
+.mtt-team-style-27-area .mtt-team-style-27-team:hover .mtt-team-content .mtt-social {
+    -webkit-transform: translateY(-20px);
+    transform: translateY(-20px);
+}
+.mtt-team-style-28-area .mtt-team-style-28-team {
+    -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+    overflow: hidden;
+    position: relative;
+    margin-bottom: 40px;
+    -webkit-transition: 0.3s linear;
+    transition: 0.3s linear;
+}
+.mtt-team-style-28-area .mtt-team-style-28-team::before {
+    content: "";
+    background: linear-gradient(-225deg, #9efbd3 50%, #45d4fb 100%);
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    -webkit-transform: rotate3d(0, 0, 1, 45deg);
+    transform: rotate3d(0, 0, 1, 45deg);
+    -webkit-transform-origin: 0 100%;
+    transform-origin: 0 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    -webkit-transition: all 0.4s ease-out 0s;
+    transition: all 0.4s ease-out 0s;
+    -webkit-clip-path: polygon(100% 0, 0% 100%, 100% 100%);
+    clip-path: polygon(100% 0, 0% 100%, 100% 100%);
+}
+.mtt-team-style-28-area .mtt-team-style-28-team .mtt-pic img {
+    width: 100%;
+    height: auto;
+    -webkit-transform: scale(1.1) translateY(4%);
+    transform: scale(1.1) translateY(4%);
+    -webkit-transition: all 0.4s ease-in;
+    transition: all 0.4s ease-in;
+}
+.mtt-team-style-28-area .mtt-team-style-28-team .mtt-team-content {
+    padding: 0 10px;
+    color: #fff;
+    width: 100%;
+    text-align: center;
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    -webkit-transition: 0.3s linear;
+    transition: 0.3s linear;
+}
+.mtt-team-style-28-area .mtt-team-style-28-team .mtt-team-content .mtt-title {
+    font-size: 22px;
+    font-weight: 900;
+    text-transform: uppercase;
+    margin: 0 0 2px;
+}
+.mtt-team-style-28-area .mtt-team-style-28-team .mtt-team-content .mtt-post {
+    color: #9efbd3;
+    font-size: 15px;
+    font-weight: 500;
+    font-style: italic;
+    text-transform: capitalize;
+    display: block;
+}
+.mtt-team-style-28-area .mtt-team-style-28-team .mtt-social {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    bottom: -50px;
+    right: 10px;
+    opacity: 0;
+    z-index: 2;
+    -webkit-transition: 0.3s linear;
+    transition: 0.3s linear;
+}
+.mtt-team-style-28-area .mtt-team-style-28-team .mtt-social a {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    color: #222;
+    background: #fff;
+    font-size: 18px;
+    height: 35px;
+    width: 35px;
+    -webkit-transition: 0.3s linear;
+    transition: 0.3s linear;
+    margin: 0 1px;
+}
+.mtt-team-style-28-area .mtt-team-style-28-team .mtt-social a:hover {
+    border-radius: 15px 0;
+    -webkit-box-shadow: 0 0 10px #999 inset;
+    box-shadow: 0 0 10px #999 inset;
+}
+.mtt-team-style-28-area .mtt-team-style-28-team:hover {
+    background: #000;
+    -webkit-box-shadow: 0 0 20px -5px rgba(0, 0, 0, 0.4);
+    box-shadow: 0 0 20px -5px rgba(0, 0, 0, 0.4);
+}
+.mtt-team-style-28-area .mtt-team-style-28-team:hover::before {
+    opacity: 0.8;
+    -webkit-transform: rotate3d(0, 0, 1, 15deg);
+    transform: rotate3d(0, 0, 1, 15deg);
+}
+.mtt-team-style-28-area .mtt-team-style-28-team:hover .mtt-pic img {
+    opacity: 0.4;
+    -webkit-transform: scale(1.1) translateY(-4%);
+    transform: scale(1.1) translateY(-4%);
+}
+.mtt-team-style-28-area .mtt-team-style-28-team:hover .mtt-team-content {
+    opacity: 1;
+    top: 40px;
+}
+.mtt-team-style-28-area .mtt-team-style-28-team:hover .mtt-social {
+    opacity: 1;
+    bottom: 10px;
+}
+.mtt-team-style-29-area .mtt-team-style-29-team {
+    border-radius: 15px;
+    overflow: hidden;
+    position: relative;
+    margin-bottom: 40px;
+}
+.mtt-team-style-29-area .mtt-team-style-29-team::before {
+    content: "";
+    background: -webkit-gradient(linear, left bottom, left top, from(rgba(0, 0, 0, 0.8)), color-stop(35%, transparent), color-stop(65%, transparent), to(rgba(0, 0, 0, 0.8)));
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.8) 0%, transparent 35%, transparent 65%, rgba(0, 0, 0, 0.8) 100%);
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    -webkit-transition: all 0.4s ease 0.3s;
+    transition: all 0.4s ease 0.3s;
+}
+.mtt-team-style-29-area .mtt-team-style-29-team .mtt-pic img {
+    width: 100%;
+    height: auto;
+    -webkit-transition: all 0.4s linear;
+    transition: all 0.4s linear;
+}
+.mtt-team-style-29-area .mtt-team-style-29-team .mtt-team-content {
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    z-index: 2;
+}
+.mtt-team-style-29-area .mtt-team-style-29-team .mtt-team-content .mtt-inner-content {
+    color: #fff;
+    background: rgba(214, 48, 49, 0.9);
+    text-align: center;
+    width: 90%;
+    padding: 10px;
+    border-radius: 0 10px 0 0;
+    -webkit-box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    -webkit-transform: translateX(-110%);
+    transform: translateX(-110%);
+    -webkit-transition: all 0.4s ease-in-out 0.2s;
+    transition: all 0.4s ease-in-out 0.2s;
+}
+.mtt-team-style-29-area .mtt-team-style-29-team .mtt-team-content .mtt-title {
+    font-size: 22px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin: 0;
+}
+.mtt-team-style-29-area .mtt-team-style-29-team .mtt-team-content .mtt-post {
+    font-size: 16px;
+    text-transform: capitalize;
+    font-style: italic;
+}
+.mtt-team-style-29-area .mtt-team-style-29-team .mtt-social {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.9);
+    width: 80%;
+    position: absolute;
+    z-index: 9;
+    top: 65%;
+    left: -40px;
+    padding: 7px 10px;
+    margin: 0;
+    list-style: none;
+    border-radius: 0 0 0 10px;
+    -webkit-transform: translateX(150%);
+    transform: translateX(150%);
+    -webkit-transition: 0.3s linear;
+    transition: 0.3s linear;
+}
+.mtt-team-style-29-area .mtt-team-style-29-team .mtt-social a {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    background-color: rgba(214, 48, 48, 0.712);
+    font-size: 14px;
+    text-align: center;
+    height: 30px;
+    width: 30px;
+    border-radius: 10px;
+    -webkit-transition: all 0.35s;
+    transition: all 0.35s;
+    margin: 0 2px;
+    -webkit-transform: translateX(350px);
+    transform: translateX(350px);
+    -webkit-transition: 0.3s linear;
+    transition: 0.3s linear;
+}
+.mtt-team-style-29-area .mtt-team-style-29-team .mtt-social a:hover {
+    background-color: #333;
+}
+.mtt-team-style-29-area .mtt-team-style-29-team:hover::before {
+    opacity: 1;
+}
+.mtt-team-style-29-area .mtt-team-style-29-team:hover .mtt-pic img {
+    opacity: 0.8;
+}
+.mtt-team-style-29-area .mtt-team-style-29-team:hover .mtt-team-content .mtt-inner-content {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+}
+.mtt-team-style-29-area .mtt-team-style-29-team:hover .mtt-social {
+    -webkit-transform: translateX(50%);
+    transform: translateX(50%);
+}
+.mtt-team-style-29-area .mtt-team-style-29-team:hover .mtt-social a {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+}
+.mtt-team-style-30-area .mtt-team-style-30-team {
+    text-align: center;
+    padding-top: 20px;
+    background: #fff;
+    border-radius: 15px;
+    border: 2px solid transparent;
+    -webkit-transition: 0.6s linear;
+    transition: 0.6s linear;
+    margin-bottom: 35px;
+    overflow: hidden;
+}
+.mtt-team-style-30-area .mtt-team-style-30-team {
+    border-color: #17bebb;
+}
+.mtt-team-style-30-area .mtt-team-style-30-team .mtt-pic {
+    position: relative;
+    -webkit-transition: 0.3s linear;
+    transition: 0.3s linear;
+    top: -30px;
+    left: 0;
+    height: 240px;
+    width: 100%;
+    -webkit-mask-image: url(https://bestwpdeveloper.com/wp-content/plugins/bwd-elementor-addons-pro/assets/public/img/2.svg);
+    mask-image: url(https://bestwpdeveloper.com/wp-content/plugins/bwd-elementor-addons-pro/assets/public/img/2.svg);
+    -webkit-mask-size: contain;
+    mask-size: contain;
+    -webkit-mask-repeat: no-repeat;
+    mask-repeat: no-repeat;
+    -webkit-mask-position: center;
+    mask-position: center;
+}
+@media (max-width: 767px) {
+    .mtt-team-style-30-area .mtt-team-style-30-team .mtt-pic {
+        height: 300px;
+    }
+}
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+    .mtt-team-style-30-area .mtt-team-style-30-team .mtt-pic {
+        height: 290px;
+    }
+}
+.mtt-team-style-30-area .mtt-team-style-30-team .mtt-pic img {
+    height: 100%;
+    width: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+}
+.mtt-team-style-30-area .mtt-team-style-30-team .mtt-team-content {
+    margin-top: -25px;
+}
+@media (max-width: 767px) {
+    .mtt-team-style-30-area .mtt-team-style-30-team .mtt-team-content {
+        margin-top: -15px;
+    }
+}
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+    .mtt-team-style-30-area .mtt-team-style-30-team .mtt-team-content {
+        margin-top: -25px;
+    }
+}
+.mtt-team-style-30-area .mtt-team-style-30-team .mtt-team-content .mtt-title {
+    color: #17bebb;
+    font-size: 22px;
+    text-transform: capitalize;
+    font-weight: 600;
+    margin-bottom: 5px;
+    letter-spacing: 1px;
+    position: relative;
+    -webkit-transform: translateX(100px);
+    transform: translateX(100px);
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transition-delay: 0.5s;
+    transition-delay: 0.5s;
+    -webkit-transition: 0.6s linear;
+    transition: 0.6s linear;
+}
+.mtt-team-style-30-area .mtt-team-style-30-team .mtt-team-content .mtt-post {
+    color: #333;
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: capitalize;
+    display: block;
+    position: relative;
+    -webkit-transform: translateX(-100px);
+    transform: translateX(-100px);
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transition-delay: 0.6s;
+    transition-delay: 0.6s;
+    -webkit-transition: 0.7s linear;
+    transition: 0.7s linear;
+}
+.mtt-team-style-30-area .mtt-team-style-30-team .mtt-social {
+    display: flex;
+    justify-content: center;
+    -webkit-transform: translateY(50px);
+    transform: translateY(50px);
+    -webkit-transition: 0.4s linear;
+    transition: 0.4s linear;
+    -webkit-transition-delay: 0.9s ease 0.4s;
+    transition-delay: 0.9s ease 0.4s;
+    padding: 20px 10px;
+    visibility: hidden;
+}
+.mtt-team-style-30-area .mtt-team-style-30-team .mtt-social a {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    color: #333;
+    background: #17bebb;
+    font-size: 16px;
+    height: 30px;
+    width: 30px;
+    font-weight: 700;
+    border-radius: 50px/20px;
+    -webkit-box-shadow: 5px 5px 0 rgba(0, 0, 0, 0.1);
+    box-shadow: 5px 5px 0 rgba(0, 0, 0, 0.1);
+    margin: 0 5px;
+    -webkit-transition: 0.3s linear;
+    transition: 0.3s linear;
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+}
+.mtt-team-style-30-area .mtt-team-style-30-team .mtt-social a:hover {
+    color: #fff;
+    background-color: #333;
+    -webkit-transform: translateY(-5px);
+    transform: translateY(-5px);
+}
+.mtt-team-style-30-area .mtt-team-style-30-team .mtt-team-content .mtt-title {
+    opacity: 1;
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+    visibility: visible;
+}
+.mtt-team-style-30-area .mtt-team-style-30-team .mtt-team-content .mtt-post {
+    opacity: 1;
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+    visibility: visible;
+}
+.mtt-team-style-30-area .mtt-team-style-30-team:hover .mtt-social {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+    visibility: visible;
+}
+.mtt-team-style-31-area .mtt-team-style-31-team {
+    text-align: center;
+    overflow: hidden;
+    border: 3px solid #ddd;
+    margin-bottom: 40px;
+}
+.mtt-team-style-31-area .mtt-team-style-31-team .mtt-pic {
+    position: relative;
+    -webkit-transition: 0.3s linear;
+    transition: 0.3s linear;
+    top: -35px;
+    left: 0;
+    height: 320px;
+    border-radius: 50%;
+    -webkit-mask-image: url(https://bestwpdeveloper.com/wp-content/plugins/bwd-elementor-addons-pro/assets/public/img/1.svg);
+    mask-image: url(https://bestwpdeveloper.com/wp-content/plugins/bwd-elementor-addons-pro/assets/public/img/1.svg);
+    -webkit-mask-size: cover;
+    mask-size: cover;
+    -webkit-mask-repeat: no-repeat;
+    mask-repeat: no-repeat;
+    -webkit-mask-position: center;
+    mask-position: center;
+}
+@media (max-width: 767px) {
+    .mtt-team-style-31-area .mtt-team-style-31-team .mtt-pic {
+        margin-bottom: 30px;
+        top: -10px;
+    }
+}
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+    .mtt-team-style-31-area .mtt-team-style-31-team .mtt-pic {
+        margin-bottom: 0px;
+        top: -35px;
+    }
+}
+.mtt-team-style-31-area .mtt-team-style-31-team .mtt-pic img {
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+}
+.mtt-team-style-31-area .mtt-team-style-31-team .mtt-team-content {
+    padding: 0 15px;
+    margin-top: -35px;
+}
+.mtt-team-style-31-area .mtt-team-style-31-team .mtt-team-content .mtt-title {
+    color: #e74c3c;
+    font-size: 24px;
+    text-transform: capitalize;
+    font-weight: 600;
+    margin-bottom: 5px;
+    letter-spacing: 1px;
+}
+.mtt-team-style-31-area .mtt-team-style-31-team .mtt-team-content .mtt-post {
+    color: #2c3a47;
+    font-size: 17px;
+    font-weight: 500;
+    text-transform: capitalize;
+    font-style: italic;
+}
+.mtt-team-style-31-area .mtt-team-style-31-team .mtt-social {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    padding: 25px 10px;
+    -webkit-transform: translateX(-160px);
+    transform: translateX(-160px);
+    overflow: hidden;
+    opacity: 0;
+    -webkit-transition: 0.4s linear;
+    transition: 0.4s linear;
+}
+.mtt-team-style-31-area .mtt-team-style-31-team .mtt-social a {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    background-color: #e74c3c;
+    font-size: 16px;
+    text-align: center;
+    width: 40px;
+    height: 40px;
+    margin: 0 0px;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    position: relative;
+    -webkit-transition: 0.3s linear;
+    transition: 0.3s linear;
+    -webkit-transform: rotate(0);
+    transform: rotate(0);
+}
+.mtt-team-style-31-area .mtt-team-style-31-team .mtt-social a:hover {
+    -webkit-box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+}
+.mtt-team-style-31-area .mtt-team-style-31-team:hover .mtt-social {
+    -webkit-transform: translateX(0px);
+    transform: translateX(0px);
+    opacity: 1;
+}
+.mtt-team-style-32-area .mtt-team-style-32-team {
+    overflow: hidden;
+    position: relative;
+    margin-top: 70px;
+}
+.mtt-team-style-32-area .mtt-team-style-32-team .mtt-pic {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    overflow: hidden;
+    -webkit-transition: 0.7s linear;
+    transition: 0.7s linear;
+}
+.mtt-team-style-32-area .mtt-team-style-32-team .mtt-pic img {
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+}
+.mtt-team-style-32-area .mtt-team-style-32-team .mtt-team-style-icon {
+    width: 60px;
+    height: 60px;
+    background: rgba(155, 154, 154, 0.6);
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+    -webkit-transition: all 0.3s linear 0s;
+    transition: all 0.3s linear 0s;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+.mtt-team-style-32-area .mtt-team-style-32-team:hover .mtt-team-style-icon {
+    top: 50%;
+}
+.mtt-team-style-32-area .mtt-team-style-32-team .mtt-team-style-icon .mtt-icon {
+    font-size: 30px;
+    color: #000;
+    line-height: 60px;
+    text-align: center;
+    opacity: 1;
+    -webkit-transition: all 0.01s linear 0.2s;
+    transition: all 0.01s linear 0.2s;
+}
+.mtt-team-style-32-area .mtt-team-style-32-team .mtt-team-style-icon .mtt-team-inner {
+    width: 90%;
+    height: 90%;
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    opacity: 0;
+    -webkit-transition: all 0.05s linear 0s;
+    transition: all 0.05s linear 0s;
+}
+.mtt-team-style-32-area .mtt-team-style-32-team .mtt-team-style-icon .mtt-team-inner .mtt-team-border {
+    background: #000 !important;
+    position: absolute;
+    -webkit-transition: all 0.4s linear 0s;
+    transition: all 0.4s linear 0s;
+}
+.mtt-team-style-32-area .mtt-team-style-32-team .mtt-team-style-icon .mtt-team-inner .mtt-team-border.mtt-team-border-top {
+    width: 100%;
+    height: 2px;
+    top: 0;
+    left: 0px;
+    -webkit-transform-origin: left top;
+    transform-origin: left top;
+    border-top: none !important;
+}
+.mtt-team-style-32-area .mtt-team-style-32-team .mtt-team-style-icon .mtt-team-inner .mtt-team-border.mtt-team-border-left {
+    width: 2px;
+    height: 100%;
+    bottom: 0;
+    left: 0;
+    -webkit-transform-origin: left bottom;
+    transform-origin: left bottom;
+    border-left: none !important;
+}
+.mtt-team-style-32-area .mtt-team-style-32-team .mtt-team-style-icon .mtt-team-inner .mtt-team-border.mtt-team-border-bottom {
+    width: 100%;
+    height: 2px;
+    bottom: 0;
+    right: 0px;
+    -webkit-transform-origin: right bottom;
+    transform-origin: right bottom;
+    border-bottom: none !important;
+}
+.mtt-team-style-32-area .mtt-team-style-32-team .mtt-team-style-icon .mtt-team-inner .mtt-team-border.mtt-team-border-right {
+    width: 2px;
+    height: 100%;
+    top: 0;
+    right: 0;
+    -webkit-transform-origin: right top;
+    transform-origin: right top;
+    border-right: none !important;
+}
+.mtt-team-style-32-area .mtt-team-style-32-team .mtt-team-content {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    text-align: center;
+    color: #fff;
+    opacity: 0;
+    -webkit-transform: scale(0);
+    transform: scale(0);
+    -webkit-transition: all 0.3s linear 0s;
+    transition: all 0.3s linear 0s;
+}
+.mtt-team-style-32-area .mtt-team-style-32-team .mtt-team-content .mtt-title {
+    width: 80%;
+    margin: 20% auto 0;
+    background: rgba(0, 0, 0, 0.7);
+    font-size: 22px;
+    font-weight: 400;
+    text-transform: uppercase;
+    padding: 6px 0;
+    position: relative;
+}
+.mtt-team-style-32-area .mtt-team-style-32-team .mtt-team-content .mtt-title::before {
+    content: "";
+    display: block;
+    width: 40px;
+    height: 20px;
+    -webkit-clip-path: polygon(50% 100%, 0 0, 100% 0);
+    clip-path: polygon(50% 100%, 0 0, 100% 0);
+    background: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    bottom: -19px;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+}
+.mtt-team-style-32-area .mtt-team-style-32-team .mtt-team-content .mtt-post {
+    width: 70%;
+    text-transform: capitalize;
+    margin: 40px auto;
+    font-size: 14px;
+    font-weight: 400;
+    padding: 6px 10px;
+    background: rgba(0, 0, 0, 0.8);
+    display: inline-block;
+}
+.mtt-team-style-32-area .mtt-team-style-32-team .mtt-team-content .mtt-social a {
+    color: #fff;
+    font-size: 15px;
+    height: 30px;
+    width: 30px;
+    border: 2px solid;
+    border-color: #fff;
+    border-radius: 10px 0 10px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+}
+.mtt-team-style-32-area .mtt-team-style-32-team .mtt-team-content .mtt-social a:hover {
+    color: rgba(0, 0, 0, 0.7);
+    background: #fff;
+    border-radius: 0 10px 0 10px;
+    -webkit-box-shadow: inset 0px 0px 7px 1px rgba(0, 0, 0, 0.2);
+    box-shadow: inset 0px 0px 7px 1px rgba(0, 0, 0, 0.2);
+}
+.mtt-team-style-32-area .mtt-team-style-32-team:hover .mtt-pic {
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+}
+.mtt-team-style-32-area .mtt-team-style-32-team:hover .mtt-team-style-icon {
+    width: 100%;
+    height: 100%;
+    bottom: 0;
+    right: 0;
+}
+.mtt-team-style-32-area .mtt-team-style-32-team:hover .mtt-team-style-icon .mtt-icon {
+    opacity: 0;
+    -webkit-transition-delay: 0s;
+    transition-delay: 0s;
+}
+.mtt-team-style-32-area .mtt-team-style-32-team:hover .mtt-team-style-icon .mtt-team-inner {
+    opacity: 1;
+}
+.mtt-team-style-32-area .mtt-team-style-32-team:hover .mtt-team-style-icon .mtt-team-inner .mtt-team-border-top,
+.mtt-team-style-32-area .mtt-team-style-32-team:hover .mtt-team-style-icon .mtt-team-inner .mtt-team-border-left,
+.mtt-team-style-32-area .mtt-team-style-32-team:hover .mtt-team-style-icon .mtt-team-inner .mtt-team-border-bottom,
+.mtt-team-style-32-area .mtt-team-style-32-team:hover .mtt-team-style-icon .mtt-team-inner .mtt-team-border-right {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+    -webkit-transition-delay: 0.2s;
+    transition-delay: 0.2s;
+    border-color: #000 !important;
+}
+.mtt-team-style-32-area .mtt-team-style-32-team:hover .mtt-team-content {
+    opacity: 1;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-transition-delay: 0.65s;
+    transition-delay: 0.65s;
+}
+.mtt-team-style-32-area .slick-arrow {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    color: rgb(36, 36, 36);
+    cursor: pointer;
+    opacity: 0.9;
+    font-weight: 400;
+    z-index: 1;
+    width: 50px;
+    height: 50px;
+    font-size: 25px;
+    line-height: 50px;
+    border: none;
+    -webkit-transition: 0.3s linear;
+    transition: 0.3s linear;
+    border: 2px solid transparent;
+}
+.mtt-team-style-32-area .slick-arrow:hover {
+    border-radius: 100%;
+    background-color: transparent;
+    color: tomato;
+}
+.mtt-team-style-32-area .slick-prev {
+    right: 70px;
+}
+.mtt-team-style-32-area .slick-next {
+    right: 15px;
+}
+.mtt-team-style-33-area .mtt-team-style-33-team {
+    text-align: center;
+    overflow: hidden;
+    position: relative;
+    margin-bottom: 40px;
+    cursor: url(../img/scrollingCursor.png), auto;
+}
+.mtt-team-style-33-area .mtt-team-style-33-team::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+    opacity: 0;
+    -webkit-transition: 0.9s linear;
+    transition: 0.9s linear;
+}
+.mtt-team-style-33-area .mtt-team-style-33-team .mtt-pic img {
+    width: 100%;
+    height: auto;
+}
+.mtt-team-style-33-area .mtt-team-style-33-team .mtt-team-style-layer {
+    width: 180px;
+    height: 120px;
+    background: rgba(44, 150, 117, 0.8);
+    margin: 0 auto;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    -webkit-transition: opacity 0.2s linear 0.35s, -webkit-transform 0.2s linear 0s;
+    transition: opacity 0.2s linear 0.35s, -webkit-transform 0.2s linear 0s;
+    transition: transform 0.2s linear 0s, opacity 0.2s linear 0.35s;
+    transition: transform 0.2s linear 0s, opacity 0.2s linear 0.35s, -webkit-transform 0.2s linear 0s;
+}
+.mtt-team-style-33-area .mtt-team-style-33-team .mtt-team-style-layer .mtt-team-circle {
+    width: 82px;
+    height: 82px;
+    margin: auto;
+    position: relative;
+    top: 19px;
+    -webkit-transition: -webkit-transform 0.4s linear 0s;
+    transition: -webkit-transform 0.4s linear 0s;
+    transition: transform 0.4s linear 0s;
+    transition: transform 0.4s linear 0s, -webkit-transform 0.4s linear 0s;
+}
+.mtt-team-style-33-area .mtt-team-style-33-team .mtt-team-style-layer .mtt-team-circle .mtt-team-layer {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background: transparent;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.mtt-team-style-33-area .mtt-team-style-33-team .mtt-team-style-layer .mtt-team-circle .mtt-team-layer.mtt-team-left-layer {
+    border-left: 2px solid;
+    border-color: #fff;
+    -webkit-transition: all 0.15s linear 0.3s;
+    transition: all 0.15s linear 0.3s;
+}
+.mtt-team-style-33-area .mtt-team-style-33-team .mtt-team-style-layer .mtt-team-circle .mtt-team-layer.mtt-team-top-layer {
+    width: 80px;
+    border-top: 2px solid;
+    border-color: #fff;
+    -webkit-transition: all 0.15s linear 0.2s;
+    transition: all 0.15s linear 0.2s;
+}
+.mtt-team-style-33-area .mtt-team-style-33-team .mtt-team-style-layer .mtt-team-circle .mtt-team-layer.mtt-team-right-layer {
+    border-right: 2px solid;
+    border-color: #fff;
+    -webkit-transition: all 0.15s linear 0.1s;
+    transition: all 0.15s linear 0.1s;
+}
+.mtt-team-style-33-area .mtt-team-style-33-team .mtt-team-style-layer .mtt-team-circle .mtt-team-layer.mtt-team-bottom-layer {
+    width: 80px;
+    border-bottom: 2px solid;
+    border-color: #fff;
+    -webkit-transition: all 0.15s linear 0s;
+    transition: all 0.15s linear 0s;
+}
+.mtt-team-style-33-area .mtt-team-style-33-team .mtt-team-style-layer .mtt-team-circle .mtt-team-icon {
+    position: absolute;
+    left: -2px;
+    right: 0;
+    font-size: 25px;
+    color: #fff;
+    line-height: 82px;
+}
+.mtt-team-style-33-area .mtt-team-style-33-team .mtt-team-content {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: #fff;
+    opacity: 0;
+    -webkit-transition: all 0.2s linear 0s;
+    transition: all 0.2s linear 0s;
+}
+.mtt-team-style-33-area .mtt-team-style-33-team .mtt-team-content .mtt-title {
+    width: 80%;
+    margin: 20% auto 0;
+    background: rgba(44, 150, 117, 0.8);
+    font-size: 22px;
+    font-weight: 400;
+    text-transform: uppercase;
+    padding: 6px 0;
+    position: relative;
+}
+.mtt-team-style-33-area .mtt-team-style-33-team .mtt-team-content .mtt-post {
+    width: 80%;
+    font-size: 14px;
+    font-weight: 400;
+    padding: 6px 10px;
+    background: rgba(44, 150, 117, 0.8);
+    margin: 25px auto 0;
+    display: inline-block;
+    text-transform: capitalize;
+}
+.mtt-team-style-33-area .mtt-team-style-33-team .mtt-team-content .mtt-social {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+.mtt-team-style-33-area .mtt-team-style-33-team .mtt-team-content .mtt-social a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+    border-radius: 20%;
+    background: #4e997e;
+    font-size: 15px;
+    color: #fff;
+    text-align: center;
+    -webkit-transition: 0.3s linear;
+    transition: 0.3s linear;
+    margin: 0px 3px;
+    border: 2px solid;
+    border-color: white;
+}
+.mtt-team-style-33-area .mtt-team-style-33-team .mtt-team-content .mtt-social a:hover {
+    background: transparent;
+    color: #fff;
+    border-radius: 50%;
+}
+.mtt-team-style-33-area .mtt-team-style-33-team:hover::before {
+    opacity: 0.5;
+}
+.mtt-team-style-33-area .mtt-team-style-33-team:hover .mtt-team-style-layer {
+    -webkit-transform: scale(5);
+    transform: scale(5);
+    opacity: 0;
+    -webkit-transition-delay: 0.55s;
+    transition-delay: 0.55s;
+}
+.mtt-team-style-33-area .mtt-team-style-33-team:hover .mtt-team-style-layer .mtt-team-circle {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+    border-radius: 0;
+}
+.mtt-team-style-33-area .mtt-team-style-33-team:hover .mtt-team-style-layer .mtt-team-circle .mtt-team-layer {
+    border-radius: 0px;
+}
+.mtt-team-style-33-area .mtt-team-style-33-team:hover .mtt-team-content {
+    opacity: 1;
+    -webkit-transition-delay: 0.85s;
+    transition-delay: 0.85s;
+}
+.mtt-team-style-33-area .slick-dots {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    text-align: center;
+    -webkit-transition: 0.3s linear;
+    transition: 0.3s linear;
+}
+.mtt-team-style-33-area .slick-dots li {
+    display: inline-block;
+    margin: 0 5px;
+    line-height: 0;
+    -webkit-transition: 0.3s linear;
+    transition: 0.3s linear;
+}
+.mtt-team-style-33-area .slick-dots li.slick-active button {
+    background-color: #09ebaf;
+    width: 30px;
+}
+.mtt-team-style-33-area .slick-dots li button {
+    font-size: 0;
+    line-height: 0;
+    height: 7px;
+    width: 14px;
+    background-color: #353434;
+    border: 0;
+    border-radius: 3px;
+    -webkit-transition: 0.3s linear;
+    transition: 0.3s linear;
+    padding: 0 !important;
+    position: relative;
+    top: 5px;
+}
+.mtt-team-style-34-area .mtt-team-style-34-team {
+    text-align: center;
+    overflow: hidden;
+    -webkit-box-shadow: 0 0 5px #a3a3a3;
+    box-shadow: 0 0 5px #a3a3a3;
+    position: relative;
+    cursor: url(../img/scrollingCursor.png), auto;
+    margin-bottom: 40px;
+}
+.mtt-team-style-34-area .mtt-team-style-34-team::before {
+    content: "";
+    width: 0;
+    height: 0;
+    background: rgba(33, 10, 3, 0.7);
+    position: absolute;
+    top: 0;
+    left: 0;
+    -webkit-transition: all 0.3s linear 0.3s;
+    transition: all 0.3s linear 0.3s;
+}
+.mtt-team-style-34-area .mtt-team-style-34-team::after {
+    content: "";
+    width: 0;
+    height: 0;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    border: 4px double #fff;
+    opacity: 0;
+    -webkit-transition: all 0.3s linear 0.3s;
+    transition: all 0.3s linear 0.3s;
+}
+.mtt-team-style-34-area .mtt-team-style-34-team .mtt-pic img {
+    width: 100%;
+    height: auto;
+}
+.mtt-team-style-34-area .mtt-team-style-34-team .mtt-team-content {
+    width: 100%;
+    height: 100%;
+    color: #fff;
+    padding: 20px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    z-index: 99;
+}
+.mtt-team-style-34-area .mtt-team-style-34-team .mtt-team-content .mtt-title {
+    font-size: 21px;
+    font-weight: 700;
+    text-transform: uppercase;
+    border-bottom: 1px solid #fff;
+    padding-bottom: 20px;
+    margin-right: 4px;
+    margin-left: 4px;
+    position: relative;
+    top: -100%;
+    -webkit-transition: all 0.3s linear 0.2s;
+    transition: all 0.3s linear 0.2s;
+}
+.mtt-team-style-34-area .mtt-team-style-34-team .mtt-team-content .mtt-post {
+    font-size: 14px;
+    font-style: italic;
+    margin: 15px 0;
+    padding: 0 10px;
+    position: relative;
+    top: -100%;
+    -webkit-transition: all 0.3s linear 0.1s;
+    transition: all 0.3s linear 0.1s;
+}
+.mtt-team-style-34-area .mtt-team-style-34-team .mtt-team-content .mtt-social {
+    position: relative;
+    top: -100%;
+    -webkit-transition: all 0.3s linear 0s;
+    transition: all 0.3s linear 0s;
+}
+.mtt-team-style-34-area .mtt-team-style-34-team .mtt-team-content .mtt-social a {
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background: #fff;
+    font-size: 15px;
+    color: #333;
+    -webkit-transition: all 0.3s linear 0s;
+    transition: all 0.3s linear 0s;
+    border: 2px solid;
+    border-color: transparent;
+}
+.mtt-team-style-34-area .mtt-team-style-34-team .mtt-team-content .mtt-social a:hover {
+    background: -webkit-gradient(linear, left top, left bottom, from(#333), to(rgba(0, 0, 0, 0.614)));
+    background: linear-gradient(to bottom, #333, rgba(0, 0, 0, 0.614));
+    -webkit-box-shadow: 0 0 0 5px rgba(255, 255, 255, 0.3);
+    box-shadow: 0 0 0 5px rgba(255, 255, 255, 0.3);
+    color: #fff;
+}
+.mtt-team-style-34-area .mtt-team-style-34-team:hover::before {
+    width: 100%;
+    height: 100%;
+    -webkit-transition-delay: 0s;
+    transition-delay: 0s;
+}
+.mtt-team-style-34-area .mtt-team-style-34-team:hover::after {
+    width: 100%;
+    height: 100%;
+    opacity: 1;
+    -webkit-transition-delay: 0s;
+    transition-delay: 0s;
+}
+.mtt-team-style-34-area .mtt-team-style-34-team:hover .mtt-team-content .mtt-title {
+    -webkit-transition-delay: 0.5s;
+    transition-delay: 0.5s;
+    top: 0;
+}
+.mtt-team-style-34-area .mtt-team-style-34-team:hover .mtt-team-content .mtt-post {
+    -webkit-transition-delay: 0.4s;
+    transition-delay: 0.4s;
+    top: 0;
+}
+.mtt-team-style-34-area .mtt-team-style-34-team:hover .mtt-team-content .mtt-social {
+    -webkit-transition-delay: 0.3s;
+    transition-delay: 0.3s;
+    top: 0;
+}
+.mtt-team-style-34-area .slick-dots {
+    position: absolute;
+    left: 0;
+    bottom: -15px;
+    right: 0;
+    text-align: center;
+}
+.mtt-team-style-34-area .slick-dots li {
+    display: inline-block;
+    margin: 0 5px;
+    line-height: 0;
+}
+.mtt-team-style-34-area .slick-dots li.slick-active button {
+    background-color: #333;
+    color: #fff;
+}
+.mtt-team-style-34-area .slick-dots li button {
+    width: 35px;
+    height: 35px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    border: 2px solid #333;
+    border-radius: 50%;
+    font-size: 16px;
+    font-weight: 700;
+    cursor: pointer;
+    outline: none;
+    padding: 0 !important;
+    position: relative;
+    top: 3px;
+}
+.mtt-team-style-34-area button::before,
+.mtt-team-style-33-area button::before,
+.mtt-team-style-32-area button::before {
+    background: none;
+}
+.mtt-team-style-34-area .slick-dots li.slick-active button,
+.mtt-team-style-34-area .slick-dots li button {
+    padding: 0;
+    background: #014470;
+    border-color: transparent;
+}
+@media (max-width: 767px) {
+    .mtt-team-style-35-area .mtt-team-menu {
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        -webkit-box-pack: start !important;
+        -ms-flex-pack: start !important;
+        justify-content: start !important;
+    }
+}
+.mtt-team-style-35-area .mtt-team-menu button {
+    color: rgba(255, 255, 255, 0.8);
+    background: #ff0167;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: capitalize;
+    padding: 14px 15px;
+    margin: 0 5px;
+    border-radius: 50px 50px/30px 50px;
+    border: none;
+    overflow: hidden;
+    position: relative;
+    z-index: 1;
+    -webkit-transition: 0.3s linear;
+    transition: 0.3s linear;
+}
+.mtt-team-style-35-area .mtt-team-menu button:first-child {
+    border-radius: 20px;
+}
+@media (max-width: 767px) {
+    .mtt-team-style-35-area .mtt-team-menu button {
+        margin-bottom: 10px;
+    }
+}
+.mtt-team-style-35-area .mtt-team-menu button:before,
+.mtt-team-style-35-area .mtt-team-menu button:after {
+    content: "";
+    background: #fff;
+    width: 0;
+    height: calc(100% - 25px);
+    position: absolute;
+    top: 0;
+    left: 0;
+    -webkit-transition: 0.3s cubic-bezier(0.785, 0.135, 0.15, 0.86);
+    transition: 0.3s cubic-bezier(0.785, 0.135, 0.15, 0.86);
+    z-index: -1;
+}
+.mtt-team-style-35-area .mtt-team-menu button:after {
+    top: auto;
+    bottom: 0;
+    left: auto;
+    right: 0;
+}
+.mtt-team-style-35-area .mtt-team-menu button:hover {
+    color: #ff0167;
+    -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    background: transparent;
+    -webkit-transform: rotate(-3deg) scale(1.1);
+    transform: rotate(-3deg) scale(1.1);
+}
+.mtt-team-style-35-area .mtt-team-menu button:hover::before,
+.mtt-team-style-35-area .mtt-team-menu button:hover::after {
+    width: 100%;
+    left: 0;
+}
+.mtt-team-style-35-area .mtt-team-menu button:hover::after {
+    top: auto;
+    bottom: 0;
+    left: auto;
+    right: 0;
+}
+.mtt-team-style-35-area .mtt-team-menu button.active {
+    color: #ff0167;
+    background: transparent;
+    -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+.mtt-team-style-35-area .mtt-team-style-35-team {
+    position: relative;
+    display: inline-block;
+}
+.mtt-team-style-35-area .mtt-team-style-35-team.snake {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+}
+.mtt-team-style-35-area .mtt-team-style-35-team .mtt-pic {
+    overflow: hidden;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-transition: 0.6s linear;
+    transition: 0.6s linear;
+}
+.mtt-team-style-35-area .mtt-team-style-35-team .mtt-pic img {
+    width: 100%;
+    height: auto;
+}
+.mtt-team-style-35-area .mtt-team-style-35-team .overlay {
+    position: absolute;
+    text-align: center;
+    background-color: #000;
+    height: 100% !important;
+    width: 100% !important;
+    top: 0;
+    left: 0;
+    opacity: 0.8;
+}
+.mtt-team-style-35-area .mtt-team-style-35-team .overlay .mtt-team-content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    position: relative;
+    height: 100%;
+}
+.mtt-team-style-35-area .mtt-team-style-35-team .overlay .mtt-team-content .mtt-title {
+    font-size: 22px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+.mtt-team-style-35-area .mtt-team-style-35-team .overlay .mtt-team-content .mtt-post {
+    display: block;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #fff;
+    margin-bottom: 10px;
+}
+.mtt-team-style-35-area .mtt-team-style-35-team .overlay .mtt-team-content .mtt-social a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    font-size: 18px;
+    color: #000;
+    margin: 0 6px;
+    position: relative;
+    z-index: 1;
+    -webkit-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+}
+.mtt-team-style-35-area .mtt-team-style-35-team .overlay .mtt-team-content .mtt-social a::before {
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #fff;
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+    z-index: -1;
+    -webkit-transition: all 0.3s ease-in-out 0s;
+    transition: all 0.3s ease-in-out 0s;
+}
+.mtt-team-style-35-area .mtt-team-style-35-team .overlay .mtt-team-content .mtt-social a:hover {
+    color: #fbba42;
+}
+.mtt-team-style-35-area .mtt-team-style-35-team .overlay .mtt-team-content .mtt-social a:hover::before {
+    background: #2e659c;
+    color: #fff;
+    -webkit-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+}
+.mtt-team-style-35-area .mtt-team-style-35-team:hover .mtt-pic {
+    -webkit-transform: scale(1.6);
+    transform: scale(1.6);
+}
+@media (max-width: 767px) {
+    .mtt-team-style-36-area .mtt-team-36-menu {
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        -webkit-box-pack: start !important;
+        -ms-flex-pack: start !important;
+        justify-content: start !important;
+    }
+}
+.mtt-team-style-36-area .mtt-team-36-menu button {
+    color: #8c0702;
+    background-color: #e9e9e9;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: capitalize;
+    padding: 14px 18px;
+    margin: 0 5px;
+    border-radius: 0;
+    border: none;
+    position: relative;
+    z-index: 1;
+    -webkit-transition: all 0.3s ease 0.15s;
+    transition: all 0.3s ease 0.15s;
+}
+@media (max-width: 767px) {
+    .mtt-team-style-36-area .mtt-team-36-menu button {
+        margin-bottom: 15px;
+    }
+}
+.mtt-team-style-36-area .mtt-team-36-menu button:before,
+.mtt-team-style-36-area .mtt-team-36-menu button:after {
+    content: "";
+    width: 20%;
+    height: 20%;
+    border-radius: 2px;
+    border: 2px solid #8c0702;
+    border-bottom-color: transparent;
+    border-right-color: transparent;
+    position: absolute;
+    top: 0;
+    left: 0;
+    -webkit-transition: all 0.4s ease, opacity 0.4s ease 0.1s;
+    transition: all 0.4s ease, opacity 0.4s ease 0.1s;
+}
+.mtt-team-style-36-area .mtt-team-36-menu button:after {
+    border: 2px solid #8c0702;
+    border-top-color: transparent;
+    border-left-color: transparent;
+    top: auto;
+    left: auto;
+    bottom: 0;
+    right: 0;
+}
+.mtt-team-style-36-area .mtt-team-36-menu button:hover {
+    color: #fff;
+    background-color: #8c0702;
+}
+.mtt-team-style-36-area .mtt-team-36-menu button:hover::before,
+.mtt-team-style-36-area .mtt-team-36-menu button:hover::after {
+    width: 100%;
+    height: 100%;
+    border: 2px solid #8c0702;
+    opacity: 0;
+}
+.mtt-team-style-36-area .mtt-team-36-menu button.active {
+    background: #8c0702;
+    color: #fff;
+    -webkit-box-shadow: 0 0 15px -5px #555;
+    box-shadow: 0 0 15px -5px #555;
+}
+.mtt-team-style-36-area .mtt-team-style-36 {
+    position: relative;
+    -webkit-perspective: 1000px;
+    perspective: 1000px;
+}
+.mtt-team-style-36-area .mtt-team-style-36 .mtt-pic {
+    -webkit-transform: rotateY(0);
+    transform: rotateY(0);
+    -webkit-transition: 0.5s ease-in-out;
+    transition: 0.5s ease-in-out;
+}
+.mtt-team-style-36-area .mtt-team-style-36 .mtt-pic img {
+    width: 100%;
+    height: auto;
+    -o-object-fit: cover;
+    object-fit: cover;
+}
+.mtt-team-style-36-area .mtt-team-style-36 .mtt-team-content {
+    position: absolute;
+    left: 0;
+    top: 0;
+    text-align: center;
+    width: 100%;
+    background: #0000009e;
+    height: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-transform: rotateY(90deg);
+    transform: rotateY(90deg);
+    -webkit-transition: 0.5s ease-in-out;
+    transition: 0.5s ease-in-out;
+    visibility: hidden;
+    padding: 20px;
+}
+.mtt-team-style-36-area .mtt-team-style-36 .mtt-team-content .mtt-title {
+    font-size: 22px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+.mtt-team-style-36-area .mtt-team-style-36 .mtt-team-content .mtt-post {
+    display: block;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #fff;
+    margin-bottom: 10px;
+}
+.mtt-team-style-36-area .mtt-team-style-36 .mtt-team-content .mtt-social a {
+    color: #fff;
+    background-color: #8c0702;
+    font-size: 16px;
+    text-align: center;
+    width: 40px;
+    height: 40px;
+    margin: 0 5px;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    -webkit-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+}
+.mtt-team-style-36-area .mtt-team-style-36 .mtt-team-content .mtt-social a:hover {
+    -webkit-box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+}
+.mtt-team-style-36-area .mtt-team-style-36 .mtt-team-content .mtt-social a:hover::after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    -webkit-animation: animate 0.5s ease-out 75ms;
+    animation: animate 0.5s ease-out 75ms;
+}
+@-webkit-keyframes animate {
+    0% {
+        opacity: 0.3;
+    }
+    40% {
+        opacity: 0.5;
+        -webkit-box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.1), 0 0 10px 10px #fff, 0 0 0 10px rgba(255, 255, 255, 0.5);
+        box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.1), 0 0 10px 10px #fff, 0 0 0 10px rgba(255, 255, 255, 0.5);
+    }
+    100% {
+        -webkit-box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.1), 0 0 10px 10px #fff, 0 0 0 10px rgba(255, 255, 255, 0.5);
+        box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.1), 0 0 10px 10px #fff, 0 0 0 10px rgba(255, 255, 255, 0.5);
+        -webkit-transform: scale(1.5);
+        transform: scale(1.5);
+        opacity: 0;
+    }
+}
+@keyframes animate {
+    0% {
+        opacity: 0.3;
+    }
+    40% {
+        opacity: 0.5;
+        -webkit-box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.1), 0 0 10px 10px #fff, 0 0 0 10px rgba(255, 255, 255, 0.5);
+        box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.1), 0 0 10px 10px #fff, 0 0 0 10px rgba(255, 255, 255, 0.5);
+    }
+    100% {
+        -webkit-box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.1), 0 0 10px 10px #fff, 0 0 0 10px rgba(255, 255, 255, 0.5);
+        box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.1), 0 0 10px 10px #fff, 0 0 0 10px rgba(255, 255, 255, 0.5);
+        -webkit-transform: scale(1.5);
+        transform: scale(1.5);
+        opacity: 0;
+    }
+}
+.mtt-team-style-36-area .mtt-team-style-36:hover .mtt-pic {
+    -webkit-transform: rotateY(-90deg);
+    transform: rotateY(-90deg);
+}
+.mtt-team-style-36-area .mtt-team-style-36:hover .mtt-team-content {
+    -webkit-transform: rotateY(0deg);
+    transform: rotateY(0deg);
+    visibility: visible;
+}
+.mtt-grid-column1 .column_number {
+    flex: 0 0 auto;
+    width: 100%;
+    max-width: 100%;
+}
+.mtt-grid-column2 .column_number {
+    flex: 0 0 auto;
+    width: 50%;
+    max-width: 50%;
+}
+.mtt-grid-column3 .column_number {
+    flex: 0 0 auto;
+    width: 33.33%;
+    max-width: 33.33%;
+}
+.mtt-grid-column4 .column_number {
+    flex: 0 0 auto;
+    width: 25%;
+    max-width: 25%;
+}
+.mtt-grid-column5 .column_number {
+    flex: 0 0 auto;
+    width: 20%;
+    max-width: 20%;
+}
+.mtt-grid-column6 .column_number {
+    flex: 0 0 auto;
+    width: 16.66%;
+    max-width: 16.66%;
+}
+@media (min-width: 2400px) {
+    .mtt-grid-widescreen-column1 .column_number {
+        flex: 0 0 auto;
+        width: 100%;
+        max-width: 100%;
+    }
+    .mtt-grid-widescreen-column2 .column_number {
+        flex: 0 0 auto;
+        width: 50%;
+        max-width: 50%;
+    }
+    .mtt-grid-widescreen-column3 .column_number {
+        flex: 0 0 auto;
+        width: 33.33%;
+        max-width: 33.33%;
+    }
+    .mtt-grid-widescreen-column4 .column_number {
+        flex: 0 0 auto;
+        width: 25%;
+        max-width: 25%;
+    }
+    .mtt-grid-widescreen-column5 .column_number {
+        flex: 0 0 auto;
+        width: 20%;
+        max-width: 20%;
+    }
+    .mtt-grid-widescreen-column6 .column_number {
+        flex: 0 0 auto;
+        width: 16.66%;
+        max-width: 16.66%;
+    }
+}
+@media (max-width: 1366px) {
+    .mtt-grid-laptop-column1 .column_number {
+        flex: 0 0 auto;
+        width: 100%;
+        max-width: 100%;
+    }
+    .mtt-grid-laptop-column2 .column_number {
+        flex: 0 0 auto;
+        width: 50%;
+        max-width: 50%;
+    }
+    .mtt-grid-laptop-column3 .column_number {
+        flex: 0 0 auto;
+        width: 33.33%;
+        max-width: 33.33%;
+    }
+    .mtt-grid-laptop-column4 .column_number {
+        flex: 0 0 auto;
+        width: 25%;
+        max-width: 25%;
+    }
+    .mtt-grid-laptop-column5 .column_number {
+        flex: 0 0 auto;
+        width: 20%;
+        max-width: 20%;
+    }
+    .mtt-grid-laptop-column6 .column_number {
+        flex: 0 0 auto;
+        width: 16.66%;
+        max-width: 16.66%;
+    }
+}
+@media (max-width: 1200px) {
+    .mtt-grid-tablet_extra-column1 .column_number {
+        flex: 0 0 auto;
+        width: 100%;
+        max-width: 100%;
+    }
+    .mtt-grid-tablet_extra-column2 .column_number {
+        flex: 0 0 auto;
+        width: 50%;
+        max-width: 50%;
+    }
+    .mtt-grid-tablet_extra-column3 .column_number {
+        flex: 0 0 auto;
+        width: 33.33%;
+        max-width: 33.33%;
+    }
+    .mtt-grid-tablet_extra-column4 .column_number {
+        flex: 0 0 auto;
+        width: 25%;
+        max-width: 25%;
+    }
+    .mtt-grid-tablet_extra-column5 .column_number {
+        flex: 0 0 auto;
+        width: 20%;
+        max-width: 20%;
+    }
+    .mtt-grid-tablet_extra-column6 .column_number {
+        flex: 0 0 auto;
+        width: 16.66%;
+        max-width: 16.66%;
+    }
+}
+@media (max-width: 1024px) {
+    .mtt-grid-tablet-column1 .column_number {
+        flex: 0 0 auto;
+        width: 100%;
+        max-width: 100%;
+    }
+    .mtt-grid-tablet-column2 .column_number {
+        flex: 0 0 auto;
+        width: 50%;
+        max-width: 50%;
+    }
+    .mtt-grid-tablet-column3 .column_number {
+        flex: 0 0 auto;
+        width: 33.33%;
+        max-width: 33.33%;
+    }
+    .mtt-grid-tablet-column4 .column_number {
+        flex: 0 0 auto;
+        width: 25%;
+        max-width: 25%;
+    }
+    .mtt-grid-tablet-column5 .column_number {
+        flex: 0 0 auto;
+        width: 20%;
+        max-width: 20%;
+    }
+    .mtt-grid-tablet-column6 .column_number {
+        flex: 0 0 auto;
+        width: 16.66%;
+        max-width: 16.66%;
+    }
+}
+@media (max-width: 880px) {
+    .mtt-grid-mobile_extra-column1 .column_number {
+        flex: 0 0 auto;
+        width: 100%;
+        max-width: 100%;
+    }
+    .mtt-grid-mobile_extra-column2 .column_number {
+        flex: 0 0 auto;
+        width: 50%;
+        max-width: 50%;
+    }
+    .mtt-grid-mobile_extra-column3 .column_number {
+        flex: 0 0 auto;
+        width: 33.33%;
+        max-width: 33.33%;
+    }
+    .mtt-grid-mobile_extra-column4 .column_number {
+        flex: 0 0 auto;
+        width: 25%;
+        max-width: 25%;
+    }
+    .mtt-grid-mobile_extra-column5 .column_number {
+        flex: 0 0 auto;
+        width: 20%;
+        max-width: 20%;
+    }
+    .mtt-grid-mobile_extra-column6 .column_number {
+        flex: 0 0 auto;
+        width: 16.66%;
+        max-width: 16.66%;
+    }
+}
+@media (max-width: 767px) {
+    .mtt-grid-mobile-column1 .column_number {
+        flex: 0 0 auto;
+        width: 100%;
+        max-width: 100%;
+    }
+    .mtt-grid-mobile-column2 .column_number {
+        flex: 0 0 auto;
+        width: 50%;
+        max-width: 50%;
+    }
+    .mtt-grid-mobile-column3 .column_number {
+        flex: 0 0 auto;
+        width: 33.33%;
+    }
+    .mtt-grid-mobile-column4 .column_number {
+        flex: 0 0 auto;
+        width: 25%;
+        max-width: 25%;
+    }
+    .mtt-grid-mobile-column5 .column_number {
+        flex: 0 0 auto;
+        width: 20%;
+        max-width: 20%;
+    }
+    .mtt-grid-mobile-column6 .column_number {
+        flex: 0 0 auto;
+        width: 16.66%;
+        max-width: 16.66%;
+    }
+}

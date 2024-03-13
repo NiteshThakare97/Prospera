@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.bwdio_image_overlay {
+    position: relative;
+    overflow: hidden;
+    margin: auto;
+}
+.bwdio_image_overlay a {
+    display: block;
+}
+.bwdio_image_overlay img:nth-child(2) {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.bwdio_image_overlay img {
+    width: 100%;
+    object-fit: unset;
+}
