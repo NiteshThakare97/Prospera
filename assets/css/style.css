@@ -1146,7 +1146,7 @@ img {
 }
 
 .inner-bg2 {
-    background-image: url(../img/inner-banner/2.jpg)
+    background-image: url(../images/Tokenomics/Roadmap.png);
 }
 
 .inner-bg3 {
@@ -7451,7 +7451,7 @@ img {
     .tokenomics-area .card {
         padding: 70px 15px;
     }
-    .inner-bg5 .inner-title h2 {
+    .inner-bg5 .inner-title h2, .inner-bg2 .inner-title h2 {
         font-size: 19px !important;
         margin-top: 20px;
     }
