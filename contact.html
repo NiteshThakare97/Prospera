@@ -383,7 +383,7 @@
                     <div id="aeroplane">
                         <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script><lottie-player src="https://lottie.host/b2292f5a-7f9a-4d3f-9658-fffbbed0c92a/ReNdBHCoMW.json" background="##fff" speed="1" style="width: 250px; height: 250px" loop autoplay direction="1" mode="normal"></lottie-player>
                     </div>
-                    <form id="contactForm">
+                    <form id="contactForm" action="javascript:void(0);" onsubmit="sendEmail()">
                         <div class="row">
                             <div class="col-lg-6 col-sm-6">
                                 <div class="form-group">
@@ -435,6 +435,23 @@
                             </div>
                         </div>
                     </form>
+
+                    <script>
+                        function sendEmail() {
+                            const name = document.getElementById('name').value;
+                            const email = document.getElementById('email').value;
+                            const phone = document.getElementById('phone_number').value;
+                            // Add more form field values as needed
+                    
+                            const subject = document.getElementById('msg_subject').value;
+                            const message = document.getElementById('message').value;
+                    
+                            const mailtoLink = `mailto:info@prosperabuild.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(message + '\n\nName: ' + name + '\nEmail: ' + email + '\nPhone No.: ' + phone)}`;
+                            
+                            // Open the default email client with the mailto link
+                            window.location.href = mailtoLink;
+                        }
+                    </script>
                 </div>
             </div>
         </div>

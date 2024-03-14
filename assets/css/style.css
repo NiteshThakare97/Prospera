@@ -7179,11 +7179,11 @@ img {
     border-color: #fff;
 }
 
-.tokenomics-area .table {
+/* .tokenomics-area .table {
     border-collapse: collapse;
     border-radius: 22px;
     overflow: hidden;
-}
+} */
 
 .tokenomics-area tbody>tr:last-child {
     border-bottom-color: #fff;
