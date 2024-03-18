@@ -86,7 +86,7 @@
                                 </a>
                             </li>
                             <li class="nav-item">
-                                <a href="#" class="nav-link" target="_blank">
+                                <a href="assets/images/Prospera_PPT.pdf" class="nav-link" target="_blank">
                                     Document
                                 </a>
                             </li>
@@ -381,7 +381,11 @@
                     <span>FEEL FREE TO</span>
                     <h2><span id="connect">Connect</span> with us</h2>
                     <div id="aeroplane">
-                        <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script><lottie-player src="https://lottie.host/b2292f5a-7f9a-4d3f-9658-fffbbed0c92a/ReNdBHCoMW.json" background="##fff" speed="1" style="width: 250px; height: 250px" loop autoplay direction="1" mode="normal"></lottie-player>
+                        <script
+                            src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+                        <lottie-player src="https://lottie.host/b2292f5a-7f9a-4d3f-9658-fffbbed0c92a/ReNdBHCoMW.json"
+                            background="##fff" speed="1" style="width: 250px; height: 250px" loop autoplay direction="1"
+                            mode="normal"></lottie-player>
                     </div>
                     <form id="contactForm" action="javascript:void(0);" onsubmit="sendEmail()">
                         <div class="row">
@@ -442,14 +446,21 @@
                             const email = document.getElementById('email').value;
                             const phone = document.getElementById('phone_number').value;
                             // Add more form field values as needed
-                    
+
                             const subject = document.getElementById('msg_subject').value;
                             const message = document.getElementById('message').value;
-                    
-                            const mailtoLink = `mailto:info@prosperabuild.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(message + '\n\nName: ' + name + '\nEmail: ' + email + '\nPhone No.: ' + phone)}`;
-                            
-                            // Open the default email client with the mailto link
-                            window.location.href = mailtoLink;
+
+                            // Construct the mailto link for Gmail directly without mail-Id 
+                            // const mailtoLink = `https://mail.google.com/mail/?view=cm&fs=1&to=&su=${encodeURIComponent(subject)}&body=${encodeURIComponent(message + '\n\nName: ' + name + '\nEmail: ' + email + '\nPhone No.: ' + phone)}`;
+
+                            // // Open Gmail compose window with the mailto link
+                            // window.open(mailtoLink);
+
+                            // Construct the mail and send Mail directly to a particular mail Id.
+                            const mailtoLink = `https://mail.google.com/mail/?view=cm&fs=1&to=info@prosperabuild.com&su=${encodeURIComponent(subject)}&body=${encodeURIComponent(message + '\n\nName: ' + name + '\nEmail: ' + email + '\nPhone No.: ' + phone)}`;
+
+                            // Open Gmail compose window with the mailto link
+                            window.open(mailtoLink);
                         }
                     </script>
                 </div>
@@ -494,9 +505,12 @@
                                 <img src="assets/images/Home/Footer/FooterLogo.png" alt="Logo">
                             </a>
                             <p>
-                                Embark on an avant-garde odyssey into real estate investment with Prospera, where the synergy of simplicity and empowerment shapes your trajectory. Navigate the route to success through the transformative power of tokenization, where transparency and accessibility are the guiding stars illuminating your route forward.
+                                Embark on an avant-garde odyssey into real estate investment with Prospera, where the
+                                synergy of simplicity and empowerment shapes your trajectory. Navigate the route to
+                                success through the transformative power of tokenization, where transparency and
+                                accessibility are the guiding stars illuminating your route forward.
                             </p>
-                            
+
                         </div>
                     </div>
                     <div class="col-lg-2 col-xxl-2 col-md-3">
@@ -523,7 +537,7 @@
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="#" target="_blank">
+                                    <a href="assets/images/Prospera_PPT.pdf" target="_blank">
                                         <i class="bx bx-plus"></i>
                                         Document
                                     </a>
@@ -539,7 +553,7 @@
                                         <i class="bx bx-plus"></i>
                                         Contact
                                     </a>
-                                </li>    
+                                </li>
                             </ul>
                         </div>
                     </div>
@@ -592,7 +606,7 @@
                                     <a href="#" target="_blank"><i class='bx bxl-quora'></i></a>
                                 </li>
                                 <li>
-                                    <a href="#" target="_blank"><i class='bx bxl-linkedin' ></i></a>
+                                    <a href="#" target="_blank"><i class='bx bxl-linkedin'></i></a>
                                 </li>
                             </ul>
                         </div>
