@@ -7004,7 +7004,7 @@ img {
     padding: 40px 0px 20px 0px;
 }
 
-.about-area p {
+.about-area span, .about-area ul li {
     color: aliceblue;
     padding-right: 8px;
 }
@@ -7196,6 +7196,14 @@ img {
     border: 2px dashed #0e768f;
     border-radius: 100px;
     padding: 150px 25px;
+}
+
+#abt-sec3 {
+    padding: 60px 0px 50px 0px;
+    background: #e8eff7;
+}
+#abt-sec3 h1 {
+    font-size: 56px;
 }
 
 
