@@ -7203,7 +7203,10 @@ img {
     background: #e8eff7;
 }
 #abt-sec3 h1 {
-    font-size: 56px;
+    font-size: 50px;
+    font-weight: 500;
+    line-height: 50px;
+    margin-bottom: 30px;
 }
 
 
