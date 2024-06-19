@@ -9,6 +9,10 @@ body {
     color: #777
 }
 
+section {
+    position: relative;
+}
+
 p {
     color: #777
 }
@@ -3949,10 +3953,10 @@ img {
 
 .forward-area {
     position: relative;
-    background-image: url(../images/About/02/Section02BG.png);
+    background-image: url(../images/About/About-new/02/Section02BG.png);
     background-size: cover;
     background-repeat: no-repeat;
-    padding: 76px 0px;
+    padding: 43px 0px;
 }
 
 /* .forward-area::before {
@@ -7008,7 +7012,10 @@ img {
     color: aliceblue;
     padding-right: 8px;
 }
-
+.about-area h1 {
+    font-size: 50px;
+    color: #fff;
+}
 #abt-sec4 {
     background-image: url(../images/About/04/Section04BG.png);
     background-size: cover;
@@ -7043,12 +7050,17 @@ img {
 }
 
 .forward-area h2 {
+    font-weight: 500;
+    color: #fff;
+    font-size: 50px;
+}
+.forward-area h2>span {
+    font-size: 34px;
     font-weight: 400;
-    color: #012845;
 }
 
 .forward-area p {
-    color: #012845;
+    color: #fff;
 }
 
 .forward-area .section-span-bg::before {
@@ -7092,6 +7104,14 @@ img {
 
 #abt-sec4-1 {
     display: none;
+}
+
+.abt-services {
+    padding: 50px 0px;
+    background: linear-gradient(90deg, #0fa4c4, #30c1be);
+}
+.abt-services h1 {
+    line-height: 42px;
 }
 
 @keyframes fadeInLeft {
@@ -7198,16 +7218,143 @@ img {
     padding: 150px 25px;
 }
 
-#abt-sec3 {
-    padding: 60px 0px 50px 0px;
-    background: #e8eff7;
+#abt-sec5 {
+    padding: 80px 0px 50px 0px;
 }
-#abt-sec3 h1 {
-    font-size: 50px;
+
+/* About Updated  */
+#abt-sec2-img-text {
+    position: absolute;
+    top: 107px;
+    left: 50px;
+}
+#abt-sec2-img-text h3 {
+    color: #fff;
+    text-align: end;
+    line-height: 1.1;
+}
+#abt-sec2-img-text h3> span {
+    font-weight: 400;
+    font-size: 22px;
+}
+.forward-area-2 {
+    padding: 50px 0px;
+    background: linear-gradient(45deg, #0198c7, #39cabd);
+}
+.forward-area-2 h2, .forward-area-2 p {
+    color: #fff;
+}
+.forward-area-2 .forward-img {
+    text-align: end;
+} 
+.forward-area-3 {
+    padding: 50px 0px;
+}
+.forward-area-3 h2 {
+    color: #012845;
+    font-weight: 400;
+}
+#abt-sec5-title, #abt-sec6-1, #abt-sec6-2 {
+    display: flex;
+}
+#abt-sec5-title img {
+    margin-right: 40px;
+}
+#abt-sec5 p {
+    color: #012845;
+    padding-right: 30px;
+}
+#abtser {
+    width: 140px;
+    height: 140px;
+    background-color: #1b90a1;
+    margin-right: 30px;
+    padding: 25px;
+}
+.abt-services h1, .abt-services h4 {
+    color: #fff;
+}
+.abt-services h5, .abt-services p {
+    color: aliceblue;
+}
+.abt-services h5 {
+    font-size: 18px;
     font-weight: 500;
-    line-height: 50px;
-    margin-bottom: 30px;
 }
+.abt-services hr {
+    width: 27%;
+    height: 7px;
+    background-color: #fff;
+    opacity: 1;
+    margin: 35px 0px 0px 0px;
+}
+#abt-sec6-2 h4{
+    text-transform: uppercase;
+    margin-bottom: 0px;
+    font-size: 18px;
+    margin-left: 20px;
+}
+#abt-sec6-2 {
+    align-items: center;
+    margin: 35px 0px 10px;
+}
+#abt-sec6-2-1 {
+    padding-right: 50px;
+}
+#abt-gears {
+    position: relative;
+    margin-top: 20%;
+    text-align: end;
+}
+#abt-sec7 {
+    background-image: url(../images/About/About-new/07/Section07BG.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 46px 0px 30px 0px;
+}
+#abt-sec7 .row {
+    justify-content: end;
+}
+#abt-sec7 h1 {
+    font-size: 45px;
+}
+#abt-sec8 {
+    background: linear-gradient(180deg, #012d4a, #064360);
+    padding: 60px 0px;
+}
+#abt-sec8-text {
+    background-color: #0097c6;
+    padding: 35px 26px 2px 28px;
+    height: 410px;
+}
+#abt-sec8 p {
+    color: #fff;
+    margin-bottom: 0px;
+}
+#abt-sec8 h1{
+    font-size: 56px;
+    color: #267198;
+}
+#abt-sec8-1img {
+    background-image: url(../images/About/About-new/08/01.png);
+}
+#abt-sec8-2img {
+    background-image: url(../images/About/About-new/08/02.png);
+}
+#abt-sec8-3img {
+    background-image: url(../images/About/About-new/08/03.png);
+}
+#abt-sec8-1img, #abt-sec8-2img, #abt-sec8-3img {
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 148px 28px 2px 28px;
+}
+#abt-sec8 h5 {
+    color: #fff;
+    font-weight: 400;
+    /* margin-bottom: 0px; */
+}
+
 
 
 @media only screen and (min-width: 1600px) {
