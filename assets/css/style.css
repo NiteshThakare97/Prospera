@@ -9,7 +9,7 @@ body {
     color: #777
 }
 
-section {
+section, .row, .col-md-4 {
     position: relative;
 }
 
@@ -7226,7 +7226,7 @@ img {
 #abt-sec2-img-text {
     position: absolute;
     top: 107px;
-    left: 50px;
+    left: 0%;
 }
 #abt-sec2-img-text h3 {
     color: #fff;
@@ -7353,6 +7353,11 @@ img {
     color: #fff;
     font-weight: 400;
     /* margin-bottom: 0px; */
+}
+#abt-sec8-text >div {
+    position: absolute;
+    bottom: 0px;
+    right: 30px;
 }
 
 
@@ -7495,6 +7500,32 @@ img {
     #abt-sec4 .col-lg-5 {
         padding-left: 369px;
     }
+    #abt-sec2-img-text {
+        top: 350px;
+        left: 110px;
+    }
+    .forward-area-2 .forward-img {
+        text-align: center;
+    }
+    #abt-sec5-title img, #abtser {
+        height: fit-content;
+    }
+    #abt-sec6-2-1 {
+        padding-right: 32px;
+    }
+    #abt-sec7 {
+        background-position: bottom;
+    }
+    #abt-sec8 h5 {
+        font-size: 16px;
+    }
+    #abt-sec8-1img, #abt-sec8-2img, #abt-sec8-3img {
+        padding: 74px 18px 2px 18px;
+    }
+    #abt-sec8-text {
+        padding: 15px 15px 2px 15px;
+        height: 440px;
+    }
 }
 
 @media only screen and (max-width: 600px) {
@@ -7612,5 +7643,50 @@ img {
     .inner-bg5 .inner-title h2, .inner-bg2 .inner-title h2 {
         font-size: 19px !important;
         margin-top: 20px;
+    }
+
+    /* About Us updated  */
+    #abt-sec2-img-text h3> span {
+        font-size: 15px;
+    }
+    #abt-sec2-img-text h3 {
+        font-size: 16px;
+    }
+    #abt-sec2-img-text {
+        top: 450px;
+        left: 18px;
+    }
+    #abt-sec5 p {
+        padding-right: 12px;
+        margin-bottom: 50px;
+    }
+    .abt-services h1 {
+        line-height: 32px;
+    }
+    #abt-sec6-1 {
+        align-items: center;
+    }
+    #abtser {
+        height: auto;
+        padding: 14px;
+    }
+    #abt-sec6-2-1 {
+        padding-right: 12px;
+    }
+    #abt-gears {
+        margin-top: 0%;
+    }
+    #abt-sec7 {
+        background-position: right;
+    }
+    #abt-sec8-text {
+        height: 330px;
+        margin-bottom: 30px;
+    }
+    #abt-sec8-1img, #abt-sec8-2img, #abt-sec8-3img {
+        padding: 136px 28px 2px 28px;
+    }
+    #abt-sec8-text >div {
+        bottom: 20px;
     }
 }
