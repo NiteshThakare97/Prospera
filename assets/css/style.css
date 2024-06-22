@@ -7359,6 +7359,13 @@ img {
     bottom: 0px;
     right: 30px;
 }
+.navbar-nav button {
+    background-color: #1fb5c4;
+    color: #fff;
+    border-radius: 5px;
+    padding: 0px 12px;
+    border: none;
+}
 
 
 
